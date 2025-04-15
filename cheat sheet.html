@@ -498,11 +498,21 @@
   </style>
  </head>
  <body>
-  <header class="site-header">
-   <div class="hamburger" onclick="toggleMenu()" style="position: absolute; top: 10px; left: 10px; font-size: 1.8rem; cursor: pointer;">
+  <div style="width: 100%; background-color: #003f5c; color: white; padding: 1rem; text-align: center;">
+   <h1 style="margin: 0; font-size: 1.5rem; color: white;">
+    🧠 Prompting Cheat Sheet
+   </h1>
+   <p style="margin: 0.3rem 0 0;">
+    <a href="https://leanpub.com/genaipromptingguide" style="color: white; text-decoration: underline;" target="_blank">
+     Get the Generative AI Professional Engineering Guide on Leanpub
+    </a>
+   </p>
+  </div>
+  <header>
+   <div class="hamburger" onclick="toggleMenu()" style="margin-top: 10px; margin-left: 10px; font-size: 1.8rem; cursor: pointer; position: relative;">
     ☰
    </div>
-   <div id="menu" style="display: none; position: absolute; top: 50px; left: 10px; background-color: var(--primary-color); padding: 10px; border-radius: 5px;">
+   <div id="menu" style="display: none; position: absolute; top: 50px; left: 10px; background-color: #003f5c; padding: 10px; border-radius: 5px;">
     <a href="index.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      Home
     </a>
@@ -528,16 +538,8 @@
      Cheat Sheet
     </a>
    </div>
-   <h1>
-    🧠 Generative AI Prompting Cheat Sheet
-   </h1>
-   <br/>
-   <a class="header-link" href="https://leanpub.com/genaipromptingguide" rel="noopener noreferrer" target="_blank">
-    Get the Generative AI Professional Engineering Guide on Leanpub
-   </a>
-   <button id="help-icon-btn" title="Help">
-    ?
-   </button>
+  </header>
+  <header>
   </header>
   <main class="dashboard-container">
    <div class="card" data-section-id="prompt-structure">
