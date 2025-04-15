@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generative AI Prompting Cheat Sheet Dashboard</title>
+    <style>
+        /* Global Settings & Variables */
+        :root {
+            --primary-color: #005f73;
+            --secondary-color: #0a9396;
+            --accent-color: #003f5c;
+            --background-light: #f8f9fa;
+            --background-medium: #e9ecef;
+            --text-color: #343a40;
+            --text-light: #495057;
+            --text-muted: #6c757d;
+            --text-on-dark-button: #ffffff;
+            --border-color: #dee2e6;
+            --border-color-medium: #ced4da;
+            --card-background: #ffffff;
+            --danger-color: #dc3545;
+            --danger-hover-color: #a71d2a;
+            --info-color: #007bff;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+            --focus-outline-color: var(--info-color);
+            --card-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            --card-hover-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            --modal-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            --modal-overlay-color: rgba(0,0,0,0.5);
+            --border-radius-small: 4px;
+            --border-radius-medium: 6px;
+            --border-radius-large: 8px;
+            --card-width: 450px;
+            --gap-size: 25px;
+            --padding-large: 25px;
+            --padding-medium: 20px;
+            --padding-small: 15px;
+            --padding-xs: 8px;
+            --padding-button-vertical: 4px;
+            --padding-button-horizontal: 8px;
+            --font-family-sans: sans-serif;
+            --transition-speed-fast: 0.2s;
+            --transition-speed-medium: 0.3s;
+            --transition-speed-slow: 0.4s;
+        }
+
+        html {
+          box-sizing: border-box;
+        }
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+
+        body {
+            font-family: var(--font-family-sans);
+            background-color: var(--background-light);
+            margin: 0;
+            padding: var(--padding-medium);
+            color: var(--text-color);
+        }
+
+        /* Header */
+        .site-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        #help-icon-btn {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: 1px solid var(--border-color-medium);
+            border-radius: 50%;
+            font-size: 1.2em;
+            line-height: 1;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            padding: 0;
+            color: var(--text-muted);
+            transition: background-color var(--transition-speed-fast) ease, border-color var(--transition-speed-fast) ease;
+        }
+        #help-icon-btn:hover {
+            background-color: var(--background-medium);
+            border-color: var(--text-muted);
+        }
+
+        /* Dashboard & Cards */
+        main.dashboard-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: var(--gap-size);
+            padding: var(--padding-medium);
+            transition: opacity var(--transition-speed-medium) ease-in-out;
+        }
+
+        .card {
+            background-color: var(--card-background);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid transparent;
+            border-radius: var(--border-radius-large);
+            box-shadow: var(--card-shadow);
+            padding: var(--padding-large);
+            max-width: var(--card-width);
+            width: 100%;
+            cursor: pointer;
+            transition: transform var(--transition-speed-fast) ease, box-shadow var(--transition-speed-fast) ease, border-left-color var(--transition-speed-medium) ease, opacity var(--transition-speed-slow) ease-in-out;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .card.card-has-notes {
+            border-left-color: var(--secondary-color);
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--card-hover-shadow);
+        }
+
+        main.dashboard-container.focus-mode-active .card:not(.card-is-focused) {
+            opacity: 0.15;
+            pointer-events: none;
+        }
+
+        .card.card-is-focused {
+            cursor: default;
+        }
+
+        .card-icon {
+            font-size: 2.8em;
+            margin-bottom: var(--padding-small);
+            color: var(--secondary-color);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: var(--accent-color);
+            font-size: 1.3em;
+        }
+
+        .card-description {
+            color: var(--text-light);
+            margin-bottom: var(--padding-small);
+            font-size: 0.95em;
+            min-height: 50px;
+        }
+
+        /* Card Details (Expandable Area) */
+        .card-details {
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            margin-top: 0;
+            padding: 0 var(--padding-small);
+            border-top: 1px solid transparent;
+            transition: max-height var(--transition-speed-slow) ease-in-out,
+                        opacity var(--transition-speed-slow) ease-in-out,
+                        padding-top var(--transition-speed-slow) ease-in-out,
+                        padding-bottom var(--transition-speed-slow) ease-in-out,
+                        margin-top var(--transition-speed-slow) ease-in-out,
+                        border-color var(--transition-speed-slow) ease-in-out;
+            font-size: 0.9em;
+            text-align: left;
+            width: 100%;
+            background-color: var(--background-light);
+            border-radius: 0 0 var(--border-radius-large) var(--border-radius-large);
+            cursor: default;
+            position: relative;
+        }
+
+        .card-details.show-details {
+            max-height: 3000px;
+            opacity: 1;
+            margin-top: var(--padding-medium);
+            padding-top: var(--padding-medium);
+            padding-bottom: var(--padding-small);
+            border-top-color: var(--border-color);
+            overflow-y: auto;
+        }
+
+        .card-details h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+
+        .card-details p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .card-details ul, .card-details ol {
+            padding-left: var(--gap-size);
+            margin-bottom: var(--padding-small);
+        }
+
+        .card-details li {
+            margin-bottom: var(--padding-xs);
+        }
+
+        /* Tables inside Card Details */
+        .card-details table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: var(--padding-small);
+            font-size: 0.95em;
+            table-layout: fixed;
+        }
+
+        .card-details th, .card-details td {
+            border: 1px solid var(--border-color-medium);
+            padding: var(--padding-xs);
+            text-align: left;
+            vertical-align: top;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+
+        .card-details th {
+            background-color: var(--background-medium);
+            font-weight: bold;
+        }
+
+        .card-details tr:nth-child(even) {
+            background-color: var(--background-light);
+        }
+
+        /* Structure Balancer */
+        .structure-balancer {
+            border: 1px solid var(--border-color-medium);
+            border-radius: var(--border-radius-medium);
+            padding: var(--padding-small);
+            margin-bottom: var(--padding-medium);
+            background-color: var(--background-medium);
+        }
+
+        .balancer-control {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--padding-xs);
+            gap: 10px;
+        }
+
+        .balancer-control label {
+            flex-basis: 100px;
+            flex-shrink: 0;
+            font-size: 0.9em;
+        }
+
+        .balancer-control input[type="range"] {
+            flex-grow: 1;
+            width: auto;
+            min-width: 50px;
+            cursor: pointer;
+        }
+
+        .balancer-control .value-display {
+            font-weight: bold;
+            min-width: 40px;
+            text-align: right;
+        }
+
+        .balancer-bars {
+            display: flex;
+            height: 20px;
+            border-radius: var(--border-radius-small);
+            overflow: hidden;
+            background-color: var(--border-color);
+            margin-top: var(--padding-small);
+            margin-bottom: var(--padding-small);
+        }
+
+        .balancer-bars .bar {
+            height: 100%;
+            transition: width var(--transition-speed-medium) ease-in-out;
+            text-indent: -9999px;
+        }
+
+        #bar-context { background-color: var(--info-color); }
+        #bar-output { background-color: var(--success-color); }
+        #bar-task { background-color: var(--warning-color); }
+        #bar-constraints { background-color: var(--danger-color); }
+
+        #balancer-tip {
+            margin-top: 10px;
+            font-size: 0.85em;
+            font-style: italic;
+            color: var(--text-light);
+            min-height: 2.5em;
+            text-align: center;
+        }
+
+        /* Notes Area */
+        .notes-area {
+            margin-top: var(--padding-medium);
+            border-top: 1px dashed var(--border-color-medium);
+            padding-top: var(--padding-small);
+            position: relative;
+        }
+
+        .notes-area label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .notes-area textarea {
+            width: 95%;
+            min-height: 80px;
+            border: 1px solid var(--border-color-medium);
+            border-radius: var(--border-radius-small);
+            padding: var(--padding-xs);
+            font-family: var(--font-family-sans);
+            font-size: 0.95em;
+            resize: vertical;
+        }
+
+        .delete-note-btn {
+            position: absolute;
+            top: 10px;
+            right: 5px;
+            background: none;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            color: var(--danger-color);
+            padding: 5px;
+            line-height: 1;
+            z-index: 1;
+            transition: color var(--transition-speed-fast) ease;
+        }
+
+        .delete-note-btn:hover {
+            color: var(--danger-hover-color);
+        }
+
+        /* Focus Mode Button */
+        .focus-mode-btn {
+            position: absolute;
+            top: var(--padding-small);
+            right: var(--padding-small);
+            background-color: var(--text-muted);
+            color: var(--text-on-dark-button);
+            border: none;
+            border-radius: var(--border-radius-small);
+            padding: var(--padding-button-vertical) var(--padding-button-horizontal);
+            font-size: 0.8em;
+            cursor: pointer;
+            z-index: 1;
+            transition: background-color var(--transition-speed-fast) ease;
+        }
+
+        .focus-mode-btn:hover {
+            background-color: var(--text-light);
+        }
+
+        .focus-mode-btn.focus-active {
+            background-color: var(--info-color);
+        }
+
+        /* Modal (<dialog>) */
+        dialog#help-modal {
+            padding: 0;
+            border: none;
+            border-radius: var(--border-radius-large);
+            box-shadow: var(--modal-shadow);
+            width: 80%;
+            max-width: 600px;
+            animation: fadeInModal var(--transition-speed-medium) ease-out;
+            overflow: visible;
+        }
+
+        dialog#help-modal::backdrop {
+            background-color: var(--modal-overlay-color);
+            animation: fadeInBackdrop var(--transition-speed-medium) ease-out;
+        }
+
+        .modal-content {
+            background-color: var(--card-background);
+            padding: 30px;
+            position: relative;
+            border-radius: inherit;
+        }
+
+        .close-modal-btn {
+            color: var(--text-muted);
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            line-height: 1;
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            transition: color var(--transition-speed-fast) ease;
+        }
+
+        .close-modal-btn:hover,
+        .close-modal-btn:focus {
+            color: var(--text-color);
+            text-decoration: none;
+            outline: none;
+        }
+
+        .modal-content h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .modal-content ul {
+            padding-left: var(--padding-medium);
+            margin-top: var(--padding-small);
+        }
+
+        .modal-content li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        /* Animations */
+        @keyframes fadeInModal {
+            from {opacity: 0; transform: translateY(-20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+        @keyframes fadeInBackdrop {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        /* Accessibility Focus Styles */
+        button:focus-visible,
+        input[type="range"]:focus-visible,
+        textarea:focus-visible,
+        .card:focus-visible,
+        .close-modal-btn:focus-visible {
+          outline: 3px solid var(--focus-outline-color);
+          outline-offset: 2px;
+          box-shadow: 0 0 0 3px var(--focus-outline-color);
+        }
+        button, input[type="range"], textarea, .card, .close-modal-btn {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">         <h1>🧠 Generative AI Prompting Cheat Sheet</h1>
+        <button id="help-icon-btn" title="Help">?</button>
+    </header>
+
+    <main class="dashboard-container">         <div class="card" data-section-id="prompt-structure">
+            <div class="card-icon">🔷</div>
+            <h2>Perfect Prompt Structure</h2>
+            <p class="card-description">The core components needed for effective prompts and their suggested balance.</p>
+            <div class="card-details">
+                <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
+                <div class="structure-balancer">
+                    <h3>Adjust Component Weights:</h3>                     <div class="balancer-control"> <label for="slider-context">Context:</label> <input type="range" id="slider-context" data-component="context" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-context">0%</span> </div>
+                    <div class="balancer-control"> <label for="slider-output">Output Format:</label> <input type="range" id="slider-output" data-component="output" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-output">0%</span> </div>
+                    <div class="balancer-control"> <label for="slider-task">Task:</label> <input type="range" id="slider-task" data-component="task" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-task">0%</span> </div>
+                    <div class="balancer-control"> <label for="slider-constraints">Constraints:</label> <input type="range" id="slider-constraints" data-component="constraints" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-constraints">0%</span> </div>
+                    <div class="balancer-bars"> <div class="bar" id="bar-context" title="Context"></div> <div class="bar" id="bar-output" title="Output Format"></div> <div class="bar" id="bar-task" title="Task"></div> <div class="bar" id="bar-constraints" title="Constraints/Tone"></div> </div>
+                    <div id="balancer-tip">Move a slider to 10% or more to see tips.</div>
+                </div>
+                <h3>Components Breakdown:</h3>
+                <table>
+                    <thead><tr><th scope="col">Component</th><th scope="col">Description</th></tr></thead>
+                    <tbody>
+                        <tr><td>Information (Context)</td><td>Foundational background (domain data, goals, context) the model needs for accuracy and relevance.</td></tr>
+                        <tr><td>Output Format</td><td>Structural cue (table, list, summary) defining how the answer should appear for readability and workflow efficiency.</td></tr>
+                        <tr><td>Task (Goal)</td><td>Clear instructions (summarize, analyze, compare) using action verbs, often with constraints (word count, tone).</td></tr>
+                        <tr><td>Constraints and Tone</td><td>Safety instructions, preferred tone (formal, casual), or audience alignment; essential for compliance or brand voice.</td></tr>
+                    </tbody>
+                </table>
+                <p><i>“Adding contextual awareness and domain-specific knowledge to prompts can significantly improve the relevance and accuracy of AI-generated responses.”</i></p>
+                <p><i>“Specifying the format ensures each stage of recursive prompting builds logically, resulting in a coherent product.”</i></p>
+                <div class="notes-area">
+                    <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-prompt-structure">🗑️</button>
+                    <label for="notes-prompt-structure">My Notes:</label>
+                    <textarea id="notes-prompt-structure"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-section-id="prompt-patterns">
+            <div class="card-icon">🧩</div>
+            <h2>Effective Prompt Patterns</h2>
+            <p class="card-description">Proven methods to structure prompts for different types of tasks and outcomes.</p>
+            <div class="card-details">
+                <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
+                <h3>Common Patterns:</h3>
+                 <table>
+                    <thead><tr><th scope="col">Pattern</th><th scope="col">Description</th><th scope="col">Example</th></tr></thead>                     <tbody>
+                        <tr><td>Role-Based Prompting</td><td>Assigns a persona/expertise to steer tone and reasoning.</td><td>“You are a Renaissance art historian...”</td></tr>
+                        <tr><td>Iterative Refinement</td><td>Improves responses via targeted follow-ups.</td><td>“Draft an article. Now revise it...”</td></tr>
+                        <tr><td>Chain-of-Thought</td><td>Encourages structured, logical steps for complex tasks.</td><td>“Explain step-by-step how to calculate...”</td></tr>
+                        <tr><td>Constraint-Based Prompting</td><td>Applies strict format, style, or length limits.</td><td>“Explain neural backpropagation in exactly three sentences...”</td></tr>
+                        <tr><td>Task Clarification + Format</td><td>Separates Context, Task, Format for clarity.</td><td>“Context: You are a tech reviewer. Task: Compare iPhone... Format: Two-paragraph...”</td></tr>
+                        <tr><td>Few-Shot Prompting</td><td>Provides input-output examples for the model to follow.</td><td>“Here’s how we usually write client emails...”</td></tr>
+                        <tr><td>Zero-Shot Prompting</td><td>Gives clear instructions without examples.</td><td>“Draft a professional thank-you email...”</td></tr>
+                        <tr><td>Adversarial Testing</td><td>Challenges the model with tricky prompts to test robustness.</td><td>“Is Paris the capital of France or...”</td></tr>
+                        <tr><td>Self-Consistency</td><td>Prompts multiple solutions to find the most reliable answer.</td><td>“Solve 2x + 3 = 11 using at least two methods.”</td></tr>
+                    </tbody>
+                 </table>
+                 <div class="notes-area">
+                    <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-prompt-patterns">🗑️</button>
+                    <label for="notes-prompt-patterns">My Notes:</label>
+                    <textarea id="notes-prompt-patterns"></textarea>
+                 </div>
+            </div>
+        </div>
+
+        <div class="card" data-section-id="vibe-coding">
+            <div class="card-icon">💡</div>
+            <h2>Vibe Coding</h2>
+            <p class="card-description">A natural-language approach to build simple software without writing traditional code.</p>
+            <div class="card-details">
+                <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
+                <h3>What It Is:</h3><p>A way for non-engineers to create lightweight, single-use software using prompts. Ideal for MVPs, personal tools, and creative automation.</p>
+                <h3>Key Concepts:</h3><ul><li>Prompt-to-code: "Create a task tracker..."</li><li>Conversational debugging to refine.</li><li>No programming knowledge needed.</li><li>Emphasizes experimentation.</li></ul>
+                <h3>Example Projects:</h3><ul><li>🗂️ Kanban Board</li><li>💱 Currency Converter GUI</li></ul>
+                <h3>Best For:</h3><p>Creatives, educators, analysts; prototyping, internal automation, teaching tools.</p>
+                <h3>⚠️ Cautions:</h3><ul><li>AI code may lack security, structure.</li><li>Always test before real use.</li><li>Not for production-scale software.</li></ul>
+                <div class="notes-area">
+                    <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-vibe-coding">🗑️</button>
+                    <label for="notes-vibe-coding">My Notes:</label>
+                    <textarea id="notes-vibe-coding"></textarea>
+                </div>
+            </div>
+        </div>
+
+         <div class="card" data-section-id="ai-learning-platform">
+            <div class="card-icon">📦</div>
+            <h2>AI Learning Platform</h2>
+            <p class="card-description">Using AI tools to turn static content into an interactive learning system.</p>
+            <div class="card-details">
+                <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
+                <h3>Core Tools:</h3><ul><li><strong>🧠 NotebookLM:</strong> Create research-linked knowledge bases, map idea relationships. <i>“Organize and explore interconnected ideas for deeper understanding.”</i></li><li><strong>🎙️ Illuminate:</strong> Convert static content into dynamic AI discussions. <i>“Facilitates real-time, AI-enhanced dialogue that brings static ideas to life.”</i></li><li><strong>🤖 Custom GPTs:</strong> Train a personalized tutor using specific content. <i>“Gain access to a personalized tutor capable of answering questions and offering clarifications.”</i></li></ul>
+                <h3>Best Use Cases:</h3><ul><li>Self-paced study</li><li>Research exploration</li><li>Collaborative learning</li><li>Context-aware Q&A</li><li>AI-augmented training</li></ul>
+                <p><i>“This synergy turns the Guide into a living, breathing platform for interactive learning and professional development.”</i></p>
+                <div class="notes-area">
+                    <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-ai-learning-platform">🗑️</button>
+                    <label for="notes-ai-learning-platform">My Notes:</label>
+                    <textarea id="notes-ai-learning-platform"></textarea>
+                </div>
+            </div>
+        </div>
+
+         <div class="card" data-section-id="use-cases">
+            <div class="card-icon">💼</div>
+            <h2>Use Cases</h2>
+            <p class="card-description">Examples of applying prompt engineering across different domains.</p>
+            <div class="card-details">
+                <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
+                <h3>Applications:</h3>
+                 <table>
+                    <thead><tr><th scope="col">Business</th><th scope="col">Education</th><th scope="col">Technical</th></tr></thead>                     <tbody>
+                        <tr><td>📋 Employee training</td><td>🧑‍🏫 Teaching assistant bots</td><td>🧪 Scientific report summarization</td></tr>
+                        <tr><td>✍️ SEO content generation</td><td>📚 Interactive learning paths</td><td>⚖️ Legal document drafting</td></tr>
+                        <tr><td>📝 Meeting note condensation</td><td>📖 Study aids with examples</td><td>📊 Data analysis prompt scripting</td></tr>
+                        <tr><td>🛍️ Product/service descriptions</td><td>🎓 GPT-powered tutoring assistants</td><td>🔎 Knowledge retrieval applications</td></tr>
+                    </tbody>
+                 </table>
+                  <div class="notes-area">
+                    <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-use-cases">🗑️</button>
+                    <label for="notes-use-cases">My Notes:</label>
+                    <textarea id="notes-use-cases"></textarea>
+                  </div>
+            </div>
+        </div>
+
+        <div class="card" data-section-id="output-formats">
+            <div class="card-icon">📤</div>
+            <h2>Output Formats</h2>
+            <p class="card-description">Defining how the AI should structure and present its response.</p>
+            <div class="card-details">
+                <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
+                 <p>Specifies response structure, style, organization. Clear formats improve usability, accuracy, and workflows.</p>
+                <h3>Common Formats:</h3>
+                 <ul>
+                    <li><strong>📊 Table:</strong> Comparisons, structured data. Ex: "List top 5 products... in a table."</li>
+                    <li><strong>• Bullet List:</strong> Clear, scannable points. Ex: "List marketing benefits as bullet points."</li>
+                    <li><strong>📝 Executive Summary:</strong> Concise overview. Ex: "Summarize report findings..."</li>
+                    <li><strong>🖼️ Slide-ready Text:</strong> For presentations (headings, short points).</li>
+                    <li><strong>📈 Charts / Markdown:</strong> Visuals, documentation, wikis, tutorials.</li>
+                    <li><strong>🔧 JSON / YAML:</strong> Structured outputs for software/APIs.</li>
+                    <li><strong>📄 Structured Docs:</strong> SOPs, NDAs, legal drafts. Ex: "Draft an NDA with clauses..."</li>
+                 </ul>
+                 <p><i>“Defining the output format ensures that each stage of recursive prompting builds logically, resulting in a coherent final product.”</i></p>
+                  <div class="notes-area">
+                    <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-output-formats">🗑️</button>
+                    <label for="notes-output-formats">My Notes:</label>
+                    <textarea id="notes-output-formats"></textarea>
+                  </div>
+            </div>
+        </div>
+
+         <div class="card" data-section-id="prompting-techniques">
+             <div class="card-icon">🔧</div>
+            <h2>Prompting Techniques</h2>
+            <p class="card-description">Fundamental methods repeatedly emphasized for effective prompt engineering.</p>
+            <div class="card-details">
+                <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
+                <h3>Key Techniques:</h3>
+                 <table>
+                     <thead><tr><th scope="col">Technique</th><th scope="col">Description</th><th scope="col">Example Prompt</th></tr></thead>                     <tbody>
+                        <tr><td>Be Specific</td><td>Clear instructions (scope, outcome, format).</td><td>“List 3 actionable marketing tips for Q4.”</td></tr>
+                        <tr><td>Step-by-Step</td><td>Encourages logical breakdown for coherence.</td><td>“Let’s think through this step-by-step...”</td></tr>
+                        <tr><td>Assign a Role</td><td>Frames AI identity for style/tone shift.</td><td>“Acting as an HR executive, write...”</td></tr>
+                        <tr><td>Clarify Output Format</td><td>Specifies structure (JSON, table, list).</td><td>“Output as a bullet list with subheadings...”</td></tr>
+                        <tr><td>Iterative Prompting</td><td>Prompts designed for refinement stages.</td><td>“Here’s a draft. Now revise to be more...”</td></tr>
+                        <tr><td>Comparative Prompting</td><td>Generates side-by-side evaluations.</td><td>“Compare the pros and cons of Slack vs. Teams...”</td></tr>
+                        <tr><td>Provide Examples</td><td>Uses few-shot prompts for style/tone guidance.</td><td>“Here’s how we reply to support tickets...”</td></tr>
+                        <tr><td>Structured Follow-Ups</td><td>Encourages AI to guide next actions/ask questions.</td><td>“What 3 questions should I ask to improve this prompt?”</td></tr>
+                    </tbody>
+                 </table>
+                 <p><i>“Refining and iterating prompts is not optional—it’s essential for achieving reliable, high-quality results.”</i></p>
+                  <div class="notes-area">
+                    <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-prompting-techniques">🗑️</button>
+                    <label for="notes-prompting-techniques">My Notes:</label>
+                    <textarea id="notes-prompting-techniques"></textarea>
+                  </div>
+            </div>
+        </div>
+
+    </main> 
+    <dialog id="help-modal">         <div class="modal-content">
+             <span class="close-modal-btn" title="Close">&times;</span>
+             <h2>How to Use This Dashboard</h2>
+             <p>This dashboard helps you understand and use effective Generative AI prompting techniques:</p>
+             <ul>
+                <li><strong>Click a Card:</strong> Click anywhere on a card (outside the notes area) to expand it and see details. Click again to collapse.</li>
+                <li><strong>Focus Mode:</strong> Click the "Focus" button inside an expanded card to dim other cards, helping you concentrate on one topic. Click "Exit Focus" or click outside the focused card to return to normal view.</li>
+                <li><strong>Notes:</strong> Use the "My Notes" textarea within each expanded card to save your personal thoughts or examples. Notes are saved automatically in your browser.</li>
+                <li><strong>Delete Notes:</strong> Click the trash bin icon (🗑️) next to the notes area to clear the notes for that specific section.</li>
+                <li><strong>Prompt Balancer:</strong> In the "Perfect Prompt Structure" card, use the sliders to visualize different balances between prompt components. When a component reaches 10% or more, helpful tips will appear below the sliders. Resetting occurs automatically when you significantly increase one slider.</li>
+                <li><strong>Help:</strong> Click the question mark (?) icon in the header at any time to reopen this help window.</li>
+             </ul>
+        </div>
+    </dialog>
+
+    <script>
+        // Wait for the DOM to be fully loaded and parsed
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // --- Selectors ---
+            const dashboardContainer = document.querySelector('.dashboard-container');
+            const allNotesAreas = document.querySelectorAll('.notes-area textarea');
+            const allDetailsSections = document.querySelectorAll('.card-details');
+            const allCards = document.querySelectorAll('.card');
+            const helpIconBtn = document.getElementById('help-icon-btn');
+            const helpModal = document.getElementById('help-modal'); // Now a <dialog> element
+            const closeModalBtn = helpModal ? helpModal.querySelector('.close-modal-btn') : null;
+            const structureBalancer = document.querySelector('.structure-balancer');
+
+            // Balancer specific selectors (initialized later)
+            let sliders = {};
+            let valueDisplays = {};
+            let bars = {};
+            let tipDisplay = null;
+            let isAdjusting = false; // Flag to prevent recursive updates
+
+            // Balancer constants
+            const LOW_RESET_VALUE = 0;
+            const HIGH_THRESHOLD = 10; // Value at which reset logic triggers
+
+            // --- Balancer Initialization ---
+            function initializeBalancer() {
+                if (!structureBalancer) {
+                    // console.warn("Structure balancer element not found. Skipping initialization.");
+                    return; // Don't proceed if the balancer isn't on the page
+                }
+                try {
+                    sliders = {
+                        context: document.getElementById('slider-context'),
+                        output: document.getElementById('slider-output'),
+                        task: document.getElementById('slider-task'),
+                        constraints: document.getElementById('slider-constraints')
+                    };
+                    valueDisplays = {
+                        context: document.getElementById('value-context'),
+                        output: document.getElementById('value-output'),
+                        task: document.getElementById('value-task'),
+                        constraints: document.getElementById('value-constraints')
+                    };
+                    bars = {
+                        context: document.getElementById('bar-context'),
+                        output: document.getElementById('bar-output'),
+                        task: document.getElementById('bar-task'),
+                        constraints: document.getElementById('bar-constraints')
+                    };
+                    tipDisplay = document.getElementById('balancer-tip');
+
+                    // Verify all elements were found
+                    let allElementsFound = true;
+                    [sliders, valueDisplays, bars].forEach(obj => {
+                        for (const key in obj) {
+                            if (!obj[key]) {
+                                console.error(`Balancer element missing: ${key}`);
+                                allElementsFound = false;
+                            }
+                        }
+                    });
+                    if (!tipDisplay) {
+                        console.error("Balancer tip display missing");
+                        allElementsFound = false;
+                    }
+
+                    if (!allElementsFound) {
+                        console.error("Cannot initialize balancer due to missing elements.");
+                        return; // Stop initialization if critical elements are missing
+                    }
+
+                    // Set initial values and attach listeners
+                    for (const key in sliders) {
+                        if (sliders.hasOwnProperty(key)) {
+                            sliders[key].value = LOW_RESET_VALUE; // Start at 0
+                            valueDisplays[key].textContent = `${LOW_RESET_VALUE}%`;
+                            bars[key].style.width = `${LOW_RESET_VALUE}%`;
+                            sliders[key].addEventListener('input', handleSliderInput);
+                        }
+                    }
+                    tipDisplay.textContent = "Move a slider to 10% or more to see tips.";
+
+                } catch (error) {
+                    console.error("Error initializing balancer:", error);
+                }
+            }
+
+            // --- Balancer Logic ---
+            const componentTips = {
+                 context: { low: "Low Context: Ok for simple queries.", med: "Medium Context: Provide essential background.", high: "High Context: Crucial for complex topics." },
+                 output: { low: "Low Output Focus: Default format ok.", med: "Medium Output Focus: Request standard structures.", high: "High Output Focus: Define strict formats." },
+                 task: { low: "Low Task Focus: Simple generation.", med: "Medium Task Focus: Standard actions.", high: "High Task Focus: Complex instructions." },
+                 constraints: { low: "Low Constraints: Few limits.", med: "Medium Constraints: Specify tone/limits.", high: "High Constraints: Strict rules needed." }
+            };
+
+            function getTipLevel(value) {
+                if (value > 60) return 'high';
+                if (value >= HIGH_THRESHOLD) return 'med'; // Use threshold for 'medium'
+                return 'low';
+            }
+
+            function handleSliderInput(event) {
+                if (isAdjusting || !structureBalancer) return; // Prevent updates during adjustment or if balancer failed init
+
+                const movedSlider = event.target;
+                if (!movedSlider) return;
+
+                const movedComponent = movedSlider.getAttribute('data-component');
+                if (!movedComponent || !sliders[movedComponent]) {
+                     console.warn("Slider input from unknown component:", movedComponent);
+                     return;
+                }
+
+                const movedValue = parseInt(movedSlider.value, 10);
+                let highestValue = 0;
+                let dominantComponent = null;
+
+                // Reset Logic: If moved slider reaches threshold, reset others
+                if (movedValue >= HIGH_THRESHOLD) {
+                    isAdjusting = true; // Set flag
+                    for (const key in sliders) {
+                        if (sliders.hasOwnProperty(key) && key !== movedComponent) {
+                             // Check elements exist before trying to set values
+                             if (sliders[key]) sliders[key].value = LOW_RESET_VALUE;
+                             if (valueDisplays[key]) valueDisplays[key].textContent = `${LOW_RESET_VALUE}%`;
+                             if (bars[key]) bars[key].style.width = `${LOW_RESET_VALUE}%`;
+                        }
+                    }
+                    // Update the moved slider's display AFTER resetting others
+                    if (valueDisplays[movedComponent]) valueDisplays[movedComponent].textContent = `${movedValue}%`;
+                    if (bars[movedComponent]) bars[movedComponent].style.width = `${movedValue}%`;
+
+                    highestValue = movedValue;
+                    dominantComponent = movedComponent;
+                    isAdjusting = false; // Clear flag
+                } else {
+                    // Normal Update: Just update the moved slider's display
+                    if (valueDisplays[movedComponent]) valueDisplays[movedComponent].textContent = `${movedValue}%`;
+                    if (bars[movedComponent]) bars[movedComponent].style.width = `${movedValue}%`;
+
+                    // Find the current dominant component among all sliders (could be any)
+                    highestValue = 0; // Reset to recalculate
+                    dominantComponent = null;
+                    for (const key in sliders) {
+                        if (sliders.hasOwnProperty(key) && sliders[key]) { // Check slider exists
+                            const currentValue = parseInt(sliders[key].value, 10);
+                            if (currentValue > highestValue) {
+                                highestValue = currentValue;
+                                dominantComponent = key;
+                            }
+                        }
+                    }
+                }
+
+                // Update Tip Display
+                if (tipDisplay) {
+                     let tip = "Move a slider to 10% or more to see tips.";
+                     if (dominantComponent && highestValue >= HIGH_THRESHOLD) {
+                         const level = getTipLevel(highestValue);
+                         tip = componentTips[dominantComponent]?.[level] || tip; // Use optional chaining
+                     } else if (dominantComponent && highestValue > 0) { // If there's a max but below threshold
+                         tip = `Increase ${dominantComponent} to 10% or more for specific tips.`;
+                     }
+                     tipDisplay.textContent = tip;
+                }
+            }
+
+            // --- Utility Functions ---
+            function updateNoteIndicator(textarea) {
+                if (!textarea) return;
+                const card = textarea.closest('.card');
+                if (card) {
+                    if (textarea.value.trim() !== '') {
+                        card.classList.add('card-has-notes');
+                    } else {
+                        card.classList.remove('card-has-notes');
+                    }
+                }
+            }
+
+            function deactivateFocusMode() {
+                if (dashboardContainer) {
+                     dashboardContainer.classList.remove('focus-mode-active');
+                }
+                allCards.forEach(card => card.classList.remove('card-is-focused'));
+                document.querySelectorAll('.focus-mode-btn').forEach(btn => {
+                    btn.textContent = 'Focus';
+                    btn.classList.remove('focus-active');
+                });
+            }
+
+            // --- Initial Setup ---
+
+            // Notes Initialization (Load from localStorage)
+            allNotesAreas.forEach(textarea => {
+                try {
+                    const savedNote = localStorage.getItem(textarea.id);
+                    if (savedNote) {
+                        textarea.value = savedNote;
+                    }
+                    updateNoteIndicator(textarea); // Set initial indicator state
+
+                    // Save on input
+                    textarea.addEventListener('input', function() {
+                        try {
+                            localStorage.setItem(this.id, this.value);
+                            updateNoteIndicator(this); // Update indicator on change
+                        } catch (e) {
+                            console.error("Error saving note to localStorage:", e);
+                            // Maybe notify user that notes cannot be saved
+                        }
+                    });
+
+                    // Prevent card toggle when clicking inside textarea
+                    textarea.addEventListener('click', event => event.stopPropagation());
+
+                } catch (error) {
+                    console.error("Error setting up notes for textarea:", textarea.id, error);
+                }
+            });
+
+            // Help Modal (<dialog>) Setup
+            if (helpIconBtn && helpModal && closeModalBtn) {
+                helpIconBtn.addEventListener('click', () => {
+                    if (helpModal.showModal) { // Check method exists
+                         helpModal.showModal(); // Use HTML dialog method
+                    } else {
+                         console.error("dialog.showModal() not supported or modal element not found.");
+                         // Fallback maybe? (e.g., add a class for CSS display)
+                    }
+                });
+
+                closeModalBtn.addEventListener('click', () => {
+                    if (helpModal.close) helpModal.close();
+                });
+
+                // Close dialog if click is on the backdrop (outside the .modal-content)
+                helpModal.addEventListener('click', (event) => {
+                    if (event.target === helpModal) { // Check if the click was directly on the dialog backdrop
+                        if (helpModal.close) helpModal.close();
+                    }
+                });
+
+                // Note: The Escape key closes the dialog automatically when opened with showModal().
+
+            } else {
+                 if (!helpIconBtn) console.warn("Help icon button not found.");
+                 if (!helpModal) console.warn("Help modal element not found.");
+                 if (!closeModalBtn) console.warn("Close modal button not found.");
+            }
+
+            // Balancer Initialization Call
+            initializeBalancer();
+
+            // --- Main Dashboard Event Listener (Event Delegation) ---
+            if (dashboardContainer) {
+                dashboardContainer.addEventListener('click', function(event) {
+                    try {
+                        const targetElement = event.target;
+                        const clickedCard = targetElement.closest('.card');
+
+                        // --- Specific Element Interactions ---
+
+                        // 1. Click inside Structure Balancer: Do nothing (handled by sliders)
+                        if (targetElement.closest('.structure-balancer')) {
+                            return;
+                        }
+
+                        // 2. Click Delete Note Button
+                        if (targetElement.classList.contains('delete-note-btn')) {
+                            event.stopPropagation(); // Prevent card toggle
+                            const textareaId = targetElement.getAttribute('data-textarea-id');
+                            const textarea = document.getElementById(textareaId);
+                            if (textarea && window.confirm('Are you sure you want to delete this note?')) {
+                                textarea.value = '';
+                                localStorage.removeItem(textareaId); // Remove from storage
+                                updateNoteIndicator(textarea); // Update visual indicator
+                            }
+                            return; // Handled
+                        }
+
+                        // 3. Click Focus Mode Button
+                        if (targetElement.classList.contains('focus-mode-btn')) {
+                            event.stopPropagation(); // Prevent card toggle
+                            const cardToFocus = targetElement.closest('.card');
+                            if (!cardToFocus) return; // Should not happen, but safety check
+
+                            const isCurrentlyFocused = cardToFocus.classList.contains('card-is-focused');
+
+                            if (isCurrentlyFocused) {
+                                // If clicking focus button on already focused card, deactivate focus mode
+                                deactivateFocusMode();
+                            } else {
+                                // Activate focus mode for this card
+                                deactivateFocusMode(); // Deactivate any existing focus first
+                                if (dashboardContainer) dashboardContainer.classList.add('focus-mode-active');
+                                allCards.forEach(c => c.classList.remove('card-is-focused')); // Clear focus just in case
+                                cardToFocus.classList.add('card-is-focused');
+                                targetElement.textContent = 'Exit Focus';
+                                targetElement.classList.add('focus-active');
+                            }
+                            return; // Handled
+                        }
+
+                        // --- Card Expansion/Collapse Logic ---
+
+                        if (!clickedCard) {
+                            // Clicked outside any card within the container -> deactivate focus if active
+                            if(dashboardContainer && dashboardContainer.classList.contains('focus-mode-active')) {
+                                deactivateFocusMode();
+                            }
+                            return; // Exit if click wasn't on or inside a card
+                        }
+
+                        // If focus mode is active, and we clicked a card *not* focused, deactivate focus mode
+                        if (dashboardContainer && dashboardContainer.classList.contains('focus-mode-active') && !clickedCard.classList.contains('card-is-focused')) {
+                            deactivateFocusMode();
+                            // Continue to toggle the newly clicked card below
+                        }
+
+                        const details = clickedCard.querySelector('.card-details');
+                        if (!details) return; // Card has no details section
+
+                        // Prevent toggle if click was inside the already open details (unless it was focus btn handled above)
+                        const isClickInsideDetails = details.contains(targetElement) && details.classList.contains('show-details');
+                         // Also prevent toggle if the card is currently the one in focus mode (handled by focus btn)
+                        const isFocusActiveOnThis = clickedCard.classList.contains('card-is-focused');
+
+                        if (isClickInsideDetails || isFocusActiveOnThis) {
+                             // Exception: allow clicks on links or buttons inside details, but don't toggle card
+                             if (targetElement.tagName === 'A' || targetElement.tagName === 'BUTTON') {
+                                  // Let link/button clicks proceed normally without toggling card
+                             } else {
+                                  return; // Clicked inside details or on focused card, don't toggle
+                             }
+                        }
+
+
+                        const isCurrentlyVisible = details.classList.contains('show-details');
+
+                        // If we are about to open a card, close all others and deactivate focus mode
+                        if (!isCurrentlyVisible) {
+                            deactivateFocusMode(); // Ensure focus is off before opening a new card
+                            allDetailsSections.forEach(detailSection => {
+                                detailSection.classList.remove('show-details');
+                            });
+                        }
+
+                        // Toggle the clicked card's details
+                        details.classList.toggle('show-details');
+
+                    } catch (error) {
+                        console.error("Error in dashboard click listener:", error);
+                    }
+                });
+            } else {
+                console.error("Dashboard container element not found! Main interactions will not work.");
+            }
+        }); // End of DOMContentLoaded
+    </script>
+</body>
+</html>
