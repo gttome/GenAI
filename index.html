@@ -295,9 +295,17 @@
 
         .balancer-control .value-display {
             font-weight: bold;
-            min-width: 40px;
+            min-width: 40px; /* Ensure space for 100% */
             text-align: right;
+            /* Percentage display is now visible again */
         }
+
+        /*
+        Removed rule:
+        .balancer-control .value-display {
+            display: none;
+        }
+        */
 
         .balancer-bars {
             display: flex;
@@ -325,7 +333,7 @@
             font-size: 0.85em;
             font-style: italic;
             color: var(--text-light);
-            min-height: 2.5em;
+            min-height: 2.5em; /* Adjust if needed based on new tip length */
             text-align: center;
         }
 
@@ -504,12 +512,12 @@
                 <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
                 <div class="structure-balancer">
                     <h3>Adjust Component Weights:</h3>
-                    <div class="balancer-control"> <label for="slider-context">Context:</label> <input type="range" id="slider-context" data-component="context" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-context">0%</span> </div>
-                    <div class="balancer-control"> <label for="slider-output">Output Format:</label> <input type="range" id="slider-output" data-component="output" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-output">0%</span> </div>
-                    <div class="balancer-control"> <label for="slider-task">Task:</label> <input type="range" id="slider-task" data-component="task" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-task">0%</span> </div>
-                    <div class="balancer-control"> <label for="slider-constraints">Constraints:</label> <input type="range" id="slider-constraints" data-component="constraints" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-constraints">0%</span> </div>
+                    <div class="balancer-control"> <label for="slider-context">Context:</label> <input type="range" id="slider-context" data-component="context" min="0" max="100" step="1" value="0"> <span class="value-display" id="value-context">0%</span> </div>
+                    <div class="balancer-control"> <label for="slider-output">Output Format:</label> <input type="range" id="slider-output" data-component="output" min="0" max="100" step="1" value="0"> <span class="value-display" id="value-output">0%</span> </div>
+                    <div class="balancer-control"> <label for="slider-task">Task:</label> <input type="range" id="slider-task" data-component="task" min="0" max="100" step="1" value="0"> <span class="value-display" id="value-task">0%</span> </div>
+                    <div class="balancer-control"> <label for="slider-constraints">Constraints:</label> <input type="range" id="slider-constraints" data-component="constraints" min="0" max="100" step="1" value="0"> <span class="value-display" id="value-constraints">0%</span> </div>
                     <div class="balancer-bars"> <div class="bar" id="bar-context" title="Context"></div> <div class="bar" id="bar-output" title="Output Format"></div> <div class="bar" id="bar-task" title="Task"></div> <div class="bar" id="bar-constraints" title="Constraints/Tone"></div> </div>
-                    <div id="balancer-tip">Move a slider to 10% or more to see tips.</div>
+                    <div id="balancer-tip">Move sliders to see tips based on emphasis.</div>
                 </div>
                 <h3>Components Breakdown:</h3>
                 <table>
@@ -539,24 +547,24 @@
                 <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
                 <h3>Common Patterns:</h3>
                  <table>
-                     <thead><tr><th scope="col">Pattern</th><th scope="col">Description</th><th scope="col">Example</th></tr></thead>
-                     <tbody>
-                         <tr><td>Role-Based Prompting</td><td>Assigns a persona/expertise to steer tone and reasoning.</td><td>“You are a Renaissance art historian...”</td></tr>
-                         <tr><td>Iterative Refinement</td><td>Improves responses via targeted follow-ups.</td><td>“Draft an article. Now revise it...”</td></tr>
-                         <tr><td>Chain-of-Thought</td><td>Encourages structured, logical steps for complex tasks.</td><td>“Explain step-by-step how to calculate...”</td></tr>
-                         <tr><td>Constraint-Based Prompting</td><td>Applies strict format, style, or length limits.</td><td>“Explain neural backpropagation in exactly three sentences...”</td></tr>
-                         <tr><td>Task Clarification + Format</td><td>Separates Context, Task, Format for clarity.</td><td>“Context: You are a tech reviewer. Task: Compare iPhone... Format: Two-paragraph...”</td></tr>
-                         <tr><td>Few-Shot Prompting</td><td>Provides input-output examples for the model to follow.</td><td>“Here’s how we usually write client emails...”</td></tr>
-                         <tr><td>Zero-Shot Prompting</td><td>Gives clear instructions without examples.</td><td>“Draft a professional thank-you email...”</td></tr>
-                         <tr><td>Adversarial Testing</td><td>Challenges the model with tricky prompts to test robustness.</td><td>“Is Paris the capital of France or...”</td></tr>
-                         <tr><td>Self-Consistency</td><td>Prompts multiple solutions to find the most reliable answer.</td><td>“Solve 2x + 3 = 11 using at least two methods.”</td></tr>
-                     </tbody>
-                 </table>
+                      <thead><tr><th scope="col">Pattern</th><th scope="col">Description</th><th scope="col">Example</th></tr></thead>
+                      <tbody>
+                          <tr><td>Role-Based Prompting</td><td>Assigns a persona/expertise to steer tone and reasoning.</td><td>“You are a Renaissance art historian...”</td></tr>
+                          <tr><td>Iterative Refinement</td><td>Improves responses via targeted follow-ups.</td><td>“Draft an article. Now revise it...”</td></tr>
+                          <tr><td>Chain-of-Thought</td><td>Encourages structured, logical steps for complex tasks.</td><td>“Explain step-by-step how to calculate...”</td></tr>
+                          <tr><td>Constraint-Based Prompting</td><td>Applies strict format, style, or length limits.</td><td>“Explain neural backpropagation in exactly three sentences...”</td></tr>
+                          <tr><td>Task Clarification + Format</td><td>Separates Context, Task, Format for clarity.</td><td>“Context: You are a tech reviewer. Task: Compare iPhone... Format: Two-paragraph...”</td></tr>
+                          <tr><td>Few-Shot Prompting</td><td>Provides input-output examples for the model to follow.</td><td>“Here’s how we usually write client emails...”</td></tr>
+                          <tr><td>Zero-Shot Prompting</td><td>Gives clear instructions without examples.</td><td>“Draft a professional thank-you email...”</td></tr>
+                          <tr><td>Adversarial Testing</td><td>Challenges the model with tricky prompts to test robustness.</td><td>“Is Paris the capital of France or...”</td></tr>
+                          <tr><td>Self-Consistency</td><td>Prompts multiple solutions to find the most reliable answer.</td><td>“Solve 2x + 3 = 11 using at least two methods.”</td></tr>
+                      </tbody>
+                  </table>
                  <div class="notes-area">
                     <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-prompt-patterns">🗑️</button>
                     <label for="notes-prompt-patterns">My Notes:</label>
                     <textarea id="notes-prompt-patterns"></textarea>
-                 </div>
+                  </div>
             </div>
         </div>
 
@@ -571,11 +579,11 @@
                 <h3>Example Projects:</h3><ul><li>🗂️ Kanban Board</li><li>💱 Currency Converter GUI</li></ul>
                 <h3>Best For:</h3><p>Creatives, educators, analysts; prototyping, internal automation, teaching tools.</p>
                 <h3>⚠️ Cautions:</h3><ul><li>AI code may lack security, structure.</li><li>Always test before real use.</li><li>Not for production-scale software.</li></ul>
-                <div class="notes-area">
+                 <div class="notes-area">
                     <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-vibe-coding">🗑️</button>
                     <label for="notes-vibe-coding">My Notes:</label>
                     <textarea id="notes-vibe-coding"></textarea>
-                </div>
+                  </div>
             </div>
         </div>
 
@@ -588,11 +596,11 @@
                 <h3>Core Tools:</h3><ul><li><strong>🧠 NotebookLM:</strong> Create research-linked knowledge bases, map idea relationships. <i>“Organize and explore interconnected ideas for deeper understanding.”</i></li><li><strong>🎙️ Illuminate:</strong> Convert static content into dynamic AI discussions. <i>“Facilitates real-time, AI-enhanced dialogue that brings static ideas to life.”</i></li><li><strong>🤖 Custom GPTs:</strong> Train a personalized tutor using specific content. <i>“Gain access to a personalized tutor capable of answering questions and offering clarifications.”</i></li></ul>
                 <h3>Best Use Cases:</h3><ul><li>Self-paced study</li><li>Research exploration</li><li>Collaborative learning</li><li>Context-aware Q&A</li><li>AI-augmented training</li></ul>
                 <p><i>“This synergy turns the Guide into a living, breathing platform for interactive learning and professional development.”</i></p>
-                <div class="notes-area">
+                 <div class="notes-area">
                     <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-ai-learning-platform">🗑️</button>
                     <label for="notes-ai-learning-platform">My Notes:</label>
                     <textarea id="notes-ai-learning-platform"></textarea>
-                </div>
+                  </div>
             </div>
         </div>
 
@@ -604,15 +612,15 @@
                 <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
                 <h3>Applications:</h3>
                  <table>
-                     <thead><tr><th scope="col">Business</th><th scope="col">Education</th><th scope="col">Technical</th></tr></thead>
-                     <tbody>
-                         <tr><td>📋 Employee training</td><td>🧑‍🏫 Teaching assistant bots</td><td>🧪 Scientific report summarization</td></tr>
-                         <tr><td>✍️ SEO content generation</td><td>📚 Interactive learning paths</td><td>⚖️ Legal document drafting</td></tr>
-                         <tr><td>📝 Meeting note condensation</td><td>📖 Study aids with examples</td><td>📊 Data analysis prompt scripting</td></tr>
-                         <tr><td>🛍️ Product/service descriptions</td><td>🎓 GPT-powered tutoring assistants</td><td>🔎 Knowledge retrieval applications</td></tr>
-                     </tbody>
-                 </table>
-                  <div class="notes-area">
+                      <thead><tr><th scope="col">Business</th><th scope="col">Education</th><th scope="col">Technical</th></tr></thead>
+                      <tbody>
+                          <tr><td>📋 Employee training</td><td>🧑‍🏫 Teaching assistant bots</td><td>🧪 Scientific report summarization</td></tr>
+                          <tr><td>✍️ SEO content generation</td><td>📚 Interactive learning paths</td><td>⚖️ Legal document drafting</td></tr>
+                          <tr><td>📝 Meeting note condensation</td><td>📖 Study aids with examples</td><td>📊 Data analysis prompt scripting</td></tr>
+                          <tr><td>🛍️ Product/service descriptions</td><td>🎓 GPT-powered tutoring assistants</td><td>🔎 Knowledge retrieval applications</td></tr>
+                      </tbody>
+                  </table>
+                   <div class="notes-area">
                     <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-use-cases">🗑️</button>
                     <label for="notes-use-cases">My Notes:</label>
                     <textarea id="notes-use-cases"></textarea>
@@ -629,16 +637,16 @@
                  <p>Specifies response structure, style, organization. Clear formats improve usability, accuracy, and workflows.</p>
                 <h3>Common Formats:</h3>
                  <ul>
-                     <li><strong>📊 Table:</strong> Comparisons, structured data. Ex: "List top 5 products... in a table."</li>
-                     <li><strong>• Bullet List:</strong> Clear, scannable points. Ex: "List marketing benefits as bullet points."</li>
-                     <li><strong>📝 Executive Summary:</strong> Concise overview. Ex: "Summarize report findings..."</li>
-                     <li><strong>🖼️ Slide-ready Text:</strong> For presentations (headings, short points).</li>
-                     <li><strong>📈 Charts / Markdown:</strong> Visuals, documentation, wikis, tutorials.</li>
-                     <li><strong>🔧 JSON / YAML:</strong> Structured outputs for software/APIs.</li>
-                     <li><strong>📄 Structured Docs:</strong> SOPs, NDAs, legal drafts. Ex: "Draft an NDA with clauses..."</li>
-                 </ul>
+                      <li><strong>📊 Table:</strong> Comparisons, structured data. Ex: "List top 5 products... in a table."</li>
+                      <li><strong>• Bullet List:</strong> Clear, scannable points. Ex: "List marketing benefits as bullet points."</li>
+                      <li><strong>📝 Executive Summary:</strong> Concise overview. Ex: "Summarize report findings..."</li>
+                      <li><strong>🖼️ Slide-ready Text:</strong> For presentations (headings, short points).</li>
+                      <li><strong>📈 Charts / Markdown:</strong> Visuals, documentation, wikis, tutorials.</li>
+                      <li><strong>🔧 JSON / YAML:</strong> Structured outputs for software/APIs.</li>
+                      <li><strong>📄 Structured Docs:</strong> SOPs, NDAs, legal drafts. Ex: "Draft an NDA with clauses..."</li>
+                  </ul>
                  <p><i>“Defining the output format ensures that each stage of recursive prompting builds logically, resulting in a coherent final product.”</i></p>
-                  <div class="notes-area">
+                   <div class="notes-area">
                     <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-output-formats">🗑️</button>
                     <label for="notes-output-formats">My Notes:</label>
                     <textarea id="notes-output-formats"></textarea>
@@ -647,27 +655,27 @@
         </div>
 
          <div class="card" data-section-id="prompting-techniques">
-              <div class="card-icon">🔧</div>
+               <div class="card-icon">🔧</div>
             <h2>Prompting Techniques</h2>
             <p class="card-description">Fundamental methods repeatedly emphasized for effective prompt engineering.</p>
             <div class="card-details">
                 <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
                 <h3>Key Techniques:</h3>
                  <table>
-                     <thead><tr><th scope="col">Technique</th><th scope="col">Description</th><th scope="col">Example Prompt</th></tr></thead>
-                     <tbody>
-                         <tr><td>Be Specific</td><td>Clear instructions (scope, outcome, format).</td><td>“List 3 actionable marketing tips for Q4.”</td></tr>
-                         <tr><td>Step-by-Step</td><td>Encourages logical breakdown for coherence.</td><td>“Let’s think through this step-by-step...”</td></tr>
-                         <tr><td>Assign a Role</td><td>Frames AI identity for style/tone shift.</td><td>“Acting as an HR executive, write...”</td></tr>
-                         <tr><td>Clarify Output Format</td><td>Specifies structure (JSON, table, list).</td><td>“Output as a bullet list with subheadings...”</td></tr>
-                         <tr><td>Iterative Prompting</td><td>Prompts designed for refinement stages.</td><td>“Here’s a draft. Now revise to be more...”</td></tr>
-                         <tr><td>Comparative Prompting</td><td>Generates side-by-side evaluations.</td><td>“Compare the pros and cons of Slack vs. Teams...”</td></tr>
-                         <tr><td>Provide Examples</td><td>Uses few-shot prompts for style/tone guidance.</td><td>“Here’s how we reply to support tickets...”</td></tr>
-                         <tr><td>Structured Follow-Ups</td><td>Encourages AI to guide next actions/ask questions.</td><td>“What 3 questions should I ask to improve this prompt?”</td></tr>
-                     </tbody>
-                 </table>
+                      <thead><tr><th scope="col">Technique</th><th scope="col">Description</th><th scope="col">Example Prompt</th></tr></thead>
+                      <tbody>
+                          <tr><td>Be Specific</td><td>Clear instructions (scope, outcome, format).</td><td>“List 3 actionable marketing tips for Q4.”</td></tr>
+                          <tr><td>Step-by-Step</td><td>Encourages logical breakdown for coherence.</td><td>“Let’s think through this step-by-step...”</td></tr>
+                          <tr><td>Assign a Role</td><td>Frames AI identity for style/tone shift.</td><td>“Acting as an HR executive, write...”</td></tr>
+                          <tr><td>Clarify Output Format</td><td>Specifies structure (JSON, table, list).</td><td>“Output as a bullet list with subheadings...”</td></tr>
+                          <tr><td>Iterative Prompting</td><td>Prompts designed for refinement stages.</td><td>“Here’s a draft. Now revise to be more...”</td></tr>
+                          <tr><td>Comparative Prompting</td><td>Generates side-by-side evaluations.</td><td>“Compare the pros and cons of Slack vs. Teams...”</td></tr>
+                          <tr><td>Provide Examples</td><td>Uses few-shot prompts for style/tone guidance.</td><td>“Here’s how we reply to support tickets...”</td></tr>
+                          <tr><td>Structured Follow-Ups</td><td>Encourages AI to guide next actions/ask questions.</td><td>“What 3 questions should I ask to improve this prompt?”</td></tr>
+                      </tbody>
+                  </table>
                  <p><i>“Refining and iterating prompts is not optional—it’s essential for achieving reliable, high-quality results.”</i></p>
-                  <div class="notes-area">
+                   <div class="notes-area">
                     <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-prompting-techniques">🗑️</button>
                     <label for="notes-prompting-techniques">My Notes:</label>
                     <textarea id="notes-prompting-techniques"></textarea>
@@ -686,7 +694,7 @@
                 <li><strong>Focus Mode:</strong> Click the "Focus" button inside an expanded card to dim other cards, helping you concentrate on one topic. Click "Exit Focus" or click outside the focused card to return to normal view.</li>
                 <li><strong>Notes:</strong> Use the "My Notes" textarea within each expanded card to save your personal thoughts or examples. Notes are saved automatically in your browser.</li>
                 <li><strong>Delete Notes:</strong> Click the trash bin icon (🗑️) next to the notes area to clear the notes for that specific section.</li>
-                <li><strong>Prompt Balancer:</strong> In the "Perfect Prompt Structure" card, use the sliders to visualize different balances between prompt components. When a component reaches 10% or more, helpful tips will appear below the sliders. Resetting occurs automatically when you significantly increase one slider.</li>
+                <li><strong>Prompt Balancer:</strong> In the "Perfect Prompt Structure" card, use the sliders (0-100%) to visualize different balances between prompt components. Tips will appear below based on the component with the highest value, categorized into Low (1-33%), Medium (34-66%), and High (67-100%) emphasis. Resetting other sliders occurs automatically when you significantly increase one slider.</li>
                 <li><strong>Help:</strong> Click the question mark (?) icon in the header at any time to reopen this help window.</li>
             </ul>
         </div>
@@ -715,7 +723,6 @@
 
             // Balancer constants
             const LOW_RESET_VALUE = 0;
-            const HIGH_THRESHOLD = 10; // Value at which reset logic triggers
 
             // --- Balancer Initialization ---
             function initializeBalancer() {
@@ -771,9 +778,10 @@
                             valueDisplays[key].textContent = `${LOW_RESET_VALUE}%`;
                             bars[key].style.width = `${LOW_RESET_VALUE}%`;
                             sliders[key].addEventListener('input', handleSliderInput);
+                            sliders[key].step = "1";
                         }
                     }
-                    tipDisplay.textContent = "Move a slider to 10% or more to see tips.";
+                    tipDisplay.textContent = "Move sliders to see tips based on emphasis."; // Updated default tip
 
                 } catch (error) {
                     console.error("Error initializing balancer:", error);
@@ -781,21 +789,44 @@
             }
 
             // --- Balancer Logic ---
-            const componentTips = {
-                 context: { low: "Low Context: Ok for simple queries.", med: "Medium Context: Provide essential background.", high: "High Context: Crucial for complex topics." },
-                 output: { low: "Low Output Focus: Default format ok.", med: "Medium Output Focus: Request standard structures.", high: "High Output Focus: Define strict formats." },
-                 task: { low: "Low Task Focus: Simple generation.", med: "Medium Task Focus: Standard actions.", high: "High Task Focus: Complex instructions." },
-                 constraints: { low: "Low Constraints: Few limits.", med: "Medium Constraints: Specify tone/limits.", high: "High Constraints: Strict rules needed." }
-            };
 
+            // *** MODIFIED componentTips START (Removed percentage ranges) ***
+            const componentTips = {
+                 context: {
+                    low: "Low Context: OK for simple, general queries where ambiguity is low. Why? Less context needed.",
+                    med: "Medium Context: Provide essential background, goals, or examples for standard relevance. Why? Ensures the AI understands the core requirement.",
+                    high: "High Context: Crucial for complex, nuanced, or domain-specific tasks. Provide detailed background, data, user info. Why? Maximizes accuracy and relevance by giving the AI deep understanding."
+                },
+                output: {
+                    low: "Low Output Focus: Default formatting is acceptable. Good for exploration or when structure isn't critical. Why? Minimal structure needed.",
+                    med: "Medium Output Focus: Request standard structures like lists, tables, or summaries. Why? Improves readability and usability for common tasks.",
+                    high: "High Output Focus: Define strict formats (JSON, YAML, specific doc templates) or detailed style guides. Why? Necessary for data integration, automation, or precise presentation."
+                },
+                task: {
+                    low: "Low Task Focus: Simple, direct instructions (e.g., 'write a sentence', 'list ideas'). Why? The core action is straightforward.",
+                    med: "Medium Task Focus: Standard complexity actions (e.g., 'summarize this text', 'compare A and B', 'explain concept X'). Why? Requires clear but common instructions.",
+                    high: "High Task Focus: Complex, multi-step, creative, or analytical instructions. Break down the task clearly. Why? Detailed guidance needed for intricate goals or reasoning."
+                },
+                constraints: {
+                    low: "Low Constraints: Few restrictions needed; standard AI behavior is acceptable. Good for open-ended generation. Why? Allows maximum flexibility.",
+                    med: "Medium Constraints: Specify desired tone (formal, casual), style, audience, or basic limits (length, key points). Why? Guides the output towards desired characteristics.",
+                    high: "High Constraints: Essential for safety, brand voice, specific exclusions, complex rules, or step-by-step processes. Why? Ensures compliance, accuracy, and control over sensitive or specific outputs."
+                }
+            };
+            // *** MODIFIED componentTips END ***
+
+            // *** getTipLevel Function (Unchanged from previous version) ***
             function getTipLevel(value) {
-                if (value > 60) return 'high';
-                if (value >= HIGH_THRESHOLD) return 'med'; // Use threshold for 'medium'
-                return 'low';
+                const val = parseInt(value, 10);
+                if (val >= 67) return 'high'; // 67-100%
+                if (val >= 34) return 'med';  // 34-66%
+                if (val >= 1) return 'low';   // 1-33%
+                return 'none'; // If value is 0 or less
             }
 
+            // *** handleSliderInput Function (Unchanged from previous version) ***
             function handleSliderInput(event) {
-                if (isAdjusting || !structureBalancer) return; // Prevent updates during adjustment or if balancer failed init
+                if (isAdjusting || !structureBalancer) return;
 
                 const movedSlider = event.target;
                 if (!movedSlider) return;
@@ -810,34 +841,31 @@
                 let highestValue = 0;
                 let dominantComponent = null;
 
-                // Reset Logic: If moved slider reaches threshold, reset others
-                if (movedValue >= HIGH_THRESHOLD) {
-                    isAdjusting = true; // Set flag
-                    for (const key in sliders) {
-                        if (sliders.hasOwnProperty(key) && key !== movedComponent) {
-                             // Check elements exist before trying to set values
-                             if (sliders[key]) sliders[key].value = LOW_RESET_VALUE;
-                             if (valueDisplays[key]) valueDisplays[key].textContent = `${LOW_RESET_VALUE}%`;
-                             if (bars[key]) bars[key].style.width = `${LOW_RESET_VALUE}%`;
-                        }
-                    }
-                    // Update the moved slider's display AFTER resetting others
+                let needsReset = movedValue > 0;
+
+                if (needsReset) {
+                     isAdjusting = true;
+                     for (const key in sliders) {
+                         if (sliders.hasOwnProperty(key) && key !== movedComponent) {
+                              if (sliders[key]) sliders[key].value = LOW_RESET_VALUE;
+                              if (valueDisplays[key]) valueDisplays[key].textContent = `${LOW_RESET_VALUE}%`;
+                              if (bars[key]) bars[key].style.width = `${LOW_RESET_VALUE}%`;
+                         }
+                     }
                     if (valueDisplays[movedComponent]) valueDisplays[movedComponent].textContent = `${movedValue}%`;
                     if (bars[movedComponent]) bars[movedComponent].style.width = `${movedValue}%`;
 
                     highestValue = movedValue;
                     dominantComponent = movedComponent;
-                    isAdjusting = false; // Clear flag
+                    isAdjusting = false;
                 } else {
-                    // Normal Update: Just update the moved slider's display
                     if (valueDisplays[movedComponent]) valueDisplays[movedComponent].textContent = `${movedValue}%`;
                     if (bars[movedComponent]) bars[movedComponent].style.width = `${movedValue}%`;
 
-                    // Find the current dominant component among all sliders (could be any)
-                    highestValue = 0; // Reset to recalculate
+                    highestValue = 0;
                     dominantComponent = null;
                     for (const key in sliders) {
-                        if (sliders.hasOwnProperty(key) && sliders[key]) { // Check slider exists
+                        if (sliders.hasOwnProperty(key) && sliders[key]) {
                             const currentValue = parseInt(sliders[key].value, 10);
                             if (currentValue > highestValue) {
                                 highestValue = currentValue;
@@ -847,20 +875,19 @@
                     }
                 }
 
-                // Update Tip Display
                 if (tipDisplay) {
-                     let tip = "Move a slider to 10% or more to see tips.";
-                     if (dominantComponent && highestValue >= HIGH_THRESHOLD) {
-                         const level = getTipLevel(highestValue);
-                         tip = componentTips[dominantComponent]?.[level] || tip; // Use optional chaining
-                     } else if (dominantComponent && highestValue > 0) { // If there's a max but below threshold
-                         tip = `Increase ${dominantComponent} to 10% or more for specific tips.`;
+                     let tip = "Move sliders to see tips based on emphasis.";
+                     const level = getTipLevel(highestValue);
+
+                     if (dominantComponent && level !== 'none') {
+                        tip = componentTips[dominantComponent]?.[level] || tip;
                      }
                      tipDisplay.textContent = tip;
                 }
             }
 
-            // --- Utility Functions ---
+
+            // --- Utility Functions (Unchanged) ---
             function updateNoteIndicator(textarea) {
                 if (!textarea) return;
                 const card = textarea.closest('.card');
@@ -884,7 +911,7 @@
                 });
             }
 
-            // --- Initial Setup ---
+            // --- Initial Setup (Unchanged) ---
 
             // Notes Initialization (Load from localStorage)
             allNotesAreas.forEach(textarea => {
@@ -893,20 +920,17 @@
                     if (savedNote) {
                         textarea.value = savedNote;
                     }
-                    updateNoteIndicator(textarea); // Set initial indicator state
+                    updateNoteIndicator(textarea);
 
-                    // Save on input
                     textarea.addEventListener('input', function() {
                         try {
                             localStorage.setItem(this.id, this.value);
-                            updateNoteIndicator(this); // Update indicator on change
+                            updateNoteIndicator(this);
                         } catch (e) {
                             console.error("Error saving note to localStorage:", e);
-                            // Maybe notify user that notes cannot be saved
                         }
                     });
 
-                    // Prevent card toggle when clicking inside textarea
                     textarea.addEventListener('click', event => event.stopPropagation());
 
                 } catch (error) {
@@ -917,11 +941,10 @@
             // Help Modal (<dialog>) Setup
             if (helpIconBtn && helpModal && closeModalBtn) {
                 helpIconBtn.addEventListener('click', () => {
-                    if (helpModal.showModal) { // Check method exists
-                         helpModal.showModal(); // Use HTML dialog method
+                    if (helpModal.showModal) {
+                         helpModal.showModal();
                     } else {
                          console.error("dialog.showModal() not supported or modal element not found.");
-                         // Fallback maybe? (e.g., add a class for CSS display)
                     }
                 });
 
@@ -929,15 +952,11 @@
                     if (helpModal.close) helpModal.close();
                 });
 
-                // Close dialog if click is on the backdrop (outside the .modal-content)
                 helpModal.addEventListener('click', (event) => {
-                    if (event.target === helpModal) { // Check if the click was directly on the dialog backdrop
+                    if (event.target === helpModal) {
                         if (helpModal.close) helpModal.close();
                     }
                 });
-
-                // Note: The Escape key closes the dialog automatically when opened with showModal().
-
             } else {
                  if (!helpIconBtn) console.warn("Help icon button not found.");
                  if (!helpModal) console.warn("Help modal element not found.");
@@ -947,101 +966,81 @@
             // Balancer Initialization Call
             initializeBalancer();
 
-            // --- Main Dashboard Event Listener (Event Delegation) ---
+            // --- Main Dashboard Event Listener (Event Delegation - Unchanged) ---
             if (dashboardContainer) {
                 dashboardContainer.addEventListener('click', function(event) {
                     try {
                         const targetElement = event.target;
                         const clickedCard = targetElement.closest('.card');
 
-                        // --- Specific Element Interactions ---
-
-                        // 1. Click inside Structure Balancer: Do nothing (handled by sliders)
-                        if (targetElement.closest('.structure-balancer')) {
-                            return;
-                        }
+                        // 1. Click inside Structure Balancer: Do nothing
+                        if (targetElement.closest('.structure-balancer')) { return; }
 
                         // 2. Click Delete Note Button
                         if (targetElement.classList.contains('delete-note-btn')) {
-                            event.stopPropagation(); // Prevent card toggle
+                            event.stopPropagation();
                             const textareaId = targetElement.getAttribute('data-textarea-id');
                             const textarea = document.getElementById(textareaId);
                             if (textarea && window.confirm('Are you sure you want to delete this note?')) {
                                 textarea.value = '';
-                                localStorage.removeItem(textareaId); // Remove from storage
-                                updateNoteIndicator(textarea); // Update visual indicator
+                                localStorage.removeItem(textareaId);
+                                updateNoteIndicator(textarea);
                             }
-                            return; // Handled
+                            return;
                         }
 
                         // 3. Click Focus Mode Button
                         if (targetElement.classList.contains('focus-mode-btn')) {
-                            event.stopPropagation(); // Prevent card toggle
+                            event.stopPropagation();
                             const cardToFocus = targetElement.closest('.card');
-                            if (!cardToFocus) return; // Should not happen, but safety check
-
+                            if (!cardToFocus) return;
                             const isCurrentlyFocused = cardToFocus.classList.contains('card-is-focused');
-
                             if (isCurrentlyFocused) {
-                                // If clicking focus button on already focused card, deactivate focus mode
                                 deactivateFocusMode();
                             } else {
-                                // Activate focus mode for this card
-                                deactivateFocusMode(); // Deactivate any existing focus first
+                                deactivateFocusMode();
                                 if (dashboardContainer) dashboardContainer.classList.add('focus-mode-active');
-                                allCards.forEach(c => c.classList.remove('card-is-focused')); // Clear focus just in case
+                                allCards.forEach(c => c.classList.remove('card-is-focused'));
                                 cardToFocus.classList.add('card-is-focused');
                                 targetElement.textContent = 'Exit Focus';
                                 targetElement.classList.add('focus-active');
                             }
-                            return; // Handled
+                            return;
                         }
 
-                        // --- Card Expansion/Collapse Logic ---
-
+                        // Card Expansion/Collapse Logic
                         if (!clickedCard) {
-                            // Clicked outside any card within the container -> deactivate focus if active
                             if(dashboardContainer && dashboardContainer.classList.contains('focus-mode-active')) {
                                 deactivateFocusMode();
                             }
-                            return; // Exit if click wasn't on or inside a card
+                            return;
                         }
 
-                        // If focus mode is active, and we clicked a card *not* focused, deactivate focus mode
                         if (dashboardContainer && dashboardContainer.classList.contains('focus-mode-active') && !clickedCard.classList.contains('card-is-focused')) {
                             deactivateFocusMode();
-                            // Continue to toggle the newly clicked card below
                         }
 
                         const details = clickedCard.querySelector('.card-details');
-                        if (!details) return; // Card has no details section
+                        if (!details) return;
 
-                        // Prevent toggle if click was inside the already open details (unless it was focus btn handled above)
                         const isClickInsideDetails = details.contains(targetElement) && details.classList.contains('show-details');
-                         // Also prevent toggle if the card is currently the one in focus mode (handled by focus btn)
                         const isFocusActiveOnThis = clickedCard.classList.contains('card-is-focused');
 
                         if (isClickInsideDetails || isFocusActiveOnThis) {
-                              // Exception: allow clicks on links or buttons inside details, but don't toggle card
-                              if (targetElement.tagName === 'A' || targetElement.tagName === 'BUTTON') {
-                                   // Let link/button clicks proceed normally without toggling card
-                              } else {
-                                    return; // Clicked inside details or on focused card, don't toggle
-                              }
+                             if (targetElement.tagName === 'A' || targetElement.tagName === 'BUTTON') {
+                                // Allow action
+                             } else {
+                                  return; // Don't toggle
+                             }
                         }
 
-
                         const isCurrentlyVisible = details.classList.contains('show-details');
-
-                        // If we are about to open a card, close all others and deactivate focus mode
                         if (!isCurrentlyVisible) {
-                            deactivateFocusMode(); // Ensure focus is off before opening a new card
+                            deactivateFocusMode();
                             allDetailsSections.forEach(detailSection => {
                                 detailSection.classList.remove('show-details');
                             });
                         }
-
-                        // Toggle the clicked card's details
                         details.classList.toggle('show-details');
 
                     } catch (error) {
