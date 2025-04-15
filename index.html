@@ -64,6 +64,8 @@
         /* Header */
         .site-header {
             display: flex;
+            /* Changed to column to stack title and link */
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             position: relative;
@@ -74,13 +76,30 @@
             text-align: center;
             color: var(--primary-color);
             margin: 0;
+            margin-bottom: 8px; /* Added margin below h1 */
+        }
+
+        /* Style for the new link */
+        .header-link {
+            display: block; /* Make it a block element */
+            text-align: center; /* Center the text */
+            margin-top: 5px; /* Space above the link */
+            margin-bottom: 15px; /* Space below the link before content */
+            color: var(--secondary-color); /* Use existing variable */
+            text-decoration: none; /* Remove underline */
+            font-size: 0.9em;
+        }
+        .header-link:hover {
+            text-decoration: underline; /* Underline on hover */
+            color: var(--primary-color); /* Darker color on hover */
         }
 
         #help-icon-btn {
             position: absolute;
             right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
+            /* Adjusted top positioning due to added link */
+            top: 5px;
+            /* Removed transform as vertical alignment is less critical now */
             background: none;
             border: 1px solid var(--border-color-medium);
             border-radius: 50%;
@@ -187,7 +206,7 @@
         }
 
         .card-details.show-details {
-            max-height: 3000px;
+            max-height: 3000px; /* Increased max-height for potentially longer content */
             opacity: 1;
             margin-top: var(--padding-medium);
             padding-top: var(--padding-medium);
@@ -293,7 +312,7 @@
         .balancer-bars .bar {
             height: 100%;
             transition: width var(--transition-speed-medium) ease-in-out;
-            text-indent: -9999px;
+            text-indent: -9999px; /* Hide text inside bars */
         }
 
         #bar-context { background-color: var(--info-color); }
@@ -326,7 +345,9 @@
         }
 
         .notes-area textarea {
-            width: 95%;
+            /* Adjusted width to better fit padding */
+            width: calc(100% - 10px); /* Consider parent padding */
+            margin: 0 5px; /* Center it slightly */
             min-height: 80px;
             border: 1px solid var(--border-color-medium);
             border-radius: var(--border-radius-small);
@@ -388,7 +409,7 @@
             width: 80%;
             max-width: 600px;
             animation: fadeInModal var(--transition-speed-medium) ease-out;
-            overflow: visible;
+            overflow: visible; /* Allow close button overflow */
         }
 
         dialog#help-modal::backdrop {
@@ -455,33 +476,35 @@
         input[type="range"]:focus-visible,
         textarea:focus-visible,
         .card:focus-visible,
+        a:focus-visible, /* Added focus for link */
         .close-modal-btn:focus-visible {
           outline: 3px solid var(--focus-outline-color);
           outline-offset: 2px;
           box-shadow: 0 0 0 3px var(--focus-outline-color);
         }
-        button, input[type="range"], textarea, .card, .close-modal-btn {
-            outline: none;
+        button, input[type="range"], textarea, .card, a, .close-modal-btn {
+            outline: none; /* Remove default outline */
         }
     </style>
 </head>
 <body>
 
-   <header class="site-header">
+    <header class="site-header">
         <h1>🧠 Generative AI Prompting Cheat Sheet</h1>
         <a href="https://leanpub.com/genaipromptingguide" class="header-link" target="_blank" rel="noopener noreferrer">Get the Generative AI Professional Engineering Guide on Leanpub</a>
         <button id="help-icon-btn" title="Help">?</button>
     </header>
 
-
-    <main class="dashboard-container">         <div class="card" data-section-id="prompt-structure">
+    <main class="dashboard-container">
+        <div class="card" data-section-id="prompt-structure">
             <div class="card-icon">🔷</div>
             <h2>Perfect Prompt Structure</h2>
             <p class="card-description">The core components needed for effective prompts and their suggested balance.</p>
             <div class="card-details">
                 <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
                 <div class="structure-balancer">
-                    <h3>Adjust Component Weights:</h3>                     <div class="balancer-control"> <label for="slider-context">Context:</label> <input type="range" id="slider-context" data-component="context" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-context">0%</span> </div>
+                    <h3>Adjust Component Weights:</h3>
+                    <div class="balancer-control"> <label for="slider-context">Context:</label> <input type="range" id="slider-context" data-component="context" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-context">0%</span> </div>
                     <div class="balancer-control"> <label for="slider-output">Output Format:</label> <input type="range" id="slider-output" data-component="output" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-output">0%</span> </div>
                     <div class="balancer-control"> <label for="slider-task">Task:</label> <input type="range" id="slider-task" data-component="task" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-task">0%</span> </div>
                     <div class="balancer-control"> <label for="slider-constraints">Constraints:</label> <input type="range" id="slider-constraints" data-component="constraints" min="0" max="100" step="5" value="0"> <span class="value-display" id="value-constraints">0%</span> </div>
@@ -516,17 +539,18 @@
                 <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
                 <h3>Common Patterns:</h3>
                  <table>
-                    <thead><tr><th scope="col">Pattern</th><th scope="col">Description</th><th scope="col">Example</th></tr></thead>                     <tbody>
-                        <tr><td>Role-Based Prompting</td><td>Assigns a persona/expertise to steer tone and reasoning.</td><td>“You are a Renaissance art historian...”</td></tr>
-                        <tr><td>Iterative Refinement</td><td>Improves responses via targeted follow-ups.</td><td>“Draft an article. Now revise it...”</td></tr>
-                        <tr><td>Chain-of-Thought</td><td>Encourages structured, logical steps for complex tasks.</td><td>“Explain step-by-step how to calculate...”</td></tr>
-                        <tr><td>Constraint-Based Prompting</td><td>Applies strict format, style, or length limits.</td><td>“Explain neural backpropagation in exactly three sentences...”</td></tr>
-                        <tr><td>Task Clarification + Format</td><td>Separates Context, Task, Format for clarity.</td><td>“Context: You are a tech reviewer. Task: Compare iPhone... Format: Two-paragraph...”</td></tr>
-                        <tr><td>Few-Shot Prompting</td><td>Provides input-output examples for the model to follow.</td><td>“Here’s how we usually write client emails...”</td></tr>
-                        <tr><td>Zero-Shot Prompting</td><td>Gives clear instructions without examples.</td><td>“Draft a professional thank-you email...”</td></tr>
-                        <tr><td>Adversarial Testing</td><td>Challenges the model with tricky prompts to test robustness.</td><td>“Is Paris the capital of France or...”</td></tr>
-                        <tr><td>Self-Consistency</td><td>Prompts multiple solutions to find the most reliable answer.</td><td>“Solve 2x + 3 = 11 using at least two methods.”</td></tr>
-                    </tbody>
+                     <thead><tr><th scope="col">Pattern</th><th scope="col">Description</th><th scope="col">Example</th></tr></thead>
+                     <tbody>
+                         <tr><td>Role-Based Prompting</td><td>Assigns a persona/expertise to steer tone and reasoning.</td><td>“You are a Renaissance art historian...”</td></tr>
+                         <tr><td>Iterative Refinement</td><td>Improves responses via targeted follow-ups.</td><td>“Draft an article. Now revise it...”</td></tr>
+                         <tr><td>Chain-of-Thought</td><td>Encourages structured, logical steps for complex tasks.</td><td>“Explain step-by-step how to calculate...”</td></tr>
+                         <tr><td>Constraint-Based Prompting</td><td>Applies strict format, style, or length limits.</td><td>“Explain neural backpropagation in exactly three sentences...”</td></tr>
+                         <tr><td>Task Clarification + Format</td><td>Separates Context, Task, Format for clarity.</td><td>“Context: You are a tech reviewer. Task: Compare iPhone... Format: Two-paragraph...”</td></tr>
+                         <tr><td>Few-Shot Prompting</td><td>Provides input-output examples for the model to follow.</td><td>“Here’s how we usually write client emails...”</td></tr>
+                         <tr><td>Zero-Shot Prompting</td><td>Gives clear instructions without examples.</td><td>“Draft a professional thank-you email...”</td></tr>
+                         <tr><td>Adversarial Testing</td><td>Challenges the model with tricky prompts to test robustness.</td><td>“Is Paris the capital of France or...”</td></tr>
+                         <tr><td>Self-Consistency</td><td>Prompts multiple solutions to find the most reliable answer.</td><td>“Solve 2x + 3 = 11 using at least two methods.”</td></tr>
+                     </tbody>
                  </table>
                  <div class="notes-area">
                     <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-prompt-patterns">🗑️</button>
@@ -580,12 +604,13 @@
                 <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
                 <h3>Applications:</h3>
                  <table>
-                    <thead><tr><th scope="col">Business</th><th scope="col">Education</th><th scope="col">Technical</th></tr></thead>                     <tbody>
-                        <tr><td>📋 Employee training</td><td>🧑‍🏫 Teaching assistant bots</td><td>🧪 Scientific report summarization</td></tr>
-                        <tr><td>✍️ SEO content generation</td><td>📚 Interactive learning paths</td><td>⚖️ Legal document drafting</td></tr>
-                        <tr><td>📝 Meeting note condensation</td><td>📖 Study aids with examples</td><td>📊 Data analysis prompt scripting</td></tr>
-                        <tr><td>🛍️ Product/service descriptions</td><td>🎓 GPT-powered tutoring assistants</td><td>🔎 Knowledge retrieval applications</td></tr>
-                    </tbody>
+                     <thead><tr><th scope="col">Business</th><th scope="col">Education</th><th scope="col">Technical</th></tr></thead>
+                     <tbody>
+                         <tr><td>📋 Employee training</td><td>🧑‍🏫 Teaching assistant bots</td><td>🧪 Scientific report summarization</td></tr>
+                         <tr><td>✍️ SEO content generation</td><td>📚 Interactive learning paths</td><td>⚖️ Legal document drafting</td></tr>
+                         <tr><td>📝 Meeting note condensation</td><td>📖 Study aids with examples</td><td>📊 Data analysis prompt scripting</td></tr>
+                         <tr><td>🛍️ Product/service descriptions</td><td>🎓 GPT-powered tutoring assistants</td><td>🔎 Knowledge retrieval applications</td></tr>
+                     </tbody>
                  </table>
                   <div class="notes-area">
                     <button class="delete-note-btn" title="Delete note for this section" data-textarea-id="notes-use-cases">🗑️</button>
@@ -604,13 +629,13 @@
                  <p>Specifies response structure, style, organization. Clear formats improve usability, accuracy, and workflows.</p>
                 <h3>Common Formats:</h3>
                  <ul>
-                    <li><strong>📊 Table:</strong> Comparisons, structured data. Ex: "List top 5 products... in a table."</li>
-                    <li><strong>• Bullet List:</strong> Clear, scannable points. Ex: "List marketing benefits as bullet points."</li>
-                    <li><strong>📝 Executive Summary:</strong> Concise overview. Ex: "Summarize report findings..."</li>
-                    <li><strong>🖼️ Slide-ready Text:</strong> For presentations (headings, short points).</li>
-                    <li><strong>📈 Charts / Markdown:</strong> Visuals, documentation, wikis, tutorials.</li>
-                    <li><strong>🔧 JSON / YAML:</strong> Structured outputs for software/APIs.</li>
-                    <li><strong>📄 Structured Docs:</strong> SOPs, NDAs, legal drafts. Ex: "Draft an NDA with clauses..."</li>
+                     <li><strong>📊 Table:</strong> Comparisons, structured data. Ex: "List top 5 products... in a table."</li>
+                     <li><strong>• Bullet List:</strong> Clear, scannable points. Ex: "List marketing benefits as bullet points."</li>
+                     <li><strong>📝 Executive Summary:</strong> Concise overview. Ex: "Summarize report findings..."</li>
+                     <li><strong>🖼️ Slide-ready Text:</strong> For presentations (headings, short points).</li>
+                     <li><strong>📈 Charts / Markdown:</strong> Visuals, documentation, wikis, tutorials.</li>
+                     <li><strong>🔧 JSON / YAML:</strong> Structured outputs for software/APIs.</li>
+                     <li><strong>📄 Structured Docs:</strong> SOPs, NDAs, legal drafts. Ex: "Draft an NDA with clauses..."</li>
                  </ul>
                  <p><i>“Defining the output format ensures that each stage of recursive prompting builds logically, resulting in a coherent final product.”</i></p>
                   <div class="notes-area">
@@ -622,23 +647,24 @@
         </div>
 
          <div class="card" data-section-id="prompting-techniques">
-             <div class="card-icon">🔧</div>
+              <div class="card-icon">🔧</div>
             <h2>Prompting Techniques</h2>
             <p class="card-description">Fundamental methods repeatedly emphasized for effective prompt engineering.</p>
             <div class="card-details">
                 <button class="focus-mode-btn" title="Toggle focus mode">Focus</button>
                 <h3>Key Techniques:</h3>
                  <table>
-                     <thead><tr><th scope="col">Technique</th><th scope="col">Description</th><th scope="col">Example Prompt</th></tr></thead>                     <tbody>
-                        <tr><td>Be Specific</td><td>Clear instructions (scope, outcome, format).</td><td>“List 3 actionable marketing tips for Q4.”</td></tr>
-                        <tr><td>Step-by-Step</td><td>Encourages logical breakdown for coherence.</td><td>“Let’s think through this step-by-step...”</td></tr>
-                        <tr><td>Assign a Role</td><td>Frames AI identity for style/tone shift.</td><td>“Acting as an HR executive, write...”</td></tr>
-                        <tr><td>Clarify Output Format</td><td>Specifies structure (JSON, table, list).</td><td>“Output as a bullet list with subheadings...”</td></tr>
-                        <tr><td>Iterative Prompting</td><td>Prompts designed for refinement stages.</td><td>“Here’s a draft. Now revise to be more...”</td></tr>
-                        <tr><td>Comparative Prompting</td><td>Generates side-by-side evaluations.</td><td>“Compare the pros and cons of Slack vs. Teams...”</td></tr>
-                        <tr><td>Provide Examples</td><td>Uses few-shot prompts for style/tone guidance.</td><td>“Here’s how we reply to support tickets...”</td></tr>
-                        <tr><td>Structured Follow-Ups</td><td>Encourages AI to guide next actions/ask questions.</td><td>“What 3 questions should I ask to improve this prompt?”</td></tr>
-                    </tbody>
+                     <thead><tr><th scope="col">Technique</th><th scope="col">Description</th><th scope="col">Example Prompt</th></tr></thead>
+                     <tbody>
+                         <tr><td>Be Specific</td><td>Clear instructions (scope, outcome, format).</td><td>“List 3 actionable marketing tips for Q4.”</td></tr>
+                         <tr><td>Step-by-Step</td><td>Encourages logical breakdown for coherence.</td><td>“Let’s think through this step-by-step...”</td></tr>
+                         <tr><td>Assign a Role</td><td>Frames AI identity for style/tone shift.</td><td>“Acting as an HR executive, write...”</td></tr>
+                         <tr><td>Clarify Output Format</td><td>Specifies structure (JSON, table, list).</td><td>“Output as a bullet list with subheadings...”</td></tr>
+                         <tr><td>Iterative Prompting</td><td>Prompts designed for refinement stages.</td><td>“Here’s a draft. Now revise to be more...”</td></tr>
+                         <tr><td>Comparative Prompting</td><td>Generates side-by-side evaluations.</td><td>“Compare the pros and cons of Slack vs. Teams...”</td></tr>
+                         <tr><td>Provide Examples</td><td>Uses few-shot prompts for style/tone guidance.</td><td>“Here’s how we reply to support tickets...”</td></tr>
+                         <tr><td>Structured Follow-Ups</td><td>Encourages AI to guide next actions/ask questions.</td><td>“What 3 questions should I ask to improve this prompt?”</td></tr>
+                     </tbody>
                  </table>
                  <p><i>“Refining and iterating prompts is not optional—it’s essential for achieving reliable, high-quality results.”</i></p>
                   <div class="notes-area">
@@ -649,19 +675,20 @@
             </div>
         </div>
 
-    </main> 
-    <dialog id="help-modal">         <div class="modal-content">
-             <span class="close-modal-btn" title="Close">&times;</span>
-             <h2>How to Use This Dashboard</h2>
-             <p>This dashboard helps you understand and use effective Generative AI prompting techniques:</p>
-             <ul>
+    </main>
+    <dialog id="help-modal">
+        <div class="modal-content">
+            <span class="close-modal-btn" title="Close">&times;</span>
+            <h2>How to Use This Dashboard</h2>
+            <p>This dashboard helps you understand and use effective Generative AI prompting techniques:</p>
+            <ul>
                 <li><strong>Click a Card:</strong> Click anywhere on a card (outside the notes area) to expand it and see details. Click again to collapse.</li>
                 <li><strong>Focus Mode:</strong> Click the "Focus" button inside an expanded card to dim other cards, helping you concentrate on one topic. Click "Exit Focus" or click outside the focused card to return to normal view.</li>
                 <li><strong>Notes:</strong> Use the "My Notes" textarea within each expanded card to save your personal thoughts or examples. Notes are saved automatically in your browser.</li>
                 <li><strong>Delete Notes:</strong> Click the trash bin icon (🗑️) next to the notes area to clear the notes for that specific section.</li>
                 <li><strong>Prompt Balancer:</strong> In the "Perfect Prompt Structure" card, use the sliders to visualize different balances between prompt components. When a component reaches 10% or more, helpful tips will appear below the sliders. Resetting occurs automatically when you significantly increase one slider.</li>
                 <li><strong>Help:</strong> Click the question mark (?) icon in the header at any time to reopen this help window.</li>
-             </ul>
+            </ul>
         </div>
     </dialog>
 
@@ -995,12 +1022,12 @@
                         const isFocusActiveOnThis = clickedCard.classList.contains('card-is-focused');
 
                         if (isClickInsideDetails || isFocusActiveOnThis) {
-                             // Exception: allow clicks on links or buttons inside details, but don't toggle card
-                             if (targetElement.tagName === 'A' || targetElement.tagName === 'BUTTON') {
-                                  // Let link/button clicks proceed normally without toggling card
-                             } else {
-                                  return; // Clicked inside details or on focused card, don't toggle
-                             }
+                              // Exception: allow clicks on links or buttons inside details, but don't toggle card
+                              if (targetElement.tagName === 'A' || targetElement.tagName === 'BUTTON') {
+                                   // Let link/button clicks proceed normally without toggling card
+                              } else {
+                                    return; // Clicked inside details or on focused card, don't toggle
+                              }
                         }
 
 
