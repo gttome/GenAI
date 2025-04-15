@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .kanban-board {
+            display: flex;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .column {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 15px;
+            width: 300px;
+            min-height: 500px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .column-header {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            cursor: move;
+        }
+
+        .card.dragging {
+            opacity: 0.5;
+        }
+
+        .priority {
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+
+        .priority-high { background-color: #ffcccc; color: #cc0000; }
+        .priority-medium { background-color: #fff3cc; color: #cca300; }
+        .priority-low { background-color: #ccffcc; color: #006600; }
+
+        .due-date {
+            font-size: 12px;
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .due-date.overdue {
+            color: #cc0000;
+            font-weight: bold;
+        }
+
+        .comments {
+            font-size: 12px;
+            color: #444;
+            margin-top: 5px;
+            border-top: 1px solid #eee;
+            padding-top: 5px;
+        }
+
+        .assignee {
+            font-size: 12px;
+            color: #555;
+            font-style: italic;
+            margin: 5px 0;
+        }
+
+        .add-card, .save-csv, .help-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px 0;
+            width: 100%;
+        }
+
+        .save-csv { background-color: #2196F3; }
+        .help-btn { background-color: #9C27B0; }
+
+        .add-card:hover { background-color: #45a049; }
+        .save-csv:hover { background-color: #1976D2; }
+        .help-btn:hover { background-color: #7B1FA2; }
+
+        textarea, input, select {
+            width: 100%;
+            margin: 5px 0;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .card textarea, .card input, .card select {
+            border: 1px solid #eee;
+            background-color: #fafafa;
+        }
+
+        .card textarea:focus, .card input:focus, .card select:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        .modal, .help-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal-content, .help-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 20px;
+            width: 70%;
+            max-width: 600px;
+            border-radius: 8px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .help-content h1 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .help-content h2 {
+            color: #4CAF50;
+            margin-top: 20px;
+        }
+
+        .help-content p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .help-content ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .help-content li {
+            margin: 5px 0;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="kanban-board">
+        <div class="column" data-status="todo">
+            <div class="column-header">To Do</div>
+            <button class="add-card" onclick="showCardForm('todo')">Add Card</button>
+            <button class="save-csv" onclick="exportToCSV()">Save Cards to CSV</button>
+            <button class="help-btn" onclick="showHelp()">Help</button>
+            <div class="card-container"></div>
+        </div>
+        <div class="column" data-status="doing">
+            <div class="column-header">Doing</div>
+            <button class="add-card" onclick="showCardForm('doing')">Add Card</button>
+            <div class="card-container"></div>
+        </div>
+        <div class="column" data-status="done">
+            <div class="column-header">Done</div>
+            <button class="add-card" onclick="showCardForm('done')">Add Card</button>
+            <div class="card-container"></div>
+        </div>
+    </div>
+
+    <div id="cardModal" class="modal">
+        <div class="modal-content">
+            <h2>Create New Card</h2>
+            <form id="cardForm">
+                <textarea id="description" placeholder="Task description" required></textarea>
+                <input type="text" id="assignee" placeholder="Assignee" required>
+                <select id="priority">
+                    <option value="high">High Priority</option>
+                    <option value="medium">Medium Priority</option>
+                    <option value="low">Low Priority</option>
+                </select>
+                <input type="date" id="dueDate" required>
+                <textarea id="comment" placeholder="Add a comment"></textarea>
+                <button type="submit">Create Card</button>
+                <button type="button" onclick="hideCardForm()">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="helpModal" class="help-modal">
+        <div class="help-content">
+            <h1>Kanban Board User Guide</h1>
+            <p>Welcome to the Kanban Board! This guide will help you effectively use all features to manage your tasks.</p>
+
+            <h2>Boards and Columns</h2>
+            <p>The board is organized into three columns representing task stages:</p>
+            <ul>
+                <li><strong>To Do:</strong> Tasks to be started</li>
+                <li><strong>Doing:</strong> Tasks in progress</li>
+                <li><strong>Done:</strong> Completed tasks</li>
+            </ul>
+
+            <h2>Creating Cards</h2>
+            <p>
+                Click the "Add Card" button in any column to create a new task. Fill in:
+                <ul>
+                    <li>Task description</li>
+                    <li>Assignee name</li>
+                    <li>Priority (High, Medium, Low)</li>
+                    <li>Due date</li>
+                    <li>Optional comment</li>
+                </ul>
+                Click "Create Card" to add it to the selected column.
+            </p>
+
+            <h2>Moving Cards</h2>
+            <p>Drag and drop cards between columns to update their status. Click and hold a card, then move it to the desired column and release.</p>
+
+            <h2>Editing Card Fields</h2>
+            <p>All card fields are editable directly on the card:</p>
+            <ul>
+                <li><strong>Description:</strong> Click the text area to edit, changes save when you click away</li>
+                <li><strong>Assignee:</strong> Edit the name field, saves on blur</li>
+                <li><strong>Priority:</strong> Select from the dropdown (High, Medium, Low), saves instantly</li>
+                <li><strong>Due Date:</strong> Click to pick a new date, saves on blur</li>
+                <li><strong>Comments:</strong> Edit in the text area, saves when you click away</li>
+            </ul>
+            <p>Changes are automatically saved and persist even after closing the browser.</p>
+
+            <h2>Priorities</h2>
+            <p>Priorities are color-coded for quick identification:</p>
+            <ul>
+                <li><strong>High:</strong> Red background</li>
+                <li><strong>Medium:</strong> Yellow background</li>
+                <li><strong>Low:</strong> Green background</li>
+            </ul>
+
+            <h2>Due Dates</h2>
+            <p>Set deadlines using the date picker. Overdue tasks (not in Done column) are highlighted in red.</p>
+
+            <h2>Comments</h2>
+            <p>Add notes or updates in the comments field. Currently shows the most recent comment.</p>
+
+            <h2>Exporting to CSV</h2>
+            <p>Click "Save Cards to CSV" in the To Do column to download all cards as a spreadsheet file. The file is named "KanbanBoard-[Date]-[Time].csv" and includes all card details.</p>
+
+            <button class="add-card" onclick="hideHelp()" style="width: auto; margin-top: 20px;">Close</button>
+        </div>
+    </div>
+
+    <script>
+        let currentStatus = '';
+        const columns = document.querySelectorAll('.column');
+        let cards = JSON.parse(localStorage.getItem('kanbanCards')) || [];
+        const boardName = "KanbanBoard";
+
+        // Load existing cards
+        function loadCards() {
+            columns.forEach(column => {
+                const container = column.querySelector('.card-container');
+                container.innerHTML = '';
+                const status = column.dataset.status;
+                const columnCards = cards.filter(card => card.status === status);
+                columnCards.forEach(card => renderCard(card, container));
+            });
+        }
+
+        // Render a card with editable fields
+        function renderCard(card, container) {
+            const cardElement = document.createElement('div');
+            cardElement.className = 'card';
+            cardElement.draggable = true;
+            cardElement.dataset.id = card.id;
+
+            const isOverdue = new Date(card.dueDate) < new Date() && card.status !== 'done';
+            
+            cardElement.innerHTML = `
+                <select class="priority priority-${card.priority}" onchange="updateCard('${card.id}', 'priority', this.value)">
+                    <option value="high" ${card.priority === 'high' ? 'selected' : ''}>High</option>
+                    <option value="medium" ${card.priority === 'medium' ? 'selected' : ''}>Medium</option>
+                    <option value="low" ${card.priority === 'low' ? 'selected' : ''}>Low</option>
+                </select>
+                <textarea onblur="updateCard('${card.id}', 'description', this.value)" rows="2">${card.description}</textarea>
+                <input type="text" class="assignee" value="${card.assignee}" onblur="updateCard('${card.id}', 'assignee', this.value)">
+                <input type="date" class="due-date ${isOverdue ? 'overdue' : ''}" 
+                       value="${card.dueDate}" onblur="updateCard('${card.id}', 'dueDate', this.value)">
+                <textarea class="comments" onblur="updateCard('${card.id}', 'comments', this.value)" 
+                          placeholder="Add a comment">${card.comments[0] || ''}</textarea>
+            `;
+
+            container.appendChild(cardElement);
+
+            // Drag and drop events
+            cardElement.addEventListener('dragstart', (e) => {
+                cardElement.classList.add('dragging');
+                e.dataTransfer.setData('text/plain', card.id);
+            });
+
+            cardElement.addEventListener('dragend', () => {
+                cardElement.classList.remove('dragging');
+            });
+        }
+
+        // Update card data
+        function updateCard(cardId, field, value) {
+            const card = cards.find(c => c.id === cardId);
+            if (card) {
+                if (field === 'comments') {
+                    card[field] = [value].filter(Boolean);
+                } else {
+                    card[field] = value;
+                }
+                localStorage.setItem('kanbanCards', JSON.stringify(cards));
+            }
+        }
+
+        // Show card creation form
+        function showCardForm(status) {
+            currentStatus = status;
+            document.getElementById('cardModal').style.display = 'block';
+        }
+
+        // Hide card creation form
+        function hideCardForm() {
+            document.getElementById('cardModal').style.display = 'none';
+            document.getElementById('cardForm').reset();
+        }
+
+        // Show help guide
+        function showHelp() {
+            document.getElementById('helpModal').style.display = 'block';
+        }
+
+        // Hide help guide
+        function hideHelp() {
+            document.getElementById('helpModal').style.display = 'none';
+        }
+
+        // Handle form submission
+        document.getElementById('cardForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const newCard = {
+                id: Date.now().toString(),
+                description: document.getElementById('description').value,
+                assignee: document.getElementById('assignee').value,
+                priority: document.getElementById('priority').value,
+                dueDate: document.getElementById('dueDate').value,
+                comments: [document.getElementById('comment').value].filter(Boolean),
+                status: currentStatus
+            };
+
+            cards.push(newCard);
+            localStorage.setItem('kanbanCards', JSON.stringify(cards));
+            
+            const container = document.querySelector(`.column[data-status="${currentStatus}"] .card-container`);
+            renderCard(newCard, container);
+            
+            hideCardForm();
+        });
+
+        // Drag and drop functionality
+        columns.forEach(column => {
+            column.addEventListener('dragover', (e) => {
+                e.preventDefault();
+            });
+
+            column.addEventListener('drop', (e) => {
+                e.preventDefault();
+                const cardId = e.dataTransfer.getData('text/plain');
+                const card = cards.find(c => c.id === cardId);
+                if (card) {
+                    card.status = column.dataset.status;
+                    localStorage.setItem('kanbanCards', JSON.stringify(cards));
+                    loadCards();
+                }
+            });
+        });
+
+        // Export to CSV
+        function exportToCSV() {
+            const headers = ['Column', 'Description', 'Assignee', 'Priority', 'Due Date', 'Comments'];
+            const rows = cards.map(card => [
+                card.status.charAt(0).toUpperCase() + card.status.slice(1),
+                `"${card.description.replace(/"/g, '""')}"`,
+                card.assignee,
+                card.priority,
+                new Date(card.dueDate).toLocaleDateString(),
+                `"${card.comments.join('; ').replace(/"/g, '""')}"`
+            ]);
+
+            const csvContent = [
+                headers.join(','),
+                ...rows.map(row => row.join(','))
+            ].join('\n');
+
+            const now = new Date();
+            const dateStr = now.toISOString().slice(0,10);
+            const timeStr = now.toTimeString().slice(0,8).replace(/:/g, '-');
+            const filename = `${boardName}-${dateStr}-${timeStr}.csv`;
+
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = filename;
+            link.click();
+            URL.revokeObjectURL(link.href);
+        }
+
+        // Initial load
+        loadCards();
+    </script>
+</body>
+</html>
