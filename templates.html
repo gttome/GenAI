@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Templates - Generative AI Professional Prompt Engineering Guide</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fdfdfd; color: #333; }
+    header { background: #003f5c; color: white; padding: 1rem; position: relative; }
+    .hamburger { font-size: 1.8rem; cursor: pointer; position: absolute; top: 1.8rem; left: 1rem; color: black; }
+    .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 10px; background: #003f5c; padding: 10px; border-radius: 5px; z-index: 9999; }
+    .nav-links a { color: white; text-decoration: none; padding: 5px 0; display: block; }
+    .nav-links a:hover { text-decoration: underline; }
+    .container { padding: 2rem; max-width: 960px; margin: auto; }
+    footer { background: #333; color: white; text-align: center; padding: 1rem; font-size: 0.9rem; margin-top: 2rem; }
+    h1 { color: #003f5c; }
+    h2 { color: #005f73; margin-top: 2rem; }
+    .template-block { margin-bottom: 2rem; }
+    .tagline { font-style: italic; color: #666; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <div class="nav-links" id="menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About the Guide</a>
+    <a href="audience.html">Who It’s For</a>
+    <a href="templates.html">Templates</a>
+    <a href="advanced.html">Advanced Techniques</a>
+    <a href="vibe.html">Vibe Coding</a>
+    <a href="podcasts.html">Podcasts</a>
+    <a href="Cheat Sheet.html">Cheat Sheet</a>
+  </div>
+</header>
+
+<section class="container">
+  <h1>Prompt Templates</h1>
+  <p>This list reflects the full set of prompt templates presented in the Generative AI Professional Prompt Engineering Guide (Release 8.0). Use them to accelerate your tasks, improve clarity, and engineer better outcomes across domains.</p>
+
+  <!-- 20+ prompt templates from book -->
+  <div class="template-block"><h2>🧠 Step-by-Step</h2><p>Break down reasoning into logical sequences.</p></div>
+  <div class="template-block"><h2>⚖️ Comparative Prompting</h2><p>Compare and contrast options or ideas.</p></div>
+  <div class="template-block"><h2>🔭 Multiple Perspectives</h2><p>Analyze a topic from different stakeholder viewpoints.</p></div>
+  <div class="template-block"><h2>🔍 Clarify Before Answering</h2><p>Ask questions before attempting to answer unclear prompts.</p></div>
+  <div class="template-block"><h2>📂 Data Retrieval</h2><p>Instruct the AI to search its knowledge or external sources.</p></div>
+  <div class="template-block"><h2>🧑‍🏫 Acting As</h2><p>Assign a role to guide tone and expertise.</p></div>
+  <div class="template-block"><h2>✍️ Ask AI to Improve a Prompt</h2><p>Let AI critique and revise your original prompt.</p></div>
+  <div class="template-block"><h2>🧩 AI Creates the Prompt</h2><p>Have the AI write the full prompt based on your goal.</p></div>
+  <div class="template-block"><h2>🔬 Expert Critic</h2><p>Simulate expert feedback or review.</p></div>
+  <div class="template-block"><h2>🎭 Tone Changer</h2><p>Change the tone of a response (e.g., professional, playful).</p></div>
+  <div class="template-block"><h2>🎯 Identify Tone</h2><p>Detect emotional tone or style in content.</p></div>
+  <div class="template-block"><h2>🌍 Language Translator</h2><p>Translate text while preserving tone and meaning.</p></div>
+  <div class="template-block"><h2>📝 Include Markdown Formatting</h2><p>Return structured output in Markdown format.</p></div>
+  <div class="template-block"><h2>🧠 Expand a Question</h2><p>Broaden the scope or inquiry depth of a user question.</p></div>
+  <div class="template-block"><h2>🎯 Refine and Focus a Question</h2><p>Narrow a vague or complex question into a focused one.</p></div>
+  <div class="template-block"><h2>📌 Always Include</h2><p>Ensure a consistent format, signature, or section is always present.</p></div>
+  <div class="template-block"><h2>🙋 AI Asks You Questions</h2><p>AI engages in clarifying Q&A before responding.</p></div>
+  <div class="template-block"><h2>🧪 Fact Check a Response</h2><p>Prompt the AI to validate and verify its own outputs.</p></div>
+  <div class="template-block"><h2>❌ Remove Information</h2><p>Strip or redact details from responses while preserving core meaning.</p></div>
+  <div class="template-block"><h2>🧠 Brainstorming</h2><p>Generate lots of ideas quickly using open-ended thinking.</p></div>
+  <div class="template-block"><h2>📚 Summarization</h2><p>Condense a long or complex source into a digestible format.</p></div>
+</section>
+
+<footer>
+  © 2025 George Tome / Agility AI LLC. All rights reserved. | Available on Leanpub
+</footer>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById('menu');
+    if (menu.style.display === 'flex') {
+      menu.style.display = 'none';
+    } else {
+      menu.style.display = 'flex';
+      menu.style.flexDirection = 'column';
+    }
+  }
+</script>
+
+</body>
+</html>

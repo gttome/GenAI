@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vibe Coding - Generative AI Professional Prompt Engineering Guide</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fdfdfd; color: #333; }
+    header { background: #003f5c; color: white; padding: 1rem; position: relative; }
+    .hamburger { font-size: 1.8rem; cursor: pointer; position: absolute; top: 1.8rem; left: 1rem; color: black; }
+    .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 10px; background: #003f5c; padding: 10px; border-radius: 5px; z-index: 9999; }
+    .nav-links a { color: white; text-decoration: none; padding: 5px 0; display: block; }
+    .nav-links a:hover { text-decoration: underline; }
+    .container { padding: 2rem; max-width: 960px; margin: auto; }
+    footer { background: #333; color: white; text-align: center; padding: 1rem; font-size: 0.9rem; margin-top: 2rem; }
+    h1, h2 { color: #003f5c; }
+    h3 { color: #005f73; margin-top: 1.5rem; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <div class="nav-links" id="menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About the Guide</a>
+    <a href="audience.html">Who It’s For</a>
+    <a href="templates.html">Templates</a>
+    <a href="advanced.html">Advanced Techniques</a>
+    <a href="vibe.html">Vibe Coding</a>
+    <a href="podcasts.html">Podcasts</a>
+    <a href="Cheat Sheet.html">Cheat Sheet</a>
+  </div>
+</header>
+
+<section class="container">
+  <h1>Vibe Coding</h1>
+  <p><strong>Vibe Coding</strong> is a revolutionary prompt-based coding method that empowers non-developers to create software using natural language, enabling fast experimentation and functional results. Coined by Andrej Karpathy, it's perfect for building "throwaway" apps, automations, or personal tools using Generative AI.</p>
+
+  <h2>Core Concepts</h2>
+  <ul>
+    <li><strong>Natural Language Interaction:</strong> Write prompts in plain English to instruct the AI to generate code.</li>
+    <li><strong>Iterative Refinement:</strong> Revise prompts based on feedback until the output works.</li>
+    <li><strong>Rapid Prototyping:</strong> Build functional projects in hours, not days.</li>
+    <li><strong>Democratization of Code:</strong> Enables creators without technical backgrounds to build with AI.</li>
+  </ul>
+
+  <h2>Prompt Engineering Best Practices</h2>
+  <ul>
+    <li><strong>Explicit Clarity:</strong> State your goals and what the app must do.</li>
+    <li><strong>Structured Conciseness:</strong> Be short but include necessary details.</li>
+    <li><strong>Contextual Examples:</strong> Show examples within your prompts to guide the AI better.</li>
+  </ul>
+
+  <h2>Example Projects</h2>
+  <h3>💼 HTML5 Kanban Board</h3>
+  <p>Built through progressive prompt engineering, this one-page app features drag-and-drop cards, editable fields, priorities, due dates, comments, CSV export, and persistent data—all developed using vibe coding.</p>
+
+  <h3>💱 Python GUI Currency Converter</h3>
+  <p>Using Python and Tkinter, this project enables users to convert currencies with real-time API data, dropdowns, input validation, and error handling. Fully prompted into existence via iterative design.</p>
+
+  <h2>Risks & Limitations</h2>
+  <ul>
+    <li><strong>Quality Control:</strong> AI-generated code might not meet industry standards.</li>
+    <li><strong>Security:</strong> Lacks the rigor of traditional reviews, requiring caution.</li>
+    <li><strong>Technical Debt:</strong> Code is often undocumented and not scalable.</li>
+    <li><strong>Intellectual Property:</strong> Raises concerns around authorship and usage rights.</li>
+  </ul>
+
+  <h2>Recommended Use Cases</h2>
+  <ul>
+    <li>🧪 Educational tools and learning apps</li>
+    <li>🎨 Personal productivity and creativity projects</li>
+    <li>🚀 Prototyping and startup experiments</li>
+    <li>🧰 Task automation and workflow tools</li>
+  </ul>
+
+  <h2>Vibe Coding Workflow</h2>
+  <ol>
+    <li>Define your problem in natural language.</li>
+    <li>AI generates a feature list → you approve.</li>
+    <li>AI writes the prompt → you approve.</li>
+    <li>Code is generated → you test and refine.</li>
+    <li>Iterate until the solution is functional.</li>
+    <li>AI writes documentation for you.</li>
+  </ol>
+
+  <h2>Final Thoughts</h2>
+  <p>Vibe Coding lowers the barrier to entry for building with AI. When used responsibly, it can boost innovation, creativity, and speed—especially for small-scale or temporary applications. Just don’t forget to test your results!</p>
+</section>
+
+<footer>
+  © 2025 George Tome / Agility AI LLC. All rights reserved. | Available on Leanpub
+</footer>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById('menu');
+    if (menu.style.display === 'flex') {
+      menu.style.display = 'none';
+    } else {
+      menu.style.display = 'flex';
+      menu.style.flexDirection = 'column';
+    }
+  }
+</script>
+
+</body>
+</html>
