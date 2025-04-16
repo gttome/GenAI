@@ -1,12 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Who It’s For - Generative AI Professional Prompt Engineering Guide</title>
+ <head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Who It’s For - Generative AI Professional Prompt Engineering Guide
+  </title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #fdfdfd; color: #333; }
+   body { font-family: Arial, sans-serif; margin: 0; background: #fdfdfd; color: #333; }
     header { background: #003f5c; color: white; padding: 1rem; position: relative; }
     .hamburger { font-size: 1.8rem; cursor: pointer; position: absolute; top: 1.8rem; left: 1rem; color: black; }
     .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 10px; background: #003f5c; padding: 10px; border-radius: 5px; z-index: 9999; }
@@ -17,52 +19,108 @@
     h1 { color: #003f5c; }
     h2 { color: #005f73; margin-top: 2rem; }
   </style>
-</head>
-<body>
-
-<header>
-  <div class="hamburger" onclick="toggleMenu()">☰</div>
-  <div class="nav-links" id="menu">
-    <a href="index.html">Home</a>
-    <a href="about.html">About the Guide</a>
-    <a href="audience.html">Who It’s For</a>
-    <a href="templates.html">Templates</a>
-    <a href="advanced.html">Advanced Techniques</a>
-    <a href="vibe.html">Vibe Coding</a>
-    <a href="podcasts.html">Podcasts</a>
-    <a href="cheat sheet.html">Cheat Sheet</a>
-  </div>
-</header>
-
-<section class="container">
-  <h1>Who It’s For</h1>
-  <p>This guide is written for a wide audience of professionals who want to level up their use of Generative AI. If you want to go beyond trial and error and build prompts that reliably work—you’re in the right place.</p>
-
-  <h2>🧑‍💻 Developers & Engineers</h2>
-  <p>Use the guide to accelerate code generation, write clear documentation, and build prompt-powered tools and agents. Leverage examples and JSON/YAML formatting to integrate outputs directly into apps.</p>
-
-  <h2>📈 Business Leaders & Strategists</h2>
-  <p>Understand how to harness AI for productivity, market analysis, and decision support. Use structured patterns to guide teams toward consistent, effective use of AI tools.</p>
-
-  <h2>🧠 Researchers & Analysts</h2>
-  <p>Apply prompting techniques to explore ideas, generate structured comparisons, or summarize complex documents with accuracy and transparency.</p>
-
-  <h2>🎓 Educators & Trainers</h2>
-  <p>Design custom learning prompts, create tutoring agents, and scaffold knowledge delivery using patterns like role-based, iterative, and few-shot prompting.</p>
-
-  <h2>🎨 Creatives & Content Makers</h2>
-  <p>Unlock ideation workflows, collaborate with AI to create drafts, revise scripts, or format content with precision and creativity. Prompts here support storytelling, tone shaping, and interactive generation.</p>
-
-  <h2>🧩 AI Explorers & Prompt Enthusiasts</h2>
-  <p>If you’re obsessed with testing what’s possible and want to improve the reliability of your results, the techniques and patterns in this guide will help you systematize your experiments.</p>
-</section>
-
-<footer>
-  © 2025 George Tome / Agility AI LLC. All rights reserved. | Available on Leanpub
-</footer>
-
-<script>
-  function toggleMenu() {
+  <style>
+   body {
+          font-family: 'Inter', sans-serif;
+          font-weight: 400;
+          line-height: 1.6;
+        }
+        h1 {
+          font-size: 2rem;
+          font-weight: 700;
+          line-height: 1.3;
+        }
+        h2 {
+          font-size: 1.5rem;
+          font-weight: 600;
+          line-height: 1.4;
+        }
+        p {
+          font-size: 1rem;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <div class="hamburger" onclick="toggleMenu()">
+    ☰
+   </div>
+   <div class="nav-links" id="menu">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="about.html">
+     About the Guide
+    </a>
+    <a href="audience.html">
+     Who It’s For
+    </a>
+    <a href="templates.html">
+     Templates
+    </a>
+    <a href="advanced.html">
+     Advanced Techniques
+    </a>
+    <a href="vibe.html">
+     Vibe Coding
+    </a>
+    <a href="podcasts.html">
+     Podcasts
+    </a>
+    <a href="cheat sheet.html">
+     Cheat Sheet
+    </a>
+   </div>
+  </header>
+  <section class="container">
+   <h1>
+    Who It’s For
+   </h1>
+   <p>
+    This guide is written for a wide audience of professionals who want to level up their use of Generative AI. If you want to go beyond trial and error and build prompts that reliably work—you’re in the right place.
+   </p>
+   <h2>
+    🧑‍💻 Developers &amp; Engineers
+   </h2>
+   <p>
+    Use the guide to accelerate code generation, write clear documentation, and build prompt-powered tools and agents. Leverage examples and JSON/YAML formatting to integrate outputs directly into apps.
+   </p>
+   <h2>
+    📈 Business Leaders &amp; Strategists
+   </h2>
+   <p>
+    Understand how to harness AI for productivity, market analysis, and decision support. Use structured patterns to guide teams toward consistent, effective use of AI tools.
+   </p>
+   <h2>
+    🧠 Researchers &amp; Analysts
+   </h2>
+   <p>
+    Apply prompting techniques to explore ideas, generate structured comparisons, or summarize complex documents with accuracy and transparency.
+   </p>
+   <h2>
+    🎓 Educators &amp; Trainers
+   </h2>
+   <p>
+    Design custom learning prompts, create tutoring agents, and scaffold knowledge delivery using patterns like role-based, iterative, and few-shot prompting.
+   </p>
+   <h2>
+    🎨 Creatives &amp; Content Makers
+   </h2>
+   <p>
+    Unlock ideation workflows, collaborate with AI to create drafts, revise scripts, or format content with precision and creativity. Prompts here support storytelling, tone shaping, and interactive generation.
+   </p>
+   <h2>
+    🧩 AI Explorers &amp; Prompt Enthusiasts
+   </h2>
+   <p>
+    If you’re obsessed with testing what’s possible and want to improve the reliability of your results, the techniques and patterns in this guide will help you systematize your experiments.
+   </p>
+  </section>
+  <footer>
+   © 2025 George Tome / Agility AI LLC. All rights reserved. | Available on Leanpub
+  </footer>
+  <script>
+   function toggleMenu() {
     var menu = document.getElementById('menu');
     if (menu.style.display === 'flex') {
       menu.style.display = 'none';
@@ -71,7 +129,6 @@
       menu.style.flexDirection = 'column';
     }
   }
-</script>
-
-</body>
+  </script>
+ </body>
 </html>

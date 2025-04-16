@@ -1,12 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About the Author - Generative AI Professional Prompt Engineering Guide</title>
+ <head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   About the Author - Generative AI Professional Prompt Engineering Guide
+  </title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #fdfdfd; color: #333; }
+   body { font-family: Arial, sans-serif; margin: 0; background: #fdfdfd; color: #333; }
     header { background: #003f5c; color: white; padding: 1rem; position: relative; }
     .hamburger { font-size: 1.8rem; cursor: pointer; position: absolute; top: 1.8rem; left: 1rem; color: black; }
     .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 10px; background: #003f5c; padding: 10px; border-radius: 5px; z-index: 9999; }
@@ -18,37 +20,82 @@
     .author-photo { width: 100%; max-width: 350px; border-radius: 8px; margin: 2rem auto; display: block; }
     p { margin-bottom: 1rem; line-height: 1.6; }
   </style>
-</head>
-<body>
-
-<header>
-  <div class="hamburger" onclick="toggleMenu()">☰</div>
-  <div class="nav-links" id="menu">
-    <a href="index.html">Home</a>
-    <a href="about.html">About the Guide</a>
-    <a href="audience.html">Who It’s For</a>
-    <a href="templates.html">Templates</a>
-    <a href="advanced.html">Advanced Techniques</a>
-    <a href="vibe.html">Vibe Coding</a>
-    <a href="podcasts.html">Podcasts</a>
-    <a href="cheat sheet.html">Cheat Sheet</a>
-    <a href="about-author.html">About the Author</a>
-  </div>
-</header>
-
-<section class="container">
-  <h1>About the Author</h1>
-  <img src="gt.png" alt="Photo of George Tome" class="author-photo" />
-  <p><strong>George Tome</strong> is a seasoned Enterprise AI / Agile Coach and Trainer with over 30 years of experience driving innovation and transformation. With a deep expertise in Agile training & methodologies, and global organizational change, George has led groundbreaking initiatives across multiple continents. His work has been recognized both internally and in the Harvard Business Review. George is passionate about developing strategic frameworks and comprehensive training programs that empower teams to harness AI and Agile practices for maximum impact.</p>
-  <p>Holding certifications in Agile training/coaching (Registered Scrum Trainer) and project management from prestigious institutions including Stanford University, and the University of Chicago, George continues to inspire and lead in the fields of AI and Agile transformation.</p>
-</section>
-
-<footer>
-  © 2025 George Tome / Agility AI LLC. All rights reserved. | Available on Leanpub
-</footer>
-
-<script>
-  function toggleMenu() {
+  <style>
+   body {
+          font-family: 'Inter', sans-serif;
+          font-weight: 400;
+          line-height: 1.6;
+        }
+        h1 {
+          font-size: 2rem;
+          font-weight: 700;
+          line-height: 1.3;
+        }
+        h2 {
+          font-size: 1.5rem;
+          font-weight: 600;
+          line-height: 1.4;
+        }
+        p {
+          font-size: 1rem;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <div class="hamburger" onclick="toggleMenu()">
+    ☰
+   </div>
+   <div class="nav-links" id="menu">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="about.html">
+     About the Guide
+    </a>
+    <a href="audience.html">
+     Who It’s For
+    </a>
+    <a href="templates.html">
+     Templates
+    </a>
+    <a href="advanced.html">
+     Advanced Techniques
+    </a>
+    <a href="vibe.html">
+     Vibe Coding
+    </a>
+    <a href="podcasts.html">
+     Podcasts
+    </a>
+    <a href="cheat sheet.html">
+     Cheat Sheet
+    </a>
+    <a href="about-author.html">
+     About the Author
+    </a>
+   </div>
+  </header>
+  <section class="container">
+   <h1>
+    About the Author
+   </h1>
+   <img alt="Photo of George Tome" class="author-photo" src="gt.png"/>
+   <p>
+    <strong>
+     George Tome
+    </strong>
+    is a seasoned Enterprise AI / Agile Coach and Trainer with over 30 years of experience driving innovation and transformation. With a deep expertise in Agile training &amp; methodologies, and global organizational change, George has led groundbreaking initiatives across multiple continents. His work has been recognized both internally and in the Harvard Business Review. George is passionate about developing strategic frameworks and comprehensive training programs that empower teams to harness AI and Agile practices for maximum impact.
+   </p>
+   <p>
+    Holding certifications in Agile training/coaching (Registered Scrum Trainer) and project management from prestigious institutions including Stanford University, and the University of Chicago, George continues to inspire and lead in the fields of AI and Agile transformation.
+   </p>
+  </section>
+  <footer>
+   © 2025 George Tome / Agility AI LLC. All rights reserved. | Available on Leanpub
+  </footer>
+  <script>
+   function toggleMenu() {
     var menu = document.getElementById('menu');
     if (menu.style.display === 'flex') {
       menu.style.display = 'none';
@@ -57,7 +104,6 @@
       menu.style.flexDirection = 'column';
     }
   }
-</script>
-
-</body>
+  </script>
+ </body>
 </html>

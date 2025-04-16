@@ -1,12 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Advanced Techniques - Generative AI Professional Prompt Engineering Guide</title>
+ <head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Advanced Techniques - Generative AI Professional Prompt Engineering Guide
+  </title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #fdfdfd; color: #333; }
+   body { font-family: Arial, sans-serif; margin: 0; background: #fdfdfd; color: #333; }
     header { background: #003f5c; color: white; padding: 1rem; position: relative; }
     .hamburger { font-size: 1.8rem; cursor: pointer; position: absolute; top: 1.8rem; left: 1rem; color: black; }
     .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 10px; background: #003f5c; padding: 10px; border-radius: 5px; z-index: 9999; }
@@ -18,74 +20,136 @@
     h2 { color: #005f73; margin-top: 2rem; }
     .tech-block { margin-bottom: 2rem; }
   </style>
-</head>
-<body>
-
-<header>
-  <div class="hamburger" onclick="toggleMenu()">☰</div>
-  <div class="nav-links" id="menu">
-    <a href="index.html">Home</a>
-    <a href="about.html">About the Guide</a>
-    <a href="audience.html">Who It’s For</a>
-    <a href="templates.html">Templates</a>
-    <a href="advanced.html">Advanced Techniques</a>
-    <a href="vibe.html">Vibe Coding</a>
-    <a href="podcasts.html">Podcasts</a>
-    <a href="cheat sheet.html">Cheat Sheet</a>
-  </div>
-</header>
-
-<section class="container">
-  <h1>Advanced Prompt Engineering Techniques</h1>
-  <p>These advanced techniques go beyond templates to help you manage complexity, improve reliability, and enhance the reasoning power of large language models. They are especially useful in professional, technical, and multi-step tasks.</p>
-
-  <div class="tech-block">
-    <h2>🔗 Chain-of-Thought</h2>
-    <p>Encourages the model to show its reasoning by asking it to think step-by-step. Ideal for math, logic, and structured problem-solving.</p>
-  </div>
-
-  <div class="tech-block">
-    <h2>🔁 Iterative Refinement</h2>
-    <p>Refines a response in stages based on feedback or follow-up criteria. Useful for polishing drafts, improving accuracy, or aligning with specific goals.</p>
-  </div>
-
-  <div class="tech-block">
-    <h2>🧪 Self-Consistency</h2>
-    <p>Generates multiple reasoning paths and selects the most common answer, reducing hallucination risk in factual or analytical tasks.</p>
-  </div>
-
-  <div class="tech-block">
-    <h2>🧱 Adversarial Prompting</h2>
-    <p>Tests model robustness by intentionally challenging assumptions or injecting counter-arguments. Helps ensure high-integrity outputs.</p>
-  </div>
-
-  <div class="tech-block">
-    <h2>📊 Task Vectors</h2>
-    <p>Build abstract task representations from multiple prompts to apply them across similar challenges. Useful in research and experimentation.</p>
-  </div>
-
-  <div class="tech-block">
-    <h2>🧭 Role-Chaining</h2>
-    <p>Switches between multiple roles or perspectives in a single prompt sequence for layered output (e.g., ideation + critique + final polish).</p>
-  </div>
-
-  <div class="tech-block">
-    <h2>🧠 Self-Evaluation</h2>
-    <p>Instructs the model to evaluate or rank its own output for quality or accuracy. Can help guide iterative improvement loops.</p>
-  </div>
-
-  <div class="tech-block">
-    <h2>📡 Grounded Retrieval</h2>
-    <p>Instructs the model to cite sources or pull from specific materials (like uploaded docs or URLs), aligning results with facts.</p>
-  </div>
-</section>
-
-<footer>
-  © 2025 George Tome / Agility AI LLC. All rights reserved. | Available on Leanpub
-</footer>
-
-<script>
-  function toggleMenu() {
+  <style>
+   body {
+          font-family: 'Inter', sans-serif;
+          font-weight: 400;
+          line-height: 1.6;
+        }
+        h1 {
+          font-size: 2rem;
+          font-weight: 700;
+          line-height: 1.3;
+        }
+        h2 {
+          font-size: 1.5rem;
+          font-weight: 600;
+          line-height: 1.4;
+        }
+        p {
+          font-size: 1rem;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <div class="hamburger" onclick="toggleMenu()">
+    ☰
+   </div>
+   <div class="nav-links" id="menu">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="about.html">
+     About the Guide
+    </a>
+    <a href="audience.html">
+     Who It’s For
+    </a>
+    <a href="templates.html">
+     Templates
+    </a>
+    <a href="advanced.html">
+     Advanced Techniques
+    </a>
+    <a href="vibe.html">
+     Vibe Coding
+    </a>
+    <a href="podcasts.html">
+     Podcasts
+    </a>
+    <a href="cheat sheet.html">
+     Cheat Sheet
+    </a>
+   </div>
+  </header>
+  <section class="container">
+   <h1>
+    Advanced Prompt Engineering Techniques
+   </h1>
+   <p>
+    These advanced techniques go beyond templates to help you manage complexity, improve reliability, and enhance the reasoning power of large language models. They are especially useful in professional, technical, and multi-step tasks.
+   </p>
+   <div class="tech-block">
+    <h2>
+     🔗 Chain-of-Thought
+    </h2>
+    <p>
+     Encourages the model to show its reasoning by asking it to think step-by-step. Ideal for math, logic, and structured problem-solving.
+    </p>
+   </div>
+   <div class="tech-block">
+    <h2>
+     🔁 Iterative Refinement
+    </h2>
+    <p>
+     Refines a response in stages based on feedback or follow-up criteria. Useful for polishing drafts, improving accuracy, or aligning with specific goals.
+    </p>
+   </div>
+   <div class="tech-block">
+    <h2>
+     🧪 Self-Consistency
+    </h2>
+    <p>
+     Generates multiple reasoning paths and selects the most common answer, reducing hallucination risk in factual or analytical tasks.
+    </p>
+   </div>
+   <div class="tech-block">
+    <h2>
+     🧱 Adversarial Prompting
+    </h2>
+    <p>
+     Tests model robustness by intentionally challenging assumptions or injecting counter-arguments. Helps ensure high-integrity outputs.
+    </p>
+   </div>
+   <div class="tech-block">
+    <h2>
+     📊 Task Vectors
+    </h2>
+    <p>
+     Build abstract task representations from multiple prompts to apply them across similar challenges. Useful in research and experimentation.
+    </p>
+   </div>
+   <div class="tech-block">
+    <h2>
+     🧭 Role-Chaining
+    </h2>
+    <p>
+     Switches between multiple roles or perspectives in a single prompt sequence for layered output (e.g., ideation + critique + final polish).
+    </p>
+   </div>
+   <div class="tech-block">
+    <h2>
+     🧠 Self-Evaluation
+    </h2>
+    <p>
+     Instructs the model to evaluate or rank its own output for quality or accuracy. Can help guide iterative improvement loops.
+    </p>
+   </div>
+   <div class="tech-block">
+    <h2>
+     📡 Grounded Retrieval
+    </h2>
+    <p>
+     Instructs the model to cite sources or pull from specific materials (like uploaded docs or URLs), aligning results with facts.
+    </p>
+   </div>
+  </section>
+  <footer>
+   © 2025 George Tome / Agility AI LLC. All rights reserved. | Available on Leanpub
+  </footer>
+  <script>
+   function toggleMenu() {
     var menu = document.getElementById('menu');
     if (menu.style.display === 'flex') {
       menu.style.display = 'none';
@@ -94,7 +158,6 @@
       menu.style.flexDirection = 'column';
     }
   }
-</script>
-
-</body>
+  </script>
+ </body>
 </html>
