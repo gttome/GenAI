@@ -72,9 +72,9 @@
  <body>
   <header>
    <h1>
-    <a href="index.html" style="color:white;text-decoration:none;">
+    
      Generative AI Professional Prompt Engineering Guide
-    </a>
+   
    </h1>
    <nav>
     <div class="hamburger" onclick="toggleMenu()">
@@ -119,6 +119,49 @@
     Unlock the full potential of Generative AI with structured patterns, real-world examples, and expert guidance by George Tome.
    </p>
   </section>
+  <div class="image-hamburger" onclick="toggleMenu()" style="position: absolute; top: 120px; left: 20px; z-index: 9999; cursor: pointer;">
+   <div style="width: 24px; height: 3px; background-color: black; margin: 4px 0;">
+   </div>
+   <div style="width: 24px; height: 3px; background-color: black; margin: 4px 0;">
+   </div>
+   <div style="width: 24px; height: 3px; background-color: black; margin: 4px 0;">
+   </div>
+  </div>
+  <div id="image-menu" style="display: none; position: absolute; top: 180px; left: 20px; background-color: #003f5c; border: 1px solid #ccc; padding: 10px; z-index: 9998;">
+   <a href="index.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    Home
+   </a>
+   <a href="about.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    About the Guide
+   </a>
+   <a href="audience.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    Who It’s For
+   </a>
+   <a href="templates.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    Templates
+   </a>
+   <a href="advanced.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    Advanced Techniques
+   </a>
+   <a href="vibe.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    Vibe Coding
+   </a>
+   <a href="podcasts.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    Podcasts
+   </a>
+   <a href="cheat sheet.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    Cheat Sheet
+   </a>
+   <a href="about-author.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    About the Author
+   </a>
+   <a href="resources.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    Resources
+   </a>
+   <a href="privacy.html" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    Privacy
+   </a>
+  </div>
   <section class="hero" style="text-align: left; background-position: right center; height: 800px; height: 100vh; width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center;">
   </section>
   <footer>
@@ -145,9 +188,13 @@
   </footer>
   <script>
    function toggleMenu() {
-    const menu = document.getElementById('menu');
-    menu.classList.toggle('active');
+  var menu = document.getElementById("image-menu");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
   }
+}
   </script>
  </body>
 </html>
