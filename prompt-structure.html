@@ -230,27 +230,25 @@ pre {
 }
 
 
-
-
-
-
 #livePreviewOutput {
   position: sticky;
   top: 70px; /* Below fixed header */
   z-index: 10;
   background-color: #F9FAFB;
   padding: 15px;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  border: 2px solid #00509E; /* Thicker border */
+  border-left: 6px solid #00509E; /* Accent stripe */
+  box-shadow: 0 4px 12px rgba(0, 80, 158, 0.2); /* Subtle blue glow */
   margin-bottom: 20px;
+  border-radius: 6px;
 }
 
-#main h2:first-of-type {
-  margin-top: 0;
-  padding-top: 0;
-  font-size: 1.3em;
+#main h2 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.4em;
   font-weight: 600;
-  color: #00509E;
+  color: #002B5C;
 }
 
 
@@ -308,6 +306,66 @@ button:hover {
   transform: scale(1.03);
 }
 
+/* Guided Tour Modal */
+.modal {
+  display: block; /* Set to block initially to show on load */
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: 10% auto;
+  padding: 30px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  color: #002B5C;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  font-size: 1.4em;
+  color: #00509E;
+}
+
+.modal-content ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.modal-content button {
+  background-color: #00509E;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #003B73;
+}
+
+.close-btn {
+  float: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  color: #999;
+}
+.close-btn:hover {
+  color: #00509E;
+}
 
 
 
@@ -360,16 +418,26 @@ button:hover {
   <button id="clearBtn" class="clear-button">Clear</button>
 </div>
 
+<div style="margin-top: 20px;">
+  <h3>Color Key</h3>
+  <ul style="font-size: 0.9em; line-height: 1.6; list-style-type: none; padding-left: 0;">
+    <li><span style="color:#00509E;">📘 Context</span></li>
+    <li><span style="color:#007B55;">📝 Output Format</span></li>
+    <li><span style="color:#D17C00;">🎯 Task</span></li>
+    <li><span style="color:#C1121F;">🔒 Constraints</span></li>
+  </ul>
+</div>
+
   
 </div>
 
   <div id="main">
-  <h2>Live Preview</h2>
-  <pre id="livePreviewOutput"></pre>
+ <h2 style="margin-bottom: 8px;">Live Preview</h2>
+<pre id="livePreviewOutput"></pre>
 
-  <h2>Adjusted Prompt History</h2>
- 
-  <pre id="promptOutput"></pre>
+<h2>Adjusted Prompt History</h2>
+<pre id="promptOutput"></pre>
+
 </div>
 
 
@@ -384,9 +452,21 @@ function levelLabel(value) {
   }
 }
 
+//function wrapLabel(label, text) {
+ // return `<span style="color: darkred; font-size: 6pt;">[${label}]</span> ${text}`;
+//}
+
 function wrapLabel(label, text) {
-  return `<span style="color: darkred; font-size: 6pt;">[${label}]</span> ${text}`;
+  const colors = {
+    context: '#00509E',       // Blue
+    output: '#007B55',        // Green
+    task: '#D17C00',          // Orange
+    constraint: '#C1121F'     // Red
+  };
+  const key = label.toLowerCase();
+  return `<span style="color: ${colors[key]}; font-weight: bold;">[${label}]</span> ${text}`;
 }
+
 
 function showPrompt() {
   const topic = document.getElementById("topicSelect").value;
@@ -431,9 +511,14 @@ document.getElementById("clearBtn").addEventListener("click", function () {
 });
 
 // Trigger once on load
-window.onload = () => {
+window.addEventListener("load", () => {
   updateLivePreview();
-};
+  const modal = document.getElementById("guidedTourModal");
+  if (modal && !localStorage.getItem("guidedTourSeen")) {
+    modal.style.display = "block";
+    localStorage.setItem("guidedTourSeen", "yes");
+  }
+});
 
 
 
@@ -472,6 +557,16 @@ function updateLivePreview() {
 
 </script>
     
+<script>
+function closeTour() {
+  const modal = document.getElementById("guidedTourModal");
+  if (modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
 
     <script>
 const education = [
@@ -1670,6 +1765,27 @@ const marketing = [
 <footer id="appFooter">
   © 2025 George Tome / Agility AI LLC. All rights reserved.
 </footer>
+
+
+<!-- Guided Tour Modal -->
+<div id="guidedTourModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeTour()">&times;</span>
+    <h2>Welcome to the Prompt Components Lab!</h2>
+    <p>This tool helps you learn the four key prompt components by adjusting them:</p>
+    <ul>
+      <li><strong>📘 Context:</strong> How much background you give the AI</li>
+      <li><strong>📝 Output Format:</strong> How you want the answer structured</li>
+      <li><strong>🎯 Task:</strong> What the AI should do</li>
+      <li><strong>🔒 Constraints:</strong> Any rules to follow (tone, word count, etc.)</li>
+    </ul>
+    <p>✅ To begin, select a topic and adjust the sliders. The live preview updates automatically!</p>
+    <button onclick="closeTour()">Let’s Go!</button>
+  </div>
+</div>
+
+
+
 
 
 </body>
