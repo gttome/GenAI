@@ -511,15 +511,20 @@ document.getElementById("clearBtn").addEventListener("click", function () {
 });
 
 // Trigger once on load
+
 window.addEventListener("load", () => {
   updateLivePreview();
   const modal = document.getElementById("guidedTourModal");
-  if (modal && !localStorage.getItem("guidedTourSeen")) {
-    modal.style.display = "block";
-    localStorage.setItem("guidedTourSeen", "yes");
+  const seen = localStorage.getItem("guidedTourSeen");
+
+  if (modal) {
+    if (seen === "yes") {
+      modal.style.display = "none";
+    } else {
+      modal.style.display = "block";
+    }
   }
 });
-
 
 
 
@@ -560,8 +565,11 @@ function updateLivePreview() {
 <script>
 function closeTour() {
   const modal = document.getElementById("guidedTourModal");
-  if (modal) {
-    modal.style.display = "none";
+  const dontShow = document.getElementById("dontShowAgain").checked;
+
+  if (modal) modal.style.display = "none";
+  if (dontShow) {
+    localStorage.setItem("guidedTourSeen", "yes");
   }
 }
 </script>
@@ -1772,7 +1780,7 @@ const marketing = [
   <div class="modal-content">
     <span class="close-btn" onclick="closeTour()">&times;</span>
     <h2>Welcome to the Prompt Components Lab!</h2>
-    <p>This tool helps you learn the four key prompt components by adjusting them:</p>
+    <p>This tool helps you build powerful AI prompts by adjusting four key components:</p>
     <ul>
       <li><strong>📘 Context:</strong> How much background you give the AI</li>
       <li><strong>📝 Output Format:</strong> How you want the answer structured</li>
@@ -1780,13 +1788,17 @@ const marketing = [
       <li><strong>🔒 Constraints:</strong> Any rules to follow (tone, word count, etc.)</li>
     </ul>
     <p>✅ To begin, select a topic and adjust the sliders. The live preview updates automatically!</p>
+
+    <div style="margin: 15px 0;">
+      <label style="font-size: 0.9em;">
+        <input type="checkbox" id="dontShowAgain" />
+        Don’t show this again
+      </label>
+    </div>
+
     <button onclick="closeTour()">Let’s Go!</button>
   </div>
 </div>
-
-
-
-
 
 </body>
 </html>
