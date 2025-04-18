@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt Viewer App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+    }
+    #sidebar {
+      width: 300px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-right: 1px solid #ddd;
+      box-sizing: border-box;
+      overflow-y: auto;
+    }
+    #main {
+      flex-grow: 1;
+      padding: 20px;
+      overflow-y: auto;
+    }
+    .slider-container {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      background-color: #f9f9f9;
+      padding: 15px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 800px;
+      overflow-x: auto;
+    }
+    input[type=range] {
+      width: 100%;
+    }
+    .range-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9em;
+    }
+    .clear-button {
+      align-self: flex-end;
+      margin-bottom: 10px;
+      padding: 6px 14px;
+      font-size: 1rem;
+      width: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="sidebar">
+    <h2>Select Prompt</h2>
+    <select id="topicSelect">
+      <option value="education">Education</option>
+      <option value="marketing">Marketing</option>
+    </select>
+
+    <h3>Component Levels</h3>
+    <div class="slider-container">
+      <label for="contextSlider">Context</label>
+      <input type="range" min="1" max="3" step="1" value="1" id="contextSlider" />
+      <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
+    </div>
+    <div class="slider-container">
+      <label for="outputSlider">Output Format</label>
+      <input type="range" min="1" max="3" step="1" value="1" id="outputSlider" />
+      <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
+    </div>
+    <div class="slider-container">
+      <label for="taskSlider">Task</label>
+      <input type="range" min="1" max="3" step="1" value="1" id="taskSlider" />
+      <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
+    </div>
+    <div class="slider-container">
+      <label for="constraintSlider">Constraints</label>
+      <input type="range" min="1" max="3" step="1" value="1" id="constraintSlider" />
+      <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
+    </div>
+    <button onclick="showPrompt()">Show Prompt</button>
+  </div>
+
+  <div id="main">
+    <h2>Adjusted Prompt</h2>
+    <button class="clear-button" id="clearBtn">Clear</button>
+    <pre id="promptOutput"></pre>
+  </div>
+
+  <script>
+function levelLabel(value) {
+  switch (parseInt(value)) {
+    case 1: return "Low";
+    case 2: return "Medium";
+    case 3: return "High";
+    default: return "Low";
+  }
+}
+
+function wrapLabel(label, text) {
+  return `<span style="color: darkred; font-size: 6pt;">[${label}]</span> ${text}`;
+}
+
+function showPrompt() {
+  const topic = document.getElementById("topicSelect").value;
+  const contextLevel = levelLabel(document.getElementById("contextSlider").value);
+  const outputLevel = levelLabel(document.getElementById("outputSlider").value);
+  const taskLevel = levelLabel(document.getElementById("taskSlider").value);
+  const constraintLevel = levelLabel(document.getElementById("constraintSlider").value);
+
+  const dataset = topic === "education" ? education : marketing;
+
+  const match = dataset.find(p =>
+    p[`Context (${contextLevel})`] &&
+    p[`Output Format (${outputLevel})`] &&
+    p[`Task (${taskLevel})`] &&
+    p[`Constraints (${constraintLevel})`]
+  );
+
+  const outputBox = document.getElementById("promptOutput");
+  const previous = outputBox.innerHTML.trim();
+
+  if (match) {
+    const modifiedFull = `
+      ${wrapLabel("context", match[`Context (${contextLevel})`])}
+      ${wrapLabel("task", match[`Task (${taskLevel})`])}
+      ${wrapLabel("output", match[`Output Format (${outputLevel})`])}
+      ${wrapLabel("constraint", match[`Constraints (${constraintLevel})`])}
+    `.trim().replace(/\n\s+/g, ' ');
+
+    const entry = `<div>${modifiedFull}</div>`;
+    outputBox.innerHTML = entry + (previous ? `<hr><br>${previous}` : "");
+  } else {
+    outputBox.innerHTML = `<div><span style="color: red;">Prompt not found for this combination.</span></div>` + (previous ? `<hr><br>${previous}` : "");
+  }
+}
+
+document.getElementById("clearBtn").addEventListener("click", function () {
+  document.getElementById("promptOutput").innerHTML = "";
+});
+</script>
+    
+
+    <script>
+const education = [
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  }
+
+];
+
+const marketing = [
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  }
+];
+
+</script>
+</body>
+</html>
