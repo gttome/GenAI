@@ -5,13 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prompt Viewer App</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      height: 100vh;
-    }
+    
+
+#appHeader {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #002B5C;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.2em;
+  z-index: 1000;
+}
+
+#appFooter {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #002B5C;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 0.9em;
+  z-index: 1000;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  padding-top: 50px;    /* Prevent content under the header */
+  padding-bottom: 40px; /* Prevent content under the footer */
+  box-sizing: border-box;
+}
     #sidebar {
       width: 300px;
       background-color: #f4f4f4;
@@ -92,10 +123,20 @@
   margin-bottom: 15px;
 }
 
+#infoBox h2 {
+  margin-top: 3em;
+}
 
 </style>
 </head>
 <body>
+
+<!-- Header -->
+<header id="appHeader">
+  Generative AI Prompt Components Lab
+</header>
+
+
   <div id="sidebar">
     <h2>Select Prompt</h2>
     <select id="topicSelect">
@@ -1367,6 +1408,12 @@ const marketing = [
     <p><em>High Constraints:</em> Essential for safety, brand voice, specific exclusions, complex rules, or step-by-step processes.<br><em>Why?</em> Ensures compliance, accuracy, and control over sensitive or specific outputs.</p>
   </details>
 </div>
+
+<!-- Footer -->
+<footer id="appFooter">
+  © 2025 George Tome / Agility AI LLC. All rights reserved.
+</footer>
+
 
 </body>
 </html>
