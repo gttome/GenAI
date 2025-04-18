@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prompt Structure Lab</title>
-  <style>
-    
 
+ <style>
+/* Header and Footer Styles */
 #appHeader {
   width: 100%;
   position: fixed;
@@ -16,7 +16,8 @@
   color: white;
   text-align: center;
   padding: 10px 0;
-  font-size: 1.2em;
+  font-size: 1.6em;
+  font-weight: bold;
   z-index: 1000;
 }
 
@@ -29,12 +30,14 @@
   color: white;
   text-align: center;
   padding: 8px 0;
-  font-size: 0.9em;
+  font-size: 1em;
+  font-weight: 500;
   z-index: 1000;
 }
 
+/* Base Body Styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -42,60 +45,116 @@ body {
   padding-top: 50px;    /* Prevent content under the header */
   padding-bottom: 40px; /* Prevent content under the footer */
   box-sizing: border-box;
+  background-color: #f5f8fa;
 }
-    #sidebar {
-      width: 300px;
-      background-color: #f4f4f4;
-      padding: 20px;
-      border-right: 1px solid #ddd;
-      box-sizing: border-box;
-      overflow-y: auto;
-    }
-    #main {
-      flex-grow: 1;
-      padding: 20px;
-      overflow-y: auto;
-    }
-    .slider-container {
-      margin-bottom: 20px;
-    }
-    label {
-      display: block;
-      margin-bottom: 5px;
-    }
-    select, button {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-    }
-    pre {
-      white-space: pre-wrap;
-      word-wrap: break-word;
-      background-color: #f9f9f9;
-      padding: 15px;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-      width: 100%;
-      max-width: 800px;
-      overflow-x: auto;
-    }
-    input[type=range] {
-      width: 100%;
-    }
-    .range-labels {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.9em;
-    }
-    .clear-button {
-      align-self: flex-end;
-      margin-bottom: 10px;
-      padding: 6px 14px;
-      font-size: 1rem;
-      width: auto;
-    }
- 
 
+/* Typography Enhancements */
+h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #002B5C;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #002B5C;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+h3 {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #002B5C;
+  margin-top: 1.2em;
+}
+label {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #002B5C;
+}
+
+/* Sidebar Panel */
+#sidebar {
+  width: 300px;
+  background-color: #E6F0FA; /* Light blue */
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+/* Main Content Area */
+#main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+/* Slider and Label Styles */
+.slider-container {
+  margin-bottom: 20px;
+}
+
+.range-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: #333;
+}
+
+input[type=range] {
+  width: 100%;
+}
+
+/* Dropdowns and Buttons */
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #00509E;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #003B73;
+}
+
+/* Clear Button Styling */
+.clear-button {
+  align-self: flex-end;
+  margin-bottom: 10px;
+  padding: 6px 14px;
+  font-size: 1rem;
+  width: auto;
+  background-color: #00509E;
+  border-radius: 5px;
+}
+
+/* Code Output Areas */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background-color: #F9FAFB;
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  overflow-x: auto;
+  font-family: Consolas, monospace;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* Information Box on Right */
 #infoBox {
   position: fixed;
   right: 0;
@@ -112,11 +171,13 @@ body {
   box-sizing: border-box;
 }
 
+/* Expandable Info Sections */
 #infoBox summary {
   cursor: pointer;
   font-weight: bold;
   padding: 5px 0;
   border-bottom: 1px solid #ccc;
+  color: #002B5C;
 }
 
 #infoBox details {
@@ -125,9 +186,13 @@ body {
 
 #infoBox h2 {
   margin-top: 3em;
+  color: #002B5C;
+  font-size: 1.2em;
+  font-weight: 600;
 }
-
 </style>
+
+
 </head>
 <body>
 
