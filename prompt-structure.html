@@ -196,6 +196,44 @@ pre {
 }
 
 
+#infoBox details summary {
+  position: relative;
+  padding-left: 25px;
+}
+
+#infoBox details[open] summary::before {
+  content: "➖";
+  position: absolute;
+  left: 0;
+  color: #00509E;
+}
+
+#infoBox details:not([open]) summary::before {
+  content: "➕";
+  position: absolute;
+  left: 0;
+  color: #00509E;
+}
+
+#infoBox summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1em;
+  color: #002B5C;
+  margin-bottom: 5px;
+}
+
+#infoBox p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 0.9em;
+}
+
+
+
+
+
+
 #livePreviewOutput {
   position: sticky;
   top: 70px; /* Below fixed header */
@@ -244,7 +282,31 @@ pre {
 }
 
 
+/* Add gentle hover effect for slider labels */
+label[for] {
+  transition: color 0.3s ease;
+}
 
+label[for]:hover {
+  color: #0077CC;
+  cursor: help;
+}
+
+/* Smooth highlight on range labels */
+.range-labels span:hover {
+  text-decoration: underline;
+  color: #00509E;
+  cursor: pointer;
+}
+
+/* Slight scale animation on buttons */
+button {
+  transition: transform 0.1s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
 
 
 
@@ -274,22 +336,22 @@ pre {
 
     <h3>Component Levels</h3>
     <div class="slider-container">
-      <label for="contextSlider">Context</label>
+      <label for="contextSlider" title="Background knowledge needed to understand the task.">📘 Context</label>
       <input type="range" min="1" max="3" step="1" value="1" id="contextSlider" />
       <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
     </div>
     <div class="slider-container">
-      <label for="outputSlider">Output Format</label>
+      <label for="outputSlider" title="How the response should be structured.">📝 Output Format</label>
       <input type="range" min="1" max="3" step="1" value="1" id="outputSlider" />
       <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
     </div>
     <div class="slider-container">
-      <label for="taskSlider">Task</label>
+      <label for="taskSlider" title="What you want the AI to do.">🎯 Task</label>
       <input type="range" min="1" max="3" step="1" value="1" id="taskSlider" />
       <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
     </div>
     <div class="slider-container">
-      <label for="constraintSlider">Constraints</label>
+      <label for="constraintSlider" title="Rules, tone, or restrictions the AI must follow.">🔒 Constraints</label>
       <input type="range" min="1" max="3" step="1" value="1" id="constraintSlider" />
       <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
     </div>
@@ -1559,36 +1621,48 @@ const marketing = [
 <div id="infoBox">
   <h2>Prompt Components</h2>
 
-  <details>
-    <summary><strong>Context (Information)</strong></summary>
-    <p><em>Definition:</em> Foundational background (domain data, goals, context) the model needs for accuracy and relevance.</p>
-    <p><em>Low Context:</em> OK for simple, general queries where ambiguity is low.<br><em>Why?</em> Less context needed.</p>
-    <p><em>Medium Context:</em> Provide essential background, goals, or examples for standard relevance.<br><em>Why?</em> Ensures the AI understands the core requirement.</p>
-    <p><em>High Context:</em> Crucial for complex, nuanced, or domain-specific tasks. Provide detailed background, data, user info.<br><em>Why?</em> Maximizes accuracy and relevance by giving the AI deep understanding.</p>
+  <details open>
+    <summary>📘 Context (Information)</summary>
+    <p>
+      <strong>Definition:</strong> Foundational background (domain data, goals, context) the model needs for accuracy and relevance.<br>
+      <strong>Low Context:</strong> OK for simple, general queries where ambiguity is low.<br>
+      <strong>Medium Context:</strong> Provide essential background to avoid misinterpretation.<br>
+      <strong>High Context:</strong> Use detailed, domain-specific input or examples.<br>
+      <strong>Why?</strong> More context improves relevance and precision for complex queries.
+    </p>
   </details>
 
   <details>
-    <summary><strong>Output Format</strong></summary>
-    <p><em>Definition:</em> Structural cue (e.g., table, list, summary) defining how the answer should appear for readability and workflow efficiency.</p>
-    <p><em>Low Output Focus:</em> Default formatting is acceptable. Good for exploration or when structure isn't critical.<br><em>Why?</em> Minimal structure needed.</p>
-    <p><em>Medium Output Focus:</em> Request standard structures like lists, tables, or summaries. Perfect Prompt Structure.<br><em>Why?</em> Improves readability and usability for common tasks.</p>
-    <p><em>High Output Focus:</em> Define strict formats (JSON, YAML, specific doc templates) or detailed style guides.<br><em>Why?</em> Necessary for data integration, automation, or precise presentation.</p>
+    <summary>📝 Output Format</summary>
+    <p>
+      <strong>Definition:</strong> Structural cue (e.g., table, list, summary) defining how the answer should appear for readability and workflow efficiency.<br>
+      <strong>Low Output Focus:</strong> Default formatting is acceptable.<br>
+      <strong>Medium:</strong> Provide a specific structure like a list or short table.<br>
+      <strong>High:</strong> Require detailed structure—such as JSON, outline, or nested sections.<br>
+      <strong>Why?</strong> Structure guides the AI to produce usable formats for downstream use.
+    </p>
   </details>
 
   <details>
-    <summary><strong>Task (Goal)</strong></summary>
-    <p><em>Definition:</em> Clear instructions (summarize, analyze, compare) using action verbs, often with constraints (e.g., word count, tone).</p>
-    <p><em>Low Task Focus:</em> Simple, direct instructions (e.g., "write a sentence", "list ideas").<br><em>Why?</em> The core action is straightforward.</p>
-    <p><em>Medium Task Focus:</em> Standard complexity actions (e.g., "summarize this text", "compare A and B", "explain concept X").<br><em>Why?</em> Requires clear but common instructions.</p>
-    <p><em>High Task Focus:</em> Complex, multi-step, creative, or analytical instructions. Break down the task clearly.<br><em>Why?</em> Detailed guidance needed for intricate goals or reasoning.</p>
+    <summary>🎯 Task</summary>
+    <p>
+      <strong>Definition:</strong> The specific action or function the AI is being asked to do (e.g., generate ideas, summarize, explain, compare).<br>
+      <strong>Low Task Clarity:</strong> General task description (e.g., "Write about climate").<br>
+      <strong>Medium:</strong> Include goal and constraints (e.g., "Summarize climate risks in 5 bullet points").<br>
+      <strong>High:</strong> Detailed and precise with clear boundaries (e.g., “Compare U.S. vs. China emission trends in under 100 words using 2023 data”).<br>
+      <strong>Why?</strong> Clear tasks reduce hallucinations and increase usable output.
+    </p>
   </details>
 
   <details>
-    <summary><strong>Constraints and Tone</strong></summary>
-    <p><em>Definition:</em> Safety instructions, preferred tone (formal, casual), or audience alignment; essential for compliance or brand voice.</p>
-    <p><em>Low Constraints:</em> Few restrictions needed; standard AI behavior is acceptable. Good for open-ended generation.<br><em>Why?</em> Allows maximum flexibility.</p>
-    <p><em>Medium Constraints:</em> Specify desired tone (formal, casual), style, audience, or basic limits (length, key points).<br><em>Why?</em> Guides the output toward desired characteristics.</p>
-    <p><em>High Constraints:</em> Essential for safety, brand voice, specific exclusions, complex rules, or step-by-step processes.<br><em>Why?</em> Ensures compliance, accuracy, and control over sensitive or specific outputs.</p>
+    <summary>🔒 Constraints</summary>
+    <p>
+      <strong>Definition:</strong> Any rules or limits the AI must follow, such as tone, length, exclusions, or vocabulary.<br>
+      <strong>Low Constraint:</strong> No limits; open tone and style.<br>
+      <strong>Medium:</strong> Some direction (e.g., use simple language, keep it formal).<br>
+      <strong>High:</strong> Specific directives (e.g., "under 50 words, no technical jargon, persuasive tone").<br>
+      <strong>Why?</strong> Constraints sharpen focus and align outputs with intended use or audience.
+    </p>
   </details>
 </div>
 
