@@ -129,14 +129,18 @@ button:hover {
 
 /* Clear Button Styling */
 .clear-button {
-  align-self: flex-end;
+  flex: 1;
   margin-bottom: 10px;
-  padding: 6px 14px;
-  font-size: 1rem;
-  width: auto;
+  padding: 10px; /* Match other button */
+  font-size: 1em; /* Match other button */
   background-color: #00509E;
+  color: white;
+  border: none;
   border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
 }
+
 
 /* Code Output Areas */
 pre {
@@ -190,6 +194,65 @@ pre {
   font-size: 1.2em;
   font-weight: 600;
 }
+
+
+#livePreviewOutput {
+  position: sticky;
+  top: 70px; /* Below fixed header */
+  z-index: 10;
+  background-color: #F9FAFB;
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+#main h2:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #00509E;
+}
+
+
+.button-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button-bar button {
+  flex: 1;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #00509E;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button-bar button:hover {
+  background-color: #003B73;
+}
+
+
+
+
+
+
+
+
+
+
+
 </style>
 
 
@@ -230,15 +293,20 @@ pre {
       <input type="range" min="1" max="3" step="1" value="1" id="constraintSlider" />
       <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
     </div>
-    <button onclick="showPrompt()">Add Prompt to History</button>
-  </div>
+    <div class="button-bar">
+  <button onclick="showPrompt()">Add History</button>
+  <button id="clearBtn" class="clear-button">Clear</button>
+</div>
+
+  
+</div>
 
   <div id="main">
   <h2>Live Preview</h2>
   <pre id="livePreviewOutput"></pre>
 
   <h2>Adjusted Prompt History</h2>
-  <button class="clear-button" id="clearBtn">Clear</button>
+ 
   <pre id="promptOutput"></pre>
 </div>
 
