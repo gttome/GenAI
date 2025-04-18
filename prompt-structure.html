@@ -81,6 +81,17 @@
   box-sizing: border-box;
 }
 
+#infoBox summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#infoBox details {
+  margin-bottom: 15px;
+}
+
 
 </style>
 </head>
@@ -1323,27 +1334,39 @@ const marketing = [
 
 <div id="infoBox">
   <h2>Prompt Components</h2>
-  <p><strong>Context (Information)</strong><br>
-  <em>Definition:</em> Foundational background (domain data, goals, context) the model needs for accuracy and relevance.<br>
-  <em>Low Context:</em> OK for simple, general queries where ambiguity is low.<br>
-  <em>Why?</em> Less context needed.</p>
 
-  <p><strong>Output Format</strong><br>
-  <em>Definition:</em> Structural cue (e.g., table, list, summary) defining how the answer should appear for readability and workflow efficiency.<br>
-  <em>Low Output Focus:</em> Default formatting is acceptable. Good for exploration or when structure isn't critical.<br>
-  <em>Why?</em> Minimal structure needed.</p>
+  <details>
+    <summary><strong>Context (Information)</strong></summary>
+    <p><em>Definition:</em> Foundational background (domain data, goals, context) the model needs for accuracy and relevance.</p>
+    <p><em>Low Context:</em> OK for simple, general queries where ambiguity is low.<br><em>Why?</em> Less context needed.</p>
+    <p><em>Medium Context:</em> Provide essential background, goals, or examples for standard relevance.<br><em>Why?</em> Ensures the AI understands the core requirement.</p>
+    <p><em>High Context:</em> Crucial for complex, nuanced, or domain-specific tasks. Provide detailed background, data, user info.<br><em>Why?</em> Maximizes accuracy and relevance by giving the AI deep understanding.</p>
+  </details>
 
-  <p><strong>Task (Goal)</strong><br>
-  <em>Definition:</em> Clear instructions (summarize, analyze, compare) using action verbs, often with constraints (e.g., word count, tone).<br>
-  <em>Low Task Focus:</em> Simple, direct instructions (e.g., "write a sentence", "list ideas").<br>
-  <em>Why?</em> The core action is straightforward.</p>
+  <details>
+    <summary><strong>Output Format</strong></summary>
+    <p><em>Definition:</em> Structural cue (e.g., table, list, summary) defining how the answer should appear for readability and workflow efficiency.</p>
+    <p><em>Low Output Focus:</em> Default formatting is acceptable. Good for exploration or when structure isn't critical.<br><em>Why?</em> Minimal structure needed.</p>
+    <p><em>Medium Output Focus:</em> Request standard structures like lists, tables, or summaries. Perfect Prompt Structure.<br><em>Why?</em> Improves readability and usability for common tasks.</p>
+    <p><em>High Output Focus:</em> Define strict formats (JSON, YAML, specific doc templates) or detailed style guides.<br><em>Why?</em> Necessary for data integration, automation, or precise presentation.</p>
+  </details>
 
-  <p><strong>Constraints and Tone</strong><br>
-  <em>Definition:</em> Safety instructions, preferred tone (formal, casual), or audience alignment; essential for compliance or brand voice.<br>
-  <em>Low Constraints:</em> Few restrictions needed; standard AI behavior is acceptable. Good for open-ended generation.<br>
-  <em>Why?</em> Allows maximum flexibility.</p>
+  <details>
+    <summary><strong>Task (Goal)</strong></summary>
+    <p><em>Definition:</em> Clear instructions (summarize, analyze, compare) using action verbs, often with constraints (e.g., word count, tone).</p>
+    <p><em>Low Task Focus:</em> Simple, direct instructions (e.g., "write a sentence", "list ideas").<br><em>Why?</em> The core action is straightforward.</p>
+    <p><em>Medium Task Focus:</em> Standard complexity actions (e.g., "summarize this text", "compare A and B", "explain concept X").<br><em>Why?</em> Requires clear but common instructions.</p>
+    <p><em>High Task Focus:</em> Complex, multi-step, creative, or analytical instructions. Break down the task clearly.<br><em>Why?</em> Detailed guidance needed for intricate goals or reasoning.</p>
+  </details>
+
+  <details>
+    <summary><strong>Constraints and Tone</strong></summary>
+    <p><em>Definition:</em> Safety instructions, preferred tone (formal, casual), or audience alignment; essential for compliance or brand voice.</p>
+    <p><em>Low Constraints:</em> Few restrictions needed; standard AI behavior is acceptable. Good for open-ended generation.<br><em>Why?</em> Allows maximum flexibility.</p>
+    <p><em>Medium Constraints:</em> Specify desired tone (formal, casual), style, audience, or basic limits (length, key points).<br><em>Why?</em> Guides the output toward desired characteristics.</p>
+    <p><em>High Constraints:</em> Essential for safety, brand voice, specific exclusions, complex rules, or step-by-step processes.<br><em>Why?</em> Ensures compliance, accuracy, and control over sensitive or specific outputs.</p>
+  </details>
 </div>
-
 
 </body>
 </html>
