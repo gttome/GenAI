@@ -57,12 +57,12 @@
       font-size: 0.9em;
     }
     .clear-button {
-    align-self: flex-end;
-    margin-bottom: 10px;
-    padding: 6px 14px; /* Adjust this for button size */
-    font-size: 1rem;   /* Adjust this for text size */
-    width: auto;
-  }
+      align-self: flex-end;
+      margin-bottom: 10px;
+      padding: 6px 14px;
+      font-size: 1rem;
+      width: auto;
+    }
   </style>
 </head>
 <body>
@@ -96,14 +96,56 @@
     </div>
     <button onclick="showPrompt()">Show Prompt</button>
   </div>
+
   <div id="main">
-    <h2> Adjusted Prompt</h2>
-<button class="clear-button" id="clearBtn">Clear</button>
-<pre id="promptOutput"></pre>
+    <h2>Adjusted Prompt</h2>
+    <button class="clear-button" id="clearBtn">Clear</button>
+    <pre id="promptOutput"></pre>
   </div>
 
- 
- <script>
+  <script>
+    function levelLabel(value) {
+      switch (parseInt(value)) {
+        case 1: return "Low";
+        case 2: return "Medium";
+        case 3: return "High";
+        default: return "Low";
+      }
+    }
+
+    function showPrompt() {
+      const topic = document.getElementById("topicSelect").value;
+      const context = levelLabel(document.getElementById("contextSlider").value);
+      const output = levelLabel(document.getElementById("outputSlider").value);
+      const task = levelLabel(document.getElementById("taskSlider").value);
+      const constraint = levelLabel(document.getElementById("constraintSlider").value);
+
+      const dataset = topic === "education" ? education : marketing;
+
+      const match = dataset.find(p =>
+        p[`Context (${context})`] &&
+        p[`Output Format (${output})`] &&
+        p[`Task (${task})`] &&
+        p[`Constraints (${constraint})`]
+      );
+
+      const outputBox = document.getElementById("promptOutput");
+      const previous = outputBox.textContent.trim();
+
+      if (match) {
+        outputBox.textContent = match.full + (previous ? `\n\n---\n\n${previous}` : "");
+      } else {
+        outputBox.textContent = `Prompt not found for this combination.${previous ? `\n\n---\n\n${previous}` : ""}`;
+      }
+    }
+
+    document.getElementById("clearBtn").addEventListener("click", function () {
+      document.getElementById("promptOutput").textContent = "";
+    });
+
+</script>    
+
+    <script>
 const education = [
   {
     "Context (Low)": "Imagine a general scenario related to teaching science.",
@@ -1246,69 +1288,5 @@ const marketing = [
 ];
 
 </script>
-   <script>
-function showPrompt() {
-  const topic = document.getElementById("topicSelect").value;
-  const context = parseInt(document.getElementById("contextSlider").value);
-  const output = parseInt(document.getElementById("outputSlider").value);
-  const task = parseInt(document.getElementById("taskSlider").value);
-  const constraints = parseInt(document.getElementById("constraintSlider").value);
-
-  const dataset = topic === "education" ? education : marketing;
-
-  const contextKey = `Context (${levelLabel(context)})`;
-  const outputKey = `Output Format (${levelLabel(output)})`;
-  const taskKey = `Task (${levelLabel(task)})`;
-  const constraintKey = `Constraints (${levelLabel(constraints)})`;
-
-  const match = dataset.find(p =>
-    p[contextKey] && p[outputKey] && p[taskKey] && p[constraintKey]
-  );
-
-  const outputEl = document.getElementById("promptOutput");
-
-  if (match) {
-    outputEl.textContent = `${match.full}\n\n---\n\n${outputEl.textContent}`;
-  } else {
-    outputEl.textContent = `No matching prompt found for selection.\n\n---\n\n${outputEl.textContent}`;
-  }
-}
-
-function levelLabel(value) {
-  switch (value) {
-    case 1: return "Low";
-    case 2: return "Medium";
-    case 3: return "High";
-    default: return "Low";
-  }
-}
-
-document.getElementById("clearBtn").addEventListener("click", () => {
-  document.getElementById("promptOutput").textContent = "";
-});
-</script>
-
-
- <script>
- document.getElementById("clearBtn").addEventListener("click", function() {
-    document.getElementById("promptOutput").textContent = "";
-  });  
-function showPrompt() {
-    const topic = document.getElementById('topicSelect').value;
-    const context = document.getElementById('contextSlider').value;
-    const output = document.getElementById('outputSlider').value;
-    const task = document.getElementById('taskSlider').value;
-    const constraint = document.getElementById('constraintSlider').value;
-
-    const index = (parseInt(context) - 1) * 9 + (parseInt(output) - 1) * 3 + (parseInt(task) - 1) * 1 + (parseInt(constraint) - 1);
-    const data = topic === 'education' ? education : marketing;
-    const prompt = data[index]?.full || 'Prompt not found for this combination.';
-
-    const outputBox = document.getElementById('promptOutput');
-    const previous = outputBox.textContent.trim();
-    outputBox.textContent = prompt + (previous ? "\n---\n" + previous : "");
-  }
-</script>
-
 </body>
 </html>
