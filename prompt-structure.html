@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prompt Structure</title>
+  <title>Prompt Viewer App</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -63,7 +63,26 @@
       font-size: 1rem;
       width: auto;
     }
-  </style>
+  
+
+#infoBox {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  padding: 20px;
+  background-color: #fefefe;
+  border-left: 1px solid #ccc;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  font-size: 0.9em;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+
+
+</style>
 </head>
 <body>
   <div id="sidebar">
@@ -104,46 +123,58 @@
   </div>
 
   <script>
-    function levelLabel(value) {
-      switch (parseInt(value)) {
-        case 1: return "Low";
-        case 2: return "Medium";
-        case 3: return "High";
-        default: return "Low";
-      }
-    }
+function levelLabel(value) {
+  switch (parseInt(value)) {
+    case 1: return "Low";
+    case 2: return "Medium";
+    case 3: return "High";
+    default: return "Low";
+  }
+}
 
-    function showPrompt() {
-      const topic = document.getElementById("topicSelect").value;
-      const context = levelLabel(document.getElementById("contextSlider").value);
-      const output = levelLabel(document.getElementById("outputSlider").value);
-      const task = levelLabel(document.getElementById("taskSlider").value);
-      const constraint = levelLabel(document.getElementById("constraintSlider").value);
+function wrapLabel(label, text) {
+  return `<span style="color: darkred; font-size: 6pt;">[${label}]</span> ${text}`;
+}
 
-      const dataset = topic === "education" ? education : marketing;
+function showPrompt() {
+  const topic = document.getElementById("topicSelect").value;
+  const contextLevel = levelLabel(document.getElementById("contextSlider").value);
+  const outputLevel = levelLabel(document.getElementById("outputSlider").value);
+  const taskLevel = levelLabel(document.getElementById("taskSlider").value);
+  const constraintLevel = levelLabel(document.getElementById("constraintSlider").value);
 
-      const match = dataset.find(p =>
-        p[`Context (${context})`] &&
-        p[`Output Format (${output})`] &&
-        p[`Task (${task})`] &&
-        p[`Constraints (${constraint})`]
-      );
+  const dataset = topic === "education" ? education : marketing;
 
-      const outputBox = document.getElementById("promptOutput");
-      const previous = outputBox.textContent.trim();
+  const match = dataset.find(p =>
+    p[`Context (${contextLevel})`] &&
+    p[`Output Format (${outputLevel})`] &&
+    p[`Task (${taskLevel})`] &&
+    p[`Constraints (${constraintLevel})`]
+  );
 
-      if (match) {
-        outputBox.textContent = match.full + (previous ? `\n\n---\n\n${previous}` : "");
-      } else {
-        outputBox.textContent = `Prompt not found for this combination.${previous ? `\n\n---\n\n${previous}` : ""}`;
-      }
-    }
+  const outputBox = document.getElementById("promptOutput");
+  const previous = outputBox.innerHTML.trim();
 
-    document.getElementById("clearBtn").addEventListener("click", function () {
-      document.getElementById("promptOutput").textContent = "";
-    });
+  if (match) {
+    const modifiedFull = `
+      ${wrapLabel("context", match[`Context (${contextLevel})`])}
+      ${wrapLabel("task", match[`Task (${taskLevel})`])}
+      ${wrapLabel("output", match[`Output Format (${outputLevel})`])}
+      ${wrapLabel("constraint", match[`Constraints (${constraintLevel})`])}
+    `.trim().replace(/\n\s+/g, ' ');
 
-</script>    
+    const entry = `<div>${modifiedFull}</div>`;
+    outputBox.innerHTML = entry + (previous ? `<hr><br>${previous}` : "");
+  } else {
+    outputBox.innerHTML = `<div><span style="color: red;">Prompt not found for this combination.</span></div>` + (previous ? `<hr><br>${previous}` : "");
+  }
+}
+
+document.getElementById("clearBtn").addEventListener("click", function () {
+  document.getElementById("promptOutput").innerHTML = "";
+});
+</script>
+    
 
     <script>
 const education = [
@@ -337,382 +368,382 @@ const education = [
     "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems...",
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Low)": "Present your response creatively in any format you choose.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
   },
   {
-    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources...",
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
     "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
     "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
     "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
-    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources... Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
   }
 
 ];
@@ -1097,196 +1128,222 @@ const marketing = [
     "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Low)": "Present your findings in any creative format you prefer.",
     "Task (Low)": "List general marketing channels or strategies that might be effective.",
     "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Low)": "Present your findings in any creative format you prefer.",
     "Task (Low)": "List general marketing channels or strategies that might be effective.",
     "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Low)": "Present your findings in any creative format you prefer.",
     "Task (Low)": "List general marketing channels or strategies that might be effective.",
     "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Low)": "Present your findings in any creative format you prefer.",
     "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
     "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Low)": "Present your findings in any creative format you prefer.",
     "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
     "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Low)": "Present your findings in any creative format you prefer.",
     "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
     "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Low)": "Present your findings in any creative format you prefer.",
     "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
     "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Low)": "Present your findings in any creative format you prefer.",
     "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
     "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Low)": "Present your findings in any creative format you prefer.",
     "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
     "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
     "Task (Low)": "List general marketing channels or strategies that might be effective.",
     "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
     "Task (Low)": "List general marketing channels or strategies that might be effective.",
     "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
     "Task (Low)": "List general marketing channels or strategies that might be effective.",
     "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
     "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
     "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
     "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
     "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
     "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
     "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
     "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
     "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
     "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
     "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
     "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
     "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
     "Task (Low)": "List general marketing channels or strategies that might be effective.",
     "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
     "Task (Low)": "List general marketing channels or strategies that might be effective.",
     "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
     "Task (Low)": "List general marketing channels or strategies that might be effective.",
     "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
     "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
     "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
     "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
     "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
     "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
     "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
     "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
     "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
     "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
     "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
   },
   {
-    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights...",
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
     "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
     "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
     "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
-    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
   }
 ];
 
 </script>
+
+
+<div id="infoBox">
+  <h2>Prompt Components</h2>
+  <p><strong>Context (Information)</strong><br>
+  <em>Definition:</em> Foundational background (domain data, goals, context) the model needs for accuracy and relevance.<br>
+  <em>Low Context:</em> OK for simple, general queries where ambiguity is low.<br>
+  <em>Why?</em> Less context needed.</p>
+
+  <p><strong>Output Format</strong><br>
+  <em>Definition:</em> Structural cue (e.g., table, list, summary) defining how the answer should appear for readability and workflow efficiency.<br>
+  <em>Low Output Focus:</em> Default formatting is acceptable. Good for exploration or when structure isn't critical.<br>
+  <em>Why?</em> Minimal structure needed.</p>
+
+  <p><strong>Task (Goal)</strong><br>
+  <em>Definition:</em> Clear instructions (summarize, analyze, compare) using action verbs, often with constraints (e.g., word count, tone).<br>
+  <em>Low Task Focus:</em> Simple, direct instructions (e.g., "write a sentence", "list ideas").<br>
+  <em>Why?</em> The core action is straightforward.</p>
+
+  <p><strong>Constraints and Tone</strong><br>
+  <em>Definition:</em> Safety instructions, preferred tone (formal, casual), or audience alignment; essential for compliance or brand voice.<br>
+  <em>Low Constraints:</em> Few restrictions needed; standard AI behavior is acceptable. Good for open-ended generation.<br>
+  <em>Why?</em> Allows maximum flexibility.</p>
+</div>
+
+
 </body>
 </html>
