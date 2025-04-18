@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prompt Viewer App</title>
+  <title>Prompt Structure Lab</title>
   <style>
     
 
@@ -94,7 +94,7 @@ body {
       font-size: 1rem;
       width: auto;
     }
-  
+ 
 
 #infoBox {
   position: fixed;
@@ -165,14 +165,19 @@ body {
       <input type="range" min="1" max="3" step="1" value="1" id="constraintSlider" />
       <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
     </div>
-    <button onclick="showPrompt()">Show Prompt</button>
+    <button onclick="showPrompt()">Add Prompt to History</button>
   </div>
 
   <div id="main">
-    <h2>Adjusted Prompt</h2>
-    <button class="clear-button" id="clearBtn">Clear</button>
-    <pre id="promptOutput"></pre>
-  </div>
+  <h2>Live Preview</h2>
+  <pre id="livePreviewOutput"></pre>
+
+  <h2>Adjusted Prompt History</h2>
+  <button class="clear-button" id="clearBtn">Clear</button>
+  <pre id="promptOutput"></pre>
+</div>
+
+
 
   <script>
 function levelLabel(value) {
@@ -225,6 +230,51 @@ function showPrompt() {
 document.getElementById("clearBtn").addEventListener("click", function () {
   document.getElementById("promptOutput").innerHTML = "";
 });
+
+["topicSelect", "contextSlider", "outputSlider", "taskSlider", "constraintSlider"].forEach(id => {
+  document.getElementById(id).addEventListener("input", updateLivePreview);
+});
+
+// Trigger once on load
+window.onload = () => {
+  updateLivePreview();
+};
+
+
+
+
+function updateLivePreview() {
+  const topic = document.getElementById("topicSelect").value;
+  const contextLevel = levelLabel(document.getElementById("contextSlider").value);
+  const outputLevel = levelLabel(document.getElementById("outputSlider").value);
+  const taskLevel = levelLabel(document.getElementById("taskSlider").value);
+  const constraintLevel = levelLabel(document.getElementById("constraintSlider").value);
+
+  const dataset = topic === "education" ? education : marketing;
+
+  const match = dataset.find(p =>
+    p[`Context (${contextLevel})`] &&
+    p[`Output Format (${outputLevel})`] &&
+    p[`Task (${taskLevel})`] &&
+    p[`Constraints (${constraintLevel})`]
+  );
+
+  const previewBox = document.getElementById("livePreviewOutput");
+
+  if (match) {
+    const livePrompt = `
+      ${wrapLabel("context", match[`Context (${contextLevel})`])}
+      ${wrapLabel("task", match[`Task (${taskLevel})`])}
+      ${wrapLabel("output", match[`Output Format (${outputLevel})`])}
+      ${wrapLabel("constraint", match[`Constraints (${constraintLevel})`])}
+    `.trim().replace(/\n\s+/g, ' ');
+
+    previewBox.innerHTML = livePrompt;
+  } else {
+    previewBox.innerHTML = "<span style='color: gray;'>No preview available for this combination.</span>";
+  }
+}
+
 </script>
     
 
