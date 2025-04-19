@@ -229,6 +229,56 @@ pre {
   font-size: 0.9em;
 }
 
+#infoBox .notes-area {
+  border-top: 1px dashed #ccc;
+  padding-top: 10px;
+  position: relative;
+}
+
+#infoBox .notes-area textarea {
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 0.9em;
+  resize: vertical;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#infoBox .notes-header {
+  position: relative;
+  padding-right: 0; /* Let the icon move all the way */
+}
+
+#infoBox .delete-note-btn {
+  position: absolute;
+  top: -10px;       /* ⬆️ Moves it 10px up */
+  right: -20px;     /* ➡️ Moves it 20px farther right */
+  background: none;
+  border: none;
+  font-size: 1.4em;
+  cursor: pointer;
+  color: #C1121F;
+  padding: 0;
+  line-height: 1;
+}
+
+#infoBox .delete-note-btn:hover {
+  color: #A10000;
+}
+
+#infoBox .notes-area textarea {
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 0.9em;
+  resize: vertical;
+  font-family: 'Segoe UI', sans-serif;
+}
+
 
 #livePreviewOutput {
   position: sticky;
@@ -1767,7 +1817,33 @@ const marketing = [
       <strong>Why?</strong> Constraints sharpen focus and align outputs with intended use or audience.
     </p>
   </details>
+
+<h2>📚 Resources</h2>
+<ul style="padding-left: 16px; line-height: 1.6;">
+  <li><a href="https://leanpub.com/genaipromptingguide" target="_blank">Generative AI Prompting Guide</a></li>
+   <li><a href="https://www.youtube.com/@Agility-AI" target="_blank">Agility AI Prompt Engineering Podcasts</a></li>
+            <a href="https://gttome.github.io/GenAI/" target="_blank">Generative AI Professional Prompt Engineering Guide Website</a></li>
+ <li><a href="https://gttome.github.io/GenAI/Generative%20AI%20Prompt%20Components%20Lab.html" target="_blank">Agility AI Generative AI Prompt Components Lab</a></li>
+</ul>
+
+<div class="notes-header" style="position: relative; margin-top: 20px;">
+  <h2 style="margin: 0;" title="This information is stored on your local machine. It will persist until browser cache is deleted.">
+    📝 My Notes
+  </h2>
+  <button
+    class="delete-note-btn"
+    data-textarea-id="notes-infoBox"
+    title="Delete your notes">
+    🗑️
+  </button>
 </div>
+<div class="notes-area">
+  <textarea id="notes-infoBox" placeholder="Write your notes here..."></textarea>
+</div>
+
+
+
+
 
 <!-- Footer -->
 <footer id="appFooter">
@@ -1799,6 +1875,28 @@ const marketing = [
     <button onclick="closeTour()">Let’s Go!</button>
   </div>
 </div>
+
+<script>
+  // Load saved notes
+  window.addEventListener("DOMContentLoaded", () => {
+    const notesTextarea = document.getElementById("notes-infoBox");
+    const savedNote = localStorage.getItem("notes-infoBox");
+    if (notesTextarea && savedNote) {
+      notesTextarea.value = savedNote;
+    }
+
+    notesTextarea?.addEventListener("input", () => {
+      localStorage.setItem("notes-infoBox", notesTextarea.value);
+    });
+
+    // Delete button
+    document.querySelector(".delete-note-btn")?.addEventListener("click", () => {
+      localStorage.removeItem("notes-infoBox");
+      if (notesTextarea) notesTextarea.value = "";
+    });
+  });
+</script>
+
 
 </body>
 </html>
