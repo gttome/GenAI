@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generative AI Prompt Components Lab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #1f2937;
+            background-color: #f9fafb;
+        }
+
+        header, footer {
+            background: linear-gradient(to right, #1e3a8a, #3b82f6);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            font-size: 2.25rem;
+            margin: 0 0 0.5rem 0;
+        }
+
+        header p {
+            font-size: 1rem;
+            margin: 0;
+            font-weight: 300;
+        }
+
+        main {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.04);
+        }
+
+        section h2 {
+            color: #1e3a8a;
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
+
+        section p, section ul {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 1.25rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th, table td {
+            padding: 12px;
+            border: 1px solid #e5e7eb;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f3f4f6;
+        }
+
+        .resources a {
+            display: block;
+            margin-bottom: 10px;
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .resources a:hover {
+            text-decoration: underline;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Generative AI Prompt Components Lab</h1>
+        <p>Explore the structure and strategy behind perfect prompts – Release 8.0</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>🎧 Purpose of the Lab</h2>
+            <p>This lab is an interactive web app designed to teach users about prompt components using structured, research-backed methods.</p>
+            <ul>
+                <li>Understand the anatomy of effective prompts.</li>
+                <li>Experiment with structured prompt components.</li>
+                <li>Customize AI instructions using context, structure, task, and tone.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🔑 Core Prompt Components</h2>
+            <p>Effective prompts are built from four adjustable components based on Chapter 1 of Release 8.0:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Component</th>
+                        <th>Definition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>📖 Context</td><td>Background info, user goals, and domain-specific knowledge.</td></tr>
+                    <tr><td>📋 Output Format</td><td>Desired structure (e.g., list, table, JSON).</td></tr>
+                    <tr><td>🎯 Task</td><td>The instruction or goal for the AI (e.g., analyze, summarize).</td></tr>
+                    <tr><td>🔒 Constraints</td><td>Tone, style, or restrictions required in the output.</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>🧭 How the Web App Works</h2>
+            <ul>
+                <li>Select a Topic (e.g., Education, Marketing).</li>
+                <li>Adjust the four sliders to define prompt levels.</li>
+                <li>Click "Add History" to save the current prompt version.</li>
+                <li>Use "Live Preview" to refine your selection.</li>
+                <li>Track iterations in "Adjusted Prompt History."</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>📚 Learning Path Integration</h2>
+            <ul>
+                <li><strong>Tamara the Template Seeker:</strong> Quickly find the right prompt configuration.</li>
+                <li><strong>Ethan the Experimenter:</strong> Test prompt combinations and assess results.</li>
+                <li><strong>Charlie the Customizer:</strong> Adjust tone, context, and complexity.</li>
+                <li><strong>Casey the Creator:</strong> Combine prompts for strategic outcomes.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🔎 Alignment with the Book</h2>
+            <table>
+                <thead>
+                    <tr><th>Web App Feature</th><th>Alignment with Release 8.0</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Four sliders for design</td><td>Perfect Prompt Structure: Context, Output, Task, Constraints</td></tr>
+                    <tr><td>Live Preview</td><td>Supports iterative refinement (Ch. 1, 7)</td></tr>
+                    <tr><td>Multi-level sliders</td><td>Reflects low-to-high complexity (Cheat Sheet, Ch. 1)</td></tr>
+                    <tr><td>Color-coded labels</td><td>Reinforces the 4-component framework</td></tr>
+                    <tr><td>Personal notes</td><td>Encourages reflection and iteration</td></tr>
+                    <tr><td>Real-world templates</td><td>Examples from domains like Education & Marketing</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>🧠 Why It Matters</h2>
+            <p>This lab fosters deep understanding of structured prompting:</p>
+            <ul>
+                <li><strong>Prompt Crafting:</strong> One-off use cases and real-time experimentation.</li>
+                <li><strong>Prompt Engineering:</strong> Repeatable, scalable instructions for production AI use.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🧠 Advanced Capabilities (Coming Soon)</h2>
+            <ul>
+                <li>Previews styled by tone (e.g., formal, playful).</li>
+                <li>Templates from Chapter 12's Prompt Repository Matrix.</li>
+            </ul>
+        </section>
+
+        <section class="resources">
+            <h2>📎 Helpful Resources</h2>
+            <a href="https://leanpub.com/genaipromptingguide" target="_blank">Generative AI Professional Prompt Engineering Guide</a>
+            <a href="https://www.youtube.com/@Agility-AI" target="_blank">Prompt Engineering Podcasts</a>
+            <a href="https://gttome.github.io/GenAI/" target="_blank">Guide Website</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 George Tome / Agility AI LLC. All Rights Reserved.</p>
+        <p>For educational and professional use with the Generative AI Prompt Engineering Guide.</p>
+    </footer>
+</body>
+</html>
