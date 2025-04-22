@@ -436,11 +436,22 @@ button:hover {
 
 
   <div id="sidebar">
+    <h2>Mode</h2>
+    <div id="modeSelection" style="margin-top: 10px;">
+      <label title="Learn and experiment with Prompt Components." style="display: block; margin-bottom: 5px;">
+        <input type="radio" name="mode" value="learn" checked="checked" /> Learn
+      </label>
+      <label title="Create and run prompts in your favorite LLM - coming soon." style="display: block; margin-bottom: 5px;">
+        <input type="radio" name="mode" value="create" /> Create
+      </label>
+    </div>
+
     <h2>Select Prompt</h2>
     <select id="topicSelect">
       <option value="education">Education</option>
       <option value="marketing">Marketing</option>
     </select>
+
 
     <h3>Component Levels</h3>
     <div class="slider-container">
@@ -1898,5 +1909,18 @@ const marketing = [
 </script>
 
 
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var learnRadio = document.querySelector('input[name="mode"][value="learn"]');
+  var createRadio = document.querySelector('input[name="mode"][value="create"]');
+  createRadio.addEventListener('change', function() {
+    if (createRadio.checked) {
+      alert(createRadio.closest('label').getAttribute('title'));
+      learnRadio.checked = true;
+    }
+  });
+});
+</script>
 </body>
 </html>
