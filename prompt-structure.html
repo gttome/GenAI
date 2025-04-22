@@ -495,6 +495,10 @@ button:hover {
   <div id="main">
  <h2 style="margin-bottom: 8px;">Live Preview</h2>
 <pre id="livePreviewOutput"></pre>
+<div style="width: fit-content; margin-top: 8px;">
+  <button id="copyLiveBtn" style="padding: 6px 12px; font-size: 1em; background-color: #00509E; color: white; border: none; border-radius: 4px; cursor: pointer;">Copy</button>
+</div>
+
 
 <h2>Adjusted Prompt History</h2>
 <pre id="promptOutput"></pre>
@@ -1919,6 +1923,18 @@ document.addEventListener('DOMContentLoaded', function() {
       alert(createRadio.closest('label').getAttribute('title'));
       learnRadio.checked = true;
     }
+  });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var copyBtn = document.getElementById('copyLiveBtn');
+  copyBtn.addEventListener('click', function() {
+    var liveText = document.getElementById('livePreviewOutput').textContent;
+    navigator.clipboard.writeText(liveText).then(function() {
+      alert("The prompt has been copied to the clipboard. You can now copy it into a LLM and run it to see the output.");
+    });
   });
 });
 </script>
