@@ -56,20 +56,53 @@
       margin-top: 15px;
       color: #586069;
     }
+    
+    .input-group {
+      margin-bottom: 15px;
+    }
+    
+    input[type="text"], input[type="file"] {
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+    
+    input[type="text"] {
+      width: 100%;
+    }
+    
+    .section {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eaecef;
+    }
   </style>
 </head>
 <body>
   <h1>Text File Test Page</h1>
   
-  <div>
-    <p>This is a test HTML file that demonstrates reading and writing text content.</p>
+  <div class="section">
+    <h2>Read Text Files</h2>
+    
+    <div class="input-group">
+      <label for="fileUrl"><strong>Read from URL:</strong></label>
+      <input type="text" id="fileUrl" placeholder="https://raw.githubusercontent.com/username/repo/branch/path/to/file.txt">
+      <button id="loadUrlButton">Load from URL</button>
+    </div>
+    
+    <div class="input-group">
+      <label for="fileInput"><strong>Read from local file:</strong></label><br>
+      <input type="file" id="fileInput" accept=".txt">
+    </div>
   </div>
   
-  <textarea id="editor" placeholder="Enter some text here...">Hello from test1.html!
+  <div class="section">
+    <h2>Edit Text</h2>
+    <textarea id="editor" placeholder="Enter some text here or load it from a file...">Hello from test1.html!
 This is a simple test file that can be deployed on GitHub Pages.
 
 You can edit this text and download it as a text file.
 Try adding your own content here!</textarea>
+  </div>
   
   <div>
     <button id="downloadButton">Download as Text File</button>
@@ -80,18 +113,74 @@ Try adding your own content here!</textarea>
   <div class="info">
     <p><strong>Instructions:</strong></p>
     <ol>
+      <li>Load text from a URL or local file</li>
       <li>Edit the text in the box above</li>
       <li>Click "Download as Text File" to save your changes</li>
       <li>Upload the downloaded file to your GitHub repository if needed</li>
     </ol>
-    <p><strong>Note:</strong> This is a simple test page for GitHub Pages. To see more functionality, check the main index.html page.</p>
+    <p><strong>Note:</strong> To read a file from GitHub, use the raw URL format:<br>
+    <code>https://raw.githubusercontent.com/username/repository/branch/filename.txt</code></p>
   </div>
 
   <script>
     const editor = document.getElementById('editor');
+    const fileUrlInput = document.getElementById('fileUrl');
+    const loadUrlButton = document.getElementById('loadUrlButton');
+    const fileInput = document.getElementById('fileInput');
     const downloadButton = document.getElementById('downloadButton');
     const clearButton = document.getElementById('clearButton');
     const statusElement = document.getElementById('status');
+    
+    let currentFileName = 'text-content.txt';
+    
+    // Load file from URL
+    loadUrlButton.addEventListener('click', () => {
+      const url = fileUrlInput.value.trim();
+      if (!url) {
+        statusElement.textContent = 'Please enter a valid URL';
+        return;
+      }
+      
+      statusElement.textContent = 'Loading...';
+      
+      fetch(url)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return response.text();
+        })
+        .then(text => {
+          editor.value = text;
+          statusElement.textContent = 'File loaded successfully!';
+          
+          // Extract filename from URL
+          const urlParts = url.split('/');
+          currentFileName = urlParts[urlParts.length - 1];
+        })
+        .catch(error => {
+          statusElement.textContent = `Error loading file: ${error.message}`;
+          console.error('Error:', error);
+        });
+    });
+    
+    // Load local file
+    fileInput.addEventListener('change', (event) => {
+      const file = event.target.files[0];
+      if (!file) return;
+      
+      currentFileName = file.name;
+      
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        editor.value = e.target.result;
+        statusElement.textContent = `Local file "${file.name}" loaded!`;
+      };
+      reader.onerror = (e) => {
+        statusElement.textContent = 'Error reading file!';
+      };
+      reader.readAsText(file);
+    });
     
     // Download edited text as file
     downloadButton.addEventListener('click', () => {
@@ -101,13 +190,13 @@ Try adding your own content here!</textarea>
       
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'test-content.txt';
+      a.download = currentFileName;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
       
-      statusElement.textContent = 'Text file downloaded successfully!';
+      statusElement.textContent = `File "${currentFileName}" downloaded successfully!`;
       setTimeout(() => {
         statusElement.textContent = '';
       }, 3000);
