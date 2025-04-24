@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Text File Test</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    
+    h1 {
+      color: #24292e;
+      border-bottom: 1px solid #eaecef;
+      padding-bottom: 0.3em;
+    }
+    
+    textarea {
+      width: 100%;
+      height: 300px;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-family: monospace;
+      margin-bottom: 15px;
+    }
+    
+    button {
+      background-color: #2ea44f;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-right: 10px;
+    }
+    
+    button:hover {
+      background-color: #2c974b;
+    }
+    
+    .info {
+      background-color: #f6f8fa;
+      border-radius: 6px;
+      padding: 16px;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    
+    #status {
+      margin-top: 15px;
+      color: #586069;
+    }
+  </style>
+</head>
+<body>
+  <h1>Text File Test Page</h1>
+  
+  <div>
+    <p>This is a test HTML file that demonstrates reading and writing text content.</p>
+  </div>
+  
+  <textarea id="editor" placeholder="Enter some text here...">Hello from test1.html!
+This is a simple test file that can be deployed on GitHub Pages.
+
+You can edit this text and download it as a text file.
+Try adding your own content here!</textarea>
+  
+  <div>
+    <button id="downloadButton">Download as Text File</button>
+    <button id="clearButton">Clear Text</button>
+    <span id="status"></span>
+  </div>
+  
+  <div class="info">
+    <p><strong>Instructions:</strong></p>
+    <ol>
+      <li>Edit the text in the box above</li>
+      <li>Click "Download as Text File" to save your changes</li>
+      <li>Upload the downloaded file to your GitHub repository if needed</li>
+    </ol>
+    <p><strong>Note:</strong> This is a simple test page for GitHub Pages. To see more functionality, check the main index.html page.</p>
+  </div>
+
+  <script>
+    const editor = document.getElementById('editor');
+    const downloadButton = document.getElementById('downloadButton');
+    const clearButton = document.getElementById('clearButton');
+    const statusElement = document.getElementById('status');
+    
+    // Download edited text as file
+    downloadButton.addEventListener('click', () => {
+      const text = editor.value;
+      const blob = new Blob([text], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'test-content.txt';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      
+      statusElement.textContent = 'Text file downloaded successfully!';
+      setTimeout(() => {
+        statusElement.textContent = '';
+      }, 3000);
+    });
+    
+    // Clear the textarea
+    clearButton.addEventListener('click', () => {
+      editor.value = '';
+      statusElement.textContent = 'Text cleared!';
+      setTimeout(() => {
+        statusElement.textContent = '';
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
