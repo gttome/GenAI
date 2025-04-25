@@ -612,12 +612,12 @@ function updateLivePreview() {
   const previewBox = document.getElementById("livePreviewOutput");
 
   if (match) {
-    const livePrompt = `
-      ${wrapLabel("context", match[`Context (${contextLevel})`])}
-      ${wrapLabel("task", match[`Task (${taskLevel})`])}
-      ${wrapLabel("output", match[`Output Format (${outputLevel})`])}
-      ${wrapLabel("constraint", match[`Constraints (${constraintLevel})`])}
-    `.trim().replace(/\n\s+/g, ' ');
+    const livePrompt = [
+      wrapLabel("context", match[`Context (${contextLevel})`]),
+      wrapLabel("task", match[`Task (${taskLevel})`]),
+      wrapLabel("output", match[`Output Format (${outputLevel})`]),
+      wrapLabel("constraint", match[`Constraints (${constraintLevel})`])
+    ].join('<br>\n');
 
     previewBox.innerHTML = livePrompt;
   } else {
