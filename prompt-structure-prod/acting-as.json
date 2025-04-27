@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Present your response in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Present your response in any format you choose. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Present your response in any format you choose. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Present your response in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Present your response in any format you choose. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Present your response in any format you choose. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Present your response in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Present your response in any format you choose. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Present your response in any format you choose. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Low)": "Imagine a general traveler planning their first trip to Kyoto.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Imagine a general traveler planning their first trip to Kyoto. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Present your response in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Present your response in any format you choose. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Present your response in any format you choose. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Present your response in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Present your response in any format you choose. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Present your response in any format you choose. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Present your response in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Present your response in any format you choose. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Present your response in any format you choose. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (Medium)": "Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Considering a first‑time visitor with a moderate budget visiting Kyoto in April, interested in culture, nature, and local cuisine. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Present your response in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Present your response in any format you choose. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Present your response in any format you choose. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Present your response in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Present your response in any format you choose. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Present your response in any format you choose. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Present your response in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Present your response in any format you choose. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Present your response in any format you choose. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (Medium)": "Provide your answer as a short ranked list (1‑3) with one‑sentence reasons.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your answer as a short ranked list (1‑3) with one‑sentence reasons. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Low)": "Name one must‑see spot in Kyoto and explain briefly why it is recommended.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Name one must‑see spot in Kyoto and explain briefly why it is recommended. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (Medium)": "List three must‑see spots in Kyoto and give a one‑sentence reason for each.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. List three must‑see spots in Kyoto and give a one‑sentence reason for each. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (Medium)": "Maintain a friendly, conversational tone suitable for first‑time travelers.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Maintain a friendly, conversational tone suitable for first‑time travelers."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed.",
+    "Task (High)": "Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips.",
+    "Constraints (High)": "Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity.",
+    "full": "Acting as a Tour Guide. Using the traveler's detailed profile: first visit to Kyoto in April, moderate budget, vegetarian diet, interest in UNESCO World Heritage sites and scenic photography, plus a 3‑day stay. Design a half‑day itinerary for Kyoto that includes must‑see spots, optimal visit times, and concise insider tips. Provide your response as a structured markdown document with clearly labeled sections: Attraction, Reason to Visit, Insider Tips, Estimated Time Needed. Adopt an enthusiastic yet professional tour guide tone, keep the response under 120 words, and ensure cultural sensitivity."
+  }
+]
