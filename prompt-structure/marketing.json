@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario involving digital marketing performance.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Imagine a general scenario involving digital marketing performance. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (Medium)": "Considering recent digital marketing trends and basic competitor information...",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Considering recent digital marketing trends and basic competitor information... Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Low)": "Present your findings in any creative format you prefer.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Present your findings in any creative format you prefer. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (Medium)": "Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Structure your analysis with clearly labeled sections: Insights, Benchmarking, and Recommendations. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Low)": "List general marketing channels or strategies that might be effective.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. List general marketing channels or strategies that might be effective. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (Medium)": "Summarize the top-performing digital marketing channels and suggest improvements.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Summarize the top-performing digital marketing channels and suggest improvements. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Low)": "No specific tone or constraints; creativity is encouraged.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. No specific tone or constraints; creativity is encouraged."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (Medium)": "Use a clear and professional tone appropriate for general marketing teams.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a clear and professional tone appropriate for general marketing teams."
+  },
+  {
+    "Context (High)": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights.",
+    "Output Format (High)": "Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies.",
+    "Task (High)": "Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations.",
+    "Constraints (High)": "Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words.",
+    "full": "Using the provided Q1 2024 digital marketing performance data, recent competitor analysis report, and detailed customer demographic insights. Identify and analyze the top three digital marketing channels that yielded the highest return on investment (ROI). Compare these results to competitor performance, and offer actionable strategic recommendations. Provide your analysis structured as a markdown-formatted executive summary, clearly organized under headings: Key Insights, Competitor Benchmarking, Recommended Strategies. Use a professional, analytical tone suitable for senior marketing executives. Limit the executive summary to approximately 400 words."
+  }
+]

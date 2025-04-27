@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt Structure Lab</title>
+
+ <link rel="stylesheet" href="./styles.css?v=3">
+
+<!-- Force the Guided-Tour modal to sit above everything -->
+<style>
+  /* Lower the Live Preview panel a bit */
+  #livePreviewOutput      { z-index: 5  !important; }
+
+  /* Raise the dark backdrop */
+  .modal                  { z-index: 9998 !important; }
+
+  /* Raise the white card even higher */
+  .modal-content          { 
+      position: fixed !important;   /* fixed, not auto */
+      top: 50% !important;          /* center vertically */
+      left: 50% !important;         /* center horizontally */
+      transform: translate(-50%, -50%) !important;
+      z-index: 9999 !important;     /* absolute top */
+  }
+</style>
+
+
+</head>
+<body>
+
+<!-- Header -->
+<header id="appHeader">
+  Generative AI Prompt Components Lab
+</header>
+
+
+  <div id="sidebar">
+    <h2>Mode</h2>
+    <div id="modeSelection" style="margin-top: 10px;">
+      <label title="Learn and experiment with Prompt Components." style="display: block; margin-bottom: 5px;">
+        <input type="radio" name="mode" value="learn" checked="checked" /> Learn
+      </label>
+      <label title="Create and run prompts in your favorite LLM - coming soon." style="display: block; margin-bottom: 5px;">
+        <input type="radio" name="mode" value="create" /> Create
+      </label>
+    </div>
+
+    <h2>Select Prompt</h2>
+    <select id="topicSelect"></select>
+
+
+    <h3>Component Levels</h3>
+    <div class="slider-container">
+      <label for="contextSlider" title="Background knowledge needed to understand the task.">📘 Context</label>
+      <input type="range" min="1" max="3" step="1" value="1" id="contextSlider" />
+      <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
+    </div>
+    <div class="slider-container">
+      <label for="outputSlider" title="How the response should be structured.">📝 Output Format</label>
+      <input type="range" min="1" max="3" step="1" value="1" id="outputSlider" />
+      <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
+    </div>
+    <div class="slider-container">
+      <label for="taskSlider" title="What you want the AI to do.">🎯 Task</label>
+      <input type="range" min="1" max="3" step="1" value="1" id="taskSlider" />
+      <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
+    </div>
+    <div class="slider-container">
+      <label for="constraintSlider" title="Rules, tone, or restrictions the AI must follow.">🔒 Constraints</label>
+      <input type="range" min="1" max="3" step="1" value="1" id="constraintSlider" />
+      <div class="range-labels"><span>Low</span><span>Medium</span><span>High</span></div>
+    </div>
+    <div class="button-bar">
+  <button onclick="showPrompt()">Add History</button>
+  <button id="clearBtn" class="clear-button">Clear</button>
+</div>
+
+<div style="margin-top: 20px;">
+  <h3>Color Key</h3>
+  <ul style="font-size: 0.9em; line-height: 1.6; list-style-type: none; padding-left: 0;">
+    <li><span style="color:#00509E;">📘 Context</span></li>
+    <li><span style="color:#007B55;">📝 Output Format</span></li>
+    <li><span style="color:#D17C00;">🎯 Task</span></li>
+    <li><span style="color:#C1121F;">🔒 Constraints</span></li>
+  </ul>
+</div>
+
+  
+</div>
+
+  <div id="main">
+ <h2 style="margin-bottom: 8px;">Live Preview</h2>
+<pre id="livePreviewOutput"></pre>
+<div style="width: fit-content; margin-top: 8px;">
+  <button id="copyLiveBtn" style="padding: 6px 12px; font-size: 1em; background-color: #00509E; color: white; border: none; border-radius: 4px; cursor: pointer;">Copy</button>
+</div>
+
+
+<h2>Adjusted Prompt History</h2>
+<pre id="promptOutput"></pre>
+
+</div>
+
+
+<div id="infoBox">
+  <h2>Prompt Components</h2>
+
+  <details open>
+    <summary>📘 Context (Information)</summary>
+    <p>
+      <strong>Definition:</strong> Foundational background (domain data, goals, context) the model needs for accuracy and relevance.<br>
+      <strong>Low Context:</strong> OK for simple, general queries where ambiguity is low.<br>
+      <strong>Medium Context:</strong> Provide essential background to avoid misinterpretation.<br>
+      <strong>High Context:</strong> Use detailed, domain-specific input or examples.<br>
+      <strong>Why?</strong> More context improves relevance and precision for complex queries.
+    </p>
+  </details>
+
+  <details>
+    <summary>📝 Output Format</summary>
+    <p>
+      <strong>Definition:</strong> Structural cue (e.g., table, list, summary) defining how the answer should appear for readability and workflow efficiency.<br>
+      <strong>Low Output Focus:</strong> Default formatting is acceptable.<br>
+      <strong>Medium:</strong> Provide a specific structure like a list or short table.<br>
+      <strong>High:</strong> Require detailed structure—such as JSON, outline, or nested sections.<br>
+      <strong>Why?</strong> Structure guides the AI to produce usable formats for downstream use.
+    </p>
+  </details>
+
+  <details>
+    <summary>🎯 Task</summary>
+    <p>
+      <strong>Definition:</strong> The specific action or function the AI is being asked to do (e.g., generate ideas, summarize, explain, compare).<br>
+      <strong>Low Task Clarity:</strong> General task description (e.g., "Write about climate").<br>
+      <strong>Medium:</strong> Include goal and constraints (e.g., "Summarize climate risks in 5 bullet points").<br>
+      <strong>High:</strong> Detailed and precise with clear boundaries (e.g., “Compare U.S. vs. China emission trends in under 100 words using 2023 data”).<br>
+      <strong>Why?</strong> Clear tasks reduce hallucinations and increase usable output.
+    </p>
+  </details>
+
+  <details>
+    <summary>🔒 Constraints</summary>
+    <p>
+      <strong>Definition:</strong> Any rules or limits the AI must follow, such as tone, length, exclusions, or vocabulary.<br>
+      <strong>Low Constraint:</strong> No limits; open tone and style.<br>
+      <strong>Medium:</strong> Some direction (e.g., use simple language, keep it formal).<br>
+      <strong>High:</strong> Specific directives (e.g., "under 50 words, no technical jargon, persuasive tone").<br>
+      <strong>Why?</strong> Constraints sharpen focus and align outputs with intended use or audience.
+    </p>
+  </details>
+
+<h2>📚 Resources</h2>
+<ul style="padding-left: 16px; line-height: 1.6;">
+  <li><a href="https://leanpub.com/genaipromptingguide" target="_blank">Generative AI Prompting Guide</a></li>
+   <li><a href="https://www.youtube.com/@Agility-AI" target="_blank">Agility AI Prompt Engineering Podcasts</a></li>
+            <a href="https://gttome.github.io/GenAI/" target="_blank">Generative AI Professional Prompt Engineering Guide Website</a></li>
+ <li><a href="https://gttome.github.io/GenAI/Generative%20AI%20Prompt%20Components%20Lab.html" target="_blank">Agility AI Generative AI Prompt Components Lab</a></li>
+</ul>
+
+<div class="notes-header" style="position: relative; margin-top: 20px;">
+  <h2 style="margin: 0;" title="This information is stored on your local machine. It will persist until browser cache is deleted.">
+    📝 My Notes
+  </h2>
+  <button
+    class="delete-note-btn"
+    data-textarea-id="notes-infoBox"
+    title="Delete your notes">
+    🗑️
+  </button>
+</div>
+<div class="notes-area">
+  <textarea id="notes-infoBox" placeholder="Write your notes here..."></textarea>
+</div>
+
+
+
+
+
+<!-- Footer -->
+<footer id="appFooter">
+  © 2025 George Tome / Agility AI LLC. All rights reserved.
+</footer>
+
+
+<!-- Guided Tour Modal -->
+<div id="guidedTourModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeTour()">&times;</span>
+    <h2>Welcome to the Prompt Components Lab!</h2>
+    <p>This tool helps you build powerful AI prompts by adjusting four key components:</p>
+    <ul>
+      <li><strong>📘 Context:</strong> How much background you give the AI</li>
+      <li><strong>📝 Output Format:</strong> How you want the answer structured</li>
+      <li><strong>🎯 Task:</strong> What the AI should do</li>
+      <li><strong>🔒 Constraints:</strong> Any rules to follow (tone, word count, etc.)</li>
+    </ul>
+    <p>✅ To begin, select a topic and adjust the sliders. The live preview updates automatically!</p>
+
+    <div style="margin: 15px 0;">
+      <label style="font-size: 0.9em;">
+        <input type="checkbox" id="dontShowAgain" />
+        Don’t show this again
+      </label>
+    </div>
+
+    <button onclick="closeTour()">Let’s Go!</button>
+  </div>
+</div>
+  <script src="./script.js?v=3" defer></script>
+</body>
+</html>

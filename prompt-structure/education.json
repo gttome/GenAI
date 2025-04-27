@@ -1,0 +1,570 @@
+[
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario related to teaching science.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Imagine a general scenario related to teaching science. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (Medium)": "Considering the standard 5th-grade science curriculum guidelines on ecosystems.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Considering the standard 5th-grade science curriculum guidelines on ecosystems. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Present your response creatively in any format you choose. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (Medium)": "List the learning objectives clearly, followed by a brief summary and suggested classroom activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. List the learning objectives clearly, followed by a brief summary and suggested classroom activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Low)": "List some general ideas or topics for teaching ecosystems.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. List some general ideas or topics for teaching ecosystems. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (Medium)": "Summarize key points about ecosystems and suggest a few interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Summarize key points about ecosystems and suggest a few interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (Medium)": "Maintain a clear instructional tone suitable for classroom teachers.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Maintain a clear instructional tone suitable for classroom teachers."
+  },
+  {
+    "Context (High)": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities.",
+    "Task (High)": "Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities.",
+    "Constraints (High)": "Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards.",
+    "full": "Using the provided 5th-grade science standards, detailed student performance data from previous ecosystem lessons, and recent classroom technology resources. Develop a one-week lesson plan covering ecosystems, clearly stating learning objectives, summarizing key points, and suggesting interactive classroom activities. Provide your response as a structured markdown document with clearly labeled sections: Learning Objectives, Lesson Summary, and Classroom Activities. Adopt an engaging, age-appropriate instructional tone suitable for 10–11-year-old students. Ensure alignment with national educational standards."
+  }
+
+]
