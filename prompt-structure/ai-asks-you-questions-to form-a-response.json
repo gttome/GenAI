@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask the traveler questions to understand their basic trip preferences. Ask questions in any conversational style you prefer. Use a friendly tone."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask the traveler questions to understand their basic trip preferences. Ask questions in any conversational style you prefer. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask the traveler questions to understand their basic trip preferences. Ask questions in any conversational style you prefer. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions in any conversational style you prefer. Use a friendly tone."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions in any conversational style you prefer. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions in any conversational style you prefer. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Imagine a traveler wants a custom trip plan. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions in any conversational style you prefer. Use a friendly tone."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Imagine a traveler wants a custom trip plan. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions in any conversational style you prefer. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Imagine a traveler wants a custom trip plan. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions in any conversational style you prefer. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask the traveler questions to understand their basic trip preferences. Ask questions as numbered bullet points. Use a friendly tone."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask the traveler questions to understand their basic trip preferences. Ask questions as numbered bullet points. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask the traveler questions to understand their basic trip preferences. Ask questions as numbered bullet points. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as numbered bullet points. Use a friendly tone."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as numbered bullet points. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as numbered bullet points. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Imagine a traveler wants a custom trip plan. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as numbered bullet points. Use a friendly tone."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Imagine a traveler wants a custom trip plan. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as numbered bullet points. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Imagine a traveler wants a custom trip plan. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as numbered bullet points. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask the traveler questions to understand their basic trip preferences. Ask questions as single JSON objects specifying 'question' and 'field' keys. Use a friendly tone."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask the traveler questions to understand their basic trip preferences. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask the traveler questions to understand their basic trip preferences. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as single JSON objects specifying 'question' and 'field' keys. Use a friendly tone."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Imagine a traveler wants a custom trip plan. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Imagine a traveler wants a custom trip plan. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as single JSON objects specifying 'question' and 'field' keys. Use a friendly tone."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Imagine a traveler wants a custom trip plan. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Low)": "Imagine a traveler wants a custom trip plan.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Imagine a traveler wants a custom trip plan. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask the traveler questions to understand their basic trip preferences. Ask questions in any conversational style you prefer. Use a friendly tone."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask the traveler questions to understand their basic trip preferences. Ask questions in any conversational style you prefer. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask the traveler questions to understand their basic trip preferences. Ask questions in any conversational style you prefer. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions in any conversational style you prefer. Use a friendly tone."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions in any conversational style you prefer. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions in any conversational style you prefer. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions in any conversational style you prefer. Use a friendly tone."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions in any conversational style you prefer. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions in any conversational style you prefer. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask the traveler questions to understand their basic trip preferences. Ask questions as numbered bullet points. Use a friendly tone."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask the traveler questions to understand their basic trip preferences. Ask questions as numbered bullet points. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask the traveler questions to understand their basic trip preferences. Ask questions as numbered bullet points. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as numbered bullet points. Use a friendly tone."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as numbered bullet points. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as numbered bullet points. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as numbered bullet points. Use a friendly tone."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as numbered bullet points. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as numbered bullet points. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask the traveler questions to understand their basic trip preferences. Ask questions as single JSON objects specifying 'question' and 'field' keys. Use a friendly tone."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask the traveler questions to understand their basic trip preferences. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask the traveler questions to understand their basic trip preferences. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as single JSON objects specifying 'question' and 'field' keys. Use a friendly tone."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as single JSON objects specifying 'question' and 'field' keys. Use a friendly tone."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (Medium)": "Considering the traveler's preliminary details (destination region and duration).",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Considering the traveler's preliminary details (destination region and duration). Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask the traveler questions to understand their basic trip preferences. Ask questions in any conversational style you prefer. Use a friendly tone."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask the traveler questions to understand their basic trip preferences. Ask questions in any conversational style you prefer. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask the traveler questions to understand their basic trip preferences. Ask questions in any conversational style you prefer. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions in any conversational style you prefer. Use a friendly tone."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions in any conversational style you prefer. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions in any conversational style you prefer. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions in any conversational style you prefer. Use a friendly tone."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions in any conversational style you prefer. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Low)": "Ask questions in any conversational style you prefer.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions in any conversational style you prefer. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask the traveler questions to understand their basic trip preferences. Ask questions as numbered bullet points. Use a friendly tone."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask the traveler questions to understand their basic trip preferences. Ask questions as numbered bullet points. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask the traveler questions to understand their basic trip preferences. Ask questions as numbered bullet points. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as numbered bullet points. Use a friendly tone."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as numbered bullet points. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as numbered bullet points. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as numbered bullet points. Use a friendly tone."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as numbered bullet points. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (Medium)": "Ask questions as numbered bullet points.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as numbered bullet points. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask the traveler questions to understand their basic trip preferences. Ask questions as single JSON objects specifying 'question' and 'field' keys. Use a friendly tone."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask the traveler questions to understand their basic trip preferences. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Low)": "Ask the traveler questions to understand their basic trip preferences.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask the traveler questions to understand their basic trip preferences. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as single JSON objects specifying 'question' and 'field' keys. Use a friendly tone."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (Medium)": "Ask sequential, targeted questions to gather key trip requirements and constraints.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Ask sequential, targeted questions to gather key trip requirements and constraints. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Low)": "Use a friendly tone.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as single JSON objects specifying 'question' and 'field' keys. Use a friendly tone."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (Medium)": "Limit each question to under 20 words, keep tone professional.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to under 20 words, keep tone professional."
+  },
+  {
+    "Context (High)": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places.",
+    "Output Format (High)": "Ask questions as single JSON objects specifying 'question' and 'field' keys.",
+    "Task (High)": "Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation.",
+    "Constraints (High)": "Limit each question to 15 words, avoid jargon, comply with travel safety regulations.",
+    "full": "Using the traveler's detailed profile, including interests, budget tier, mobility preferences, and previously visited places. Conduct an iterative Q&A to fully scope dates, budget, interests, pace, accommodation styles, must\u2011see attractions, dietary & mobility needs, then summarize findings and request confirmation. Ask questions as single JSON objects specifying 'question' and 'field' keys. Limit each question to 15 words, avoid jargon, comply with travel safety regulations."
+  }
+]

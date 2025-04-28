@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Low)": "You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You have a basic idea for an eco‑friendly skincare line to launch later this year. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (Medium)": "You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** You are preparing to launch an eco‑friendly vegan skincare line targeting 25‑40‑year‑old sustainability‑minded consumers in Q4. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Low)": "Present your response in any format you choose.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Present your response in any format you choose.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (Medium)": "Provide your response as a simple checklist of actions.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a simple checklist of actions.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Low)": "Suggest marketing ideas for the launch.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Suggest marketing ideas for the launch.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (Medium)": "Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Outline a 60‑day pre‑launch marketing roadmap covering social media, influencer outreach, and email marketing.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Low)": "No specific constraints—feel free to use any tone or style.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** No specific constraints—feel free to use any tone or style.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (Medium)": "Maintain a professional tone; keep each action under 20 words.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Maintain a professional tone; keep each action under 20 words.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  },
+  {
+    "Context (High)": "Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.",
+    "Output Format (High)": "Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.",
+    "Task (High)": "Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.",
+    "Constraints (High)": "Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.",
+    "full": "You are a senior brand‑marketing strategist. Review the context below; if anything is unclear, ask the numbered clarifying questions you need before answering.\n---\n**Context:** Your company is launching an eco‑friendly vegan skincare line in Q4 with a $250 k marketing budget. Target personas (Eco‑Chic Professionals, Green Gen‑Z) and competitive analysis are available. Remember to ask any clarifying questions first.\n**Task:** Develop a detailed omni‑channel 60‑day pre‑launch marketing strategy that includes channel scheduling, messaging pillars, and KPI targets.\n**Output Format:** Provide your response as a 60‑day roadmap table with columns for Weeks 1‑8 and Marketing Channels, followed by three KPI metrics.\n**Constraints:** Use a professional tone, emphasize eco‑values, keep each table cell ≤ 20 words, and include three quantifiable KPIs.\nRemember to ask any clarifying questions first, in a numbered list, before completing the task."
+  }
+]

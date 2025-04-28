@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts the brand could adopt. Return ideas in any format you like. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts the brand could adopt. Return ideas in any format you like. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts the brand could adopt. Return ideas in any format you like. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Return ideas in any format you like. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Return ideas in any format you like. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Return ideas in any format you like. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Return ideas in any format you like. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Return ideas in any format you like. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Return ideas in any format you like. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your ideas as a bulleted list with a short explanation for each. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your ideas as a bulleted list with a short explanation for each. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your ideas as a bulleted list with a short explanation for each. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your ideas as a bulleted list with a short explanation for each. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your ideas as a bulleted list with a short explanation for each. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your ideas as a bulleted list with a short explanation for each. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your ideas as a bulleted list with a short explanation for each. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your ideas as a bulleted list with a short explanation for each. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your ideas as a bulleted list with a short explanation for each. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Low)": "A cosmetics startup wants to reduce plastic in its product packaging.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A cosmetics startup wants to reduce plastic in its product packaging. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts the brand could adopt. Return ideas in any format you like. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts the brand could adopt. Return ideas in any format you like. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts the brand could adopt. Return ideas in any format you like. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Return ideas in any format you like. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Return ideas in any format you like. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Return ideas in any format you like. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Return ideas in any format you like. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Return ideas in any format you like. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Return ideas in any format you like. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your ideas as a bulleted list with a short explanation for each. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your ideas as a bulleted list with a short explanation for each. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your ideas as a bulleted list with a short explanation for each. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your ideas as a bulleted list with a short explanation for each. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your ideas as a bulleted list with a short explanation for each. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your ideas as a bulleted list with a short explanation for each. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your ideas as a bulleted list with a short explanation for each. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your ideas as a bulleted list with a short explanation for each. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your ideas as a bulleted list with a short explanation for each. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (Medium)": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "A growing cosmetics brand wants to replace virgin plastic with sustainable materials, while preserving shelf appeal and product integrity. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts the brand could adopt. Return ideas in any format you like. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts the brand could adopt. Return ideas in any format you like. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts the brand could adopt. Return ideas in any format you like. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Return ideas in any format you like. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Return ideas in any format you like. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Return ideas in any format you like. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Return ideas in any format you like. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Return ideas in any format you like. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Low)": "Return ideas in any format you like.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Return ideas in any format you like. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your ideas as a bulleted list with a short explanation for each. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your ideas as a bulleted list with a short explanation for each. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your ideas as a bulleted list with a short explanation for each. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your ideas as a bulleted list with a short explanation for each. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your ideas as a bulleted list with a short explanation for each. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your ideas as a bulleted list with a short explanation for each. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your ideas as a bulleted list with a short explanation for each. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your ideas as a bulleted list with a short explanation for each. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (Medium)": "Provide your ideas as a bulleted list with a short explanation for each.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your ideas as a bulleted list with a short explanation for each. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Low)": "Brainstorm eco-friendly packaging concepts the brand could adopt.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts the brand could adopt. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (Medium)": "Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and include one advantage and one challenge for each. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Low)": "Feel free to be creative without specific constraints.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Feel free to be creative without specific constraints."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (Medium)": "Maintain a professional product‑development tone suitable for a cross‑functional team.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Maintain a professional product‑development tone suitable for a cross‑functional team."
+  },
+  {
+    "Context (High)": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic.",
+    "Output Format (High)": "Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact.",
+    "Task (High)": "Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost.",
+    "Constraints (High)": "Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25.",
+    "full": "Using the brand's life‑cycle assessment data, 2025 EU & US cosmetic‑packaging regulations, and a unit cost target below $0.25, the company seeks advanced alternatives to virgin plastic. Brainstorm eco-friendly packaging concepts and provide feasibility analysis covering material availability, recyclability, and estimated unit cost. Provide your response as a markdown table with columns: Concept, Material, Sustainability Benefit, Cost Impact. Ensure all materials are globally recyclable or compostable, comply with FDA cosmetic‑packaging guidance, and keep per‑unit material cost under $0.25."
+  }
+]

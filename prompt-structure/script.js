@@ -27,9 +27,14 @@ function wrapLabel(label, text) {
 
 /* ---------- manifest of prompt files ---------- */
 const promptFiles = [
-  { label: "Education", file: "education.json" },
-  { label: "Marketing", file: "marketing.json" },
   { label: "Acting As", file: "acting-as.json" },
+  { label: "AI Asks You Questions to form a Response", file: "ai-asks-you-questions-to form-a-response.json" },
+  { label: "Always Include", file: "always-include.json" },
+  { label: "Ask AI to Improve Prompt", file: "ask-ai-to-improve-a-prompt.json" },
+  { label: "AI Creats the Prompt", file: "ai-creates-the-prompt.json" },
+  { label: "Brainstorming", file: "brainstorming.json" },   /* -- modified from template-- */
+  { label: "Clarify Before Answering", file: "clarify-before-answering.json" },  /* -- modified from template-- */
+  { label: "Comparative Prompting", file: "comparative-prompting.json" },
   { label: "Test",      file: "test.json" }
 ];
 

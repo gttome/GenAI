@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. No special formatting is required; use a single paragraph. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. No special formatting is required; use a single paragraph. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. No special formatting is required; use a single paragraph. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Organize the response in two clear lines: main answer then tagline. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Organize the response in two clear lines: main answer then tagline. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Organize the response in two clear lines: main answer then tagline. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general customer\u2011service chat with a customer.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "Imagine a general customer\u2011service chat with a customer. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. No special formatting is required; use a single paragraph. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. No special formatting is required; use a single paragraph. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. No special formatting is required; use a single paragraph. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Organize the response in two clear lines: main answer then tagline. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Organize the response in two clear lines: main answer then tagline. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Organize the response in two clear lines: main answer then tagline. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (Medium)": "A returning customer named Jordan contacts customer service about a recent order.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A returning customer named Jordan contacts customer service about a recent order. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. No special formatting is required; use a single paragraph. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. No special formatting is required; use a single paragraph. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. No special formatting is required; use a single paragraph. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Low)": "No special formatting is required; use a single paragraph.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" No special formatting is required; use a single paragraph. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Organize the response in two clear lines: main answer then tagline. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Organize the response in two clear lines: main answer then tagline. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Organize the response in two clear lines: main answer then tagline. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (Medium)": "Organize the response in two clear lines: main answer then tagline.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Organize the response in two clear lines: main answer then tagline. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Low)": "Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response.",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at Company Name.\" to all responses generated after this prompt is executed. Include an example of how the text would appear in a response. Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (Medium)": "Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append the text \"Your satisfaction is our priority at {{Company_Name}}.\" to all responses generated after this prompt is executed. Include an example showing the placeholder replaced with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Low)": "Feel free to use any tone or style without restrictions.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Feel free to use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (Medium)": "Maintain a friendly, professional tone consistent with customer\u2011service best practices.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Maintain a friendly, professional tone consistent with customer\u2011service best practices."
+  },
+  {
+    "Context (High)": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment.",
+    "Output Format (High)": "Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**.",
+    "Task (High)": "Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\"",
+    "Constraints (High)": "Keep the tagline under 90 characters and align with brand\u2011voice guidelines.",
+    "full": "A VIP customer, Jordan Lee (Order #12345), contacts support regarding a delayed shipment; CRM shows high lifetime value and negative sentiment. Configure the system to append a channel\u2011specific tagline (max\u202f90\u202fcharacters) that includes the company name and a call to action, and include an example for a web\u2011chat reply with \"Acme\u202fCorp.\" Provide the response as structured markdown with labeled sections: **Answer** and **Tagline**. Keep the tagline under 90 characters and align with brand\u2011voice guidelines."
+  }
+]

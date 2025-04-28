@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Imagine a college student preparing a history essay. List two potential causes of the French Revolution. Respond in any format you choose. Feel free to use any tone or style."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Imagine a college student preparing a history essay. List two potential causes of the French Revolution. Respond in any format you choose. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Imagine a college student preparing a history essay. List two potential causes of the French Revolution. Respond in any format you choose. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Imagine a college student preparing a history essay. Summarize the main political, social, and economic causes of the French Revolution. Respond in any format you choose. Feel free to use any tone or style."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Imagine a college student preparing a history essay. Summarize the main political, social, and economic causes of the French Revolution. Respond in any format you choose. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Imagine a college student preparing a history essay. Summarize the main political, social, and economic causes of the French Revolution. Respond in any format you choose. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Imagine a college student preparing a history essay. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Respond in any format you choose. Feel free to use any tone or style."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Imagine a college student preparing a history essay. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Respond in any format you choose. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Imagine a college student preparing a history essay. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Respond in any format you choose. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Imagine a college student preparing a history essay. List two potential causes of the French Revolution. Provide your answer in concise bullet points. Feel free to use any tone or style."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Imagine a college student preparing a history essay. List two potential causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Imagine a college student preparing a history essay. List two potential causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Imagine a college student preparing a history essay. Summarize the main political, social, and economic causes of the French Revolution. Provide your answer in concise bullet points. Feel free to use any tone or style."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Imagine a college student preparing a history essay. Summarize the main political, social, and economic causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Imagine a college student preparing a history essay. Summarize the main political, social, and economic causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Imagine a college student preparing a history essay. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your answer in concise bullet points. Feel free to use any tone or style."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Imagine a college student preparing a history essay. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Imagine a college student preparing a history essay. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Imagine a college student preparing a history essay. List two potential causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Feel free to use any tone or style."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Imagine a college student preparing a history essay. List two potential causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Imagine a college student preparing a history essay. List two potential causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Imagine a college student preparing a history essay. Summarize the main political, social, and economic causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Feel free to use any tone or style."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Imagine a college student preparing a history essay. Summarize the main political, social, and economic causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Imagine a college student preparing a history essay. Summarize the main political, social, and economic causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Imagine a college student preparing a history essay. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Feel free to use any tone or style."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Imagine a college student preparing a history essay. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Low)": "Imagine a college student preparing a history essay.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Imagine a college student preparing a history essay. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. List two potential causes of the French Revolution. Respond in any format you choose. Feel free to use any tone or style."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. List two potential causes of the French Revolution. Respond in any format you choose. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. List two potential causes of the French Revolution. Respond in any format you choose. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Respond in any format you choose. Feel free to use any tone or style."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Respond in any format you choose. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Respond in any format you choose. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Respond in any format you choose. Feel free to use any tone or style."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Respond in any format you choose. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Respond in any format you choose. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. List two potential causes of the French Revolution. Provide your answer in concise bullet points. Feel free to use any tone or style."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. List two potential causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. List two potential causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your answer in concise bullet points. Feel free to use any tone or style."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your answer in concise bullet points. Feel free to use any tone or style."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. List two potential causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Feel free to use any tone or style."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. List two potential causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. List two potential causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Feel free to use any tone or style."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Feel free to use any tone or style."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (Medium)": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Considering a college student in a European History 101 course writing a 1,500‑word essay on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. List two potential causes of the French Revolution. Respond in any format you choose. Feel free to use any tone or style."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. List two potential causes of the French Revolution. Respond in any format you choose. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. List two potential causes of the French Revolution. Respond in any format you choose. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Respond in any format you choose. Feel free to use any tone or style."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Respond in any format you choose. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Respond in any format you choose. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Respond in any format you choose. Feel free to use any tone or style."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Respond in any format you choose. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Low)": "Respond in any format you choose.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Respond in any format you choose. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. List two potential causes of the French Revolution. Provide your answer in concise bullet points. Feel free to use any tone or style."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. List two potential causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. List two potential causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your answer in concise bullet points. Feel free to use any tone or style."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your answer in concise bullet points. Feel free to use any tone or style."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (Medium)": "Provide your answer in concise bullet points.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your answer in concise bullet points. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. List two potential causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Feel free to use any tone or style."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. List two potential causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Low)": "List two potential causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. List two potential causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Feel free to use any tone or style."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (Medium)": "Summarize the main political, social, and economic causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Summarize the main political, social, and economic causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Low)": "Feel free to use any tone or style.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Feel free to use any tone or style."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (Medium)": "Use a formal academic tone suitable for first‑year university students.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone suitable for first‑year university students."
+  },
+  {
+    "Context (High)": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution.",
+    "Output Format (High)": "Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list.",
+    "Task (High)": "Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution.",
+    "Constraints (High)": "Use a formal academic tone, avoid first‑person language, and keep the response under 200 words.",
+    "full": "Using the provided primary‑source excerpts (e.g., Cahiers de Doléances, Declaration of the Rights of Man) and the professor’s rubric for analytical essays on the French Revolution. Compose a clear thesis statement and three supporting arguments analyzing the causes of the French Revolution. Provide your response as a structured outline with numbered sections, bullet sub‑points, and a short references list. Use a formal academic tone, avoid first‑person language, and keep the response under 200 words."
+  }
+]

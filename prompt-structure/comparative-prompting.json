@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Present your response creatively in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Present your response creatively in any format you choose. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Present your response creatively in any format you choose. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Present your response creatively in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Present your response creatively in any format you choose. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Present your response creatively in any format you choose. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A team needs to choose a project-management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Present your response creatively in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A team needs to choose a project-management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Present your response creatively in any format you choose. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A team needs to choose a project-management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Present your response creatively in any format you choose. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide the comparison in a concise three‑column table. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide the comparison in a concise three‑column table. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide the comparison in a concise three‑column table. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide the comparison in a concise three‑column table. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide the comparison in a concise three‑column table. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide the comparison in a concise three‑column table. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A team needs to choose a project-management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide the comparison in a concise three‑column table. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A team needs to choose a project-management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide the comparison in a concise three‑column table. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A team needs to choose a project-management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide the comparison in a concise three‑column table. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A team needs to choose a project-management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A team needs to choose a project-management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A team needs to choose a project-management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Low)": "A team needs to choose a project-management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A team needs to choose a project-management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Present your response creatively in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Present your response creatively in any format you choose. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Present your response creatively in any format you choose. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Present your response creatively in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Present your response creatively in any format you choose. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Present your response creatively in any format you choose. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Present your response creatively in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Present your response creatively in any format you choose. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Present your response creatively in any format you choose. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide the comparison in a concise three‑column table. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide the comparison in a concise three‑column table. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide the comparison in a concise three‑column table. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide the comparison in a concise three‑column table. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide the comparison in a concise three‑column table. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide the comparison in a concise three‑column table. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide the comparison in a concise three‑column table. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide the comparison in a concise three‑column table. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide the comparison in a concise three‑column table. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (Medium)": "A distributed software development team preparing for a six‑month release must choose a project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A distributed software development team preparing for a six‑month release must choose a project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Present your response creatively in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Present your response creatively in any format you choose. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Present your response creatively in any format you choose. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Present your response creatively in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Present your response creatively in any format you choose. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Present your response creatively in any format you choose. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Present your response creatively in any format you choose. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Present your response creatively in any format you choose. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Low)": "Present your response creatively in any format you choose.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Present your response creatively in any format you choose. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide the comparison in a concise three‑column table. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide the comparison in a concise three‑column table. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide the comparison in a concise three‑column table. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide the comparison in a concise three‑column table. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide the comparison in a concise three‑column table. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide the comparison in a concise three‑column table. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide the comparison in a concise three‑column table. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide the comparison in a concise three‑column table. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (Medium)": "Provide the comparison in a concise three‑column table.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide the comparison in a concise three‑column table. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Low)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, and documentation effort. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (Medium)": "Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Compare Agile Scrum, Kanban, and Waterfall on collaboration, timeline flexibility, documentation effort, and risk management, then briefly state which you recommend. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (Medium)": "Maintain a neutral, executive‑friendly tone and keep the response under 150 words.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Maintain a neutral, executive‑friendly tone and keep the response under 150 words."
+  },
+  {
+    "Context (High)": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach.",
+    "Output Format (High)": "Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation.",
+    "Task (High)": "Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice.",
+    "Constraints (High)": "Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon.",
+    "full": "A multinational bank’s multi‑vendor, compliance‑driven programme with strict cybersecurity requirements must choose the most suitable project‑management approach. Develop a weighted scoring matrix for Agile Scrum, Kanban, and Waterfall across collaboration, timeline flexibility, documentation effort, risk management, and regulatory compliance, then justify the best choice. Provide your response as a structured markdown document with clearly labeled sections: Comparison Table and Recommendation. Adopt an executive‑summary tone, limit to 120 words, and avoid technical jargon."
+  }
+]

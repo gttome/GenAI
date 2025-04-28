@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a friendly welcome email. Write the email in plain paragraph form. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a friendly welcome email. Write the email in plain paragraph form. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a friendly welcome email. Write the email in plain paragraph form. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a personalized welcome email introducing the team and highlighting key resources. Write the email in plain paragraph form. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a personalized welcome email introducing the team and highlighting key resources. Write the email in plain paragraph form. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a personalized welcome email introducing the team and highlighting key resources. Write the email in plain paragraph form. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Write the email in plain paragraph form. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Write the email in plain paragraph form. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Write the email in plain paragraph form. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a friendly welcome email. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a friendly welcome email. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a friendly welcome email. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a personalized welcome email introducing the team and highlighting key resources. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a personalized welcome email introducing the team and highlighting key resources. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a personalized welcome email introducing the team and highlighting key resources. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a friendly welcome email. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a friendly welcome email. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a friendly welcome email. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a personalized welcome email introducing the team and highlighting key resources. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a personalized welcome email introducing the team and highlighting key resources. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Write a personalized welcome email introducing the team and highlighting key resources. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Low)": "Imagine a standard corporate setting welcoming a new hire.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "Imagine a standard corporate setting welcoming a new hire. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a friendly welcome email. Write the email in plain paragraph form. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a friendly welcome email. Write the email in plain paragraph form. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a friendly welcome email. Write the email in plain paragraph form. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a personalized welcome email introducing the team and highlighting key resources. Write the email in plain paragraph form. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a personalized welcome email introducing the team and highlighting key resources. Write the email in plain paragraph form. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a personalized welcome email introducing the team and highlighting key resources. Write the email in plain paragraph form. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Write the email in plain paragraph form. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Write the email in plain paragraph form. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Write the email in plain paragraph form. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a friendly welcome email. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a friendly welcome email. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a friendly welcome email. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a personalized welcome email introducing the team and highlighting key resources. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a personalized welcome email introducing the team and highlighting key resources. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a personalized welcome email introducing the team and highlighting key resources. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a friendly welcome email. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a friendly welcome email. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a friendly welcome email. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a personalized welcome email introducing the team and highlighting key resources. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a personalized welcome email introducing the team and highlighting key resources. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Write a personalized welcome email introducing the team and highlighting key resources. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (Medium)": "A software engineer named Alex is joining the engineering team next Monday.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A software engineer named Alex is joining the engineering team next Monday. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a friendly welcome email. Write the email in plain paragraph form. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a friendly welcome email. Write the email in plain paragraph form. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a friendly welcome email. Write the email in plain paragraph form. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a personalized welcome email introducing the team and highlighting key resources. Write the email in plain paragraph form. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a personalized welcome email introducing the team and highlighting key resources. Write the email in plain paragraph form. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a personalized welcome email introducing the team and highlighting key resources. Write the email in plain paragraph form. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Write the email in plain paragraph form. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Write the email in plain paragraph form. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Low)": "Write the email in plain paragraph form.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Write the email in plain paragraph form. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a friendly welcome email. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a friendly welcome email. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a friendly welcome email. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a personalized welcome email introducing the team and highlighting key resources. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a personalized welcome email introducing the team and highlighting key resources. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a personalized welcome email introducing the team and highlighting key resources. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (Medium)": "Organize the email into clear sections: Greeting, Introduction, Resources, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Organize the email into clear sections: Greeting, Introduction, Resources, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a friendly welcome email. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a friendly welcome email. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Low)": "Write a friendly welcome email.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a friendly welcome email. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a personalized welcome email introducing the team and highlighting key resources. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a personalized welcome email introducing the team and highlighting key resources. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (Medium)": "Write a personalized welcome email introducing the team and highlighting key resources.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Write a personalized welcome email introducing the team and highlighting key resources. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Low)": "Feel free to use any tone or style without specific restrictions.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Feel free to use any tone or style without specific restrictions."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (Medium)": "Use a warm, professional tone suitable for corporate communications.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Use a warm, professional tone suitable for corporate communications."
+  },
+  {
+    "Context (High)": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details.",
+    "Output Format (High)": "Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing.",
+    "Task (High)": "Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks.",
+    "Constraints (High)": "Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines.",
+    "full": "A new backend software engineer, Alex Johnson, joins the engineering team on June 3. Include the company mission, team culture highlights, orientation schedule, and manager contact details. Draft a detailed welcome package email outlining company mission, team introductions, onboarding schedule, key resources, and first-week tasks. Provide your response as a structured markdown template with labeled sections: Subject, Greeting, Introduction, Company Overview, Resources & Contacts, Next Steps, and Closing. Keep the email under 250 words, maintain inclusive language, and align with company brand voice guidelines."
+  }
+]
