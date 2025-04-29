@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Refine a general question about student performance. Respond in any format you feel is appropriate. No specific constraints on tone or format."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Refine a general question about student performance. Respond in any format you feel is appropriate. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Refine a general question about student performance. Respond in any format you feel is appropriate. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Respond in any format you feel is appropriate. No specific constraints on tone or format."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Respond in any format you feel is appropriate. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Respond in any format you feel is appropriate. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Respond in any format you feel is appropriate. No specific constraints on tone or format."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Respond in any format you feel is appropriate. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Respond in any format you feel is appropriate. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Refine a general question about student performance. Present the refined question as a single sentence followed by a short rationale in bullet points. No specific constraints on tone or format."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Refine a general question about student performance. Present the refined question as a single sentence followed by a short rationale in bullet points. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Refine a general question about student performance. Present the refined question as a single sentence followed by a short rationale in bullet points. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Present the refined question as a single sentence followed by a short rationale in bullet points. No specific constraints on tone or format."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Present the refined question as a single sentence followed by a short rationale in bullet points. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Present the refined question as a single sentence followed by a short rationale in bullet points. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Present the refined question as a single sentence followed by a short rationale in bullet points. No specific constraints on tone or format."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Present the refined question as a single sentence followed by a short rationale in bullet points. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Present the refined question as a single sentence followed by a short rationale in bullet points. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Refine a general question about student performance. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. No specific constraints on tone or format."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Refine a general question about student performance. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Refine a general question about student performance. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. No specific constraints on tone or format."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. No specific constraints on tone or format."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Low)": "Consider a general classroom scenario where you're analyzing student performance trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Consider a general classroom scenario where you're analyzing student performance trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Refine a general question about student performance. Respond in any format you feel is appropriate. No specific constraints on tone or format."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Refine a general question about student performance. Respond in any format you feel is appropriate. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Refine a general question about student performance. Respond in any format you feel is appropriate. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Revise a broad question to focus on key academic, behavioral, and participation indicators. Respond in any format you feel is appropriate. No specific constraints on tone or format."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Revise a broad question to focus on key academic, behavioral, and participation indicators. Respond in any format you feel is appropriate. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Revise a broad question to focus on key academic, behavioral, and participation indicators. Respond in any format you feel is appropriate. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Respond in any format you feel is appropriate. No specific constraints on tone or format."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Respond in any format you feel is appropriate. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Respond in any format you feel is appropriate. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Refine a general question about student performance. Present the refined question as a single sentence followed by a short rationale in bullet points. No specific constraints on tone or format."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Refine a general question about student performance. Present the refined question as a single sentence followed by a short rationale in bullet points. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Refine a general question about student performance. Present the refined question as a single sentence followed by a short rationale in bullet points. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Revise a broad question to focus on key academic, behavioral, and participation indicators. Present the refined question as a single sentence followed by a short rationale in bullet points. No specific constraints on tone or format."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Revise a broad question to focus on key academic, behavioral, and participation indicators. Present the refined question as a single sentence followed by a short rationale in bullet points. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Revise a broad question to focus on key academic, behavioral, and participation indicators. Present the refined question as a single sentence followed by a short rationale in bullet points. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Present the refined question as a single sentence followed by a short rationale in bullet points. No specific constraints on tone or format."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Present the refined question as a single sentence followed by a short rationale in bullet points. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Present the refined question as a single sentence followed by a short rationale in bullet points. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Refine a general question about student performance. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. No specific constraints on tone or format."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Refine a general question about student performance. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Refine a general question about student performance. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Revise a broad question to focus on key academic, behavioral, and participation indicators. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. No specific constraints on tone or format."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Revise a broad question to focus on key academic, behavioral, and participation indicators. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Revise a broad question to focus on key academic, behavioral, and participation indicators. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. No specific constraints on tone or format."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (Medium)": "Use standardized testing results and recent classroom feedback to evaluate student performance.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Use standardized testing results and recent classroom feedback to evaluate student performance. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Refine a general question about student performance. Respond in any format you feel is appropriate. No specific constraints on tone or format."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Refine a general question about student performance. Respond in any format you feel is appropriate. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Refine a general question about student performance. Respond in any format you feel is appropriate. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Respond in any format you feel is appropriate. No specific constraints on tone or format."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Respond in any format you feel is appropriate. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Respond in any format you feel is appropriate. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Respond in any format you feel is appropriate. No specific constraints on tone or format."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Respond in any format you feel is appropriate. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Low)": "Respond in any format you feel is appropriate.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Respond in any format you feel is appropriate. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Refine a general question about student performance. Present the refined question as a single sentence followed by a short rationale in bullet points. No specific constraints on tone or format."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Refine a general question about student performance. Present the refined question as a single sentence followed by a short rationale in bullet points. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Refine a general question about student performance. Present the refined question as a single sentence followed by a short rationale in bullet points. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Present the refined question as a single sentence followed by a short rationale in bullet points. No specific constraints on tone or format."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Present the refined question as a single sentence followed by a short rationale in bullet points. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Present the refined question as a single sentence followed by a short rationale in bullet points. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Present the refined question as a single sentence followed by a short rationale in bullet points. No specific constraints on tone or format."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Present the refined question as a single sentence followed by a short rationale in bullet points. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (Medium)": "Present the refined question as a single sentence followed by a short rationale in bullet points.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Present the refined question as a single sentence followed by a short rationale in bullet points. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Refine a general question about student performance. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. No specific constraints on tone or format."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Refine a general question about student performance. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Low)": "Refine a general question about student performance.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Refine a general question about student performance. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. No specific constraints on tone or format."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (Medium)": "Revise a broad question to focus on key academic, behavioral, and participation indicators.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Revise a broad question to focus on key academic, behavioral, and participation indicators. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Use concise, formal language and align the response with educational assessment standards."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Low)": "No specific constraints on tone or format.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. No specific constraints on tone or format."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (Medium)": "Keep the tone suitable for an academic professional audience.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Keep the tone suitable for an academic professional audience."
+  },
+  {
+    "Context (High)": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends.",
+    "Output Format (High)": "Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change.",
+    "Task (High)": "Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends.",
+    "Constraints (High)": "Use concise, formal language and align the response with educational assessment standards.",
+    "full": "Given detailed student performance data across subjects, behavioral reports, and participation levels, focus on evaluating key learning trends. Transform a vague question into a precise inquiry that covers detailed learning metrics, engagement levels, and subject-specific trends. Structure your response in a table with columns: Original Focus Area, Refined Focus Area, and Reason for Change. Use concise, formal language and align the response with educational assessment standards."
+  }
+]

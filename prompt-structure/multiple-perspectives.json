@@ -1,0 +1,569 @@
+[
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Consider general aspects of driverless car technology. Provide general viewpoints about driverless car adoption. Present your response in a simple descriptive text. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Consider general aspects of driverless car technology. Provide general viewpoints about driverless car adoption. Present your response in a simple descriptive text. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Consider general aspects of driverless car technology. Provide general viewpoints about driverless car adoption. Present your response in a simple descriptive text. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Consider general aspects of driverless car technology. Summarize key perspectives and suggest considerations for stakeholders. Present your response in a simple descriptive text. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Consider general aspects of driverless car technology. Summarize key perspectives and suggest considerations for stakeholders. Present your response in a simple descriptive text. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Consider general aspects of driverless car technology. Summarize key perspectives and suggest considerations for stakeholders. Present your response in a simple descriptive text. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Consider general aspects of driverless car technology. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Present your response in a simple descriptive text. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Consider general aspects of driverless car technology. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Present your response in a simple descriptive text. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Consider general aspects of driverless car technology. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Present your response in a simple descriptive text. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Consider general aspects of driverless car technology. Provide general viewpoints about driverless car adoption. Organize your response into clearly defined sections for each perspective. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Consider general aspects of driverless car technology. Provide general viewpoints about driverless car adoption. Organize your response into clearly defined sections for each perspective. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Consider general aspects of driverless car technology. Provide general viewpoints about driverless car adoption. Organize your response into clearly defined sections for each perspective. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Consider general aspects of driverless car technology. Summarize key perspectives and suggest considerations for stakeholders. Organize your response into clearly defined sections for each perspective. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Consider general aspects of driverless car technology. Summarize key perspectives and suggest considerations for stakeholders. Organize your response into clearly defined sections for each perspective. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Consider general aspects of driverless car technology. Summarize key perspectives and suggest considerations for stakeholders. Organize your response into clearly defined sections for each perspective. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Consider general aspects of driverless car technology. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Organize your response into clearly defined sections for each perspective. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Consider general aspects of driverless car technology. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Organize your response into clearly defined sections for each perspective. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Consider general aspects of driverless car technology. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Organize your response into clearly defined sections for each perspective. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Consider general aspects of driverless car technology. Provide general viewpoints about driverless car adoption. Structure your response with labeled sections, including a comparative analysis table. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Consider general aspects of driverless car technology. Provide general viewpoints about driverless car adoption. Structure your response with labeled sections, including a comparative analysis table. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Consider general aspects of driverless car technology. Provide general viewpoints about driverless car adoption. Structure your response with labeled sections, including a comparative analysis table. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Consider general aspects of driverless car technology. Summarize key perspectives and suggest considerations for stakeholders. Structure your response with labeled sections, including a comparative analysis table. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Consider general aspects of driverless car technology. Summarize key perspectives and suggest considerations for stakeholders. Structure your response with labeled sections, including a comparative analysis table. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Consider general aspects of driverless car technology. Summarize key perspectives and suggest considerations for stakeholders. Structure your response with labeled sections, including a comparative analysis table. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Consider general aspects of driverless car technology. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Structure your response with labeled sections, including a comparative analysis table. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Consider general aspects of driverless car technology. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Structure your response with labeled sections, including a comparative analysis table. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Low)": "Consider general aspects of driverless car technology.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Consider general aspects of driverless car technology. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Structure your response with labeled sections, including a comparative analysis table. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Provide general viewpoints about driverless car adoption. Present your response in a simple descriptive text. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Provide general viewpoints about driverless car adoption. Present your response in a simple descriptive text. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Provide general viewpoints about driverless car adoption. Present your response in a simple descriptive text. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Summarize key perspectives and suggest considerations for stakeholders. Present your response in a simple descriptive text. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Summarize key perspectives and suggest considerations for stakeholders. Present your response in a simple descriptive text. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Summarize key perspectives and suggest considerations for stakeholders. Present your response in a simple descriptive text. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Present your response in a simple descriptive text. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Present your response in a simple descriptive text. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Present your response in a simple descriptive text. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Provide general viewpoints about driverless car adoption. Organize your response into clearly defined sections for each perspective. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Provide general viewpoints about driverless car adoption. Organize your response into clearly defined sections for each perspective. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Provide general viewpoints about driverless car adoption. Organize your response into clearly defined sections for each perspective. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Summarize key perspectives and suggest considerations for stakeholders. Organize your response into clearly defined sections for each perspective. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Summarize key perspectives and suggest considerations for stakeholders. Organize your response into clearly defined sections for each perspective. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Summarize key perspectives and suggest considerations for stakeholders. Organize your response into clearly defined sections for each perspective. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Organize your response into clearly defined sections for each perspective. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Organize your response into clearly defined sections for each perspective. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Organize your response into clearly defined sections for each perspective. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Provide general viewpoints about driverless car adoption. Structure your response with labeled sections, including a comparative analysis table. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Provide general viewpoints about driverless car adoption. Structure your response with labeled sections, including a comparative analysis table. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Provide general viewpoints about driverless car adoption. Structure your response with labeled sections, including a comparative analysis table. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Summarize key perspectives and suggest considerations for stakeholders. Structure your response with labeled sections, including a comparative analysis table. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Summarize key perspectives and suggest considerations for stakeholders. Structure your response with labeled sections, including a comparative analysis table. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Summarize key perspectives and suggest considerations for stakeholders. Structure your response with labeled sections, including a comparative analysis table. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Structure your response with labeled sections, including a comparative analysis table. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Structure your response with labeled sections, including a comparative analysis table. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (Medium)": "Using common knowledge about driverless car technology, its current development state, and typical concerns.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Using common knowledge about driverless car technology, its current development state, and typical concerns. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Structure your response with labeled sections, including a comparative analysis table. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Provide general viewpoints about driverless car adoption. Present your response in a simple descriptive text. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Provide general viewpoints about driverless car adoption. Present your response in a simple descriptive text. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Provide general viewpoints about driverless car adoption. Present your response in a simple descriptive text. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Summarize key perspectives and suggest considerations for stakeholders. Present your response in a simple descriptive text. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Summarize key perspectives and suggest considerations for stakeholders. Present your response in a simple descriptive text. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Summarize key perspectives and suggest considerations for stakeholders. Present your response in a simple descriptive text. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Present your response in a simple descriptive text. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Present your response in a simple descriptive text. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Low)": "Present your response in a simple descriptive text.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Present your response in a simple descriptive text. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Provide general viewpoints about driverless car adoption. Organize your response into clearly defined sections for each perspective. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Provide general viewpoints about driverless car adoption. Organize your response into clearly defined sections for each perspective. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Provide general viewpoints about driverless car adoption. Organize your response into clearly defined sections for each perspective. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Summarize key perspectives and suggest considerations for stakeholders. Organize your response into clearly defined sections for each perspective. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Summarize key perspectives and suggest considerations for stakeholders. Organize your response into clearly defined sections for each perspective. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Summarize key perspectives and suggest considerations for stakeholders. Organize your response into clearly defined sections for each perspective. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Organize your response into clearly defined sections for each perspective. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Organize your response into clearly defined sections for each perspective. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (Medium)": "Organize your response into clearly defined sections for each perspective.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Organize your response into clearly defined sections for each perspective. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Provide general viewpoints about driverless car adoption. Structure your response with labeled sections, including a comparative analysis table. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Provide general viewpoints about driverless car adoption. Structure your response with labeled sections, including a comparative analysis table. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Low)": "Provide general viewpoints about driverless car adoption.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Provide general viewpoints about driverless car adoption. Structure your response with labeled sections, including a comparative analysis table. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Summarize key perspectives and suggest considerations for stakeholders. Structure your response with labeled sections, including a comparative analysis table. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Summarize key perspectives and suggest considerations for stakeholders. Structure your response with labeled sections, including a comparative analysis table. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (Medium)": "Summarize key perspectives and suggest considerations for stakeholders.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Summarize key perspectives and suggest considerations for stakeholders. Structure your response with labeled sections, including a comparative analysis table. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Low)": "Use any appropriate tone or style without restrictions.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Structure your response with labeled sections, including a comparative analysis table. Use any appropriate tone or style without restrictions."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (Medium)": "Maintain a neutral, informative tone suitable for stakeholders.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Structure your response with labeled sections, including a comparative analysis table. Maintain a neutral, informative tone suitable for stakeholders."
+    },
+    {
+        "Context (High)": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption.",
+        "Output Format (High)": "Structure your response with labeled sections, including a comparative analysis table.",
+        "Task (High)": "Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective.",
+        "Constraints (High)": "Use a formal, detailed tone suitable for technical and regulatory audiences.",
+        "full": "Utilizing detailed technical specifications, regulatory frameworks, and societal impacts associated with driverless car adoption. Develop a detailed comparative analysis, clearly identifying pros and cons from each stakeholder perspective. Structure your response with labeled sections, including a comparative analysis table. Use a formal, detailed tone suitable for technical and regulatory audiences."
+    }
+]

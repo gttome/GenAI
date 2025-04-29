@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Plain Markdown. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Plain Markdown. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer exploring Markdown basics. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer exploring Markdown basics. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Plain Markdown. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer exploring Markdown basics. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Markdown with headings and bullet lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Markdown with headings and bullet lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer exploring Markdown basics. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer exploring Markdown basics. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Markdown with headings and bullet lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer exploring Markdown basics. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer exploring Markdown basics. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer exploring Markdown basics. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer exploring Markdown basics. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Structured Markdown document with sections, tables, and nested lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Low)": "You are a technical writer exploring Markdown basics.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer exploring Markdown basics. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Plain Markdown. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Plain Markdown. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Plain Markdown. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Markdown with headings and bullet lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Markdown with headings and bullet lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Markdown with headings and bullet lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Structured Markdown document with sections, tables, and nested lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (Medium)": "You are a technical writer documenting Markdown features for a development team.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a technical writer documenting Markdown features for a development team. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Plain Markdown. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Plain Markdown. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Plain Markdown. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Low)": "Plain Markdown.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Plain Markdown. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Markdown with headings and bullet lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Markdown with headings and bullet lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Markdown with headings and bullet lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (Medium)": "Markdown with headings and bullet lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Markdown with headings and bullet lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Low)": "Generate a Markdown commands table and then prompt for an email about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then prompt for an email about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (Medium)": "Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Generate a Markdown commands table and then a prompt for an email to a friend about a mountain retreat. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Low)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a clickable link."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (Medium)": "Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Structured Markdown document with sections, tables, and nested lists. Include Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, and a hyperlink; maintain consistent Markdown syntax."
+  },
+  {
+    "Context (High)": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal.",
+    "Output Format (High)": "Structured Markdown document with sections, tables, and nested lists.",
+    "Task (High)": "Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary.",
+    "Constraints (High)": "Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone.",
+    "full": "You are a senior technical writer creating a comprehensive Markdown reference guide for an engineering documentation portal. Produce a comprehensive Markdown commands table and craft a detailed AI prompt that writes an email to a friend describing a mountain retreat with suggested highlights and itinerary. Structured Markdown document with sections, tables, and nested lists. Use Bold, Italic, Strikethrough, Heading 1 and 5, Blockquote, an ordered list, clickable links, and emojis; ensure correct syntax and professional tone."
+  }
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing product marketing content for a general audience. Remove unnecessary technical jargon from the product description. Return the revised product description in plain text. Use a natural, informal tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing product marketing content for a general audience. Remove unnecessary technical jargon from the product description. Return the revised product description in plain text. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing product marketing content for a general audience. Remove unnecessary technical jargon from the product description. Return the revised product description in plain text. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing product marketing content for a general audience. Eliminate technical specifications to make the marketing copy more accessible to general readers. Return the revised product description in plain text. Use a natural, informal tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing product marketing content for a general audience. Eliminate technical specifications to make the marketing copy more accessible to general readers. Return the revised product description in plain text. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing product marketing content for a general audience. Eliminate technical specifications to make the marketing copy more accessible to general readers. Return the revised product description in plain text. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing product marketing content for a general audience. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Return the revised product description in plain text. Use a natural, informal tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing product marketing content for a general audience. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Return the revised product description in plain text. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing product marketing content for a general audience. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Return the revised product description in plain text. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing product marketing content for a general audience. Remove unnecessary technical jargon from the product description. Format your response as a bullet list of marketing highlights. Use a natural, informal tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing product marketing content for a general audience. Remove unnecessary technical jargon from the product description. Format your response as a bullet list of marketing highlights. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing product marketing content for a general audience. Remove unnecessary technical jargon from the product description. Format your response as a bullet list of marketing highlights. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing product marketing content for a general audience. Eliminate technical specifications to make the marketing copy more accessible to general readers. Format your response as a bullet list of marketing highlights. Use a natural, informal tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing product marketing content for a general audience. Eliminate technical specifications to make the marketing copy more accessible to general readers. Format your response as a bullet list of marketing highlights. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing product marketing content for a general audience. Eliminate technical specifications to make the marketing copy more accessible to general readers. Format your response as a bullet list of marketing highlights. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing product marketing content for a general audience. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Format your response as a bullet list of marketing highlights. Use a natural, informal tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing product marketing content for a general audience. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Format your response as a bullet list of marketing highlights. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing product marketing content for a general audience. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Format your response as a bullet list of marketing highlights. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing product marketing content for a general audience. Remove unnecessary technical jargon from the product description. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Use a natural, informal tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing product marketing content for a general audience. Remove unnecessary technical jargon from the product description. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing product marketing content for a general audience. Remove unnecessary technical jargon from the product description. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing product marketing content for a general audience. Eliminate technical specifications to make the marketing copy more accessible to general readers. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Use a natural, informal tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing product marketing content for a general audience. Eliminate technical specifications to make the marketing copy more accessible to general readers. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing product marketing content for a general audience. Eliminate technical specifications to make the marketing copy more accessible to general readers. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing product marketing content for a general audience. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Use a natural, informal tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing product marketing content for a general audience. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Low)": "You are editing product marketing content for a general audience.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing product marketing content for a general audience. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Remove unnecessary technical jargon from the product description. Return the revised product description in plain text. Use a natural, informal tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Remove unnecessary technical jargon from the product description. Return the revised product description in plain text. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Remove unnecessary technical jargon from the product description. Return the revised product description in plain text. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Eliminate technical specifications to make the marketing copy more accessible to general readers. Return the revised product description in plain text. Use a natural, informal tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Eliminate technical specifications to make the marketing copy more accessible to general readers. Return the revised product description in plain text. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Eliminate technical specifications to make the marketing copy more accessible to general readers. Return the revised product description in plain text. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Return the revised product description in plain text. Use a natural, informal tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Return the revised product description in plain text. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Return the revised product description in plain text. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Remove unnecessary technical jargon from the product description. Format your response as a bullet list of marketing highlights. Use a natural, informal tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Remove unnecessary technical jargon from the product description. Format your response as a bullet list of marketing highlights. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Remove unnecessary technical jargon from the product description. Format your response as a bullet list of marketing highlights. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Eliminate technical specifications to make the marketing copy more accessible to general readers. Format your response as a bullet list of marketing highlights. Use a natural, informal tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Eliminate technical specifications to make the marketing copy more accessible to general readers. Format your response as a bullet list of marketing highlights. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Eliminate technical specifications to make the marketing copy more accessible to general readers. Format your response as a bullet list of marketing highlights. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Format your response as a bullet list of marketing highlights. Use a natural, informal tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Format your response as a bullet list of marketing highlights. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Format your response as a bullet list of marketing highlights. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Remove unnecessary technical jargon from the product description. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Use a natural, informal tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Remove unnecessary technical jargon from the product description. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Remove unnecessary technical jargon from the product description. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Eliminate technical specifications to make the marketing copy more accessible to general readers. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Use a natural, informal tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Eliminate technical specifications to make the marketing copy more accessible to general readers. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Eliminate technical specifications to make the marketing copy more accessible to general readers. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Use a natural, informal tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (Medium)": "You are editing marketing content for a B2B wearable technology product.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are editing marketing content for a B2B wearable technology product. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Remove unnecessary technical jargon from the product description. Return the revised product description in plain text. Use a natural, informal tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Remove unnecessary technical jargon from the product description. Return the revised product description in plain text. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Remove unnecessary technical jargon from the product description. Return the revised product description in plain text. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Eliminate technical specifications to make the marketing copy more accessible to general readers. Return the revised product description in plain text. Use a natural, informal tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Eliminate technical specifications to make the marketing copy more accessible to general readers. Return the revised product description in plain text. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Eliminate technical specifications to make the marketing copy more accessible to general readers. Return the revised product description in plain text. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Return the revised product description in plain text. Use a natural, informal tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Return the revised product description in plain text. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Low)": "Return the revised product description in plain text.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Return the revised product description in plain text. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Remove unnecessary technical jargon from the product description. Format your response as a bullet list of marketing highlights. Use a natural, informal tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Remove unnecessary technical jargon from the product description. Format your response as a bullet list of marketing highlights. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Remove unnecessary technical jargon from the product description. Format your response as a bullet list of marketing highlights. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Eliminate technical specifications to make the marketing copy more accessible to general readers. Format your response as a bullet list of marketing highlights. Use a natural, informal tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Eliminate technical specifications to make the marketing copy more accessible to general readers. Format your response as a bullet list of marketing highlights. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Eliminate technical specifications to make the marketing copy more accessible to general readers. Format your response as a bullet list of marketing highlights. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Format your response as a bullet list of marketing highlights. Use a natural, informal tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Format your response as a bullet list of marketing highlights. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (Medium)": "Format your response as a bullet list of marketing highlights.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Format your response as a bullet list of marketing highlights. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Remove unnecessary technical jargon from the product description. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Use a natural, informal tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Remove unnecessary technical jargon from the product description. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Low)": "Remove unnecessary technical jargon from the product description.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Remove unnecessary technical jargon from the product description. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Eliminate technical specifications to make the marketing copy more accessible to general readers. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Use a natural, informal tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Eliminate technical specifications to make the marketing copy more accessible to general readers. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (Medium)": "Eliminate technical specifications to make the marketing copy more accessible to general readers.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Eliminate technical specifications to make the marketing copy more accessible to general readers. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Low)": "Use a natural, informal tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Use a natural, informal tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (Medium)": "Maintain a professional and persuasive marketing tone.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Maintain a professional and persuasive marketing tone."
+  },
+  {
+    "Context (High)": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals.",
+    "Output Format (High)": "Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary.",
+    "Task (High)": "Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value.",
+    "Constraints (High)": "Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes.",
+    "full": "You are working with marketing materials for a wearable device with advanced modular features and IP68 durability aimed at technical professionals. Thoroughly remove all detailed specs and design attributes from the product description while preserving emotional appeal and product value. Present your output in a structured Markdown document with headings: Introduction, Benefits, and Final Summary. Keep the tone consistent with high-end B2B branding\u2014confident, refined, and benefit-focused. Avoid all numerical specs or design codes."
+  }
+]

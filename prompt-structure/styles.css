@@ -35,8 +35,8 @@ body {
   padding: 0;
   display: flex;
   height: 100vh;
-  padding-top: 50px;    /* Prevent content under the header */
-  padding-bottom: 40px; /* Prevent content under the footer */
+  padding-top: 20px;    /* Prevent content under the header */
+  padding-bottom: 20px; /* Prevent content under the footer */
   box-sizing: border-box;
   background-color: #f5f8fa;
 }
@@ -71,16 +71,17 @@ label {
 #sidebar {
   width: 300px;
   background-color: #E6F0FA; /* Light blue */
-  padding: 20px;
+  padding: 10px 10px 10px 10px;
   border-right: 1px solid #ccc;
   box-sizing: border-box;
   overflow-y: auto;
+ padding-top: 0px; /* instead of 20px */
 }
 
 /* Main Content Area */
 #main {
   flex-grow: 1;
-  padding: 20px;
+  padding: 10px;
   background-color: #ffffff;
   overflow-y: auto;
 }

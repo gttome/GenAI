@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Low)": "None.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text. Provide only the tone name. None."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text. Provide only the tone name. Use a formal analytical style."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text. Provide only the tone name. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Low)": "None.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide only the tone name. None."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide only the tone name. Use a formal analytical style."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide only the tone name. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Low)": "None.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide only the tone name. None."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide only the tone name. Use a formal analytical style."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide only the tone name. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Low)": "None.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text. Provide the tone name and a brief explanation. None."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text. Provide the tone name and a brief explanation. Use a formal analytical style."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text. Provide the tone name and a brief explanation. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Low)": "None.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide the tone name and a brief explanation. None."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide the tone name and a brief explanation. Use a formal analytical style."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide the tone name and a brief explanation. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Low)": "None.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide the tone name and a brief explanation. None."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide the tone name and a brief explanation. Use a formal analytical style."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide the tone name and a brief explanation. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Low)": "None.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text. Provide a JSON object with 'tone' and 'explanation' fields. None."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text. Provide a JSON object with 'tone' and 'explanation' fields. Use a formal analytical style."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text. Provide a JSON object with 'tone' and 'explanation' fields. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Low)": "None.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide a JSON object with 'tone' and 'explanation' fields. None."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide a JSON object with 'tone' and 'explanation' fields. Use a formal analytical style."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide a JSON object with 'tone' and 'explanation' fields. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Low)": "None.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide a JSON object with 'tone' and 'explanation' fields. None."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide a JSON object with 'tone' and 'explanation' fields. Use a formal analytical style."
+  },
+  {
+    "Context (Low)": "Text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide a JSON object with 'tone' and 'explanation' fields. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Low)": "None.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text. Provide only the tone name. None."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text. Provide only the tone name. Use a formal analytical style."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text. Provide only the tone name. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Low)": "None.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide only the tone name. None."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide only the tone name. Use a formal analytical style."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide only the tone name. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Low)": "None.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide only the tone name. None."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide only the tone name. Use a formal analytical style."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide only the tone name. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Low)": "None.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text. Provide the tone name and a brief explanation. None."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text. Provide the tone name and a brief explanation. Use a formal analytical style."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text. Provide the tone name and a brief explanation. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Low)": "None.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide the tone name and a brief explanation. None."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide the tone name and a brief explanation. Use a formal analytical style."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide the tone name and a brief explanation. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Low)": "None.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide the tone name and a brief explanation. None."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide the tone name and a brief explanation. Use a formal analytical style."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide the tone name and a brief explanation. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Low)": "None.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text. Provide a JSON object with 'tone' and 'explanation' fields. None."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text. Provide a JSON object with 'tone' and 'explanation' fields. Use a formal analytical style."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text. Provide a JSON object with 'tone' and 'explanation' fields. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Low)": "None.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide a JSON object with 'tone' and 'explanation' fields. None."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide a JSON object with 'tone' and 'explanation' fields. Use a formal analytical style."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide a JSON object with 'tone' and 'explanation' fields. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Low)": "None.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide a JSON object with 'tone' and 'explanation' fields. None."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide a JSON object with 'tone' and 'explanation' fields. Use a formal analytical style."
+  },
+  {
+    "Context (Medium)": "Please analyze the following text: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Please analyze the following text: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide a JSON object with 'tone' and 'explanation' fields. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Low)": "None.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text. Provide only the tone name. None."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text. Provide only the tone name. Use a formal analytical style."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text. Provide only the tone name. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Low)": "None.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide only the tone name. None."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide only the tone name. Use a formal analytical style."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide only the tone name. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Low)": "None.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide only the tone name. None."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide only the tone name. Use a formal analytical style."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Low)": "Provide only the tone name.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide only the tone name. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Low)": "None.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text. Provide the tone name and a brief explanation. None."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text. Provide the tone name and a brief explanation. Use a formal analytical style."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text. Provide the tone name and a brief explanation. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Low)": "None.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide the tone name and a brief explanation. None."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide the tone name and a brief explanation. Use a formal analytical style."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide the tone name and a brief explanation. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Low)": "None.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide the tone name and a brief explanation. None."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide the tone name and a brief explanation. Use a formal analytical style."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (Medium)": "Provide the tone name and a brief explanation.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide the tone name and a brief explanation. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Low)": "None.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text. Provide a JSON object with 'tone' and 'explanation' fields. None."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text. Provide a JSON object with 'tone' and 'explanation' fields. Use a formal analytical style."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Low)": "Identify the tone of the text.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text. Provide a JSON object with 'tone' and 'explanation' fields. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Low)": "None.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide a JSON object with 'tone' and 'explanation' fields. None."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide a JSON object with 'tone' and 'explanation' fields. Use a formal analytical style."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (Medium)": "Identify the tone of the text and explain why it was selected.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the text and explain why it was selected. Provide a JSON object with 'tone' and 'explanation' fields. Keep responses under 50 words; use Markdown formatting; no slang."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Low)": "None.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide a JSON object with 'tone' and 'explanation' fields. None."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (Medium)": "Use a formal analytical style.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide a JSON object with 'tone' and 'explanation' fields. Use a formal analytical style."
+  },
+  {
+    "Context (High)": "Given the document below: \"[Paste your text here]\"",
+    "Output Format (High)": "Provide a JSON object with 'tone' and 'explanation' fields.",
+    "Task (High)": "Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone.",
+    "Constraints (High)": "Keep responses under 50 words; use Markdown formatting; no slang.",
+    "full": "Given the document below: \"[Paste your text here]\" Identify the tone of the given text, explain the selection, and suggest how to adjust the text to match a different tone. Provide a JSON object with 'tone' and 'explanation' fields. Keep responses under 50 words; use Markdown formatting; no slang."
+  }
+]

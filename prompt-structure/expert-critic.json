@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in free-form text. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in free-form text. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in free-form text. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in free-form text. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in free-form text. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in free-form text. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in free-form text. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in free-form text. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in free-form text. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Low)": "Use the Expert Critic approach to act as a specialist in Marketing.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in free-form text. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in free-form text. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in free-form text. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in free-form text. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in free-form text. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in free-form text. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in free-form text. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in free-form text. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in free-form text. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (Medium)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in free-form text. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in free-form text. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in free-form text. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Low)": "Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the draft marketing strategy for launching a new tech gadget, highlighting weaknesses and suggesting ways to strengthen messaging and channel selection. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in free-form text. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in free-form text. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in free-form text. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (Medium)": "Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, focusing on messaging, channel selection, and target audience alignment, and suggest improvements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in free-form text. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in free-form text. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Low)": "Provide your critique in free-form text.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in free-form text. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (Medium)": "Present your critique as bullet points for each identified issue, followed by brief improvement suggestions.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Present your critique as bullet points for each identified issue, followed by brief improvement suggestions. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (Medium)": "Maintain a professional, formal tone and limit to 500 words.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Maintain a professional, formal tone and limit to 500 words."
+  },
+  {
+    "Context (High)": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation.",
+    "Task (High)": "Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements.",
+    "Output Format (High)": "Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations.",
+    "Constraints (High)": "Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines.",
+    "full": "Use the Expert Critic approach to act as a specialist in Marketing for launching a new tech gadget in a competitive global market with detailed customer segmentation. Critique the marketing strategy draft for launching a new tech gadget, perform a detailed analysis of messaging clarity, channel efficacy, and audience segmentation, and propose data-driven enhancements. Provide your critique in a structured report with sections: Overview of Issues, Detailed Analysis, and Actionable Recommendations. Use a concise executive summary style, include evidence references, and adhere to brand voice guidelines."
+  }
+]

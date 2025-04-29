@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article, List the most important factual claims you made, labeling them as Key Facts:. Default formatting. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article, List the most important factual claims you made, labeling them as Key Facts:. Default formatting. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article, List the most important factual claims you made, labeling them as Key Facts:. Default formatting. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article, List the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article, List the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article, List the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article, List the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article, List the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article, List the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Default formatting. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Default formatting. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Default formatting. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Default formatting. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Default formatting. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Default formatting. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Present the Key Facts as bullet points. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Present the Key Facts as bullet points. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Present the Key Facts as bullet points. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Low)": "After summarizing the provided news article,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on political developments in your region, List the most important factual claims you made, labeling them as Key Facts:. Default formatting. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on political developments in your region, List the most important factual claims you made, labeling them as Key Facts:. Default formatting. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on political developments in your region, List the most important factual claims you made, labeling them as Key Facts:. Default formatting. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on political developments in your region, List the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on political developments in your region, List the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on political developments in your region, List the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on political developments in your region, List the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on political developments in your region, List the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on political developments in your region, List the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on political developments in your region, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Default formatting. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on political developments in your region, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Default formatting. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on political developments in your region, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Default formatting. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on political developments in your region, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on political developments in your region, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on political developments in your region, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on political developments in your region, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on political developments in your region, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on political developments in your region, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on political developments in your region, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Default formatting. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on political developments in your region, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Default formatting. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on political developments in your region, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Default formatting. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on political developments in your region, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Present the Key Facts as bullet points. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on political developments in your region, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Present the Key Facts as bullet points. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on political developments in your region, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Present the Key Facts as bullet points. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on political developments in your region, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. No specific constraints; free tone and style."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on political developments in your region, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (Medium)": "After summarizing the provided news article on political developments in your region,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on political developments in your region, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List the most important factual claims you made, labeling them as Key Facts:. Default formatting. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List the most important factual claims you made, labeling them as Key Facts:. Default formatting. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List the most important factual claims you made, labeling them as Key Facts:. Default formatting. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Low)": "List the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Default formatting. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Default formatting. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Default formatting. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Present the Key Facts as bullet points. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (Medium)": "List and briefly explain the most important factual claims you made, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List and briefly explain the most important factual claims you made, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Default formatting. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Default formatting. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Low)": "Default formatting.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Default formatting. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Present the Key Facts as bullet points. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Present the Key Facts as bullet points. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (Medium)": "Present the Key Facts as bullet points.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Present the Key Facts as bullet points. Use AP style guidelines and include source citations for each fact."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Low)": "No specific constraints; free tone and style.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. No specific constraints; free tone and style."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (Medium)": "Maintain a neutral, journalistic tone.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Maintain a neutral, journalistic tone."
+  },
+  {
+    "Context (High)": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources,",
+    "Task (High)": "List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:.",
+    "Output Format (High)": "Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level.",
+    "Constraints (High)": "Use AP style guidelines and include source citations for each fact.",
+    "full": "After summarizing the provided news article on a recent political event in your region with details from multiple reputable sources, List, briefly explain, and rank the most important factual claims you made by their impact, labeling them as Key Facts:. Provide the Key Facts in a structured table with columns: Fact Statement, Explanation, Impact Level. Use AP style guidelines and include source citations for each fact."
+  }
+]

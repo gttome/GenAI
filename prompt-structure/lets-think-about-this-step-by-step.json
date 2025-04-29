@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. List the basic steps to send an email using a webmail service. Provide the response in plain prose. No specific constraints."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. List the basic steps to send an email using a webmail service. Provide the response in plain prose. Use a concise, formal tone."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. List the basic steps to send an email using a webmail service. Provide the response in plain prose. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response in plain prose. No specific constraints."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response in plain prose. Use a concise, formal tone."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response in plain prose. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response in plain prose. No specific constraints."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response in plain prose. Use a concise, formal tone."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response in plain prose. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. List the basic steps to send an email using a webmail service. Present the response as a numbered list. No specific constraints."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. List the basic steps to send an email using a webmail service. Present the response as a numbered list. Use a concise, formal tone."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. List the basic steps to send an email using a webmail service. Present the response as a numbered list. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Present the response as a numbered list. No specific constraints."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Present the response as a numbered list. Use a concise, formal tone."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Present the response as a numbered list. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Present the response as a numbered list. No specific constraints."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Present the response as a numbered list. Use a concise, formal tone."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Present the response as a numbered list. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. List the basic steps to send an email using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. No specific constraints."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. List the basic steps to send an email using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. List the basic steps to send an email using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. No specific constraints."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response as a JSON object, where each step is a key-value pair. No specific constraints."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone."
+  },
+  {
+    "Context (Low)": "Imagine a general scenario for sending an email via a webmail service.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine a general scenario for sending an email via a webmail service. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. List the basic steps to send an email using a webmail service. Provide the response in plain prose. No specific constraints."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. List the basic steps to send an email using a webmail service. Provide the response in plain prose. Use a concise, formal tone."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. List the basic steps to send an email using a webmail service. Provide the response in plain prose. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response in plain prose. No specific constraints."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response in plain prose. Use a concise, formal tone."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response in plain prose. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response in plain prose. No specific constraints."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response in plain prose. Use a concise, formal tone."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response in plain prose. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. List the basic steps to send an email using a webmail service. Present the response as a numbered list. No specific constraints."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. List the basic steps to send an email using a webmail service. Present the response as a numbered list. Use a concise, formal tone."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. List the basic steps to send an email using a webmail service. Present the response as a numbered list. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Present the response as a numbered list. No specific constraints."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Present the response as a numbered list. Use a concise, formal tone."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Present the response as a numbered list. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Present the response as a numbered list. No specific constraints."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Present the response as a numbered list. Use a concise, formal tone."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Present the response as a numbered list. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. List the basic steps to send an email using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. No specific constraints."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. List the basic steps to send an email using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. List the basic steps to send an email using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. No specific constraints."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response as a JSON object, where each step is a key-value pair. No specific constraints."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone."
+  },
+  {
+    "Context (Medium)": "Imagine you have a personal Gmail account, and you need to send an email via its web interface.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you have a personal Gmail account, and you need to send an email via its web interface. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. List the basic steps to send an email using a webmail service. Provide the response in plain prose. No specific constraints."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. List the basic steps to send an email using a webmail service. Provide the response in plain prose. Use a concise, formal tone."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. List the basic steps to send an email using a webmail service. Provide the response in plain prose. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response in plain prose. No specific constraints."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response in plain prose. Use a concise, formal tone."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response in plain prose. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response in plain prose. No specific constraints."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response in plain prose. Use a concise, formal tone."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Low)": "Provide the response in plain prose.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response in plain prose. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. List the basic steps to send an email using a webmail service. Present the response as a numbered list. No specific constraints."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. List the basic steps to send an email using a webmail service. Present the response as a numbered list. Use a concise, formal tone."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. List the basic steps to send an email using a webmail service. Present the response as a numbered list. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Present the response as a numbered list. No specific constraints."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Present the response as a numbered list. Use a concise, formal tone."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Present the response as a numbered list. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Present the response as a numbered list. No specific constraints."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Present the response as a numbered list. Use a concise, formal tone."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (Medium)": "Present the response as a numbered list.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Present the response as a numbered list. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. List the basic steps to send an email using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. No specific constraints."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. List the basic steps to send an email using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Low)": "List the basic steps to send an email using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. List the basic steps to send an email using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. No specific constraints."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (Medium)": "Explain how to compose, add recipients, and send an email with an attachment using a webmail service.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Explain how to compose, add recipients, and send an email with an attachment using a webmail service. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Low)": "No specific constraints.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response as a JSON object, where each step is a key-value pair. No specific constraints."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (Medium)": "Use a concise, formal tone.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone."
+  },
+  {
+    "Context (High)": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions.",
+    "Output Format (High)": "Provide the response as a JSON object, where each step is a key-value pair.",
+    "Task (High)": "Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface.",
+    "Constraints (High)": "Use a concise, formal tone, keep the answer under 200 words, and include security best practices.",
+    "full": "Imagine you need to send an email using a corporate Gmail account accessed via webmail, with two-factor authentication and attachment size restrictions. Detail how to automate sending an email with attachments, including any necessary settings, via the webmail interface. Provide the response as a JSON object, where each step is a key-value pair. Use a concise, formal tone, keep the answer under 200 words, and include security best practices."
+  }
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write a basic summary covering the main points of the article in general terms. Return the summaries as simple text paragraphs without strict formatting. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write a basic summary covering the main points of the article in general terms. Return the summaries as simple text paragraphs without strict formatting. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write a basic summary covering the main points of the article in general terms. Return the summaries as simple text paragraphs without strict formatting. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Return the summaries as simple text paragraphs without strict formatting. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Return the summaries as simple text paragraphs without strict formatting. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Return the summaries as simple text paragraphs without strict formatting. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Return the summaries as simple text paragraphs without strict formatting. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Return the summaries as simple text paragraphs without strict formatting. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Return the summaries as simple text paragraphs without strict formatting. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write a basic summary covering the main points of the article in general terms. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write a basic summary covering the main points of the article in general terms. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write a basic summary covering the main points of the article in general terms. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write a basic summary covering the main points of the article in general terms. Structure the summaries in a markdown format with headers for each summary level. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write a basic summary covering the main points of the article in general terms. Structure the summaries in a markdown format with headers for each summary level. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write a basic summary covering the main points of the article in general terms. Structure the summaries in a markdown format with headers for each summary level. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Structure the summaries in a markdown format with headers for each summary level. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Structure the summaries in a markdown format with headers for each summary level. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Structure the summaries in a markdown format with headers for each summary level. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Structure the summaries in a markdown format with headers for each summary level. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Structure the summaries in a markdown format with headers for each summary level. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Low)": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize a general academic article without specific domain knowledge, capturing broad key ideas. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Structure the summaries in a markdown format with headers for each summary level. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write a basic summary covering the main points of the article in general terms. Return the summaries as simple text paragraphs without strict formatting. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write a basic summary covering the main points of the article in general terms. Return the summaries as simple text paragraphs without strict formatting. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write a basic summary covering the main points of the article in general terms. Return the summaries as simple text paragraphs without strict formatting. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Return the summaries as simple text paragraphs without strict formatting. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Return the summaries as simple text paragraphs without strict formatting. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Return the summaries as simple text paragraphs without strict formatting. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Return the summaries as simple text paragraphs without strict formatting. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Return the summaries as simple text paragraphs without strict formatting. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Return the summaries as simple text paragraphs without strict formatting. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write a basic summary covering the main points of the article in general terms. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write a basic summary covering the main points of the article in general terms. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write a basic summary covering the main points of the article in general terms. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write a basic summary covering the main points of the article in general terms. Structure the summaries in a markdown format with headers for each summary level. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write a basic summary covering the main points of the article in general terms. Structure the summaries in a markdown format with headers for each summary level. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write a basic summary covering the main points of the article in general terms. Structure the summaries in a markdown format with headers for each summary level. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Structure the summaries in a markdown format with headers for each summary level. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Structure the summaries in a markdown format with headers for each summary level. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Structure the summaries in a markdown format with headers for each summary level. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Structure the summaries in a markdown format with headers for each summary level. Use any tone or style without restrictions."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Structure the summaries in a markdown format with headers for each summary level. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (Medium)": "Summarize an academic article providing basic topic background and highlighting main arguments.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article providing basic topic background and highlighting main arguments. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Structure the summaries in a markdown format with headers for each summary level. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write a basic summary covering the main points of the article in general terms. Return the summaries as simple text paragraphs without strict formatting. Use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write a basic summary covering the main points of the article in general terms. Return the summaries as simple text paragraphs without strict formatting. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write a basic summary covering the main points of the article in general terms. Return the summaries as simple text paragraphs without strict formatting. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Return the summaries as simple text paragraphs without strict formatting. Use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Return the summaries as simple text paragraphs without strict formatting. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Return the summaries as simple text paragraphs without strict formatting. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Return the summaries as simple text paragraphs without strict formatting. Use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Return the summaries as simple text paragraphs without strict formatting. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Low)": "Return the summaries as simple text paragraphs without strict formatting.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Return the summaries as simple text paragraphs without strict formatting. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write a basic summary covering the main points of the article in general terms. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write a basic summary covering the main points of the article in general terms. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write a basic summary covering the main points of the article in general terms. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (Medium)": "Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.).",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Present the summaries in a labeled list format (e.g., Broad Overview, Focused Recap, etc.). Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write a basic summary covering the main points of the article in general terms. Structure the summaries in a markdown format with headers for each summary level. Use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write a basic summary covering the main points of the article in general terms. Structure the summaries in a markdown format with headers for each summary level. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Low)": "Write a basic summary covering the main points of the article in general terms.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write a basic summary covering the main points of the article in general terms. Structure the summaries in a markdown format with headers for each summary level. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Structure the summaries in a markdown format with headers for each summary level. Use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Structure the summaries in a markdown format with headers for each summary level. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (Medium)": "Write 5 summaries with consistent word counts, progressively increasing information density and specificity.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 summaries with consistent word counts, progressively increasing information density and specificity. Structure the summaries in a markdown format with headers for each summary level. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Low)": "Use any tone or style without restrictions.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Structure the summaries in a markdown format with headers for each summary level. Use any tone or style without restrictions."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (Medium)": "Maintain a formal, academic tone appropriate for undergraduate students.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Structure the summaries in a markdown format with headers for each summary level. Maintain a formal, academic tone appropriate for undergraduate students."
+  },
+  {
+    "Context (High)": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references.",
+    "Output Format (High)": "Structure the summaries in a markdown format with headers for each summary level.",
+    "Task (High)": "Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration.",
+    "Constraints (High)": "Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary.",
+    "full": "Summarize an academic article using detailed domain-specific background, research goals, and prior study references. Write 5 refined summaries, maintaining critical details, enhancing logical flow, and optimizing clarity with each iteration. Structure the summaries in a markdown format with headers for each summary level. Ensure precise academic tone, avoid jargon, and stay within strict word limits for each summary."
+  }
+]

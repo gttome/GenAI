@@ -35,7 +35,19 @@ const promptFiles = [
   { label: "Brainstorming", file: "brainstorming.json" },   /* -- modified from template-- */
   { label: "Clarify Before Answering", file: "clarify-before-answering.json" },  /* -- modified from template-- */
   { label: "Comparative Prompting", file: "comparative-prompting.json" },
-  { label: "Test",      file: "test.json" }
+  { label: "Data Retrieval", file: "data-retrieval.json" },
+  { label: "Expand a Question", file: "expand-a-question.json" },
+  { label: "Expert Critic", file: "expert-critic.json" },
+  { label: "Fact Check A Response", file: "fact-check-a-response.json" },
+  { label: "Identify Tone", file: "identify-tone.json" },
+  { label: "Include Markdown Frormatting.json", file: "include-markdown-frormatting.json" },
+  { label: "Language-Translator", file: "language-translator.json" },
+  { label: "Let's think about this Step by Step", file: "lets-think-about-this-step-by-step.json" },
+  { label: "Multiple Perspectives", file: "multiple-perspectives.json" },
+  { label: "Refine and Focus a Question", file: "refine-and-focus-a-question.json" },
+  { label: "Remove Information", file: "remove-information.json" },
+  { label: "Summarization", file: "summarization.json" },
+  { label: "Tone Changer",      file: "tone-changer.json" }
 ];
 
 /* ---------- globals ---------- */
@@ -97,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const on  = !box.isContentEditable;
       box.contentEditable = on;
       box.focus();
-      editBtn.textContent = on ? "Done" : "Edit";
+      editBtn.textContent = on ? "Save" : "Edit";
     });
   }
 

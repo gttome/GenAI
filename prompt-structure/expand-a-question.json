@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Combine the answers to the individual questions to produce the final congestion reduction strategy. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Combine the answers to the individual questions to produce the final congestion reduction strategy. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Combine the answers to the individual questions to produce the final congestion reduction strategy. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Low)": "When you are asked to create a strategy for reducing urban traffic congestion.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Combine the answers to the individual questions to produce the final congestion reduction strategy. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Combine the answers to the individual questions to produce the final congestion reduction strategy. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Combine the answers to the individual questions to produce the final congestion reduction strategy. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (Medium)": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a strategy for reducing urban traffic congestion in a mid-sized city. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Low)": "Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate a number of additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Combine the answers to the individual questions to produce the final congestion reduction strategy. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (Medium)": "Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Generate and briefly answer additional questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Combine the answers to the individual questions to produce the final congestion reduction strategy. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Combine the answers to the individual questions to produce the final congestion reduction strategy. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Low)": "Combine the answers to the individual questions to produce the final congestion reduction strategy.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Combine the answers to the individual questions to produce the final congestion reduction strategy. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (Medium)": "List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. List the generated sub-questions and answers as bullet points, then provide the synthesized congestion reduction strategy in a summary paragraph. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Low)": "Feel free to use any tone or style that you prefer without specific restrictions.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Feel free to use any tone or style that you prefer without specific restrictions."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (Medium)": "Maintain a clear, concise explanatory tone suitable for urban planning stakeholders.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Maintain a clear, concise explanatory tone suitable for urban planning stakeholders."
+  },
+  {
+    "Context (High)": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data.",
+    "Task (High)": "Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights.",
+    "Output Format (High)": "Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations.",
+    "Constraints (High)": "Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused.",
+    "full": "When you are asked to create a data-driven strategy for reducing urban traffic congestion in a major metropolitan area using recent traffic and demographic data. Formulate detailed sub-questions about public transport options, cycling infrastructure, road pricing, and traffic signal optimization, then research and answer each with data-driven insights. Provide the synthesized congestion reduction strategy as a structured report with sections: Executive Summary, Subtopic Analysis, and Recommendations. Adopt a formal, technical tone appropriate for transportation engineers and policy makers. Ensure recommendations are actionable and equity-focused."
+  }
+]

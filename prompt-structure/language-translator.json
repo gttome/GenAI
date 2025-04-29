@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Low)": "None.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" Provide the translation as plain text. None."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" Provide the translation as plain text. Maintain a friendly tone."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" Provide the translation as plain text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Low)": "None.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" Provide the translation in a two-column table: original and translated text. None."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" Provide the translation in a two-column table: original and translated text. Maintain a friendly tone."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" Provide the translation in a two-column table: original and translated text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Low)": "None.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" Provide the translation in JSON with keys \"original\" and \"translated\". None."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Low)": "None.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation as plain text. None."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation as plain text. Maintain a friendly tone."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation as plain text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Low)": "None.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in a two-column table: original and translated text. None."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Low)": "None.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in JSON with keys \"original\" and \"translated\". None."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Low)": "None.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation as plain text. None."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation as plain text. Maintain a friendly tone."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation as plain text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Low)": "None.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in a two-column table: original and translated text. None."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Low)": "None.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in JSON with keys \"original\" and \"translated\". None."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone."
+  },
+  {
+    "Context (Low)": "This is a basic translation of a greeting sentence.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This is a basic translation of a greeting sentence. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" Provide the translation as plain text. None."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" Provide the translation as plain text. Maintain a friendly tone."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" Provide the translation as plain text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" Provide the translation in a two-column table: original and translated text. None."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" Provide the translation in a two-column table: original and translated text. Maintain a friendly tone."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" Provide the translation in a two-column table: original and translated text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" Provide the translation in JSON with keys \"original\" and \"translated\". None."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation as plain text. None."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation as plain text. Maintain a friendly tone."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation as plain text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in a two-column table: original and translated text. None."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in JSON with keys \"original\" and \"translated\". None."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation as plain text. None."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation as plain text. Maintain a friendly tone."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation as plain text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in a two-column table: original and translated text. None."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in JSON with keys \"original\" and \"translated\". None."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone."
+  },
+  {
+    "Context (Medium)": "This greeting appears in a customer support context for user check-in.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a customer support context for user check-in. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" Provide the translation as plain text. None."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" Provide the translation as plain text. Maintain a friendly tone."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" Provide the translation as plain text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" Provide the translation in a two-column table: original and translated text. None."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" Provide the translation in a two-column table: original and translated text. Maintain a friendly tone."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" Provide the translation in a two-column table: original and translated text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" Provide the translation in JSON with keys \"original\" and \"translated\". None."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Low)": "Translate the following text into French: \"How are you today?\"",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation as plain text. None."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation as plain text. Maintain a friendly tone."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation as plain text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in a two-column table: original and translated text. None."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in JSON with keys \"original\" and \"translated\". None."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (Medium)": "Translate the following text into French: \"How are you today?\" and add a brief usage note.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation as plain text. None."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation as plain text. Maintain a friendly tone."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Low)": "Provide the translation as plain text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation as plain text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in a two-column table: original and translated text. None."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (Medium)": "Provide the translation in a two-column table: original and translated text.",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in a two-column table: original and translated text. Maintain a friendly tone and limit the translation to under 10 words."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Low)": "None.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in JSON with keys \"original\" and \"translated\". None."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (Medium)": "Maintain a friendly tone.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone."
+  },
+  {
+    "Context (High)": "This greeting appears in a formal business correspondence context to assess user satisfaction.",
+    "Task (High)": "Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances.",
+    "Output Format (High)": "Provide the translation in JSON with keys \"original\" and \"translated\".",
+    "Constraints (High)": "Maintain a friendly tone and limit the translation to under 10 words.",
+    "full": "This greeting appears in a formal business correspondence context to assess user satisfaction. Translate the following text into French: \"How are you today?\" and add a brief usage note, specifying any cultural nuances. Provide the translation in JSON with keys \"original\" and \"translated\". Maintain a friendly tone and limit the translation to under 10 words."
+  }
+]

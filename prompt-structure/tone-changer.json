@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone of a short product description text. Simply revise the text without requiring a specific structure. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone of a short product description text. Simply revise the text without requiring a specific structure. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone of a short product description text. Simply revise the text without requiring a specific structure. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Simply revise the text without requiring a specific structure. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Simply revise the text without requiring a specific structure. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Simply revise the text without requiring a specific structure. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Simply revise the text without requiring a specific structure. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Simply revise the text without requiring a specific structure. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Simply revise the text without requiring a specific structure. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone of a short product description text. Present the revision in a two-column table (Original vs. Revised). No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone of a short product description text. Present the revision in a two-column table (Original vs. Revised). Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone of a short product description text. Present the revision in a two-column table (Original vs. Revised). Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Present the revision in a two-column table (Original vs. Revised). No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Present the revision in a two-column table (Original vs. Revised). Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Present the revision in a two-column table (Original vs. Revised). Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Present the revision in a two-column table (Original vs. Revised). No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Present the revision in a two-column table (Original vs. Revised). Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Present the revision in a two-column table (Original vs. Revised). Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone of a short product description text. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone of a short product description text. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone of a short product description text. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Low)": "A basic description of the product without any additional details.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "A basic description of the product without any additional details. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone of a short product description text. Simply revise the text without requiring a specific structure. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone of a short product description text. Simply revise the text without requiring a specific structure. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone of a short product description text. Simply revise the text without requiring a specific structure. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Simply revise the text without requiring a specific structure. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Simply revise the text without requiring a specific structure. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Simply revise the text without requiring a specific structure. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Simply revise the text without requiring a specific structure. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Simply revise the text without requiring a specific structure. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Simply revise the text without requiring a specific structure. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone of a short product description text. Present the revision in a two-column table (Original vs. Revised). No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone of a short product description text. Present the revision in a two-column table (Original vs. Revised). Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone of a short product description text. Present the revision in a two-column table (Original vs. Revised). Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Present the revision in a two-column table (Original vs. Revised). No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Present the revision in a two-column table (Original vs. Revised). Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Present the revision in a two-column table (Original vs. Revised). Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Present the revision in a two-column table (Original vs. Revised). No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Present the revision in a two-column table (Original vs. Revised). Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Present the revision in a two-column table (Original vs. Revised). Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone of a short product description text. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone of a short product description text. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone of a short product description text. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (Medium)": "Describe the product considering the target customer segment and a brief market positioning statement.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product considering the target customer segment and a brief market positioning statement. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone of a short product description text. Simply revise the text without requiring a specific structure. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone of a short product description text. Simply revise the text without requiring a specific structure. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone of a short product description text. Simply revise the text without requiring a specific structure. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Simply revise the text without requiring a specific structure. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Simply revise the text without requiring a specific structure. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Simply revise the text without requiring a specific structure. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Simply revise the text without requiring a specific structure. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Simply revise the text without requiring a specific structure. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Low)": "Simply revise the text without requiring a specific structure.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Simply revise the text without requiring a specific structure. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone of a short product description text. Present the revision in a two-column table (Original vs. Revised). No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone of a short product description text. Present the revision in a two-column table (Original vs. Revised). Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone of a short product description text. Present the revision in a two-column table (Original vs. Revised). Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Present the revision in a two-column table (Original vs. Revised). No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Present the revision in a two-column table (Original vs. Revised). Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Present the revision in a two-column table (Original vs. Revised). Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Present the revision in a two-column table (Original vs. Revised). No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Present the revision in a two-column table (Original vs. Revised). Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (Medium)": "Present the revision in a two-column table (Original vs. Revised).",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Present the revision in a two-column table (Original vs. Revised). Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone of a short product description text. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone of a short product description text. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Low)": "Revise the tone to [Tone]. Revise the tone of a short product description text.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone of a short product description text. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (Medium)": "Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone and slightly improve the clarity or marketing appeal of the product description. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Low)": "No specific tone restrictions beyond the user's selection.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. No specific tone restrictions beyond the user's selection."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (Medium)": "Maintain a professional and approachable tone suitable for general consumer audiences.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Maintain a professional and approachable tone suitable for general consumer audiences."
+  },
+  {
+    "Context (High)": "Describe the product using full product specifications, customer persona details, and competitive differentiators.",
+    "Output Format (High)": "Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes.",
+    "Task (High)": "Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end.",
+    "Constraints (High)": "Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers.",
+    "full": "Describe the product using full product specifications, customer persona details, and competitive differentiators. Revise the tone to [Tone]. Revise the tone, improve clarity, marketing appeal, and add a call to action at the end. Provide the output as a structured markdown document with clearly labeled sections: Original Text, Revised Text, Tone Notes. Ensure the tone matches a brand persona guide provided, maintaining consistency with voice and emotional triggers."
+  }
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Find every SKU (alphanumeric code) in the text. Provide the SKUs in a single, comma-separated line. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Find every SKU (alphanumeric code) in the text. Provide the SKUs in a single, comma-separated line. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Find every SKU (alphanumeric code) in the text. Provide the SKUs in a single, comma-separated line. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Provide the SKUs in a single, comma-separated line. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Provide the SKUs in a single, comma-separated line. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Provide the SKUs in a single, comma-separated line. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Provide the SKUs in a single, comma-separated line. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Provide the SKUs in a single, comma-separated line. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Provide the SKUs in a single, comma-separated line. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Find every SKU (alphanumeric code) in the text. Create a markdown list of the SKUs. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Find every SKU (alphanumeric code) in the text. Create a markdown list of the SKUs. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Find every SKU (alphanumeric code) in the text. Create a markdown list of the SKUs. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown list of the SKUs. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown list of the SKUs. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown list of the SKUs. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown list of the SKUs. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown list of the SKUs. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown list of the SKUs. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Find every SKU (alphanumeric code) in the text. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Find every SKU (alphanumeric code) in the text. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Find every SKU (alphanumeric code) in the text. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Low)": "Text: \"[Insert the inventory report you want to extract SKUs from]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the inventory report you want to extract SKUs from]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Find every SKU (alphanumeric code) in the text. Provide the SKUs in a single, comma-separated line. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Find every SKU (alphanumeric code) in the text. Provide the SKUs in a single, comma-separated line. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Find every SKU (alphanumeric code) in the text. Provide the SKUs in a single, comma-separated line. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Provide the SKUs in a single, comma-separated line. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Provide the SKUs in a single, comma-separated line. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Provide the SKUs in a single, comma-separated line. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Provide the SKUs in a single, comma-separated line. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Provide the SKUs in a single, comma-separated line. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Provide the SKUs in a single, comma-separated line. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Find every SKU (alphanumeric code) in the text. Create a markdown list of the SKUs. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Find every SKU (alphanumeric code) in the text. Create a markdown list of the SKUs. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Find every SKU (alphanumeric code) in the text. Create a markdown list of the SKUs. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown list of the SKUs. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown list of the SKUs. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown list of the SKUs. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown list of the SKUs. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown list of the SKUs. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown list of the SKUs. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Find every SKU (alphanumeric code) in the text. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Find every SKU (alphanumeric code) in the text. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Find every SKU (alphanumeric code) in the text. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (Medium)": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the detailed inventory report, including product descriptions, warehouse locations, and stock levels]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Find every SKU (alphanumeric code) in the text. Provide the SKUs in a single, comma-separated line. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Find every SKU (alphanumeric code) in the text. Provide the SKUs in a single, comma-separated line. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Find every SKU (alphanumeric code) in the text. Provide the SKUs in a single, comma-separated line. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Provide the SKUs in a single, comma-separated line. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Provide the SKUs in a single, comma-separated line. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Provide the SKUs in a single, comma-separated line. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Provide the SKUs in a single, comma-separated line. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Provide the SKUs in a single, comma-separated line. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Low)": "Provide the SKUs in a single, comma-separated line.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Provide the SKUs in a single, comma-separated line. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Find every SKU (alphanumeric code) in the text. Create a markdown list of the SKUs. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Find every SKU (alphanumeric code) in the text. Create a markdown list of the SKUs. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Find every SKU (alphanumeric code) in the text. Create a markdown list of the SKUs. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown list of the SKUs. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown list of the SKUs. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown list of the SKUs. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown list of the SKUs. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown list of the SKUs. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (Medium)": "Create a markdown list of the SKUs.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown list of the SKUs. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Find every SKU (alphanumeric code) in the text. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Find every SKU (alphanumeric code) in the text. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Low)": "Find every SKU (alphanumeric code) in the text.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Find every SKU (alphanumeric code) in the text. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (Medium)": "Extract all SKUs (alphanumeric codes) from the text and present them as a list.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text and present them as a list. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Low)": "Feel free to use any format or style for the SKU output without restrictions.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Feel free to use any format or style for the SKU output without restrictions."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (Medium)": "Ensure the list contains no duplicates and SKUs are sorted alphabetically.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure the list contains no duplicates and SKUs are sorted alphabetically."
+  },
+  {
+    "Context (High)": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\".",
+    "Output Format (High)": "Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency.",
+    "Task (High)": "Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates.",
+    "Constraints (High)": "Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries.",
+    "full": "Text: \"[Insert the complete inventory dataset, including product details, warehouse locations, stock levels, supplier information, and inventory timestamps]\". Extract all SKUs (alphanumeric codes) from the text, count the occurrences of each SKU, and highlight any duplicates. Create a markdown table with columns 'SKU' and 'Count', listing each SKU and its frequency. Ensure SKUs follow the correct alphanumeric format, exclude any invalid codes, and present only unique entries."
+  }
+]
