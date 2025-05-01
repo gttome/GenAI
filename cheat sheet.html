@@ -1,13 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="en">
- <head>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
    Generative AI Prompting Cheat Sheet Dashboard
   </title>
-  <style>
+<style>
    /* Global Settings & Variables */
         :root {
             --primary-color: #005f73;
@@ -497,7 +498,7 @@
             outline: none; /* Remove default outline */
         }
   </style>
-  <style>
+<style>
    body {
           font-family: 'Inter', sans-serif;
           font-weight: 400;
@@ -517,873 +518,870 @@
           font-size: 1rem;
         }
   </style>
- </head>
- <body>
-  <div style="width: 100%; background-color: #003f5c; color: white; padding: 1rem; text-align: center;">
-   <h1 style="margin: 0; font-size: 1.5rem; color: white;">
+</head>
+<body>
+<div style="width: 100%; background-color: #003f5c; color: white; padding: 1rem; text-align: center;">
+<h1 style="margin: 0; font-size: 1.5rem; color: white;">
     🧠 Prompting Cheat Sheet
    </h1>
-   <p style="margin: 0.3rem 0 0;">
-    <a href="https://leanpub.com/genaipromptingguide" style="color: white; text-decoration: underline;" target="_blank">
+<p style="margin: 0.3rem 0 0;">
+<a href="https://leanpub.com/genaipromptingguide" style="color: white; text-decoration: underline;" target="_blank">
      Get the Generative AI Professional Engineering Guide on Leanpub
     </a>
-   </p>
-  </div>
-  <header>
-   <div class="hamburger" onclick="toggleMenu()" style="margin-top: 10px; margin-left: 10px; font-size: 1.8rem; cursor: pointer; position: relative;">
+</p>
+</div>
+<header>
+<div class="hamburger" onclick="toggleMenu()" style="margin-top: 10px; margin-left: 10px; font-size: 1.8rem; cursor: pointer; position: relative;">
     ☰
    </div>
-    <div id="menu" style="display: none; position: absolute; top: 150px; left: 10px; background-color: #003f5c; padding: 10px; border-radius: 5px;">
-    <a href="index.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<div id="menu" style="display: none; position: absolute; top: 150px; left: 10px; background-color: #003f5c; padding: 10px; border-radius: 5px;">
+<a href="index.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      Home
     </a>
-    <a href="about.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<a href="about.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      About the Guide
     </a>
-    <a href="audience.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<a href="audience.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      Who It’s For
     </a>
-    <a href="templates.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<a href="templates.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      Templates
     </a>
-    <a href="advanced.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<a href="advanced.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      Advanced Techniques
     </a>
-    <a href="vibe.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<a href="vibe.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      Vibe Coding
     </a>
-    <a href="podcasts.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<a href="podcasts.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      Podcasts
     </a>
-    <a href="cheat sheet.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<a href="cheat sheet.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      Cheat Sheet
     </a>
-    <a href="about-author.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<a href="about-author.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      About the Author
     </a>
-    <a href="resources.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<a href="resources.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      Resources
     </a>
-    <a href="privacy.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+<a href="privacy.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
      Privacy Policy
     </a>
-<a href="https://leanpub.com/genaipromptingguide" target="_blank" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
-    Get the Guide -->
+<a href="https://leanpub.com/genaipromptingguide" style="display: block; margin: 5px 0; color: white; text-decoration: none;" target="_blank">
+    Get the Guide --&gt;
    </a>
-
-   </div>
-  </header>
-  <header>
-  </header>
-  <main class="dashboard-container">
-   <div class="card" data-section-id="prompt-structure">
-    <div class="card-icon">
+</div>
+</header>
+<header>
+</header>
+<main class="dashboard-container">
+<div class="card" data-section-id="prompt-structure">
+<div class="card-icon">
      🔷
     </div>
-    <h2>
-     Perfect Prompt Structure
+<h2>
+     Prompt Structure
     </h2>
-    <p class="card-description">
+<p class="card-description">
      The core components needed for effective prompts and their suggested balance.
     </p>
-    <div class="card-details">
-     <button class="focus-mode-btn" title="Toggle focus mode">
+<div class="card-details"><p>Introduces the four essential components of a high-quality prompt: Context, Output Format, Task, and Constraints. Users can adjust sliders to visualize how emphasizing each component affects prompt behavior. The visual bars and tips help learners grasp how to craft more accurate, structured, and goal-oriented prompts based on their intended outcome. It's a hands-on tool for mastering prompt anatomy.</p>
+<button class="focus-mode-btn" title="Toggle focus mode">
       Focus
      </button>
-     <div class="structure-balancer">
-      <h3>
+<div class="structure-balancer">
+<h3>
        Adjust Component Weights:
       </h3>
-      <div class="balancer-control">
-       <label for="slider-context">
+<div class="balancer-control">
+<label for="slider-context">
         Context:
        </label>
-       <input data-component="context" id="slider-context" max="100" min="0" step="1" type="range" value="0"/>
-       <span class="value-display" id="value-context">
+<input data-component="context" id="slider-context" max="100" min="0" step="1" type="range" value="0"/>
+<span class="value-display" id="value-context">
         0%
        </span>
-      </div>
-      <div class="balancer-control">
-       <label for="slider-output">
+</div>
+<div class="balancer-control">
+<label for="slider-output">
         Output Format:
        </label>
-       <input data-component="output" id="slider-output" max="100" min="0" step="1" type="range" value="0"/>
-       <span class="value-display" id="value-output">
+<input data-component="output" id="slider-output" max="100" min="0" step="1" type="range" value="0"/>
+<span class="value-display" id="value-output">
         0%
        </span>
-      </div>
-      <div class="balancer-control">
-       <label for="slider-task">
+</div>
+<div class="balancer-control">
+<label for="slider-task">
         Task:
        </label>
-       <input data-component="task" id="slider-task" max="100" min="0" step="1" type="range" value="0"/>
-       <span class="value-display" id="value-task">
+<input data-component="task" id="slider-task" max="100" min="0" step="1" type="range" value="0"/>
+<span class="value-display" id="value-task">
         0%
        </span>
-      </div>
-      <div class="balancer-control">
-       <label for="slider-constraints">
+</div>
+<div class="balancer-control">
+<label for="slider-constraints">
         Constraints:
        </label>
-       <input data-component="constraints" id="slider-constraints" max="100" min="0" step="1" type="range" value="0"/>
-       <span class="value-display" id="value-constraints">
+<input data-component="constraints" id="slider-constraints" max="100" min="0" step="1" type="range" value="0"/>
+<span class="value-display" id="value-constraints">
         0%
        </span>
-      </div>
-      <div class="balancer-bars">
-       <div class="bar" id="bar-context" title="Context">
-       </div>
-       <div class="bar" id="bar-output" title="Output Format">
-       </div>
-       <div class="bar" id="bar-task" title="Task">
-       </div>
-       <div class="bar" id="bar-constraints" title="Constraints/Tone">
-       </div>
-      </div>
-      <div id="balancer-tip">
+</div>
+<div class="balancer-bars">
+<div class="bar" id="bar-context" title="Context">
+</div>
+<div class="bar" id="bar-output" title="Output Format">
+</div>
+<div class="bar" id="bar-task" title="Task">
+</div>
+<div class="bar" id="bar-constraints" title="Constraints/Tone">
+</div>
+</div>
+<div id="balancer-tip">
        Move sliders to see tips based on emphasis.
       </div>
-     </div>
-     <h3>
+</div>
+<h3>
       Components Breakdown:
      </h3>
-     <table>
-      <thead>
-       <tr>
-        <th scope="col">
+<table>
+<thead>
+<tr>
+<th scope="col">
          Component
         </th>
-        <th scope="col">
+<th scope="col">
          Description
         </th>
-       </tr>
-      </thead>
-      <tbody>
-       <tr>
-        <td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
          Information (Context)
         </td>
-        <td>
+<td>
          Foundational background (domain data, goals, context) the model needs for accuracy and relevance.
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Output Format
         </td>
-        <td>
+<td>
          Structural cue (table, list, summary) defining how the answer should appear for readability and workflow efficiency.
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Task (Goal)
         </td>
-        <td>
+<td>
          Clear instructions (summarize, analyze, compare) using action verbs, often with constraints (word count, tone).
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Constraints and Tone
         </td>
-        <td>
+<td>
          Safety instructions, preferred tone (formal, casual), or audience alignment; essential for compliance or brand voice.
         </td>
-       </tr>
-      </tbody>
-     </table>
-     <p>
-      <i>
+</tr>
+</tbody>
+</table>
+<p>
+<i>
        “Adding contextual awareness and domain-specific knowledge to prompts can significantly improve the relevance and accuracy of AI-generated responses.”
       </i>
-     </p>
-     <p>
-      <i>
+</p>
+<p>
+<i>
        “Specifying the format ensures each stage of recursive prompting builds logically, resulting in a coherent product.”
       </i>
-     </p>
-     <div class="notes-area">
-      <button class="delete-note-btn" data-textarea-id="notes-prompt-structure" title="Delete note for this section">
+</p>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-prompt-structure" title="Delete note for this section">
        🗑️
       </button>
-      <label for="notes-prompt-structure">
+<label for="notes-prompt-structure">
        My Notes:
       </label>
-      <textarea id="notes-prompt-structure"></textarea>
-     </div>
-    </div>
-   </div>
-   <div class="card" data-section-id="prompt-patterns">
-    <div class="card-icon">
+<textarea id="notes-prompt-structure"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="prompt-patterns">
+<div class="card-icon">
      🧩
     </div>
-    <h2>
+<h2>
      Effective Prompt Patterns
     </h2>
-    <p class="card-description">
+<p class="card-description">
      Proven methods to structure prompts for different types of tasks and outcomes.
     </p>
-    <div class="card-details">
-     <button class="focus-mode-btn" title="Toggle focus mode">
+<div class="card-details"><p>Showcases a curated set of repeatable prompt structures, from role-based prompts to chain-of-thought and adversarial testing. Each pattern includes a short description and example, making it easy to grasp when and how to apply them. It's especially useful for those looking to apply tested techniques to enhance reliability and consistency across different use cases.</p>
+<button class="focus-mode-btn" title="Toggle focus mode">
       Focus
      </button>
-     <h3>
+<h3>
       Common Patterns:
      </h3>
-     <table>
-      <thead>
-       <tr>
-        <th scope="col">
+<table>
+<thead>
+<tr>
+<th scope="col">
          Pattern
         </th>
-        <th scope="col">
+<th scope="col">
          Description
         </th>
-        <th scope="col">
+<th scope="col">
          Example
         </th>
-       </tr>
-      </thead>
-      <tbody>
-       <tr>
-        <td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
          Role-Based Prompting
         </td>
-        <td>
+<td>
          Assigns a persona/expertise to steer tone and reasoning.
         </td>
-        <td>
+<td>
          “You are a Renaissance art historian...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Iterative Refinement
         </td>
-        <td>
+<td>
          Improves responses via targeted follow-ups.
         </td>
-        <td>
+<td>
          “Draft an article. Now revise it...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Chain-of-Thought
         </td>
-        <td>
+<td>
          Encourages structured, logical steps for complex tasks.
         </td>
-        <td>
+<td>
          “Explain step-by-step how to calculate...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Constraint-Based Prompting
         </td>
-        <td>
+<td>
          Applies strict format, style, or length limits.
         </td>
-        <td>
+<td>
          “Explain neural backpropagation in exactly three sentences...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Task Clarification + Format
         </td>
-        <td>
+<td>
          Separates Context, Task, Format for clarity.
         </td>
-        <td>
+<td>
          “Context: You are a tech reviewer. Task: Compare iPhone... Format: Two-paragraph...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Few-Shot Prompting
         </td>
-        <td>
+<td>
          Provides input-output examples for the model to follow.
         </td>
-        <td>
+<td>
          “Here’s how we usually write client emails...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Zero-Shot Prompting
         </td>
-        <td>
+<td>
          Gives clear instructions without examples.
         </td>
-        <td>
+<td>
          “Draft a professional thank-you email...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Adversarial Testing
         </td>
-        <td>
+<td>
          Challenges the model with tricky prompts to test robustness.
         </td>
-        <td>
+<td>
          “Is Paris the capital of France or...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Self-Consistency
         </td>
-        <td>
+<td>
          Prompts multiple solutions to find the most reliable answer.
         </td>
-        <td>
+<td>
          “Solve 2x + 3 = 11 using at least two methods.”
         </td>
-       </tr>
-      </tbody>
-     </table>
-     <div class="notes-area">
-      <button class="delete-note-btn" data-textarea-id="notes-prompt-patterns" title="Delete note for this section">
+</tr>
+</tbody>
+</table>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-prompt-patterns" title="Delete note for this section">
        🗑️
       </button>
-      <label for="notes-prompt-patterns">
+<label for="notes-prompt-patterns">
        My Notes:
       </label>
-      <textarea id="notes-prompt-patterns"></textarea>
-     </div>
-    </div>
-   </div>
-   <div class="card" data-section-id="vibe-coding">
-    <div class="card-icon">
+<textarea id="notes-prompt-patterns"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="vibe-coding">
+<div class="card-icon">
      💡
     </div>
-    <h2>
+<h2>
      Vibe Coding
     </h2>
-    <p class="card-description">
+<p class="card-description">
      A natural-language approach to build simple software without writing traditional code.
     </p>
-    <div class="card-details">
-     <button class="focus-mode-btn" title="Toggle focus mode">
+<div class="card-details">
+<button class="focus-mode-btn" title="Toggle focus mode">
       Focus
      </button>
-     <h3>
+<h3>
       What It Is:
      </h3>
-     <p>
+<p>
       A way for non-engineers to create lightweight, single-use software using prompts. Ideal for MVPs, personal tools, and creative automation.
      </p>
-     <h3>
+<h3>
       Key Concepts:
      </h3>
-     <ul>
-      <li>
+<ul>
+<li>
        Prompt-to-code: "Create a task tracker..."
       </li>
-      <li>
+<li>
        Conversational debugging to refine.
       </li>
-      <li>
+<li>
        No programming knowledge needed.
       </li>
-      <li>
+<li>
        Emphasizes experimentation.
       </li>
-     </ul>
-     <h3>
+</ul>
+<h3>
       Example Projects:
      </h3>
-       <p>
-          <a href="https://gttome.github.io/GenAI/" target="_blank" style="text-decoration: underline; color: #003f5c;">
+<p>
+<a href="https://gttome.github.io/GenAI/" style="text-decoration: underline; color: #003f5c;" target="_blank">
             🌐 Generative AI Professional Prompt Engineering Guide – Website
           </a>
-        </p>
-       <p>
-          <a href="https://gttome.github.io/GenAI/cheat%20sheet.html" target="_blank" style="text-decoration: underline;      color: #003f5c;">
+</p>
+<p>
+<a href="https://gttome.github.io/GenAI/cheat%20sheet.html" style="text-decoration: underline;      color: #003f5c;" target="_blank">
     📋 Generative AI Professional Prompt Engineering – Cheat Sheet
   </a>
 </p>
-<p>📂 Kanban Board<br>🔄 Currency Converter GUI</p>
-
-     
+<p>📂 Kanban Board<br/>🔄 Currency Converter GUI</p>
 <h3>
       Best For:
      </h3>
-     <p>
+<p>
       Creatives, educators, analysts; prototyping, internal automation, teaching tools.
      </p>
-     <h3>
+<h3>
       ⚠️ Cautions:
      </h3>
-     <ul>
-      <li>
+<ul>
+<li>
        AI code may lack security, structure.
       </li>
-      <li>
+<li>
        Always test before real use.
       </li>
-      <li>
+<li>
        Not for production-scale software.
       </li>
-     </ul>
-     <div class="notes-area">
-      <button class="delete-note-btn" data-textarea-id="notes-vibe-coding" title="Delete note for this section">
+</ul>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-vibe-coding" title="Delete note for this section">
        🗑️
       </button>
-      <label for="notes-vibe-coding">
+<label for="notes-vibe-coding">
        My Notes:
       </label>
-      <textarea id="notes-vibe-coding"></textarea>
-     </div>
-    </div>
-   </div>
-   <div class="card" data-section-id="ai-learning-platform">
-    <div class="card-icon">
+<textarea id="notes-vibe-coding"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="ai-learning-platform">
+<div class="card-icon">
      📦
     </div>
-    <h2>
+<h2>
      AI Learning Platform
     </h2>
-    <p class="card-description">
+<p class="card-description">
      Using AI tools to turn static content into an interactive learning system.
     </p>
-    <div class="card-details">
-     <button class="focus-mode-btn" title="Toggle focus mode">
+<div class="card-details"><p>Highlights how to create an AI-augmented educational platform using tools like NotebookLM, Illuminate, and custom GPTs. These tools enable learners to explore, interact with, and personalize their learning journey. It’s ideal for those designing self-paced or collaborative learning environments powered by AI.</p>
+<button class="focus-mode-btn" title="Toggle focus mode">
       Focus
      </button>
-     <h3>
+<h3>
       Core Tools:
      </h3>
-     <ul>
-      <li>
-       <strong>
+<ul>
+<li>
+<strong>
         🧠 NotebookLM:
        </strong>
        Create research-linked knowledge bases, map idea relationships.
        <i>
         “Organize and explore interconnected ideas for deeper understanding.”
        </i>
-      </li>
-      <li>
-       <strong>
+</li>
+<li>
+<strong>
         🎙️ Illuminate:
        </strong>
        Convert static content into dynamic AI discussions.
        <i>
         “Facilitates real-time, AI-enhanced dialogue that brings static ideas to life.”
        </i>
-      </li>
-      <li>
-       <strong>
+</li>
+<li>
+<strong>
         🤖 Custom GPTs:
        </strong>
        Train a personalized tutor using specific content.
        <i>
         “Gain access to a personalized tutor capable of answering questions and offering clarifications.”
        </i>
-      </li>
-     </ul>
-     <h3>
+</li>
+</ul>
+<h3>
       Best Use Cases:
      </h3>
-     <ul>
-      <li>
+<ul>
+<li>
        Self-paced study
       </li>
-      <li>
+<li>
        Research exploration
       </li>
-      <li>
+<li>
        Collaborative learning
       </li>
-      <li>
+<li>
        Context-aware Q&amp;A
       </li>
-      <li>
+<li>
        AI-augmented training
       </li>
-     </ul>
-     <p>
-      <i>
+</ul>
+<p>
+<i>
        “This synergy turns the Guide into a living, breathing platform for interactive learning and professional development.”
       </i>
-     </p>
-     <div class="notes-area">
-      <button class="delete-note-btn" data-textarea-id="notes-ai-learning-platform" title="Delete note for this section">
+</p>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-ai-learning-platform" title="Delete note for this section">
        🗑️
       </button>
-      <label for="notes-ai-learning-platform">
+<label for="notes-ai-learning-platform">
        My Notes:
       </label>
-      <textarea id="notes-ai-learning-platform"></textarea>
-     </div>
-    </div>
-   </div>
-   <div class="card" data-section-id="use-cases">
-    <div class="card-icon">
+<textarea id="notes-ai-learning-platform"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="use-cases">
+<div class="card-icon">
      💼
     </div>
-    <h2>
+<h2>
      Use Cases
     </h2>
-    <p class="card-description">
+<p class="card-description">
      Examples of applying prompt engineering across different domains.
     </p>
-    <div class="card-details">
-     <button class="focus-mode-btn" title="Toggle focus mode">
+<div class="card-details"><p>Offers practical examples of prompt engineering in business, education, and technical fields. Shows how prompts are used for SEO writing, training bots, legal summarization, and more. A great reference for anyone looking to understand the cross-industry applications of AI prompting.</p>
+<button class="focus-mode-btn" title="Toggle focus mode">
       Focus
      </button>
-     <h3>
+<h3>
       Applications:
      </h3>
-     <table>
-      <thead>
-       <tr>
-        <th scope="col">
+<table>
+<thead>
+<tr>
+<th scope="col">
          Business
         </th>
-        <th scope="col">
+<th scope="col">
          Education
         </th>
-        <th scope="col">
+<th scope="col">
          Technical
         </th>
-       </tr>
-      </thead>
-      <tbody>
-       <tr>
-        <td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
          📋 Employee training
         </td>
-        <td>
+<td>
          🧑‍🏫 Teaching assistant bots
         </td>
-        <td>
+<td>
          🧪 Scientific report summarization
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          ✍️ SEO content generation
         </td>
-        <td>
+<td>
          📚 Interactive learning paths
         </td>
-        <td>
+<td>
          ⚖️ Legal document drafting
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          📝 Meeting note condensation
         </td>
-        <td>
+<td>
          📖 Study aids with examples
         </td>
-        <td>
+<td>
          📊 Data analysis prompt scripting
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          🛍️ Product/service descriptions
         </td>
-        <td>
+<td>
          🎓 GPT-powered tutoring assistants
         </td>
-        <td>
+<td>
          🔎 Knowledge retrieval applications
         </td>
-       </tr>
-      </tbody>
-     </table>
-     <div class="notes-area">
-      <button class="delete-note-btn" data-textarea-id="notes-use-cases" title="Delete note for this section">
+</tr>
+</tbody>
+</table>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-use-cases" title="Delete note for this section">
        🗑️
       </button>
-      <label for="notes-use-cases">
+<label for="notes-use-cases">
        My Notes:
       </label>
-      <textarea id="notes-use-cases"></textarea>
-     </div>
-    </div>
-   </div>
-   <div class="card" data-section-id="output-formats">
-    <div class="card-icon">
+<textarea id="notes-use-cases"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="output-formats">
+<div class="card-icon">
      📤
     </div>
-    <h2>
+<h2>
      Output Formats
     </h2>
-    <p class="card-description">
+<p class="card-description">
      Defining how the AI should structure and present its response.
     </p>
-    <div class="card-details">
-     <button class="focus-mode-btn" title="Toggle focus mode">
+<div class="card-details">
+<button class="focus-mode-btn" title="Toggle focus mode">
       Focus
      </button>
-     <p>
+<p>
       Specifies response structure, style, organization. Clear formats improve usability, accuracy, and workflows.
      </p>
-     <h3>
+<h3>
       Common Formats:
      </h3>
-     <ul>
-      <li>
-       <strong>
+<ul>
+<li>
+<strong>
         📊 Table:
        </strong>
        Comparisons, structured data. Ex: "List top 5 products... in a table."
       </li>
-      <li>
-       <strong>
+<li>
+<strong>
         • Bullet List:
        </strong>
        Clear, scannable points. Ex: "List marketing benefits as bullet points."
       </li>
-      <li>
-       <strong>
+<li>
+<strong>
         📝 Executive Summary:
        </strong>
        Concise overview. Ex: "Summarize report findings..."
       </li>
-      <li>
-       <strong>
+<li>
+<strong>
         🖼️ Slide-ready Text:
        </strong>
        For presentations (headings, short points).
       </li>
-      <li>
-       <strong>
+<li>
+<strong>
         📈 Charts / Markdown:
        </strong>
        Visuals, documentation, wikis, tutorials.
       </li>
-      <li>
-       <strong>
+<li>
+<strong>
         🔧 JSON / YAML:
        </strong>
        Structured outputs for software/APIs.
       </li>
-      <li>
-       <strong>
+<li>
+<strong>
         📄 Structured Docs:
        </strong>
        SOPs, NDAs, legal drafts. Ex: "Draft an NDA with clauses..."
       </li>
-     </ul>
-     <p>
-      <i>
+</ul>
+<p>
+<i>
        “Defining the output format ensures that each stage of recursive prompting builds logically, resulting in a coherent final product.”
       </i>
-     </p>
-     <div class="notes-area">
-      <button class="delete-note-btn" data-textarea-id="notes-output-formats" title="Delete note for this section">
+</p>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-output-formats" title="Delete note for this section">
        🗑️
       </button>
-      <label for="notes-output-formats">
+<label for="notes-output-formats">
        My Notes:
       </label>
-      <textarea id="notes-output-formats"></textarea>
-     </div>
-    </div>
-   </div>
-   <div class="card" data-section-id="prompting-techniques">
-    <div class="card-icon">
+<textarea id="notes-output-formats"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="prompting-techniques">
+<div class="card-icon">
      🔧
     </div>
-    <h2>
+<h2>
      Prompting Techniques
     </h2>
-    <p class="card-description">
+<p class="card-description">
      Fundamental methods repeatedly emphasized for effective prompt engineering.
     </p>
-    <div class="card-details">
-     <button class="focus-mode-btn" title="Toggle focus mode">
+<div class="card-details"><p>Summarizes foundational prompting principles like being specific, assigning roles, and using step-by-step logic. Includes concise descriptions and examples to help users refine their prompting approach. These techniques are essential for improving the quality, reliability, and adaptability of AI-generated content.</p>
+<button class="focus-mode-btn" title="Toggle focus mode">
       Focus
      </button>
-     <h3>
+<h3>
       Key Techniques:
      </h3>
-     <table>
-      <thead>
-       <tr>
-        <th scope="col">
+<table>
+<thead>
+<tr>
+<th scope="col">
          Technique
         </th>
-        <th scope="col">
+<th scope="col">
          Description
         </th>
-        <th scope="col">
+<th scope="col">
          Example Prompt
         </th>
-       </tr>
-      </thead>
-      <tbody>
-       <tr>
-        <td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
          Be Specific
         </td>
-        <td>
+<td>
          Clear instructions (scope, outcome, format).
         </td>
-        <td>
+<td>
          “List 3 actionable marketing tips for Q4.”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Step-by-Step
         </td>
-        <td>
+<td>
          Encourages logical breakdown for coherence.
         </td>
-        <td>
+<td>
          “Let’s think through this step-by-step...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Assign a Role
         </td>
-        <td>
+<td>
          Frames AI identity for style/tone shift.
         </td>
-        <td>
+<td>
          “Acting as an HR executive, write...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Clarify Output Format
         </td>
-        <td>
+<td>
          Specifies structure (JSON, table, list).
         </td>
-        <td>
+<td>
          “Output as a bullet list with subheadings...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Iterative Prompting
         </td>
-        <td>
+<td>
          Prompts designed for refinement stages.
         </td>
-        <td>
+<td>
          “Here’s a draft. Now revise to be more...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Comparative Prompting
         </td>
-        <td>
+<td>
          Generates side-by-side evaluations.
         </td>
-        <td>
+<td>
          “Compare the pros and cons of Slack vs. Teams...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Provide Examples
         </td>
-        <td>
+<td>
          Uses few-shot prompts for style/tone guidance.
         </td>
-        <td>
+<td>
          “Here’s how we reply to support tickets...”
         </td>
-       </tr>
-       <tr>
-        <td>
+</tr>
+<tr>
+<td>
          Structured Follow-Ups
         </td>
-        <td>
+<td>
          Encourages AI to guide next actions/ask questions.
         </td>
-        <td>
+<td>
          “What 3 questions should I ask to improve this prompt?”
         </td>
-       </tr>
-      </tbody>
-     </table>
-     <p>
-      <i>
+</tr>
+</tbody>
+</table>
+<p>
+<i>
        “Refining and iterating prompts is not optional—it’s essential for achieving reliable, high-quality results.”
       </i>
-     </p>
-     <div class="notes-area">
-      <button class="delete-note-btn" data-textarea-id="notes-prompting-techniques" title="Delete note for this section">
+</p>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-prompting-techniques" title="Delete note for this section">
        🗑️
       </button>
-      <label for="notes-prompting-techniques">
+<label for="notes-prompting-techniques">
        My Notes:
       </label>
-      <textarea id="notes-prompting-techniques"></textarea>
-     </div>
-    </div>
-   </div>
-  </main>
-  <dialog id="help-modal">
-   <div class="modal-content">
-    <span class="close-modal-btn" title="Close">
+<textarea id="notes-prompting-techniques"></textarea>
+</div>
+</div>
+</div>
+</main>
+<dialog id="help-modal">
+<div class="modal-content">
+<span class="close-modal-btn" title="Close">
      ×
     </span>
-    <h2>
+<h2>
      How to Use This Dashboard
     </h2>
-    <p>
+<p>
      This dashboard helps you understand and use effective Generative AI prompting techniques:
     </p>
-    <ul>
-     <li>
-      <strong>
+<ul>
+<li>
+<strong>
        Click a Card:
       </strong>
       Click anywhere on a card (outside the notes area) to expand it and see details. Click again to collapse.
      </li>
-     <li>
-      <strong>
+<li>
+<strong>
        Focus Mode:
       </strong>
       Click the "Focus" button inside an expanded card to dim other cards, helping you concentrate on one topic. Click "Exit Focus" or click outside the focused card to return to normal view.
      </li>
-     <li>
-      <strong>
+<li>
+<strong>
        Notes:
       </strong>
       Use the "My Notes" textarea within each expanded card to save your personal thoughts or examples. Notes are saved automatically in your browser.
      </li>
-     <li>
-      <strong>
+<li>
+<strong>
        Delete Notes:
       </strong>
       Click the trash bin icon (🗑️) next to the notes area to clear the notes for that specific section.
      </li>
-     <li>
-      <strong>
+<li>
+<strong>
        Prompt Balancer:
       </strong>
       In the "Perfect Prompt Structure" card, use the sliders (0-100%) to visualize different balances between prompt components. Tips will appear below based on the component with the highest value, categorized into Low (1-33%), Medium (34-66%), and High (67-100%) emphasis. Resetting other sliders occurs automatically when you significantly increase one slider.
      </li>
-     <li>
-      <strong>
+<li>
+<strong>
        Help:
       </strong>
       Click the question mark (?) icon in the header at any time to reopen this help window.
      </li>
-    </ul>
-   </div>
-  </dialog>
-  <script>
+</ul>
+</div>
+</dialog>
+<script>
    function toggleMenu() {
   var menu = document.getElementById('menu');
   if (menu.style.display === 'flex') {
@@ -1394,7 +1392,7 @@
   }
 }
   </script>
-  <script>
+<script>
    // Wait for the DOM to be fully loaded and parsed
         document.addEventListener('DOMContentLoaded', function() {
 
@@ -1746,8 +1744,8 @@
             }
         }); // End of DOMContentLoaded
   </script>
-  <footer style="background:#333; color:white; text-align:center; padding:1rem; font-size:0.9rem; margin-top:2rem;">
+<footer style="background:#333; color:white; text-align:center; padding:1rem; font-size:0.9rem; margin-top:2rem;">
    © 2025 George Tome / Agility AI LLC. All rights reserved. | Available on Leanpub
   </footer>
- </body>
+</body>
 </html>
