@@ -1,6 +1,6 @@
 {
-  "name": "GAPEG Quiz",
-  "short_name": "GAPEG Quiz",
+  "name": "GenAI Prompt Quiz",
+  "short_name": "GenAI Prompt Quiz",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
