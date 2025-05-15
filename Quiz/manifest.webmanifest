@@ -1,0 +1,9 @@
+{
+  "name": "GAPEG Quiz",
+  "short_name": "GAPEG Quiz",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0057ff",
+  "icons": []
+}

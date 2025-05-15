@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>GAPEG Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+</head>
+<body>
+  <header class="app-bar">
+    <h1 id="app-title">Prompt Engineering Guide — Quiz</h1>
+  </header>
+
+  <!-- Dynamic app root -->
+  <main id="app"></main>
+
+  <!-- Templates (cloned at runtime) -->
+  <template id="tpl-dashboard">
+    <section class="dashboard">
+      <h2>Chapters</h2>
+      <ul id="chapter-list" class="card-list"></ul>
+    </section>
+  </template>
+
+  <template id="tpl-question">
+    <section class="question-view">
+      <h2 id="question-text"></h2>
+      <form id="options-form" class="options"></form>
+      <div class="controls">
+        <button id="btn-prev">Previous</button>
+        <button id="btn-next">Next</button>
+        <button id="btn-flag" class="secondary">Mark for Review</button>
+        <button id="btn-back-dashboard" class="secondary">Back to Chapters</button>
+      </div>
+      <textarea id="notes" placeholder="Your notes…"></textarea>
+      <footer class="status">
+        <span id="chapter-name" class="chapter-label"></span>
+        <span id="progress"></span>
+        <span id="timer"></span>
+      </footer>
+    </section>
+  </template>
+
+  <template id="tpl-review">
+    <section class="review">
+      <h2>Review Answers</h2>
+      <ul id="review-list"></ul>
+      <div class="controls">
+        <button id="btn-back-question" class="secondary">Back to Question</button>
+        <button id="btn-submit" class="primary">Submit Quiz</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-results">
+    <section class="results">
+      <h2>Results</h2>
+      <p id="chapter-label" class="chapter-label"></p>
+      <canvas id="chart" width="220" height="220"></canvas>
+      <p id="score-summary"></p>
+      <button id="btn-review-questions">Review Questions</button>
+      <button id="btn-back-dashboard" class="secondary">Back to Chapters</button>
+    </section>
+  </template>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

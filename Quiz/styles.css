@@ -1,0 +1,59 @@
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --accent: #0057ff;
+  --accent-light: #e6efff;
+  --danger: #d62828;
+  --round: 0.75rem;
+  font-family: system-ui, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--fg); min-height: 100vh; }
+.app-bar { background: var(--accent); color: #fff; padding: 0.75rem 1rem; }
+main { padding: 1rem; }
+.card-list { list-style: none; display: grid; gap: 1rem; }
+.card { padding: 1rem; border: 1px solid #ddd; border-radius: var(--round); cursor: pointer; }
+.card .meta { font-size: 0.875rem; color: #555; }
+.question-view h2 { margin-bottom: 1rem; }
+.options label { display: block; padding: 0.5rem; border-radius: var(--round); }
+.options input { margin-right: 0.5rem; }
+.controls { margin: 1rem 0; display: flex; gap: 0.5rem; }
+button { padding: 0.5rem 1rem; border: none; border-radius: var(--round); cursor: pointer; }
+button.primary { background: var(--accent); color: #fff; }
+button.secondary { background: var(--accent-light); color: var(--accent); }
+button[disabled] { opacity: 0.5; cursor: not-allowed; }
+textarea { width: 100%; min-height: 5rem; margin-top: 1rem; padding: 0.5rem; border-radius: var(--round); border: 1px solid #ccc; }
+.status { margin-top: 0.5rem; display: flex; justify-content: space-between; font-size: 0.875rem; }
+.results { text-align: center; }
+
+
+/* Left-align the question/answer breakdown on the Results page */
+.results pre {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+
+
+/* === Step 1 tweak ===
+   Center the entire app and cap width so the dashboard opens in a
+   narrower pane slightly wider than the question cards.
+*/
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.app-bar,
+main{
+  width:100%;
+  max-width: 720px; /* adjust as needed */
+}
+
+/* === hanging-indent for wrapped Reason: lines === */
+.detailed-breakdown {
+  white-space: pre-wrap;   /* preserve newlines and wrap long lines */
+  padding-left: 2em;       /* indent the content area by 2em */
+  text-indent: -2em;       /* pull the very first line left by 2em */
+}

@@ -1,0 +1,142 @@
+{
+  "book_title": "Generative AI Professional Prompt Engineering Guide - First Edition Release 8.0",
+  "chapter_id": "chapter_5",
+  "chapter_title": "Combining Prompts",
+  "questions": [
+    {
+      "question_id": "chapter_5_q1",
+      "question_text": "What is the main advantage of combining 'Ask Before Answering' and 'Ask AI to Improve a Prompt' templates?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "To generate creative content."
+        },
+        {
+          "option_id": "B",
+          "option_text": "To clarify and refine responses for accuracy."
+        },
+        {
+          "option_id": "C",
+          "option_text": "To translate responses into different languages."
+        },
+        {
+          "option_id": "D",
+          "option_text": "To identify user emotions."
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "This combination ensures responses are clear and refined by first clarifying the query and then improving the prompt based on that clarification."
+    },
+    {
+      "question_id": "chapter_5_q2",
+      "question_text": "The combination of 'Extraction Prompts' and 'Comparative Prompting' is particularly useful for:",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Emotional analysis."
+        },
+        {
+          "option_id": "B",
+          "option_text": "Generating artistic content."
+        },
+        {
+          "option_id": "C",
+          "option_text": "Business analysis and data comparison."
+        },
+        {
+          "option_id": "D",
+          "option_text": "Simplifying complex narratives."
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "This pairing allows for the extraction of key data points which can then be effectively compared to draw meaningful insights."
+    },
+    {
+      "question_id": "chapter_5_q3",
+      "question_text": "How does pairing 'Multiple Perspectives' with 'Expert Critic' enhance AI responses?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "It allows for varied perspectives followed by expert evaluation."
+        },
+        {
+          "option_id": "B",
+          "option_text": "By providing a humorous angle to responses."
+        },
+        {
+          "option_id": "C",
+          "option_text": "It focuses on translating responses."
+        },
+        {
+          "option_id": "D",
+          "option_text": "It simplifies the complexity of responses."
+        }
+      ],
+      "correct_answer": {
+        "option_id": "A"
+      },
+      "reasoning": "This combination first generates different viewpoints on a subject and then subjects these perspectives to expert critique for a comprehensive understanding."
+    },
+    {
+      "question_id": "chapter_5_q4",
+      "question_text": "Combining 'Chain of Density Prompt' with 'Tone Changer' is effective for:",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Extracting key data points."
+        },
+        {
+          "option_id": "B",
+          "option_text": "Translating complex texts."
+        },
+        {
+          "option_id": "C",
+          "option_text": "Simplifying technical language."
+        },
+        {
+          "option_id": "D",
+          "option_text": "Creating varied summaries with different tones for diverse audiences."
+        }
+      ],
+      "correct_answer": {
+        "option_id": "D"
+      },
+      "reasoning": "This combination is ideal for creating summaries that not only vary in density but also in tone, catering to different audience preferences."
+    },
+    {
+      "question_id": "chapter_5_q5",
+      "question_text": "The integration of 'Acting As' with 'Fact Check Response' is designed to:",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Ensure responses are emotionally charged."
+        },
+        {
+          "option_id": "B",
+          "option_text": "Reduce the complexity of technical responses."
+        },
+        {
+          "option_id": "C",
+          "option_text": "Translate responses into multiple languages."
+        },
+        {
+          "option_id": "D",
+          "option_text": "Generate responses based on a persona and validate them for accuracy."
+        }
+      ],
+      "correct_answer": {
+        "option_id": "D"
+      },
+      "reasoning": "This pairing allows the AI to respond from the perspective of a certain persona and then checks the factual accuracy of these responses."
+    }
+  ]
+}

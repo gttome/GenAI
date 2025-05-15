@@ -1,0 +1,277 @@
+{
+  "book_title": "Generative AI Professional Prompt Engineering Guide - First Edition Release 8.0",
+  "chapter_id": "chapter_3",
+  "chapter_title": "Prompt Templates Detailed Documentation",
+  "questions": [
+    {
+      "question_id": "chapter_3_q1",
+      "question_text": "Which prompt template is most effective for breaking down complex problems into manageable steps?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Comparative Prompting"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Acting As"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Let's Think Step by Step"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Clarify Before Answering"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "The 'Step-by-Step' prompt decomposes complex issues and encourages structured thinking."
+    },
+    {
+      "question_id": "chapter_3_q2",
+      "question_text": "Which template is best suited for comparing multiple entities based on defined factors?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Tone Changer"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Clarify Before Answering"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Comparative Prompting"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Data Retrieval"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "Comparative Prompting is designed for tabular comparisons using defined factors."
+    },
+    {
+      "question_id": "chapter_3_q3",
+      "question_text": "What is the goal of the 'Clarify Before Answering' prompt template?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Deliver answers with minimal context"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Ask questions to clarify ambiguous requests before responding"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Use a defined role or persona to answer"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Format the output using markdown"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "This pattern helps avoid misunderstandings by asking questions before answering."
+    },
+    {
+      "question_id": "chapter_3_q4",
+      "question_text": "Which prompt helps the AI adopt a specific role or persona to complete a task?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Data Retrieval"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Acting As"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Improve Prompt"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Expand Question"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "'Acting As' allows the AI to simulate responses from a chosen expert or persona."
+    },
+    {
+      "question_id": "chapter_3_q5",
+      "question_text": "The 'Data Retrieval' prompt is most effective when you need to:",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Change the emotional tone of text"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Extract structured data from long documents"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Provide critiques from an expert"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Ask clarifying questions before responding"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "The Data Retrieval prompt extracts key data points from a larger context."
+    },
+    {
+      "question_id": "chapter_3_q6",
+      "question_text": "Which prompt template is designed to give expert-level feedback based on a specific field?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Acting As"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Expert Critic"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Tone Changer"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Markdown Formatting"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "Expert Critic enables the AI to provide critiques as a domain expert would."
+    },
+    {
+      "question_id": "chapter_3_q7",
+      "question_text": "Which prompt is used to evaluate the emotional or stylistic tone of a passage?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Identify Tone"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Tone Changer"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Clarify Before Answering"
+        },
+        {
+          "option_id": "D",
+          "option_text": "AI Creates the Prompt"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "A"
+      },
+      "reasoning": "'Identify Tone' detects emotional tone and communication style from text."
+    },
+    {
+      "question_id": "chapter_3_q8",
+      "question_text": "How does the 'Tone Changer' prompt enhance a piece of writing?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "By translating it to another language"
+        },
+        {
+          "option_id": "B",
+          "option_text": "By critiquing and improving content"
+        },
+        {
+          "option_id": "C",
+          "option_text": "By changing its tone to match a selected style"
+        },
+        {
+          "option_id": "D",
+          "option_text": "By extracting tone keywords"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "The Tone Changer adjusts the mood and emotional style of the writing."
+    },
+    {
+      "question_id": "chapter_3_q9",
+      "question_text": "What is the purpose of the 'Ask AI to Improve a Prompt' template?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Refine prompts based on AI feedback"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Change prompt tone to friendly"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Classify tone of text"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Summarize user input"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "A"
+      },
+      "reasoning": "This prompt seeks AI suggestions to improve prompt clarity and effectiveness."
+    },
+    {
+      "question_id": "chapter_3_q10",
+      "question_text": "Which prompt template allows the AI to generate a usable prompt from a user request?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Expert Critic"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Data Retrieval"
+        },
+        {
+          "option_id": "C",
+          "option_text": "AI Creates the Prompt"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Expand Question"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "'AI Creates the Prompt' gives the AI control to generate a complete prompt from the user's request."
+    }
+  ]
+}

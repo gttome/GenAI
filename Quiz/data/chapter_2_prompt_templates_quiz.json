@@ -1,0 +1,277 @@
+{
+  "book_title": "Generative AI Professional Prompt Engineering Guide - First Edition Release 8.0",
+  "chapter_id": "chapter_2",
+  "chapter_title": "Format and Use Cases for Prompt Templates",
+  "questions": [
+    {
+      "question_id": "chapter_2_q1",
+      "question_text": "What is the primary purpose of the 'Acting As' prompt template?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "To clarify unclear requests by asking questions"
+        },
+        {
+          "option_id": "B",
+          "option_text": "To compare different scenarios in a tabular format"
+        },
+        {
+          "option_id": "C",
+          "option_text": "To enable the AI to adopt a specific role or persona"
+        },
+        {
+          "option_id": "D",
+          "option_text": "To extract structured data from long-form content"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "The 'Acting As' prompt helps the AI take on a defined persona and respond accordingly."
+    },
+    {
+      "question_id": "chapter_2_q2",
+      "question_text": "Which template is best suited for comparing three healthcare plans based on cost and benefits?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Multiple Perspectives"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Comparative Prompting"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Data Retrieval"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Clarify Before Answering"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "Comparative Prompting is used to analyze entities side-by-side using specific criteria."
+    },
+    {
+      "question_id": "chapter_2_q3",
+      "question_text": "The 'Let's Think About This Step by Step' prompt is especially useful for:",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Fast fact-based lookups"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Creative writing tasks"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Breaking down complex problems methodically"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Providing humorous responses"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "This prompt guides the AI to tackle tasks in a logical, structured manner."
+    },
+    {
+      "question_id": "chapter_2_q4",
+      "question_text": "Which prompt pattern involves asking follow-up questions before delivering a final answer?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Clarify Before Answering"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Acting As"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Expand Question"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Markdown Formatting"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "A"
+      },
+      "reasoning": "Clarify Before Answering helps ensure a more accurate and user-specific response."
+    },
+    {
+      "question_id": "chapter_2_q5",
+      "question_text": "What does the 'AI Creates the Prompt' template do?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Asks the user to improve a given prompt"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Generates a tailored prompt from a user request"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Generates markdown tables for use cases"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Improves the structure of a paragraph"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "This pattern allows the AI to create a full, formatted prompt based on a user request."
+    },
+    {
+      "question_id": "chapter_2_q6",
+      "question_text": "Which prompt type is best for highlighting multiple viewpoints?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Data Retrieval"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Acting As"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Multiple Perspectives"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Tone Changer"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "Multiple Perspectives explores a topic from different personas or stakeholder views."
+    },
+    {
+      "question_id": "chapter_2_q7",
+      "question_text": "Which of the following is a key benefit of the 'Clarify Before Answering' prompt?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Faster answers"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Reduces misunderstanding by asking for more detail first"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Improves the prompt output style"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Enhances emotional tone in answers"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "This method improves answer quality by resolving ambiguities before responding."
+    },
+    {
+      "question_id": "chapter_2_q8",
+      "question_text": "Which template is designed for extracting information like names or dates from a body of text?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Refine and Focus a Question"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Markdown Formatting"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Data Retrieval"
+        },
+        {
+          "option_id": "D",
+          "option_text": "AI Asks Questions"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "Data Retrieval helps the AI pull structured, targeted data from a long input."
+    },
+    {
+      "question_id": "chapter_2_q9",
+      "question_text": "The 'Ask AI to Improve a Prompt' method is primarily used to:",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Format responses in HTML"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Refine prompts for clarity and precision"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Summarize long documents"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Fix grammar issues in prompts"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "This method helps users fine-tune their prompt structure for better results."
+    },
+    {
+      "question_id": "chapter_2_q10",
+      "question_text": "Which template allows the AI to take on the persona of a historical or fictional figure?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Expand Question"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Tone Changer"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Acting As"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Clarify Before Answering"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "The 'Acting As' prompt enables the AI to consistently roleplay a defined persona."
+    }
+  ]
+}

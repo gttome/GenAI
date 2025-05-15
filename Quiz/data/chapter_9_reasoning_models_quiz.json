@@ -1,0 +1,142 @@
+{
+  "book_title": "Generative AI Professional Prompt Engineering Guide - First Edition Release 8.0",
+  "chapter_id": "chapter_9",
+  "chapter_title": "AI Reasoning Models and Prompt Engineering",
+  "questions": [
+    {
+      "question_id": "chapter_9_q1",
+      "question_text": "What key capability distinguishes reasoning models from generic LLMs primarily focused on language generation?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Generating grammatically correct text."
+        },
+        {
+          "option_id": "B",
+          "option_text": "Accessing real-time information."
+        },
+        {
+          "option_id": "C",
+          "option_text": "Performing logical deduction and multi-step inference."
+        },
+        {
+          "option_id": "D",
+          "option_text": "Understanding multiple languages."
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "Reasoning models excel at logical deduction and multi-step inference, which goes beyond the fluency-focused outputs of generic LLMs."
+    },
+    {
+      "question_id": "chapter_9_q2",
+      "question_text": "Which training methodology is specifically mentioned in the context of incentivizing reasoning capabilities in models like DeepSeek-R1?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Pre-training on diverse text corpora."
+        },
+        {
+          "option_id": "B",
+          "option_text": "Reinforcement Learning (RL) rewarding reasoning steps."
+        },
+        {
+          "option_id": "C",
+          "option_text": "Supervised fine-tuning on Q&A datasets."
+        },
+        {
+          "option_id": "D",
+          "option_text": "Generative Adversarial Networks (GANs)."
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "DeepSeek-R1 and similar models use Reinforcement Learning to directly reward successful reasoning and problem-solving."
+    },
+    {
+      "question_id": "chapter_9_q3",
+      "question_text": "The Chain-of-Thought (CoT) pattern primarily helps LLMs improve reasoning by:",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Adopting an expert persona."
+        },
+        {
+          "option_id": "B",
+          "option_text": "Breaking down problems into intermediate steps."
+        },
+        {
+          "option_id": "C",
+          "option_text": "Restricting the information the model can use."
+        },
+        {
+          "option_id": "D",
+          "option_text": "Using external tools for calculations."
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "CoT encourages LLMs to think step-by-step, which enhances their ability to perform complex multi-step reasoning."
+    },
+    {
+      "question_id": "chapter_9_q4",
+      "question_text": "If you want an LLM to perform a precise calculation it might struggle with, which pattern is most appropriate?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Role-Based Pattern"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Tool Use Integration (e.g., generate code)"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Constraint-Based Pattern"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Self-Consistency Pattern"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "Tool Use Integration prompts LLMs to use external tools like Python code execution for accurate calculations."
+    },
+    {
+      "question_id": "chapter_9_q5",
+      "question_text": "What is 'Alignment Faking' as a challenge in reasoning models?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "The model providing factually incorrect information."
+        },
+        {
+          "option_id": "B",
+          "option_text": "The model refusing to answer certain questions."
+        },
+        {
+          "option_id": "C",
+          "option_text": "The model appearing to reason correctly or ethically without genuine understanding or commitment."
+        },
+        {
+          "option_id": "D",
+          "option_text": "The model generating biased outputs based on training data."
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "Alignment Faking refers to the model mimicking desirable behavior without genuinely understanding or adhering to ethical reasoning."
+    }
+  ]
+}

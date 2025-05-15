@@ -1,0 +1,277 @@
+{
+  "book_title": "Generative AI Professional Prompt Engineering Guide - First Edition Release 8.0",
+  "chapter_id": "chapter_7",
+  "chapter_title": "Effective Prompt Patterns",
+  "questions": [
+    {
+      "question_id": "chapter_7_q1",
+      "question_text": "What is the primary role of prompt engineering?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "To train new language models"
+        },
+        {
+          "option_id": "B",
+          "option_text": "To craft mechanisms for eliciting specific, context-rich responses from LLMs"
+        },
+        {
+          "option_id": "C",
+          "option_text": "To replace computational linguistics in AI development"
+        },
+        {
+          "option_id": "D",
+          "option_text": "To make AI more entertaining"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "Prompt engineering structures user input to steer LLMs toward precise and relevant responses."
+    },
+    {
+      "question_id": "chapter_7_q2",
+      "question_text": "Which of the following is a core advantage of using prompt patterns?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "They enable language models to generate random responses"
+        },
+        {
+          "option_id": "B",
+          "option_text": "They ensure consistency and reproducibility in outputs"
+        },
+        {
+          "option_id": "C",
+          "option_text": "They simplify complex tasks by removing context"
+        },
+        {
+          "option_id": "D",
+          "option_text": "They eliminate the need for cognitive science principles"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "Prompt patterns reduce ambiguity and increase reliability, ensuring consistent results."
+    },
+    {
+      "question_id": "chapter_7_q3",
+      "question_text": "What does the role-based prompt pattern do?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Assigns a specific persona or domain expertise to the LLM"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Breaks a task into smaller sub-tasks"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Limits the LLM's response to a specific word count"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Challenges the LLM with adversarial questions"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "A"
+      },
+      "reasoning": "Role-based prompts help align the model\u2019s style and knowledge with the persona assigned."
+    },
+    {
+      "question_id": "chapter_7_q4",
+      "question_text": "Why is task clarification important in prompt patterns?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "It allows the LLM to operate without specific instructions"
+        },
+        {
+          "option_id": "B",
+          "option_text": "It ensures tasks are divided into context, task, and format for clarity"
+        },
+        {
+          "option_id": "C",
+          "option_text": "It eliminates ambiguity by forcing a single-step response"
+        },
+        {
+          "option_id": "D",
+          "option_text": "It avoids using background information"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "Task clarification helps LLMs produce structured, relevant responses by breaking down instructions."
+    },
+    {
+      "question_id": "chapter_7_q5",
+      "question_text": "Which pattern encourages breaking down reasoning into logical steps?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Zero-Shot Prompting"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Few-Shot Prompting"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Chain-of-Thought"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Adversarial Prompting"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "Chain-of-Thought prompting guides the model to reason through each step logically before answering."
+    },
+    {
+      "question_id": "chapter_7_q6",
+      "question_text": "How does the self-consistency pattern enhance reliability?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "By cross-validating multiple reasoning paths"
+        },
+        {
+          "option_id": "B",
+          "option_text": "By generating responses without examples"
+        },
+        {
+          "option_id": "C",
+          "option_text": "By relying on iterative user feedback"
+        },
+        {
+          "option_id": "D",
+          "option_text": "By limiting responses to a predefined format"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "A"
+      },
+      "reasoning": "Self-consistency improves confidence by comparing multiple reasoning paths to reach the most reliable answer."
+    },
+    {
+      "question_id": "chapter_7_q7",
+      "question_text": "What is a key benefit of few-shot prompting?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "It allows tasks to be completed without examples"
+        },
+        {
+          "option_id": "B",
+          "option_text": "It provides examples to establish a pattern for the model to follow"
+        },
+        {
+          "option_id": "C",
+          "option_text": "It challenges the model with ambiguous questions"
+        },
+        {
+          "option_id": "D",
+          "option_text": "It limits the scope of the model's training data"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "B"
+      },
+      "reasoning": "Few-shot prompting teaches the model by example, setting expectations for format and tone."
+    },
+    {
+      "question_id": "chapter_7_q8",
+      "question_text": "Which scenario best applies to constraint-based prompting?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Writing a haiku with a specific syllable structure"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Generating a professional email from scratch"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Testing a model\u2019s ability to resolve ambiguity"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Providing reasoning for a complex mathematical problem"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "A"
+      },
+      "reasoning": "Constraint-based prompting uses explicit rules such as syllable counts or word limits."
+    },
+    {
+      "question_id": "chapter_7_q9",
+      "question_text": "What distinguishes adversarial prompting?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "It generates multiple solutions to the same query"
+        },
+        {
+          "option_id": "B",
+          "option_text": "It focuses on standard tasks with clear success criteria"
+        },
+        {
+          "option_id": "C",
+          "option_text": "It evaluates the model with edge-case or misleading inputs"
+        },
+        {
+          "option_id": "D",
+          "option_text": "It avoids using examples for the task"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "Adversarial prompting stress-tests the model by introducing challenging or contradictory inputs."
+    },
+    {
+      "question_id": "chapter_7_q10",
+      "question_text": "In iterative refinement, what is the first step to improve content?",
+      "question_type": "multiple-choice",
+      "options": [
+        {
+          "option_id": "A",
+          "option_text": "Polishing minor stylistic details"
+        },
+        {
+          "option_id": "B",
+          "option_text": "Revising for tone and clarity"
+        },
+        {
+          "option_id": "C",
+          "option_text": "Generating a first draft"
+        },
+        {
+          "option_id": "D",
+          "option_text": "Adding specific technical references"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "C"
+      },
+      "reasoning": "The iterative refinement process begins with a first draft, which is then incrementally improved."
+    }
+  ]
+}

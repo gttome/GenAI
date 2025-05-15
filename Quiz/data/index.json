@@ -1,0 +1,38 @@
+[
+  {
+    "id": "foundations_of_prompting",
+    "title": "Foundations of Prompting",
+    "file": "chapter_1_foundations_of_prompting_quiz.json"
+  },
+{
+    "id": "prompt_templates_use_cases",
+    "title": "Prompt Templates Use Cases",
+    "file": "chapter_2_prompt_templates_quiz.json"
+  },
+{
+    "id": "prompt_templates_details",
+    "title": "Prompt Templates Details",
+    "file": "chapter_3_prompt_templates_detailed_quiz.json"
+  },
+{
+    "id": "advanced_prompting",
+    "title": "Advanced Prompting",
+    "file": "chapter_4_advanced_prompting_quiz.json"
+  },
+{
+    "id": "combining_prompts",
+    "title": "Combining Prompts",
+    "file": "chapter_5_combining_prompts_quiz.json"
+  },
+{
+    "id": "effective_prompt_patterns",
+    "title": "Effective Prompt Patterns",
+    "file": "chapter_7_effective_prompt_patterns_quiz.json"
+  },
+
+ {
+  "id": "reasoning_models",
+  "title": "Reasoning Models",
+  "file": "chapter_9_reasoning_models_quiz.json"
+ }
+]
