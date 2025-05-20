@@ -57,3 +57,17 @@ main{
   padding-left: 2em;       /* indent the content area by 2em */
   text-indent: -2em;       /* pull the very first line left by 2em */
 }
+
+/* Header bar */
+.app-bar {
+  background-color: #007acc;  /* your existing blue */
+  display: flex;              /* make it a flex container */
+  justify-content: space-between; /* push items to far edges */
+  align-items: center;        /* vertically center them */
+  padding: 0.5em 1em;         /* adjust as needed */
+}
+
+/* Yellow “Get the Guide” link styled as a button */
+#<your-get-guide-btn-id>, .btn-yellow {
+  margin-left: 0;   /* no extra gap on the right */
+}
