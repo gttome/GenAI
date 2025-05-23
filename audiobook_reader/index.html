@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generative AI Prompt Guide Reader</title> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode"> 
+
+    <div class="container">
+        <aside id="left-panel" role="complementary">
+            <div id="chapter-list-container">
+                <h2 id="chapters-heading">Chapters</h2>
+                <ul id="chapter-list" aria-labelledby="chapters-heading">
+                    <li id="loading-chapters-msg" class="status-message">Loading chapters...</li>
+                </ul>
+            </div>
+
+            <div id="bookmarks-container">
+                <h2 id="bookmarks-heading">Bookmarks</h2>
+                <ul id="bookmarks-list" aria-labelledby="bookmarks-heading">
+                    <li id="no-bookmarks-msg" class="status-message">No bookmarks yet.</li>
+                </ul>
+                <div id="add-bookmark-section">
+                    <label for="bookmark-note-input" class="sr-only">Bookmark Note</label>
+                    <input type="text" id="bookmark-note-input" placeholder="Optional note for new bookmark">
+                    <button id="add-bookmark-button" type="button">Add Bookmark</button>
+                </div>
+            </div>
+        </aside>
+
+        <main id="player-view" role="main">
+            <div id="cover-art-container">
+                <img id="cover-art-img" src="" alt="Audiobook Cover Art">
+            </div>
+
+            <div id="audio-info">
+                <h2 id="current-book-title" aria-live="polite">Book Title</h2>
+                <h3 id="current-chapter-title" aria-live="polite">Select a chapter to begin</h3>
+                <p id="current-book-author" aria-live="polite">Author Name</p>
+            </div>
+            
+            <audio id="audio-player" style="display: none;"></audio>
+
+            <div id="progress-container" role="slider" aria-label="Playback Progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+                <div id="progress-bar">
+                    <div id="progress-bar-fill"></div>
+                </div>
+            </div>
+            <div id="time-display">
+                <span id="current-time" aria-label="Current time">00:00:00</span>
+                <span id="total-duration" aria-label="Total duration">00:00:00</span>
+            </div>
+
+            <div id="player-controls" role="group" aria-label="Player Controls">
+                <button id="skip-backward-button" type="button" aria-label="Skip Backward 15 seconds">« 15s</button>
+                <button id="play-pause-button" type="button" aria-label="Play">Play</button>
+                <button id="skip-forward-button" type="button" aria-label="Skip Forward 30 seconds">30s »</button>
+            </div>
+            
+            <div class="playback-settings">
+                <div class="setting-control">
+                    <label for="volume-slider">Volume</label>
+                    <input type="range" id="volume-slider" title="Volume" min="0" max="1" step="0.01" value="1" aria-label="Volume control">
+                </div>
+                <div class="setting-control">
+                    <label for="speed-selector">Speed</label>
+                    <select id="speed-selector" title="Playback Speed" aria-label="Playback speed">
+                        <option value="0.5">0.5x</option>
+                        <option value="0.75">0.75x</option>
+                        <option value="1" selected>1x</option>
+                        <option value="1.25">1.25x</option>
+                        <option value="1.5">1.5x</option>
+                        <option value="1.75">1.75x</option>
+                        <option value="2">2x</option>
+                    </select>
+                    <span id="current-speed-display" aria-live="polite">1x</span>
+                </div>
+            </div>
+
+            <div id="sleep-timer-container" class="setting-control">
+                <label for="sleep-timer-select">Sleep Timer</label>
+                <select id="sleep-timer-select" aria-label="Sleep Timer Duration">
+                    <option value="0">Off</option>
+                    <option value="1">End of Chapter</option>
+                    <option value="900">15 Minutes</option>
+                    <option value="1800">30 Minutes</option>
+                    <option value="3600">1 Hour</option>
+                </select>
+                <span id="sleep-timer-status" aria-live="polite"></span>
+                <button id="cancel-sleep-timer-button" type="button" style="display:none;">Cancel Timer</button>
+            </div>
+
+            <div id="metadata-status" class="status-message" aria-live="assertive"></div>
+        </main>
+    </div>
+
+    <style>
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    </style>
+    <script src="js/app.js"></script>
+</body>
+</html>

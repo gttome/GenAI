@@ -1,0 +1,466 @@
+/* This is css/style.css */
+:root {
+    --primary-color: #0A1931; 
+    --secondary-color: #FFFFFF; 
+    --accent-color: #B3B3B3; 
+    --highlight-color: #1DB954; 
+    --text-color-light: #E0E0E0; /* Slightly off-white for better readability on dark */
+    --text-color-dark: #212121;  /* Slightly off-black */
+    --background-color-light: #F5F5F5; /* Light grey for light mode */
+    --background-color-dark: var(--primary-color);
+    --surface-color-light: #FFFFFF; /* White surfaces in light mode */
+    --surface-color-dark: #102a43; 
+    --surface-alt-dark: #18324a; 
+    --font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --base-font-size: 16px;
+    --line-height: 1.65; /* Slightly increased for better readability */
+    --border-radius-small: 4px;
+    --border-radius-medium: 8px;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --shadow-color-dark: rgba(0, 0, 0, 0.3); /* Darker shadow for dark mode */
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: var(--base-font-size);
+    line-height: var(--line-height);
+    background-color: var(--background-color-light);
+    color: var(--text-color-dark);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased; /* Smoother fonts */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body.dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-light);
+}
+
+button, select, input[type="text"], input[type="range"] {
+    font-family: inherit;
+    font-size: 0.95em; /* Harmonize form element font sizes */
+    border-radius: var(--border-radius-small);
+    border: 1px solid var(--accent-color);
+    padding: 0.5em 0.8em; /* Consistent padding */
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+body.dark-mode button, 
+body.dark-mode select, 
+body.dark-mode input[type="text"],
+body.dark-mode input[type="range"] { /* Range input needs more specific styling for dark mode */
+    background-color: var(--surface-alt-dark);
+    color: var(--text-color-light);
+    border: 1px solid #2a4a6a; /* Darker border */
+}
+
+button {
+    cursor: pointer;
+    background-color: #E0E0E0; /* Lighter default button */
+}
+button:hover {
+    background-color: #D0D0D0;
+    border-color: #999;
+    box-shadow: 0 1px 3px var(--shadow-color);
+}
+body.dark-mode button:hover {
+    background-color: #2a4a6a; /* Darker hover */
+    border-color: var(--accent-color);
+}
+button:focus-visible { /* Enhanced focus state */
+    outline: 2px solid var(--highlight-color);
+    outline-offset: 2px;
+}
+
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column; 
+}
+
+@media (min-width: 768px) { 
+    .container {
+        flex-direction: row;
+    }
+}
+
+/* Left Panel for Chapters and Bookmarks */
+#left-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 100%; 
+    max-height: 45vh; 
+    overflow-y: auto; 
+    border-bottom: 1px solid #D0D0D0; 
+}
+body.dark-mode #left-panel {
+    background-color: var(--surface-alt-dark); 
+    border-bottom: 1px solid #0a1f3a;
+}
+
+@media (min-width: 768px) {
+    #left-panel {
+        width: 340px; 
+        min-width: 300px;
+        max-height: none; 
+        border-right: 1px solid #D0D0D0;
+        border-bottom: none;
+        overflow-y: hidden; 
+        display: flex;
+        flex-direction: column;
+    }
+    body.dark-mode #left-panel {
+        border-right: 1px solid #0a1f3a;
+    }
+}
+
+#chapter-list-container, #bookmarks-container {
+    margin-bottom: 1.5em; 
+    flex-shrink: 0; 
+}
+@media (min-width: 768px) {
+    #chapter-list-container {
+        flex: 1 1 50%; 
+        overflow-y: auto;
+        margin-bottom: 0;
+        padding-bottom: 1em; 
+        border-bottom: 1px solid #D0D0D0; 
+    }
+    body.dark-mode #chapter-list-container {
+        border-bottom: 1px solid #0a1f3a;
+    }
+    #bookmarks-container {
+        flex: 1 1 50%; 
+        overflow-y: auto;
+        padding-top: 1em;
+    }
+}
+
+
+#chapter-list-container h2, #bookmarks-container h2 {
+    margin-top: 0;
+    font-size: 1.15em; 
+    font-weight: 600;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #D0D0D0;
+    color: var(--primary-color);
+}
+body.dark-mode #chapter-list-container h2, 
+body.dark-mode #bookmarks-container h2 {
+    border-bottom: 1px solid #2a4a6a;
+    color: var(--text-color-light);
+}
+
+
+#chapter-list, #bookmarks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#chapter-list li, #bookmarks-list li {
+    padding: 0.8em 0.6em; 
+    border-bottom: 1px solid #E0E0E0; 
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 0.9em;
+    border-radius: var(--border-radius-small); 
+    margin-bottom: 2px; 
+}
+body.dark-mode #chapter-list li, 
+body.dark-mode #bookmarks-list li {
+    border-bottom-color: #1b3c5f; 
+}
+
+#chapter-list li:hover, #bookmarks-list li:hover {
+    background-color: #E8E8E8;
+}
+body.dark-mode #chapter-list li:hover, 
+body.dark-mode #bookmarks-list li:hover {
+    background-color: var(--surface-color-dark); 
+}
+
+#chapter-list li.active {
+    background-color: var(--highlight-color);
+    color: var(--text-color-light); 
+    font-weight: 600; 
+}
+#chapter-list li.active:hover {
+    background-color: #18a049; 
+}
+
+
+.status-message {
+    font-style: italic;
+    color: #666; 
+    padding: 0.8em 0.6em;
+    text-align: left; 
+    font-size: 0.9em;
+}
+body.dark-mode .status-message {
+    color: var(--accent-color);
+}
+
+/* Bookmarks Specific Styling */
+#bookmarks-list li {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.2em; 
+}
+.bookmark-info {
+    font-size: 0.75em; 
+    color: #666;
+}
+body.dark-mode .bookmark-info {
+    color: #999;
+}
+.bookmark-note {
+    font-size: 0.9em;
+    margin-top: 0.1em;
+    white-space: pre-wrap; 
+    word-break: break-word;
+}
+.bookmark-actions button {
+    font-size: 0.75em; 
+    padding: 0.35em 0.7em;
+    margin-right: 0.4em;
+    margin-top: 0.4em;
+}
+
+#add-bookmark-section {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+}
+#add-bookmark-section input[type="text"] {
+    padding: 0.6em;
+    font-size: 0.9em;
+}
+#add-bookmark-section button {
+    align-self: flex-start; 
+    font-size: 0.9em;
+}
+
+/* Player View */
+#player-view {
+    flex-grow: 1;
+    padding: 1.5em 2em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cover-art-container {
+    width: clamp(200px, 40vw, 300px); 
+    aspect-ratio: 1 / 1; 
+    background-color: #D0D0D0; 
+    margin-bottom: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: var(--border-radius-medium);
+    overflow: hidden;
+    box-shadow: 0 6px 12px var(--shadow-color);
+}
+body.dark-mode #cover-art-container {
+    background-color: var(--surface-color-dark);
+    box-shadow: 0 6px 12px var(--shadow-color-dark);
+}
+#cover-art-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#audio-info {
+    text-align: center;
+    margin-bottom: 1.2em; 
+}
+#audio-info #current-book-title {
+    font-size: 1.6em; 
+    font-weight: 700; 
+    margin-bottom: 0.2em;
+}
+#audio-info #current-chapter-title {
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
+    color: #444;
+}
+body.dark-mode #audio-info #current-chapter-title {
+    color: #ccc;
+}
+#audio-info #current-book-author {
+    font-size: 1em;
+    font-style: italic;
+    color: #555;
+}
+body.dark-mode #audio-info #current-book-author {
+    color: #bbb;
+}
+
+/* Progress Bar & Time Display */
+#progress-container {
+    width: 100%;
+    max-width: 600px; 
+    margin-bottom: 0.5em;
+    cursor: pointer;
+    padding: 8px 0; 
+}
+#progress-container:focus-visible { 
+    outline: 2px solid var(--highlight-color);
+    outline-offset: 2px;
+    border-radius: var(--border-radius-small);
+}
+
+#progress-bar {
+    width: 100%;
+    height: 10px; 
+    background-color: #C0C0C0; 
+    border-radius: 5px; 
+    overflow: hidden;
+}
+body.dark-mode #progress-bar {
+    background-color: #2a4a6a;
+}
+#progress-bar-fill {
+    width: 0%;
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    transition: width 0.1s linear;
+}
+body.dark-mode #progress-bar-fill {
+    background-color: var(--highlight-color); 
+}
+
+#time-display {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85em; 
+    color: #444;
+    margin-bottom: 1.8em; 
+}
+body.dark-mode #time-display {
+    color: #bbb;
+}
+
+/* Player Controls */
+#player-controls {
+    display: flex;
+    gap: 18px; 
+    align-items: center;
+    margin-bottom: 1.2em; 
+}
+#player-controls button { 
+    font-size: 1.1em; 
+    padding: 0.8em 1.5em;
+    min-width: 100px;
+    font-weight: 500; 
+}
+
+/* Playback Settings (Volume, Speed, Sleep Timer) */
+.playback-settings, #sleep-timer-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 25px 20px; 
+    align-items: center;
+    margin-top: 1.2em;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+}
+.setting-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+.setting-control label {
+    font-size: 0.85em; 
+    margin-bottom: 0.1em;
+    font-weight: 500;
+}
+.setting-control select, .setting-control input[type="range"] {
+    padding: 0.5em; 
+    min-width: 120px; 
+}
+
+#current-speed-display {
+    font-size: 0.9em;
+    min-width: 45px; 
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Sleep Timer Specific */
+#sleep-timer-container {
+    margin-top: 1.8em; 
+    padding: 0.8em 0; 
+    border-top: 1px solid #E0E0E0;
+}
+body.dark-mode #sleep-timer-container {
+    border-top: 1px solid #2a4a6a;
+}
+#sleep-timer-status {
+    font-size: 0.85em;
+    margin-left: 10px; 
+    min-width: 120px; 
+    text-align: left;
+    font-weight: 500;
+}
+#cancel-sleep-timer-button {
+    margin-left: 10px;
+    background-color: #ffebee; 
+    border-color: #ffcdd2;
+    color: #c62828; 
+}
+body.dark-mode #cancel-sleep-timer-button {
+    background-color: #4a1e1e; 
+    border-color: #6f2c2c;
+    color: #ffcdd2; 
+}
+#cancel-sleep-timer-button:hover {
+    background-color: #ffcdd2;
+}
+body.dark-mode #cancel-sleep-timer-button:hover {
+    background-color: #6f2c2c;
+}
+
+/* General status message styling */
+.status-message { 
+    font-style: italic;
+    color: #555;
+    padding: 0.8em 0.6em;
+    text-align: left;
+    font-size: 0.9em;
+}
+body.dark-mode .status-message {
+    color: #bbb;
+}
+
+/* Visually hidden class for screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}

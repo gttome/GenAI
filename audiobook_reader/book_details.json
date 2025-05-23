@@ -1,0 +1,22 @@
+{
+  "bookTitle": "Generative AI Professional Prompt Engineering Guide",
+  "bookAuthor": "George Tome",
+  "defaultBookCover": "images/defaut_book_cover.jpg",
+  "chapters": [
+    {
+      "fileName": "Chapter_01.m4b",
+      "displayTitle": "Chapter 1: Foundations of Prompting",
+      "coverArt": "images/chapter_01_cover.png"
+    },
+    {
+      "fileName": "Chapter_02.m4b",
+      "displayTitle": "Chapter 2: Prompt Templates",
+      "coverArt": "images/chapter_02_cover.png"
+    },
+    {
+      "fileName": "chapter3.mp3",
+      "displayTitle": "Chapter 3: Detailed Template Documentation",
+      "coverArt": "images/chapter_03_cover.png"
+    }
+  ]
+}
