@@ -4,12 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generative AI Prompt Guide Reader</title> 
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="dark-mode"> 
+<body> 
+
+    <div id="app-settings-container">
+        <button id="toggle-settings-button" type="button" aria-label="Toggle Theme Settings Panel" aria-expanded="false">⚙️ Settings</button>
+        <div id="theme-settings-panel" class="settings-panel" style="display: none;" role="region" aria-labelledby="theme-settings-heading">
+            <h4 id="theme-settings-heading">Theme Options</h4>
+            <div class="theme-option">
+                <label for="theme-mode-toggle-button">Mode:</label>
+                <button id="theme-mode-toggle-button" type="button">Switch to Light Mode</button> 
+            </div>
+            <div class="theme-option">
+                <span>Accent Color:</span>
+                <div id="accent-color-options">
+                    <button class="accent-swatch" data-accent="default" aria-label="Default Accent"></button>
+                    <button class="accent-swatch" data-accent="green" style="--swatch-color: #1DB954;" aria-label="Green Accent"></button>
+                    <button class="accent-swatch" data-accent="blue" style="--swatch-color: #007bff;" aria-label="Blue Accent"></button>
+                    <button class="accent-swatch" data-accent="purple" style="--swatch-color: #6f42c1;" aria-label="Purple Accent"></button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <aside id="left-panel" role="complementary">
@@ -56,6 +76,13 @@
                 <span id="total-duration" aria-label="Total duration">00:00:00</span>
             </div>
 
+            <div id="visualization-controls">
+                <button id="toggle-visualization-button" type="button" aria-pressed="false">Show Visualizer</button>
+            </div>
+            <div id="waveform-container" style="display: none;"> 
+                <canvas id="audio-visualizer-canvas"></canvas>
+            </div>
+
             <div id="player-controls" role="group" aria-label="Player Controls">
                 <button id="skip-backward-button" type="button" aria-label="Skip Backward 15 seconds">« 15s</button>
                 <button id="play-pause-button" type="button" aria-label="Play">Play</button>
@@ -100,16 +127,9 @@
     </div>
 
     <style>
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border-width: 0;
+        .sr-only { 
+            position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; 
+            overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0;
         }
     </style>
     <script src="js/app.js"></script>
