@@ -1,0 +1,105 @@
+/* style.css */
+/*
+    Gen AI Prompt eBook Reader - style.css (v1)
+    This file is for global styles or custom CSS that complements Tailwind CSS.
+    Given the use of Tailwind, this file is expected to be minimal.
+    Ensure this file is placed in a 'css' subdirectory and the link in
+    index.html is updated to href="css/style.css".
+*/
+
+/*
+  Global body styles (if not fully covered by Tailwind or for specific overrides).
+  The font-family is already set in tailwind.config in index.html.
+  The background color is set via Tailwind classes on the body in index.html.
+*/
+body {
+    margin: 0; /* Ensure no default browser margins */
+    -webkit-font-smoothing: antialiased; /* Improve font rendering on WebKit browsers */
+    -moz-osx-font-smoothing: grayscale; /* Improve font rendering on Firefox */
+    /* Tailwind's preflight often handles this, but good to be explicit if needed */
+}
+
+/*
+  The custom scrollbar styles from index.html's <style> block could be moved here
+  for better organization.
+  Example:
+*/
+/*
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+*/
+
+/*
+  Styling for the PDF viewer container and individual page canvases
+  if more specific control is needed beyond Tailwind and inline styles.
+  The .pdf-page-canvas class in index.html already has some basic styling
+  (display, margin, box-shadow, max-width, height).
+*/
+#pdf-viewer-container {
+    /*
+      Example: if you want a specific border or background not easily done with Tailwind,
+      or to ensure it has a minimum height if flex-grow isn't sufficient in all cases.
+      Tailwind classes 'w-full bg-white rounded-lg shadow-lg overflow-y-auto flex-grow'
+      are already applied in index.html.
+    */
+}
+
+.pdf-page-canvas {
+    /*
+      The styles in index.html (display: block; margin: 0 auto 10px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 100%; height: auto;)
+      are generally good. This is a placeholder if further customization is needed.
+    */
+}
+
+/*
+  Loading indicator styling.
+  The basic styles are in index.html. This could be used for more complex animations
+  or appearance if desired later.
+*/
+#loading-indicator {
+    /*
+      Styles from index.html:
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background-color: rgba(0,0,0,0.7);
+      color: white;
+      border-radius: 8px;
+      z-index: 1000;
+    */
+}
+
+/*
+  Placeholder for any future global typography adjustments or link styling
+  not handled by Tailwind's defaults or utility classes.
+*/
+/*
+a {
+    color: #3182ce; // Example blue from Tailwind's palette
+}
+a:hover {
+    color: #2c5282; // Example darker blue
+}
+*/
+
+/*
+  Any other global styles or very specific component styles can be added here as needed.
+  The goal is to keep this file small and rely on Tailwind CSS for the majority of styling.
+*/
