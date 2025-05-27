@@ -22,7 +22,7 @@ timeout /t 3 /nobreak > nul
 
 echo Opening Generative AI Prompt Guide Reader in your default browser...
 REM Open index.html at the specified port
-start "" http://localhost:5600/index-test-2.html
+start "" http://localhost:5600/index.html
 
 echo.
 echo The http-server is running in a separate window.
