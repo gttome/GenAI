@@ -1,168 +1,138 @@
-// Main logic (v30a) – keeps exact page anchored after zoom and live-scroll tracking
-import { initDB, saveSetting, getSetting } from './IndexedDBService.js';
+// js/main.js
+import ProgressIndicator from './ProgressIndicator.js';
+import { readerState } from './state.js';
+import { getSetting, saveSetting } from './IndexedDBService.js';
 
-/***************** CONFIG *****************/
-const PDF_PATH      = 'pdf/Generative AI Professional Prompt Engineering Guide - First Edition Release 9.0.pdf';
-const DEFAULT_ZOOM  = 1.5;
-const ZOOM_STEP     = 0.25;
-const MIN_ZOOM      = 0.5;
-const MAX_ZOOM      = 3;
-const DEFAULT_THEME = 'sepia';
+// Resolve PDF URL from script tag or default
+function getPdfUrl() {
+  const script = document.querySelector('script[data-pdf-url]');
+  return script
+    ? script.getAttribute('data-pdf-url')
+    : 'pdf/Generative AI Professional Prompt Engineering Guide - First Edition Release 9.0.pdf';
+}
 
-/***************** STATE ******************/
-let pdfDoc  = null;
-let pageCount = 0;
+const url = getPdfUrl();
+let pdfDoc = null;
 let currentPage = 1;
-let zoom        = DEFAULT_ZOOM;
-let theme       = DEFAULT_THEME;
+let pageCount = 0;
+let scale = 1.0;
 
-/***************** DOM ********************/
-const area      = document.getElementById('pdf-render-area');
-const loadEl    = document.getElementById('loading-indicator');
-const numEl     = document.getElementById('page-num');
-const cntEl     = document.getElementById('page-count');
-const inpEl     = document.getElementById('page-input');
-const gotoBtn   = document.getElementById('goto-page-button');
-const prevBtn   = document.getElementById('prev-page');
-const nextBtn   = document.getElementById('next-page');
-const zoomOut   = document.getElementById('zoom-out');
-const zoomIn    = document.getElementById('zoom-in');
-const zoomLbl   = document.getElementById('zoom-level-display');
-const themeBtns = {
-  light: document.getElementById('theme-light'),
-  dark : document.getElementById('theme-dark'),
-  sepia: document.getElementById('theme-sepia')
-};
+// Create and insert canvas element
+const pdfArea = document.getElementById('pdf-render-area');
+const canvas = document.createElement('canvas');
+canvas.id = 'pdf-canvas';
+pdfArea.appendChild(canvas);
+const ctx = canvas.getContext('2d');
 
-/***************** HELPERS ****************/
-const live = (() => {
-  let el = document.getElementById('live');
-  if (!el) {
-    el = document.createElement('div');
-    el.id = 'live';
-    el.className = 'sr-only';
-    el.setAttribute('aria-live', 'polite');
-    document.body.appendChild(el);
-  }
-  return el;
-})();
-const ann   = msg => (live.textContent = msg);
-const clamp = (v, min, max) => Math.min(Math.max(v, min), max);
-const show  = (el, on) => { el.style.display = on ? 'block' : 'none'; };
+// DOM Elements
+const prevBtn = document.getElementById('prev-page');
+const nextBtn = document.getElementById('next-page');
+const pageNumEl = document.getElementById('page-num');
+const pageCountEl = document.getElementById('page-count');
+const pageInput = document.getElementById('page-input');
+const gotoBtn = document.getElementById('goto-page-button');
+const zoomInBtn = document.getElementById('zoom-in');
+const zoomOutBtn = document.getElementById('zoom-out');
+const zoomLevelDisplay = document.getElementById('zoom-level-display');
 
-function applyTheme(t) {
-  document.documentElement.classList.remove('theme-light', 'theme-dark', 'theme-sepia');
-  document.documentElement.classList.add(`theme-${t}`);
-  Object.entries(themeBtns).forEach(([k, b]) => b.classList.toggle('opacity-50', k !== t));
-  theme = t;
-  saveSetting('theme', t);
-}
-function updateZoomUI() {
-  zoomLbl.textContent = `${Math.round(zoom * 100)}%`;
-  saveSetting('zoom', zoom);
-}
-function updateNavUI() {
-  numEl.textContent = currentPage;
-  inpEl.value       = currentPage;
-  prevBtn.disabled  = currentPage <= 1;
-  nextBtn.disabled  = currentPage >= pageCount;
-}
-function detectCurrentPage() {
-  const rects = [...area.children].map(c => Math.abs(c.getBoundingClientRect().top));
-  const idx   = rects.indexOf(Math.min(...rects));
-  return idx + 1;
-}
-function scrollToPage(p) {
-  area.children[p - 1]?.scrollIntoView({ behavior: 'auto', block: 'start' });
-}
+// Initialize Progress Indicator
+new ProgressIndicator({ container: document.getElementById('progress-indicator'), readerState });
 
-/***************** RENDERING **************/
-async function renderPage(n) {
-  const page = await pdfDoc.getPage(n);
-  const vp   = page.getViewport({ scale: zoom });
-  const c    = document.createElement('canvas');
-  c.width = vp.width;
-  c.height = vp.height;
-  await page.render({ canvasContext: c.getContext('2d'), viewport: vp }).promise;
-  area.appendChild(c);
-}
-async function renderAllPages() {
-  show(loadEl, true);
-  area.innerHTML = '';
-  for (let i = 1; i <= pageCount; i++) await renderPage(i);
-  show(loadEl, false);
-}
-
-/***************** LOAD PDF **************/
+// Load PDF Document
 async function loadPDF() {
-  show(loadEl, true);
-  pdfDoc    = await pdfjsLib.getDocument(PDF_PATH).promise;
-  pageCount = pdfDoc.numPages;
-  cntEl.textContent = pageCount;
-  currentPage = clamp(parseInt(await getSetting('lastPage') || '1', 10), 1, pageCount);
-  await renderAllPages();
-  scrollToPage(currentPage);
-  updateNavUI();
-  show(loadEl, false);
-}
-
-/***************** NAVIGATION ************/
-function afterNavigate() {
-  updateNavUI();
-  scrollToPage(currentPage);
-  saveSetting('lastPage', currentPage);
-  ann(`Page ${currentPage}`);
-}
-prevBtn.onclick = () => { if (currentPage > 1) { currentPage--; afterNavigate(); } };
-nextBtn.onclick = () => { if (currentPage < pageCount) { currentPage++; afterNavigate(); } };
-
-gotoBtn.onclick = () => {
-  const n = parseInt(inpEl.value.trim(), 10);
-  if (!Number.isInteger(n) || n < 1 || n > pageCount) {
-    inpEl.classList.add('animate-shake', 'border-red-500');
-    setTimeout(() => inpEl.classList.remove('animate-shake', 'border-red-500'), 400);
-    return;
+  try {
+    pdfDoc = await pdfjsLib.getDocument(url).promise;
+    pageCount = pdfDoc.numPages;
+    pageCountEl.textContent = pageCount;
+    readerState.set({ currentLocationIndex: currentPage, totalLocationCount: pageCount });
+  } catch (err) {
+    console.error('Failed to load PDF:', err);
   }
-  currentPage = n;
-  afterNavigate();
-};
-inpEl.onkeydown = e => { if (e.key === 'Enter') gotoBtn.click(); };
+}
 
-/***************** ZOOM ******************/
-function zoomTo(newZ) {
-  const targetPage = detectCurrentPage();
-  zoom = clamp(newZ, MIN_ZOOM, MAX_ZOOM);
-  updateZoomUI();
-  renderAllPages().then(() => {
-    currentPage = targetPage;
-    afterNavigate();
+// Render Page
+async function renderPage(pageNum) {
+  try {
+    const page = await pdfDoc.getPage(pageNum);
+    const viewport = page.getViewport({ scale });
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    await page.render({ canvasContext: ctx, viewport }).promise;
+
+    pageNumEl.textContent = pageNum;
+    readerState.set({ currentLocationIndex: pageNum, totalLocationCount: pageCount });
+  } catch (err) {
+    console.error('Failed to render page:', err);
+  }
+}
+
+// Scroll-to-navigate
+pdfArea.addEventListener('wheel', e => {
+  e.preventDefault();
+  if (e.deltaY > 0 && currentPage < pageCount) {
+    currentPage++;
+    renderPage(currentPage);
+  } else if (e.deltaY < 0 && currentPage > 1) {
+    currentPage--;
+    renderPage(currentPage);
+  }
+}, { passive: false });
+
+// Navigation Handlers
+if (prevBtn) {
+  prevBtn.addEventListener('click', () => {
+    if (currentPage > 1) {
+      currentPage--;
+      renderPage(currentPage);
+    }
   });
 }
-zoomIn.onclick  = () => zoomTo(zoom + ZOOM_STEP);
-zoomOut.onclick = () => zoomTo(zoom - ZOOM_STEP);
 
-/***************** THEMES ****************/
-Object.entries(themeBtns).forEach(([k, btn]) => btn.onclick = () => applyTheme(k));
-
-/***************** SCROLL TRACKING *******/
-area.addEventListener('scroll', () => {
-  clearTimeout(area._tm);
-  area._tm = setTimeout(() => {
-    const p = detectCurrentPage();
-    if (p !== currentPage) {
-      currentPage = p;
-      updateNavUI();
-      saveSetting('lastPage', currentPage);
+if (nextBtn) {
+  nextBtn.addEventListener('click', () => {
+    if (currentPage < pageCount) {
+      currentPage++;
+      renderPage(currentPage);
     }
-  }, 120);
-});
+  });
+}
 
-/***************** INIT ******************/
+if (gotoBtn) {
+  gotoBtn.addEventListener('click', () => {
+    const goTo = parseInt(pageInput.value, 10);
+    if (!isNaN(goTo) && goTo >= 1 && goTo <= pageCount) {
+      currentPage = goTo;
+      renderPage(currentPage);
+    }
+  });
+}
+
+// Zoom Handlers
+if (zoomInBtn) zoomInBtn.addEventListener('click', () => adjustZoom(0.1));
+if (zoomOutBtn) zoomOutBtn.addEventListener('click', () => adjustZoom(-0.1));
+
+function adjustZoom(delta) {
+  scale = Math.min(Math.max(scale + delta, 0.5), 3.0);
+  saveSetting('zoom', scale);
+  zoomLevelDisplay.textContent = `${Math.round(scale * 100)}%`;
+  renderPage(currentPage);
+}
+
+// Initialization
 (async () => {
-  await initDB();
-  zoom  = parseFloat(await getSetting('zoom')  || DEFAULT_ZOOM);
-  theme = await getSetting('theme')            || DEFAULT_THEME;
-  applyTheme(theme);
-  updateZoomUI();
+  const lastPage = await getSetting('lastPage');
+  currentPage = lastPage || 1;
+  const savedZoom = await getSetting('zoom');
+  if (typeof savedZoom === 'number') {
+    scale = savedZoom;
+    zoomLevelDisplay.textContent = `${Math.round(scale * 100)}%`;
+  }
   await loadPDF();
+  renderPage(currentPage);
 })();
+
+// Persist last page on unload
+window.addEventListener('beforeunload', () => {
+  saveSetting('lastPage', currentPage);
+});
