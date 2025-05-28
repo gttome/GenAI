@@ -2,7 +2,7 @@
 body { margin: 0; }
 
 /* =========================================================
-   THEME SUPPORT – backgrounds, text, and **CONTROL BUTTONS**
+   THEME SUPPORT – backgrounds, text, and CONTROL BUTTONS
    ========================================================= */
 
 /* ---------- Light Theme ---------- */
@@ -14,7 +14,6 @@ html.theme-light #controls-bar {
   background-color: #e2e8f0; /* slate‑200 */
   color: #1f2937;
 }
-/* Light theme buttons now darker for contrast */
 html.theme-light #controls-bar button {
   background-color: #475569; /* slate‑600 */
   color: #f8fafc;
@@ -49,7 +48,6 @@ html.theme-sepia #controls-bar {
   background-color: #e7dcc4;
   color: #442c1a;
 }
-/* Sepia buttons – rich brown for better visibility */
 html.theme-sepia #controls-bar button {
   background-color: #8b6f4a;
   color: #fff;
@@ -80,84 +78,12 @@ html.theme-dark a, html.theme-sepia a { color: #60a5fa; }
   margin: 1rem auto;
   box-shadow: 0 2px 6px rgb(0 0 0 / .15);
 }
-```css
-/* Global tweaks */
-body { margin: 0; }
 
-/* =========================================================
-   THEME SUPPORT  
-   ---------------------------------------------------------
-   `applyTheme()` adds either .theme-light, .theme-dark or
-   .theme-sepia to the <html> root element. These CSS rules
-   map that class to background / text colours for the entire
-   page and toolbar so users immediately see the change.
-   ========================================================= */
-
-html.theme-light, html.theme-light body {
-  background-color: #f8fafc; /* slate‑50 */
-  color: #1f2937;            /* slate‑800 */
-}
-html.theme-light #controls-bar {
-  background-color: #e2e8f0; /* slate‑200 */
-  color: #1f2937;
+/* Ensure PDF render area and root inherit background */
+body, #pdf-render-area {
+  background-color: inherit;
 }
 
-html.theme-dark, html.theme-dark body {
-  background-color: #1f2937; /* slate‑800 */
-  color: #f3f4f6;            /* gray‑100 */
-}
-html.theme-dark #controls-bar {
-  background-color: #111827; /* slate‑900 */
-  color: #f3f4f6;
-}
+/* Ensure html\`theme-*\` class is toggled on <html>, not <body> */
 
-html.theme-sepia, html.theme-sepia body {
-  background-color: #f4ecd8; /* classic sepia */
-  color: #442c1a;            /* deep brown */
-}
-html.theme-sepia #controls-bar {
-  background-color: #e7dcc4;
-  color: #442c1a;
-}
-
-/* Ensure link & button contrast inside dark/sepia themes */
-html.theme-dark a, html.theme-sepia a { color: #60a5fa; }
-
-/* =========================================================
-   Shake animation for invalid page numbers
-   ========================================================= */
-@keyframes shake {
-  10%, 90%   { transform: translateX(-2px); }
-  20%, 80%   { transform: translateX( 4px); }
-  30%, 50%, 70% { transform: translateX(-4px); }
-  40%, 60%   { transform: translateX( 4px); }
-}
-.animate-shake {
-  animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
-}
-
-/* Canvas styling */
-#pdf-render-area canvas {
-  display: block;
-  margin: 1rem auto;
-  box-shadow: 0 2px 6px rgb(0 0 0 / .15);
-}
-```css
-/* Global tweaks */
-body { margin: 0; }
-
-/* Shake animation for invalid page nums */
-@keyframes shake {
-  10%, 90%   { transform: translateX(-2px); }
-  20%, 80%   { transform: translateX( 4px); }
-  30%, 50%, 70% { transform: translateX(-4px); }
-  40%, 60%   { transform: translateX( 4px); }
-}
-.animate-shake { animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both; }
-
-/* Canvas styling */
-#pdf-render-area canvas {
-  display: block;
-  margin: 1rem auto;
-  box-shadow: 0 2px 6px rgb(0 0 0 / .15);
-}
+/* --- End of style.css --- */

@@ -1,0 +1,12 @@
+.progress-indicator {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin: 0.5em 0;
+}
+.progress-indicator__label {
+  margin-right: 0.5em;
+}
+.progress-indicator__bar {
+  flex: 1;
+}
