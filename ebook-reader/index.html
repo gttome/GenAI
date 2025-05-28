@@ -9,61 +9,57 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/ProgressIndicator.css" />
   <link rel="manifest" href="manifest.json" />
 
-  <!-- Tailwind (CDN for dev) -->
+  <!-- Tailwind (dev only) -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'] } } },
-    };
+    tailwind.config = { darkMode: 'class', theme: { extend: { fontFamily: { sans: ['Inter','sans-serif'] } } } };
   </script>
 
-  <!-- PDF.js -->
+  <!-- PDF.js Worker -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
-  <script>
-    pdfjsLib.GlobalWorkerOptions.workerSrc =
-      'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
-  </script>
+  <script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';</script>
 </head>
-
 <body class="flex flex-col min-h-screen bg-neutral-100 text-gray-900">
-  <!-- SINGLE STICKY TOOLBAR (top) -->
   <nav id="controls-bar" class="sticky top-0 z-10 flex flex-wrap items-center gap-2 p-2 bg-gray-800 text-white text-sm shadow-md">
-    <!-- Prev / Next -->
+    <!-- Prev/Next -->
     <button id="prev-page" class="px-2 py-1 bg-gray-700 rounded">Prev</button>
     <span>Page <span id="page-num">0</span> of <span id="page-count">0</span></span>
     <button id="next-page" class="px-2 py-1 bg-gray-700 rounded">Next</button>
 
-    <!-- Go to page -->
+    <!-- Go-to -->
     <input id="page-input" type="number" min="1" class="w-16 text-center text-gray-900 border rounded ml-4" placeholder="#" />
     <button id="goto-page-button" class="px-2 py-1 bg-blue-600 rounded hover:bg-blue-700">Go</button>
 
-    <!-- Zoom controls (Reset removed) -->
+    <!-- Zoom -->
     <div class="flex items-center gap-1 ml-4">
       <button id="zoom-out" class="px-2 py-1 bg-gray-700 rounded">-</button>
       <span id="zoom-level-display" class="min-w-[50px] text-center">100%</span>
       <button id="zoom-in" class="px-2 py-1 bg-gray-700 rounded">+</button>
     </div>
 
-    <!-- Theme buttons -->
+    <!-- Theme -->
     <div class="flex items-center gap-1 ml-4">
       <button id="theme-light" class="theme-button">L</button>
       <button id="theme-dark" class="theme-button">D</button>
       <button id="theme-sepia" class="theme-button">S</button>
     </div>
+
+    <!-- Progress Toggle & Indicator -->
+    <label class="ml-4 text-sm flex items-center">
+      <input id="toggle-progress" type="checkbox" checked class="mr-1" />
+      Show Progress
+    </label>
+    <div id="progress-indicator" class="flex items-center ml-auto"></div>
   </nav>
 
-  <!-- PDF render area -->
   <main class="flex-grow overflow-y-auto">
     <div id="pdf-render-area" class="w-full h-full"></div>
   </main>
 
-  <!-- Loading banner -->
-  <div id="loading-indicator"
-       class="fixed top-4 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded shadow-lg hidden">
-    <!-- Tailwind spinner icon -->
+  <div id="loading-indicator" class="fixed top-4 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded shadow-lg hidden">
     <svg class="animate-spin h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <circle class="opacity-25" cx="12" cy="12" r="10" />
       <path class="opacity-75" d="M12 2a10 10 0 0 1 10 10h-4a6 6 0 0 0-6-6V2z" />
@@ -71,6 +67,10 @@
     <span>Loading…</span>
   </div>
 
+  <!-- Core & Feature Scripts -->
   <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/state.js"></script>
+  <script type="module" src="js/ProgressIndicator.js"></script>
+  <script type="module" src="js/settings.js"></script>
 </body>
 </html>
