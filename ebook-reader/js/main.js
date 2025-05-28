@@ -1,9 +1,7 @@
-// Main logic (v30) – keeps viewport anchored after zoom and live-scroll tracking
+// Main logic (v30a) – keeps exact page anchored after zoom and live-scroll tracking
 import { initDB, saveSetting, getSetting } from './IndexedDBService.js';
 
-/*********************************
- * Config
- *********************************/
+/***************** CONFIG *****************/
 const PDF_PATH      = 'pdf/Generative AI Professional Prompt Engineering Guide - First Edition Release 9.0.pdf';
 const DEFAULT_ZOOM  = 1.5;
 const ZOOM_STEP     = 0.25;
@@ -11,17 +9,14 @@ const MIN_ZOOM      = 0.5;
 const MAX_ZOOM      = 3;
 const DEFAULT_THEME = 'sepia';
 
-/*********************************
- * State
- *********************************/
-let pdfDoc, pageCount = 0;
+/***************** STATE ******************/
+let pdfDoc  = null;
+let pageCount = 0;
 let currentPage = 1;
 let zoom        = DEFAULT_ZOOM;
 let theme       = DEFAULT_THEME;
 
-/*********************************
- * DOM references
- *********************************/
+/***************** DOM ********************/
 const area      = document.getElementById('pdf-render-area');
 const loadEl    = document.getElementById('loading-indicator');
 const numEl     = document.getElementById('page-num');
@@ -39,9 +34,7 @@ const themeBtns = {
   sepia: document.getElementById('theme-sepia')
 };
 
-/*********************************
- * Helpers
- *********************************/
+/***************** HELPERS ****************/
 const live = (() => {
   let el = document.getElementById('live');
   if (!el) {
@@ -55,7 +48,7 @@ const live = (() => {
 })();
 const ann   = msg => (live.textContent = msg);
 const clamp = (v, min, max) => Math.min(Math.max(v, min), max);
-const show  = (el, on) => { el.style.display = on ? 'flex' : 'none'; };
+const show  = (el, on) => { el.style.display = on ? 'block' : 'none'; };
 
 function applyTheme(t) {
   document.documentElement.classList.remove('theme-light', 'theme-dark', 'theme-sepia');
@@ -74,23 +67,22 @@ function updateNavUI() {
   prevBtn.disabled  = currentPage <= 1;
   nextBtn.disabled  = currentPage >= pageCount;
 }
-function scrollToCurrent() {
-  area.children[currentPage - 1]?.scrollIntoView({ behavior: 'auto', block: 'start' });
-}
 function detectCurrentPage() {
   const rects = [...area.children].map(c => Math.abs(c.getBoundingClientRect().top));
-  const idx = rects.indexOf(Math.min(...rects));
+  const idx   = rects.indexOf(Math.min(...rects));
   return idx + 1;
 }
+function scrollToPage(p) {
+  area.children[p - 1]?.scrollIntoView({ behavior: 'auto', block: 'start' });
+}
 
-/*********************************
- * Rendering
- *********************************/
+/***************** RENDERING **************/
 async function renderPage(n) {
   const page = await pdfDoc.getPage(n);
   const vp   = page.getViewport({ scale: zoom });
   const c    = document.createElement('canvas');
-  c.width = vp.width; c.height = vp.height;
+  c.width = vp.width;
+  c.height = vp.height;
   await page.render({ canvasContext: c.getContext('2d'), viewport: vp }).promise;
   area.appendChild(c);
 }
@@ -99,12 +91,9 @@ async function renderAllPages() {
   area.innerHTML = '';
   for (let i = 1; i <= pageCount; i++) await renderPage(i);
   show(loadEl, false);
-  scrollToCurrent();
 }
 
-/*********************************
- * Load PDF
- *********************************/
+/***************** LOAD PDF **************/
 async function loadPDF() {
   show(loadEl, true);
   pdfDoc    = await pdfjsLib.getDocument(PDF_PATH).promise;
@@ -112,16 +101,15 @@ async function loadPDF() {
   cntEl.textContent = pageCount;
   currentPage = clamp(parseInt(await getSetting('lastPage') || '1', 10), 1, pageCount);
   await renderAllPages();
+  scrollToPage(currentPage);
   updateNavUI();
   show(loadEl, false);
 }
 
-/*********************************
- * Navigation
- *********************************/
+/***************** NAVIGATION ************/
 function afterNavigate() {
   updateNavUI();
-  scrollToCurrent();
+  scrollToPage(currentPage);
   saveSetting('lastPage', currentPage);
   ann(`Page ${currentPage}`);
 }
@@ -140,26 +128,23 @@ gotoBtn.onclick = () => {
 };
 inpEl.onkeydown = e => { if (e.key === 'Enter') gotoBtn.click(); };
 
-/*********************************
- * Zoom
- *********************************/
+/***************** ZOOM ******************/
 function zoomTo(newZ) {
-  currentPage = detectCurrentPage(); // snapshot before redraw
+  const targetPage = detectCurrentPage();
   zoom = clamp(newZ, MIN_ZOOM, MAX_ZOOM);
   updateZoomUI();
-  renderAllPages().then(afterNavigate);
+  renderAllPages().then(() => {
+    currentPage = targetPage;
+    afterNavigate();
+  });
 }
 zoomIn.onclick  = () => zoomTo(zoom + ZOOM_STEP);
 zoomOut.onclick = () => zoomTo(zoom - ZOOM_STEP);
 
-/*********************************
- * Themes
- *********************************/
+/***************** THEMES ****************/
 Object.entries(themeBtns).forEach(([k, btn]) => btn.onclick = () => applyTheme(k));
 
-/*********************************
- * Scroll tracking
- *********************************/
+/***************** SCROLL TRACKING *******/
 area.addEventListener('scroll', () => {
   clearTimeout(area._tm);
   area._tm = setTimeout(() => {
@@ -172,9 +157,7 @@ area.addEventListener('scroll', () => {
   }, 120);
 });
 
-/*********************************
- * Initialise
- *********************************/
+/***************** INIT ******************/
 (async () => {
   await initDB();
   zoom  = parseFloat(await getSetting('zoom')  || DEFAULT_ZOOM);
