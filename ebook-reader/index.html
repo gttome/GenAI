@@ -9,68 +9,54 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/ProgressIndicator.css" />
-  <link rel="manifest" href="manifest.json" />
-
-  <!-- Tailwind (dev only) -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = { darkMode: 'class', theme: { extend: { fontFamily: { sans: ['Inter','sans-serif'] } } } };
-  </script>
+  <link rel="stylesheet" href="css/annotations.css" />
 
   <!-- PDF.js Worker -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
-  <script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';</script>
+  <script>
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
+  </script>
 </head>
-<body class="flex flex-col min-h-screen bg-neutral-100 text-gray-900">
-  <nav id="controls-bar" class="sticky top-0 z-10 flex flex-wrap items-center gap-2 p-2 bg-gray-800 text-white text-sm shadow-md">
-    <!-- Prev/Next -->
-    <button id="prev-page" class="px-2 py-1 bg-gray-700 rounded">Prev</button>
-    <span>Page <span id="page-num">0</span> of <span id="page-count">0</span></span>
-    <button id="next-page" class="px-2 py-1 bg-gray-700 rounded">Next</button>
-
-    <!-- Go-to -->
-    <input id="page-input" type="number" min="1" class="w-16 text-center text-gray-900 border rounded ml-4" placeholder="#" />
-    <button id="goto-page-button" class="px-2 py-1 bg-blue-600 rounded hover:bg-blue-700">Go</button>
-
-    <!-- Zoom -->
-    <div class="flex items-center gap-1 ml-4">
-      <button id="zoom-out" class="px-2 py-1 bg-gray-700 rounded">-</button>
-      <span id="zoom-level-display" class="min-w-[50px] text-center">100%</span>
-      <button id="zoom-in" class="px-2 py-1 bg-gray-700 rounded">+</button>
+<body class="flex flex-col min-h-screen">
+  <!-- Controls Bar -->
+  <nav id="controls-bar">
+    <div class="controls-left">
+      <button id="prev-page">Prev</button>
+      <button id="next-page">Next</button>
+      <span>Page <span id="page-num">0</span> of <span id="page-count">0</span></span>
+      <input id="page-input" type="number" min="1" placeholder="#" />
+      <button id="goto-page-button">Go</button>
     </div>
-
-    <!-- Theme -->
-    <div class="flex items-center gap-1 ml-4">
+    <div class="controls-center">
+      <button id="zoom-out">-</button>
+      <span id="zoom-level-display">100%</span>
+      <button id="zoom-in">+</button>
       <button id="theme-light" class="theme-button">L</button>
       <button id="theme-dark" class="theme-button">D</button>
       <button id="theme-sepia" class="theme-button">S</button>
     </div>
-
-    <!-- Progress Toggle & Indicator -->
-    <label class="ml-4 text-sm flex items-center">
-      <input id="toggle-progress" type="checkbox" checked class="mr-1" />
-      Show Progress
-    </label>
-    <div id="progress-indicator" class="flex items-center ml-auto"></div>
+    <div class="controls-right">
+      <label><input id="toggle-progress" type="checkbox" checked /> Show Progress</label>
+      <div id="progress-indicator">
+        <div id="progress-bar-fill"></div>
+      </div>
+    </div>
   </nav>
 
+  <!-- PDF render area (no annotation/text layer) -->
   <main class="flex-grow overflow-y-auto">
-    <div id="pdf-render-area" class="w-full h-full"></div>
+    <div id="pdf-render-area" class="relative w-full h-full">
+      <div id="canvas-container"></div>
+    </div>
   </main>
 
-  <div id="loading-indicator" class="fixed top-4 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded shadow-lg hidden">
-    <svg class="animate-spin h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <circle class="opacity-25" cx="12" cy="12" r="10" />
-      <path class="opacity-75" d="M12 2a10 10 0 0 1 10 10h-4a6 6 0 0 0-6-6V2z" />
-    </svg>
-    <span>Loading…</span>
-  </div>
-
-  <!-- Core & Feature Scripts -->
-  <script type="module" src="js/main.js"></script>
+  <!-- Scripts -->
+  <script type="module" src="js/main.js" data-pdf-url="pdf/Generative AI Professional Prompt Engineering Guide - First Edition Release 9.0.pdf"></script>
   <script type="module" src="js/state.js"></script>
+  <script type="module" src="js/IndexedDBService.js"></script>
   <script type="module" src="js/ProgressIndicator.js"></script>
   <script type="module" src="js/settings.js"></script>
+  <script type="module" src="js/AnnotationService.js"></script>
+  <script type="module" src="js/AnnotationPopup.js"></script>
 </body>
 </html>
