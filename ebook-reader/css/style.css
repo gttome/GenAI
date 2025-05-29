@@ -1,89 +1,94 @@
-/* Global tweaks */
-body { margin: 0; }
-
-/* =========================================================
-   THEME SUPPORT – backgrounds, text, and CONTROL BUTTONS
-   ========================================================= */
-
-/* ---------- Light Theme ---------- */
-html.theme-light, html.theme-light body {
-  background-color: #f8fafc; /* slate‑50 */
-  color: #1f2937;            /* slate‑800 */
-}
-html.theme-light #controls-bar {
-  background-color: #e2e8f0; /* slate‑200 */
-  color: #1f2937;
-}
-html.theme-light #controls-bar button {
-  background-color: #475569; /* slate‑600 */
-  color: #f8fafc;
-}
-html.theme-light #controls-bar button:hover {
-  background-color: #334155; /* slate‑700 */
+/* ----------------------------------------------------------
+   Base
+   ---------------------------------------------------------- */
+*,*::before,*::after{box-sizing:border-box}
+html{height:100%;overflow:hidden}
+body{
+  height:100%;margin:0;display:flex;flex-direction:column;
+  font-family:Inter,sans-serif;line-height:1.6;
+  background:#f8fafc;color:#1f2937;overflow:auto
 }
 
-/* ---------- Dark Theme ---------- */
-html.theme-dark, html.theme-dark body {
-  background-color: #1f2937; /* slate‑800 */
-  color: #f3f4f6;            /* gray‑100 */
+/* ----------------------------------------------------------
+   Themed body colours
+   ---------------------------------------------------------- */
+html.theme-light body,html.theme-light #pdf-render-area{background:#f8fafc;color:#1f2937}
+html.theme-dark  body,html.theme-dark  #pdf-render-area{background:#0f172a;color:#f3f4f6}
+html.theme-sepia body,html.theme-sepia #pdf-render-area{background:#f4ecd8;color:#442c1a}
+
+/* ----------------------------------------------------------
+   Toolbar
+   ---------------------------------------------------------- */
+#controls-bar{
+  position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;
+  padding:.5rem 1rem;background:#1f2937;color:#f3f4f6;transition:background .3s,color .3s
 }
-html.theme-dark #controls-bar {
-  background-color: #111827; /* slate‑900 */
-  color: #f3f4f6;
+html.theme-light #controls-bar{background:#e2e8f0;color:#1f2937}
+html.theme-dark  #controls-bar{background:#0f172a;color:#f3f4f6}
+html.theme-sepia #controls-bar{background:#d9c9ab;color:#442c1a}
+
+#controls-bar .controls-left,
+#controls-bar .controls-center,
+#controls-bar .controls-right{display:flex;align-items:center;gap:.5rem}
+#controls-bar .controls-left{flex:1;justify-content:flex-start;gap:.25rem}
+#controls-bar .controls-center{flex:1;justify-content:center}
+#controls-bar .controls-right{flex:1;justify-content:flex-end}
+
+/* ----------------------------------------------------------
+   Buttons & Inputs
+   ---------------------------------------------------------- */
+#controls-bar button{
+  border:none;border-radius:.25rem;padding:.5rem .75rem;cursor:pointer;font-size:.9rem;
+  transition:filter .2s
 }
-html.theme-dark #controls-bar button {
-  background-color: #374151; /* slate‑700 */
-  color: #f3f4f6;
-}
-html.theme-dark #controls-bar button:hover {
-  background-color: #4b5563; /* slate‑600 */
+html.theme-light #controls-bar button{background:#cbd5e1;color:#1f2937}
+html.theme-dark  #controls-bar button{background:#334155;color:#f3f4f6}
+html.theme-sepia #controls-bar button{background:#c6b79d;color:#442c1a}
+#controls-bar button:hover{filter:brightness(1.1)}
+
+#controls-bar input[type=number]{
+  width:3rem;padding:.25rem;border:1px solid #ccc;border-radius:.25rem
 }
 
-/* ---------- Sepia Theme ---------- */
-html.theme-sepia, html.theme-sepia body {
-  background-color: #f4ecd8; /* classic sepia */
-  color: #442c1a;            /* deep brown */
+/* ---------- Theme-toggle buttons (L D S) ---------- */
+.theme-button{
+  background:transparent;border:1px solid currentColor;border-radius:.25rem;
+  padding:.25rem .5rem;cursor:pointer;font-size:.9rem;opacity:.8;
+  color:inherit; /* inherits correct colour from toolbar */
 }
-html.theme-sepia #controls-bar {
-  background-color: #e7dcc4;
-  color: #442c1a;
-}
-html.theme-sepia #controls-bar button {
-  background-color: #8b6f4a;
-  color: #fff;
-}
-html.theme-sepia #controls-bar button:hover {
-  background-color: #755a3b;
-}
+.theme-button:hover{opacity:1}
 
-/* Link colour for dark/sepia to maintain contrast */
-html.theme-dark a, html.theme-sepia a { color: #60a5fa; }
+/* ----------------------------------------------------------
+   Progress bar
+   ---------------------------------------------------------- */
+#progress-indicator{width:100px;height:8px;background:#475569;border-radius:4px;overflow:hidden}
+#progress-bar-fill{width:0;height:100%;background:#3b82f6;transition:width .3s}
 
-/* =========================================================
-   Shake animation for invalid page numbers
-   ========================================================= */
-@keyframes shake {
-  10%, 90%   { transform: translateX(-2px); }
-  20%, 80%   { transform: translateX( 4px); }
-  30%, 50%, 70% { transform: translateX(-4px); }
-  40%, 60%   { transform: translateX( 4px); }
-}
-.animate-shake {
-  animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
-}
+/* ----------------------------------------------------------
+   PDF area & canvas
+   ---------------------------------------------------------- */
+main{flex:1 1 auto;overflow-y:auto}
+#pdf-render-area{flex:1 0 auto;overflow-y:auto;display:flex;flex-direction:column;align-items:center;padding:1rem;gap:2rem}
+#canvas-container{position:relative}
+#canvas-container canvas{display:block;margin-bottom:2rem}
 
-/* Canvas styling */
-#pdf-render-area canvas {
-  display: block;
-  margin: 1rem auto;
-  box-shadow: 0 2px 6px rgb(0 0 0 / .15);
-}
+/* ----------------------------------------------------------
+   Highlight rectangles
+   ---------------------------------------------------------- */
+.highlight-rect{position:absolute;pointer-events:auto;opacity:.55;border-radius:2px}
+.highlight-yellow{background:#fef08a}
+.highlight-green {background:#bbf7d0}
+.highlight-pink  {background:#f9a8d4}
+.highlight-rect:hover{outline:2px dashed rgba(0,0,0,.5);cursor:pointer}
 
-/* Ensure PDF render area and root inherit background */
-body, #pdf-render-area {
-  background-color: inherit;
-}
-
-/* Ensure html\`theme-*\` class is toggled on <html>, not <body> */
-
-/* --- End of style.css --- */
+/* ----------------------------------------------------------
+   Annotation popup
+   ---------------------------------------------------------- */
+.annotation-popup{position:absolute;background:#fff;border:1px solid #ccc;padding:.5rem;border-radius:.25rem;box-shadow:0 2px 8px rgba(0,0,0,.2);z-index:2000;max-width:180px}
+.annotation-popup__colors{display:flex;gap:.5rem;margin-bottom:.5rem}
+.annotation-popup__swatch{width:1rem;height:1rem;border-radius:2px;border:none;cursor:pointer}
+.annotation-popup__swatch[data-color=yellow]{background:#fef08a}
+.annotation-popup__swatch[data-color=green]{background:#bbf7d0}
+.annotation-popup__swatch[data-color=pink]{background:#f9a8d4}
+.annotation-popup__close{padding:.25rem .5rem;font-size:.8rem;border:none;background:#e5e7eb;border-radius:.25rem;cursor:pointer}
+.annotation-popup__close:hover{background:#d1d5db}

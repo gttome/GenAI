@@ -1,0 +1,82 @@
+/* css/annotations.css — FULL FILE (final) */
+
+/* ------------------------------------------------------------------
+   Hide any PDF.js text layer remnants
+   ------------------------------------------------------------------ */
+.textLayer {
+  display: none !important;
+}
+
+/* ------------------------------------------------------------------
+   Annotation Popup Styles
+   ------------------------------------------------------------------ */
+.annotation-popup {
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 2000;
+  max-width: 180px;
+  font-family: inherit;
+}
+
+.annotation-popup__colors {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.annotation-popup__swatch {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+.annotation-popup__swatch[data-color="yellow"] { background: #fef08a; }
+.annotation-popup__swatch[data-color="green"]  { background: #bbf7d0; }
+.annotation-popup__swatch[data-color="pink"]   { background: #f9a8d4; }
+
+.annotation-popup__close {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  border: none;
+  background: #e5e7eb;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.annotation-popup__close:hover {
+  background: #d1d5db;
+}
+
+/* hint text inside the popup */
+.annotation-popup__hint{
+  margin:0 0 0.5rem 0;
+  font-size:0.8rem;
+  color:#1f2937;          /* dark grey on white popup */
+  text-align:center;
+}
+
+
+
+/* ------------------------------------------------------------------
+   Rectangle Highlights (darker opacity for visibility)
+   ------------------------------------------------------------------ */
+.highlight-rect {
+  position: absolute;
+  pointer-events: auto;         /* enable click for deletion */
+  opacity: 0.55;                /* darker fill */
+  border-radius: 2px;
+  transition: outline 0.15s ease;
+}
+.highlight-yellow { background: #fef08a; }
+.highlight-green  { background: #bbf7d0; }
+.highlight-pink   { background: #f9a8d4; }
+
+/* Hover outline to indicate selectability */
+.highlight-rect:hover {
+  outline: 2px dashed rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
