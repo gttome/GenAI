@@ -14,7 +14,8 @@
   <!-- PDF.js Worker -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
   <script>
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 
+      'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
   </script>
 </head>
 <body class="flex flex-col min-h-screen">
@@ -36,14 +37,27 @@
       <button id="theme-sepia" class="theme-button">S</button>
     </div>
     <div class="controls-right">
-      <label><input id="toggle-progress" type="checkbox" checked /> Show Progress</label>
+      <!-- Load PDF button (functional trigger comes in js/main.js) -->
+      <button id="load-pdf-button">Load PDF</button>
+      <label>
+        <input id="toggle-progress" type="checkbox" checked />
+        Show Progress
+      </label>
       <div id="progress-indicator">
         <div id="progress-bar-fill"></div>
       </div>
     </div>
   </nav>
 
-  <!-- PDF render area (no annotation/text layer) -->
+  <!-- Hidden file input for Step 2 -->
+  <input
+    type="file"
+    id="file-picker"
+    accept="application/pdf"
+    style="display: none"
+  />
+
+  <!-- PDF render area -->
   <main class="flex-grow overflow-y-auto">
     <div id="pdf-render-area" class="relative w-full h-full">
       <div id="canvas-container"></div>
@@ -51,7 +65,11 @@
   </main>
 
   <!-- Scripts -->
-  <script type="module" src="js/main.js" data-pdf-url="pdf/Generative AI Professional Prompt Engineering Guide - First Edition Release 9.0.pdf"></script>
+  <script
+    type="module"
+    src="js/main.js"
+    data-pdf-url="pdf/Generative AI Professional Prompt Engineering Guide - First Edition Release 9.0.pdf"
+  ></script>
   <script type="module" src="js/state.js"></script>
   <script type="module" src="js/IndexedDBService.js"></script>
   <script type="module" src="js/ProgressIndicator.js"></script>
