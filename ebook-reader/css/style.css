@@ -1,94 +1,132 @@
-/* ----------------------------------------------------------
-   Base
-   ---------------------------------------------------------- */
-*,*::before,*::after{box-sizing:border-box}
-html{height:100%;overflow:hidden}
-body{
-  height:100%;margin:0;display:flex;flex-direction:column;
-  font-family:Inter,sans-serif;line-height:1.6;
-  background:#f8fafc;color:#1f2937;overflow:auto
+/* =================================================================== 
+ *  style.css    (v8.16)            
+ *
+ * Theme Variables (root + per-theme)                  
+ * =================================================================== */
+:root{
+  --color-background:#fff;   --color-text:#111827;
+  --color-border:#d1d5db;    --color-hover-background:#f3f4f6;
+  --color-primary:#2563eb;
+
+  --color-highlight:rgba(255,255,0,.8);  /* search */
+  --color-annotation-bg:rgba(139,0,0,.45); /* user highlight */
+}
+[data-theme="dark"]{
+  --color-background:#1f2937;--color-text:#f9fafb;
+  --color-border:#374151;   --color-hover-background:#4b5563;
+  --color-primary:#3b82f6;
+}
+[data-theme="sepia"]{
+  --color-background:#fbf0db;--color-text:#3b2c25;
+  --color-border:#d1bfa1;   --color-hover-background:#f3e8cd;
+  --color-primary:#c78e45;
 }
 
-/* ----------------------------------------------------------
-   Themed body colours
-   ---------------------------------------------------------- */
-html.theme-light body,html.theme-light #pdf-render-area{background:#f8fafc;color:#1f2937}
-html.theme-dark  body,html.theme-dark  #pdf-render-area{background:#0f172a;color:#f3f4f6}
-html.theme-sepia body,html.theme-sepia #pdf-render-area{background:#f4ecd8;color:#442c1a}
+/* =================================================================== */
+/*              Page Reset, Main Layout, Render Area                   */
+/* =================================================================== */
+html,body{margin:0;padding:0;width:100vw;min-height:100vh;
+          background:var(--color-background);color:var(--color-text);
+          font-family:Arial,sans-serif}
+body{display:flex;flex-direction:column}
+main#pdf-render-area{flex:1;overflow:auto;background:var(--color-background)}
 
-/* ----------------------------------------------------------
-   Toolbar
-   ---------------------------------------------------------- */
+/* =================================================================== */
+/*                           Toolbar                                   */
+/* =================================================================== */
 #controls-bar{
-  position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;
-  padding:.5rem 1rem;background:#1f2937;color:#f3f4f6;transition:background .3s,color .3s
+  display:flex;align-items:center;
+  padding:.5rem 1rem;font-size:.95rem;
+  border-bottom:1px solid var(--color-border);
+  background:var(--color-background);color:var(--color-text)
 }
-html.theme-light #controls-bar{background:#e2e8f0;color:#1f2937}
-html.theme-dark  #controls-bar{background:#0f172a;color:#f3f4f6}
-html.theme-sepia #controls-bar{background:#d9c9ab;color:#442c1a}
+.controls-left,.controls-center,.controls-right{
+  display:flex;align-items:center}
+.controls-center{margin:0 auto}      /* center block truly centered */
 
-#controls-bar .controls-left,
-#controls-bar .controls-center,
-#controls-bar .controls-right{display:flex;align-items:center;gap:.5rem}
-#controls-bar .controls-left{flex:1;justify-content:flex-start;gap:.25rem}
-#controls-bar .controls-center{flex:1;justify-content:center}
-#controls-bar .controls-right{flex:1;justify-content:flex-end}
-
-/* ----------------------------------------------------------
-   Buttons & Inputs
-   ---------------------------------------------------------- */
-#controls-bar button{
-  border:none;border-radius:.25rem;padding:.5rem .75rem;cursor:pointer;font-size:.9rem;
-  transition:filter .2s
+#controls-bar button,
+#controls-bar input[type="number"],
+#theme-select{
+  margin-right:.5rem;padding:.25rem .5rem;font-size:.95rem;
+  border:1px solid var(--color-border);border-radius:3px;
+  background:var(--color-background);color:var(--color-text);cursor:pointer;
 }
-html.theme-light #controls-bar button{background:#cbd5e1;color:#1f2937}
-html.theme-dark  #controls-bar button{background:#334155;color:#f3f4f6}
-html.theme-sepia #controls-bar button{background:#c6b79d;color:#442c1a}
-#controls-bar button:hover{filter:brightness(1.1)}
+#controls-bar button:hover,
+#theme-select:hover{background:var(--color-hover-background)}
+#controls-bar input[type="number"]{width:3rem}
 
-#controls-bar input[type=number]{
-  width:3rem;padding:.25rem;border:1px solid #ccc;border-radius:.25rem
+/* Progress bar + percent */
+#progress-indicator{width:100px;height:4px;border-radius:2px;overflow:hidden;
+                    background:var(--color-hover-background)}
+#progress-bar-fill{height:100%;width:0%;background:var(--color-primary);
+                   transition:width .2s ease}
+#progress-text{margin-left:.5rem;font-size:.95rem;color:var(--color-text);
+               user-select:none;pointer-events:none}
+
+/* =================================================================== */
+/*                     Slide-out Search Bar (25 %)                     */
+/* =================================================================== */
+#search-bar{width:25vw;margin-left:auto;display:flex;align-items:center;
+  justify-content:space-between;padding:.5rem 1rem;font-size:.95rem;
+  border-bottom:1px solid var(--color-border);
+  background:var(--color-background);color:var(--color-text)}
+#search-bar.hidden{display:none!important}
+#search-bar input[type="text"]{flex:1;margin-right:.5rem;
+  padding:.25rem .5rem;border:1px solid var(--color-border);border-radius:3px;
+  background:var(--color-background);color:var(--color-text)}
+#search-bar button{margin-right:.5rem;padding:.25rem .5rem;
+  border:1px solid var(--color-border);border-radius:3px;
+  background:var(--color-background);color:var(--color-text);cursor:pointer}
+#search-bar button:hover{background:var(--color-hover-background)}
+#search-counter{margin-right:.5rem}
+
+/* =================================================================== */
+/*                    PDF Canvas Container + Page                      */
+/* =================================================================== */
+#canvas-container{
+  display:flex;justify-content:center;align-items:flex-start;
+  width:100%;background:#eee;overflow:auto}
+.page{position:relative;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.page canvas{display:block;width:100%!important;height:auto!important}
+
+/* =================================================================== */
+/*                       Highlight Rectangles                          */
+/* =================================================================== */
+.search-highlight{position:absolute;background:var(--color-highlight);
+  pointer-events:auto}
+.highlight-rect {
+  position: absolute;
+  background: var(--color-annotation-bg);
+  border: none !important;
+  pointer-events: auto;      /* ✅ allow clicks */
+  cursor: pointer;           /* (optional) show pointer */
+  z-index: 10;
 }
 
-/* ---------- Theme-toggle buttons (L D S) ---------- */
-.theme-button{
-  background:transparent;border:1px solid currentColor;border-radius:.25rem;
-  padding:.25rem .5rem;cursor:pointer;font-size:.9rem;opacity:.8;
-  color:inherit; /* inherits correct colour from toolbar */
+
+/* Outline the current search hit */
+.current-hit {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;          /* sits just outside the yellow box */
 }
-.theme-button:hover{opacity:1}
 
-/* ----------------------------------------------------------
-   Progress bar
-   ---------------------------------------------------------- */
-#progress-indicator{width:100px;height:8px;background:#475569;border-radius:4px;overflow:hidden}
-#progress-bar-fill{width:0;height:100%;background:#3b82f6;transition:width .3s}
 
-/* ----------------------------------------------------------
-   PDF area & canvas
-   ---------------------------------------------------------- */
-main{flex:1 1 auto;overflow-y:auto}
-#pdf-render-area{flex:1 0 auto;overflow-y:auto;display:flex;flex-direction:column;align-items:center;padding:1rem;gap:2rem}
-#canvas-container{position:relative}
-#canvas-container canvas{display:block;margin-bottom:2rem}
 
-/* ----------------------------------------------------------
-   Highlight rectangles
-   ---------------------------------------------------------- */
-.highlight-rect{position:absolute;pointer-events:auto;opacity:.55;border-radius:2px}
-.highlight-yellow{background:#fef08a}
-.highlight-green {background:#bbf7d0}
-.highlight-pink  {background:#f9a8d4}
-.highlight-rect:hover{outline:2px dashed rgba(0,0,0,.5);cursor:pointer}
 
-/* ----------------------------------------------------------
-   Annotation popup
-   ---------------------------------------------------------- */
-.annotation-popup{position:absolute;background:#fff;border:1px solid #ccc;padding:.5rem;border-radius:.25rem;box-shadow:0 2px 8px rgba(0,0,0,.2);z-index:2000;max-width:180px}
-.annotation-popup__colors{display:flex;gap:.5rem;margin-bottom:.5rem}
-.annotation-popup__swatch{width:1rem;height:1rem;border-radius:2px;border:none;cursor:pointer}
-.annotation-popup__swatch[data-color=yellow]{background:#fef08a}
-.annotation-popup__swatch[data-color=green]{background:#bbf7d0}
-.annotation-popup__swatch[data-color=pink]{background:#f9a8d4}
-.annotation-popup__close{padding:.25rem .5rem;font-size:.8rem;border:none;background:#e5e7eb;border-radius:.25rem;cursor:pointer}
-.annotation-popup__close:hover{background:#d1d5db}
+
+/* =================================================================== */
+/*                        Annotation Popup                             */
+/* =================================================================== */
+.annotation-popup{position:fixed;z-index:10000;
+  background:var(--color-background);color:var(--color-text);
+  border:1px solid var(--color-border);border-radius:4px;padding:4px 8px;
+  box-shadow:0 2px 4px rgba(0,0,0,.25);font-size:.85rem;user-select:none}
+.annotation-popup__close{background:var(--color-primary);color:#fff;border:none;
+  padding:2px 6px;border-radius:3px;cursor:pointer}
+.annotation-popup__close:hover{opacity:.85}
+
+/* =================================================================== */
+/*                       (Optional) PDF.js Text Layer                   */
+/* =================================================================== */
+.textLayer{position:absolute;top:0;left:0;right:0;bottom:0;
+           pointer-events:none;user-select:none}
