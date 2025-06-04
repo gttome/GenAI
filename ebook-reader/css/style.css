@@ -83,9 +83,14 @@ main#pdf-render-area{flex:1;overflow:auto;background:var(--color-background)}
 /* =================================================================== */
 /*                    PDF Canvas Container + Page                      */
 /* =================================================================== */
-#canvas-container{
-  display:flex;justify-content:center;align-items:flex-start;
-  width:100%;background:#eee;overflow:auto}
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  background: var(--color-background);
+  overflow: auto;
+}
 .page{position:relative;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.15)}
 .page canvas{display:block;width:100%!important;height:auto!important}
 
