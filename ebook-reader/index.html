@@ -1,80 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Gen AI Prompt eBook Reader – A focused PDF reading experience." />
-  <meta name="theme-color" content="#2563eb" />
-  <title>Gen AI Prompt eBook Reader</title>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Reader • Search • Highlight • Themes</title>
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/annotations.css" />
+    <!-- PDF.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js"></script>
 
-  <!-- PDF.js Worker -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
-  <script>
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 
-      'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
-  </script>
-</head>
-<body class="flex flex-col min-h-screen">
-  <!-- Controls Bar -->
-  <nav id="controls-bar">
-    <div class="controls-left">
-      <button id="prev-page">Prev</button>
-      <button id="next-page">Next</button>
-      <span>Page <span id="page-num">0</span> of <span id="page-count">0</span></span>
-      <input id="page-input" type="number" min="1" placeholder="#" />
-      <button id="goto-page-button">Go</button>
-    </div>
-    <div class="controls-center">
-      <button id="zoom-out">-</button>
-      <span id="zoom-level-display">100%</span>
-      <button id="zoom-in">+</button>
-      <button id="theme-light" class="theme-button">L</button>
-      <button id="theme-dark" class="theme-button">D</button>
-      <button id="theme-sepia" class="theme-button">S</button>
-    </div>
-    <div class="controls-right">
-      <!-- Load PDF button (functional trigger comes in js/main.js) -->
-      <button id="load-pdf-button">Load PDF</button>
-      <label>
-        <input id="toggle-progress" type="checkbox" checked />
-        Show Progress
-      </label>
-      <div id="progress-indicator">
-        <div id="progress-bar-fill"></div>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ───────────── Toolbar (theme | nav | search+progress) ───────────── -->
+    <div id="controls-bar">
+      <!-- LEFT: Theme dropdown + Load PDF -->
+      <div class="controls-left">
+        <select id="theme-select" title="Select theme">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+          <option value="sepia">Sepia</option>
+        </select>
+
+        <button id="load-pdf-button" title="Open local PDF">Load PDF</button>
+        <input id="file-picker" type="file" accept="application/pdf" style="display:none">
+      </div>
+
+      <!-- CENTER: Prev / Next / Page / Go / Zoom -->
+      <div class="controls-center">
+        <button id="prev-page">Prev</button>
+        <button id="next-page">Next</button>
+
+        <span>Page <span id="page-num">1</span> / <span id="page-count">1</span></span>
+        <input id="page-input" type="number" min="1" style="width:3rem">
+        <button id="goto-page-button">Go</button>
+
+        <button id="zoom-out">–</button>
+        <span id="zoom-level-display">100%</span>
+        <button id="zoom-in">+</button>
+      </div>
+
+      <!-- RIGHT: Search toggle + Progress -->
+      <div class="controls-right">
+        <button id="toggle-search" title="Toggle search bar">Search</button>
+
+        <label style="display:flex;align-items:center;gap:.25rem;">
+          <input id="toggle-progress" type="checkbox" checked> Show&nbsp;Progress
+        </label>
+
+        <div id="progress-indicator">
+          <div id="progress-bar-fill"></div>
+        </div>
+        <span id="progress-text">0%</span>
       </div>
     </div>
-  </nav>
 
-  <!-- Hidden file input for Step 2 -->
-  <input
-    type="file"
-    id="file-picker"
-    accept="application/pdf"
-    style="display: none"
-  />
-
-  <!-- PDF render area -->
-  <main class="flex-grow overflow-y-auto">
-    <div id="pdf-render-area" class="relative w-full h-full">
-      <div id="canvas-container"></div>
+    <!-- Slide-out Search Bar (25 % width, right-aligned) -->
+    <div id="search-bar" class="hidden">
+      <input id="search-input" type="text" placeholder="Search PDF…">
+      <button id="search-prev">&lt;</button>
+      <button id="search-next">&gt;</button>
+      <span id="search-counter">0/0</span>
+      <button id="search-clear">Clear</button>
     </div>
-  </main>
 
-  <!-- Scripts -->
-  <script
-    type="module"
-    src="js/main.js"
-    data-pdf-url="pdf/Generative AI Professional Prompt Engineering Guide - First Edition Release 9.0.pdf"
-  ></script>
-  <script type="module" src="js/state.js"></script>
-  <script type="module" src="js/IndexedDBService.js"></script>
-  <script type="module" src="js/ProgressIndicator.js"></script>
-  <script type="module" src="js/settings.js"></script>
-  <script type="module" src="js/AnnotationService.js"></script>
-  <script type="module" src="js/AnnotationPopup.js"></script>
-</body>
+    <!-- PDF Render Area -->
+    <main id="pdf-render-area"><div id="canvas-container"></div></main>
+
+    <!-- App script: data-pdf-url points at the default PDF -->
+    <script
+      type="module"
+      src="js/main.js?v=13.1"
+      data-pdf-url="pdf/Generative AI Professional Prompt Engineering Guide - First Edition Release 9.0.pdf"
+    ></script>
+  </body>
 </html>
