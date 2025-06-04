@@ -1,125 +1,140 @@
-// js/IndexedDBService.js
+// ────────────────────────────────────────────────────────────────────────
+//                          js/IndexedDBService.js (v1.2)
+// ────────────────────────────────────────────────────────────────────────
+//
+// A simple IndexedDB wrapper to store, retrieve, and delete “annotation”
+// records (for highlighting). Each record has an auto‐incremented numeric “id”
+// and fields: { page, x, y, width, height }.
+// Object store: “annotations” with keyPath “id” (autoIncrement).
+//
+// Public API:
+//   openDB(): Promise<IDBDatabase>
+//   createAnnotation(page: number, meta: {x, y, width, height}): Promise<number>
+//   getAnnotationsForPage(page: number): Promise<Array<{id, x, y, width, height}>>
+//   deleteAnnotation(id: number): Promise<void>
+// ────────────────────────────────────────────────────────────────────────
 
-const DB_NAME = 'pdf_reader_db';
-const DB_VERSION = 2;
-const SETTINGS_STORE = 'settings';
-const HIGHLIGHTS_STORE = 'highlights';
+const DB_NAME    = "annotations-db";
+const DB_VERSION = 1;
+const STORE_NAME = "annotations";
 
-/**
- * Open (or upgrade) the IndexedDB database.
- * Creates 'settings' and 'highlights' stores and necessary indexes.
- */
-function openDb() {
-  return new Promise((resolve, reject) => {
-    const request = indexedDB.open(DB_NAME, DB_VERSION);
-    request.onupgradeneeded = event => {
-      const db = event.target.result;
-      // Create settings store if needed
-      if (!db.objectStoreNames.contains(SETTINGS_STORE)) {
-        db.createObjectStore(SETTINGS_STORE, { keyPath: 'key' });
-      }
-      // Create or upgrade highlights store
-      if (!db.objectStoreNames.contains(HIGHLIGHTS_STORE)) {
-        const store = db.createObjectStore(HIGHLIGHTS_STORE, { keyPath: 'id', autoIncrement: true });
-        store.createIndex('documentId', 'documentId', { unique: false });
-        store.createIndex('documentId_page', ['documentId', 'page'], { unique: false });
-      } else if (event.oldVersion < 2) {
-        const store = event.target.transaction.objectStore(HIGHLIGHTS_STORE);
-        store.createIndex('documentId', 'documentId', { unique: false });
-        store.createIndex('documentId_page', ['documentId', 'page'], { unique: false });
-      }
-    };
-    request.onsuccess = () => resolve(request.result);
-    request.onerror = () => reject(request.error);
-  });
+class IndexedDBService {
+  constructor() {
+    this._db = null;
+  }
+
+  // Open (or upgrade) the database; returns a Promise<IDBDatabase>
+  async openDB() {
+    if (this._db) {
+      return this._db;
+    }
+    return new Promise((resolve, reject) => {
+      const request = indexedDB.open(DB_NAME, DB_VERSION);
+      request.onupgradeneeded = (event) => {
+        const db = event.target.result;
+        if (!db.objectStoreNames.contains(STORE_NAME)) {
+          db.createObjectStore(STORE_NAME, { keyPath: "id", autoIncrement: true });
+        }
+      };
+      request.onsuccess = (event) => {
+        this._db = event.target.result;
+        resolve(this._db);
+      };
+      request.onerror = (event) => {
+        console.error("IndexedDB open error:", event.target.error);
+        reject(event.target.error);
+      };
+    });
+  }
+
+  // Internal helper: get a transaction and object store in the specified mode
+  async _getStore(mode = "readonly") {
+    const db = await this.openDB();
+    const tx = db.transaction(STORE_NAME, mode);
+    const store = tx.objectStore(STORE_NAME);
+    return { store, tx };
+  }
+
+  /**
+   * createAnnotation
+   * @param {number} page
+   * @param {{x: number, y: number, width: number, height: number}} meta
+   * @returns {Promise<number>} - resolves to the newly created ID
+   */
+  async createAnnotation(page, meta) {
+    const { store } = await this._getStore("readwrite");
+    return new Promise((resolve, reject) => {
+      const record = {
+        page,
+        x: meta.x,
+        y: meta.y,
+        width: meta.width,
+        height: meta.height,
+      };
+      const request = store.add(record);
+      request.onsuccess = (e) => {
+        resolve(e.target.result);
+      };
+      request.onerror = (e) => {
+        console.error("createAnnotation error:", e.target.error);
+        reject(e.target.error);
+      };
+    });
+  }
+
+  /**
+   * getAnnotationsForPage
+   * @param {number} page
+   * @returns {Promise<Array<{id: number, x: number, y: number, width: number, height: number}>>}
+   */
+  async getAnnotationsForPage(page) {
+    const { store } = await this._getStore("readonly");
+    return new Promise((resolve, reject) => {
+      const results = [];
+      const request = store.openCursor();
+      request.onsuccess = (e) => {
+        const cursor = e.target.result;
+        if (cursor) {
+          const record = cursor.value;
+          if (record.page === page) {
+            results.push({
+              id: record.id,
+              x: record.x,
+              y: record.y,
+              width: record.width,
+              height: record.height,
+            });
+          }
+          cursor.continue();
+        } else {
+          resolve(results);
+        }
+      };
+      request.onerror = (e) => {
+        console.error("getAnnotationsForPage error:", e.target.error);
+        reject(e.target.error);
+      };
+    });
+  }
+
+  /**
+   * deleteAnnotation
+   * @param {number} id
+   * @returns {Promise<void>}
+   */
+  async deleteAnnotation(id) {
+    const { store } = await this._getStore("readwrite");
+    return new Promise((resolve, reject) => {
+      const request = store.delete(id);
+      request.onsuccess = () => {
+        resolve();
+      };
+      request.onerror = (e) => {
+        console.error("deleteAnnotation error:", e.target.error);
+        reject(e.target.error);
+      };
+    });
+  }
 }
 
-/**
- * Get a setting by key.
- * @param {string} key
- * @returns {IDBRequest}
- */
-export function getSetting(key) {
-  const promise = openDb().then(db => {
-    const tx = db.transaction(SETTINGS_STORE, 'readonly');
-    const store = tx.objectStore(SETTINGS_STORE);
-    return store.get(key);
-  });
-  // Return the underlying IDBRequest
-  return promise.then(req => req);
-}
-
-/**
- * Save a setting.
- * @param {string} key
- * @param {any} value
- */
-export async function saveSetting(key, value) {
-  const db = await openDb();
-  const tx = db.transaction(SETTINGS_STORE, 'readwrite');
-  const store = tx.objectStore(SETTINGS_STORE);
-  store.put({ key, value });
-}
-
-/**
- * Add a highlight record for a specific document.
- * @param {string} documentId
- * @param {object} highlight  { page, x, y, w, h, color }
- * @returns {Promise<object>} The saved record with id
- */
-export async function addHighlight(documentId, highlight) {
-  const db = await openDb();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(HIGHLIGHTS_STORE, 'readwrite');
-    const store = tx.objectStore(HIGHLIGHTS_STORE);
-    const record = { ...highlight, documentId };
-    const req = store.add(record);
-    req.onsuccess = () => resolve({ id: req.result, ...record });
-    req.onerror = () => reject(req.error);
-  });
-}
-
-/**
- * Delete a highlight by its id.
- * @param {number} id
- */
-export async function deleteHighlight(id) {
-  const db = await openDb();
-  const tx = db.transaction(HIGHLIGHTS_STORE, 'readwrite');
-  tx.objectStore(HIGHLIGHTS_STORE).delete(id);
-}
-
-/**
- * Get all highlights for a given document.
- * @param {string} documentId
- * @returns {Promise<object[]>}
- */
-export async function getHighlightsByDocument(documentId) {
-  const db = await openDb();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(HIGHLIGHTS_STORE, 'readonly');
-    const store = tx.objectStore(HIGHLIGHTS_STORE);
-    const index = store.index('documentId');
-    const req = index.getAll(documentId);
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
-  });
-}
-
-/**
- * Get highlights for a specific document and page.
- * @param {string} documentId
- * @param {number} page
- * @returns {Promise<object[]>}
- */
-export async function getHighlightsByDocumentAndPage(documentId, page) {
-  const db = await openDb();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(HIGHLIGHTS_STORE, 'readonly');
-    const store = tx.objectStore(HIGHLIGHTS_STORE);
-    const index = store.index('documentId_page');
-    const req = index.getAll([documentId, page]);
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
-  });
-}
+export default IndexedDBService;

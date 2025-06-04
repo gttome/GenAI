@@ -6,7 +6,7 @@
  * @param {File|Blob|string} pdfSource
  *   - File or Blob: hash first 1 MB, fallback to metadata.
  *   - string: URL to canonicalize.
- * @returns {Promise<string>} A hex string or URL.
+ * @returns {Promise<string>} A hex string (for File/Blob) or normalized URL.
  */
 export async function computeDocumentId(pdfSource) {
   // Case 1: File or Blob → hash first 1 MB
@@ -17,10 +17,19 @@ export async function computeDocumentId(pdfSource) {
       const buffer = await blob.arrayBuffer();
       const hashBuffer = await crypto.subtle.digest("SHA-256", buffer);
       const hashArray = Array.from(new Uint8Array(hashBuffer));
-      return hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+      return hashArray
+        .map((b) => b.toString(16).padStart(2, "0"))
+        .join("");
     } catch (err) {
-      console.warn("computeDocumentId: hashing failed, falling back to metadata", err);
-      if (pdfSource.name && pdfSource.size != null && pdfSource.lastModified != null) {
+      console.warn(
+        "computeDocumentId: hashing failed, falling back to metadata",
+        err
+      );
+      if (
+        pdfSource.name &&
+        pdfSource.size != null &&
+        pdfSource.lastModified != null
+      ) {
         return `${pdfSource.name}-${pdfSource.size}-${pdfSource.lastModified}`;
       }
       throw new Error("computeDocumentId: unable to derive ID from Blob/File");

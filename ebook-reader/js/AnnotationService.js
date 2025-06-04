@@ -1,56 +1,49 @@
-// js/AnnotationService.js
+// ────────────────────────────────────────────────────────────────────────
+//                          js/AnnotationService.js (v1.2)
+// ────────────────────────────────────────────────────────────────────────
+//
+// A thin wrapper around IndexedDBService to manage annotations on each page.
+// This ensures that deletes actually hit IndexedDB and persist across reloads.
+// ────────────────────────────────────────────────────────────────────────
 
-import {
-  addHighlight,
-  deleteHighlight,
-  getHighlightsByDocument,
-  getHighlightsByDocumentAndPage
-} from "./IndexedDBService.js";
+import IndexedDBService from "./IndexedDBService.js";
 
-/**
- * AnnotationService handles CRUD for PDF highlights tied to a specific document.
- */
-export default class AnnotationService {
-  /**
-   * @param {string} documentId  Unique ID for the PDF file
-   */
+class AnnotationService {
   constructor(documentId) {
+    // documentId isn’t strictly used here, but could be used to namespace
+    // if you wanted separate stores per PDF. In this example, we store
+    // all annotations in one global “annotations” store.
     this.documentId = documentId;
+    this.dbService  = new IndexedDBService();
   }
 
   /**
-   * Fetch all highlights for the current document (all pages).
-   * @returns {Promise<object[]>}
-   */
-  async getAllHighlights() {
-    return await getHighlightsByDocument(this.documentId);
-  }
-
-  /**
-   * Fetch highlights for a specific page of the current document.
+   * getAnnotationsForPage
    * @param {number} page
-   * @returns {Promise<object[]>}
+   * @returns {Promise<Array<{id: number, x: number, y: number, width: number, height: number}>>}
    */
   async getAnnotationsForPage(page) {
-    return await getHighlightsByDocumentAndPage(this.documentId, page);
+    return this.dbService.getAnnotationsForPage(page);
   }
 
   /**
-   * Create and store a new highlight for the current document.
+   * createAnnotation
    * @param {number} page
-   * @param {{x:number,y:number,w:number,h:number,color:string}} rect
-   * @returns {Promise<number>} The new highlight's ID
+   * @param {{x: number, y: number, width: number, height: number}} meta
+   * @returns {Promise<number>} - resolves to the new annotation’s ID
    */
-  async createAnnotation(page, rect) {
-    const { id } = await addHighlight(this.documentId, { page, ...rect });
-    return id;
+  async createAnnotation(page, meta) {
+    return this.dbService.createAnnotation(page, meta);
   }
 
   /**
-   * Delete an existing highlight by its ID.
+   * deleteAnnotation
    * @param {number} id
+   * @returns {Promise<void>}
    */
   async deleteAnnotation(id) {
-    await deleteHighlight(id);
+    return this.dbService.deleteAnnotation(id);
   }
 }
+
+export default AnnotationService;

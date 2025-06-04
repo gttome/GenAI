@@ -1,63 +1,73 @@
-// js/settings.js
-import { getSetting, saveSetting } from './IndexedDBService.js';
+// ────────────────────────────────────────────────────────────────────────
+//                          js/settings.js (v1.0)
+// ────────────────────────────────────────────────────────────────────────
+//
+// Handles saving and loading user settings (e.g., preferred theme) via readerState.
+// This file replaces any previous getSetting/saveSetting usage.
+// ────────────────────────────────────────────────────────────────────────
+
+import { readerState } from "./state.js";
+
+const themeSelector = document.getElementById("theme-selector");
+const fontSizeInput = document.getElementById("font-size-input");
 
 /**
- * Apply the given theme by toggling classes on the <html> element.
- * @param {'light'|'dark'|'sepia'} theme
+ * Initialize settings UI: load saved values from readerState (IndexedDB) and apply.
  */
-function applyTheme(theme) {
-  const root = document.documentElement;
-  root.classList.remove('theme-light', 'theme-dark', 'theme-sepia');
-  root.classList.add(`theme-${theme}`);
-  saveSetting('theme', theme);
-}
-
-function initSettings() {
-  // Progress Toggle
-  const toggle = document.querySelector('#toggle-progress');
-  if (toggle) {
-    toggle.addEventListener('change', e => {
-      const visible = e.target.checked;
-      document.getElementById('progress-indicator').style.display = visible ? 'flex' : 'none';
-      saveSetting('showProgress', visible);
-    });
+(async function initSettings() {
+  // 1) Load saved theme
+  try {
+    const savedTheme = await readerState.get("reader-theme");
+    if (savedTheme && ["light", "dark", "sepia"].includes(savedTheme)) {
+      document.documentElement.setAttribute("data-theme", savedTheme);
+      if (themeSelector) themeSelector.value = savedTheme;
+    }
+  } catch (e) {
+    console.warn("Could not load saved theme:", e);
   }
 
-  // Theme Buttons
-  const themeButtons = {
-    light: document.getElementById('theme-light'),
-    dark: document.getElementById('theme-dark'),
-    sepia: document.getElementById('theme-sepia')
-  };
+  // 2) Load saved font size (if applicable)
+  try {
+    const savedFontSize = await readerState.get("reader-font-size");
+    if (savedFontSize && fontSizeInput) {
+      fontSizeInput.value = savedFontSize;
+      document.body.style.fontSize = `${savedFontSize}px`;
+    }
+  } catch (e) {
+    console.warn("Could not load saved font size:", e);
+  }
+})();
 
-  Object.entries(themeButtons).forEach(([theme, btn]) => {
-    if (btn) {
-      btn.addEventListener('click', () => applyTheme(theme));
+/**
+ * When the user selects a new theme from the dropdown (if present),
+ * save it to readerState and apply immediately.
+ */
+if (themeSelector) {
+  themeSelector.addEventListener("change", async (e) => {
+    const newTheme = e.target.value;
+    document.documentElement.setAttribute("data-theme", newTheme);
+    try {
+      await readerState.set("reader-theme", newTheme);
+    } catch (err) {
+      console.error("Error saving theme:", err);
     }
   });
-
-  // Restore saved settings
-  getSetting('theme')
-    .then(savedTheme => {
-      if (savedTheme && themeButtons[savedTheme]) {
-        applyTheme(savedTheme);
-      }
-    })
-    .catch(err => console.error('Error loading theme setting:', err));
-
-  getSetting('showProgress')
-    .then(show => {
-      if (toggle && typeof show === 'boolean') {
-        toggle.checked = show;
-        document.getElementById('progress-indicator').style.display = show ? 'flex' : 'none';
-      }
-    })
-    .catch(err => console.error('Error loading progress setting:', err));
 }
 
-// Initialize when DOM is ready
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initSettings);
-} else {
-  initSettings();
+/**
+ * When the user changes the font size input (if present),
+ * save it and apply immediately.
+ */
+if (fontSizeInput) {
+  fontSizeInput.addEventListener("input", async (e) => {
+    const size = parseInt(e.target.value, 10);
+    if (!isNaN(size)) {
+      document.body.style.fontSize = `${size}px`;
+      try {
+        await readerState.set("reader-font-size", size);
+      } catch (err) {
+        console.error("Error saving font size:", err);
+      }
+    }
+  });
 }
