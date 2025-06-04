@@ -74,7 +74,7 @@ const clamp = n => Math.min(Math.max(1, n), pageCount);
     .querySelector('script[type="module"][src*="main.js"]').dataset.pdfUrl;
 
   /* theme */
-  const saved = localStorage.getItem("reader-theme") || "light";
+  const saved = localStorage.getItem("reader-theme") || "dark";
   document.documentElement.setAttribute("data-theme", saved);
   themeSelect.value = saved;
   themeSelect.onchange = () => {
