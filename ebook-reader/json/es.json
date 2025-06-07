@@ -29,12 +29,14 @@
     "english": "Inglés",
     "portuguese": "Portugués",
     "japanese": "Japonés",
-    "spanish": "Español"
+    "spanish": "Español",
+	"chinese":    "Chino"
   },
   "language": {
     "en": "Inglés",
     "pt": "Portugués",
-    "es": "Español"
+    "es": "Español",
+	"zh": "Chino"
   },
   "context": {
     "zoom_level": "{{zoom}}%",

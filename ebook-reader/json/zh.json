@@ -1,0 +1,62 @@
+{
+  "title": {
+    "page": "PDF阅读器"
+  },
+  "theme": {
+    "light": "浅色",
+    "dark": "深色",
+    "sepia": "棕褐色"
+  },
+  "button": {
+    "load_pdf": "加载PDF",
+    "prev": "上一个",
+    "next": "下一个",
+    "go": "前往",
+    "zoom_in": "放大",
+    "zoom_out": "缩小",
+    "search": "搜索",
+    "search_prev": "上一个",
+    "search_next": "下一个",
+    "search_clear": "清除"
+  },
+  "label": {
+    "theme": "主题",
+    "language": "选择语言",
+    "page": "页面",
+    "show_progress": "显示进度"
+  },
+  "option": {
+    "english": "英语",
+    "portuguese": "葡萄牙语",
+    "japanese": "日语",
+    "spanish": "西班牙语",
+    "chinese": "中文"
+  },
+  "language": {
+    "en": "英语",
+    "pt": "葡萄牙语",
+    "ja": "日语",
+    "es": "西班牙语",
+    "zh": "中文"
+  },
+  "context": {
+    "zoom_level": "{{zoom}}%",
+    "progress_percent": "已加载 {{percent}}%"
+  },
+  "alert": {
+    "load_error": "无法加载PDF，请重试",
+    "parse_error": "PDF解析错误",
+    "no_matches": "未找到搜索结果"
+  },
+  "search": {
+    "placeholder": "搜索PDF…",
+    "error_no_term": "请输入搜索词"
+  },
+  "annotation": {
+    "create_button": "添加注释",
+    "delete_button": "删除注释",
+    "error_create": "无法添加注释",
+    "error_delete": "删除注释失败",
+    "error_fetch": "获取注释失败"
+  }
+}

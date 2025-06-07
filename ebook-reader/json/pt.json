@@ -29,13 +29,15 @@
     "english": "Inglês",
     "portuguese": "Português",
 	"japanese": "Japonês",
-	"spanish": "Espanhol"
+	"spanish": "Espanhol",
+	"chinese": "Chinês"
   },
   "language": {
     "en": "Inglês",
     "pt": "Português",
 	"ja": "Japonês",
-	"es": "Espanhol"
+	"es": "Espanhol",
+	"zh": "Chinês"
 	
   },
   "context": {
