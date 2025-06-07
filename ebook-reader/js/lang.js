@@ -1,4 +1,4 @@
-// js/lang.js  – initialise i18next with local JSON files
+// js/lang.js  – initialise i18next with local JSON files @@@@@
 // Exposes window.i18nextReady (Promise) so main.js waits for translations.
 
 // ------------------------------------------------------------------------
@@ -27,7 +27,9 @@ function localizePage() {
   });
 
   const titleEl = document.querySelector('title[data-i18n]');
-  if (titleEl) document.title = i18next.t(titleEl.getAttribute('data-i18n'));
+  if (titleEl) {
+    document.title = i18next.t(titleEl.getAttribute('data-i18n'));
+  }
 
   document.documentElement.lang = i18next.language;
 }
@@ -44,20 +46,24 @@ function changeLanguage(lang) {
 }
 
 // ------------------------------------------------------------------------
-// 3. Init i18next
+// 3. Initialise i18next
 // ------------------------------------------------------------------------
 window.i18nextReady = i18next
-  .use(typeof i18nextHttpBackend !== 'undefined' ? i18nextHttpBackend : { type: 'backend', read: () => {} })
+  .use(typeof i18nextHttpBackend !== 'undefined'
+       ? i18nextHttpBackend
+       : { type: 'backend', read: () => {} })
   .use(i18nextBrowserLanguageDetector)
   .init({
+    // Tell i18next which languages to load
+    supportedLngs: ['en','pt','ja','es'],
     load: 'languageOnly',           // strip region codes
     fallbackLng: 'en',
-    lng: localStorage.getItem('preferredLanguage') || 'en', // ← default English
+    lng: localStorage.getItem('preferredLanguage') || 'en',
     detection: {
       caches: []                    // don’t write automatic detector cache
     },
     backend: {
-      loadPath: 'json/{{lng}}.json' // locales/en.json, locales/pt.json
+      loadPath: 'json/{{lng}}.json' // json/en.json, json/pt.json, json/ja.json
     },
     debug: false,
     interpolation: { escapeValue: false },
@@ -71,8 +77,23 @@ window.i18nextReady = i18next
 // ------------------------------------------------------------------------
 document.addEventListener('DOMContentLoaded', () => {
   const selector = document.getElementById('lang-select');
-  if (selector) {
-    selector.value = i18next.language.startsWith('pt') ? 'pt' : 'en';
-    selector.addEventListener('change', e => changeLanguage(e.target.value));
+  if (!selector) return;
+
+  const lang = i18next.language || '';
+  
+  // Pick the best match, defaulting to English
+  if (lang.startsWith('en')) {
+    selector.value = 'en';
+  } else if (lang.startsWith('es')) {
+    selector.value = 'es';
+  } else if (lang.startsWith('pt')) {
+    selector.value = 'pt';
+  } else if (lang.startsWith('ja')) {
+    selector.value = 'ja';
+  } else {
+    selector.value = 'en';
   }
+
+  selector.addEventListener('change', e => changeLanguage(e.target.value));
 });
+
