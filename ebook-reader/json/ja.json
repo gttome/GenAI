@@ -1,0 +1,58 @@
+{
+  "title": {
+    "page": "生成AIプロンプト電子書籍リーダー"
+  },
+  "theme": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "sepia": "セピア"
+  },
+  "button": {
+    "load_pdf": "PDFを読み込む",
+    "prev": "前へ",
+    "next": "次へ",
+    "go": "移動",
+    "zoom_in": "拡大",
+    "zoom_out": "縮小",
+    "search": "検索",
+    "search_prev": "前へ",
+    "search_next": "次へ",
+    "search_clear": "クリア"
+  },
+  "label": {
+    "theme": "テーマ",
+    "language": "言語を選択",
+    "page": "ページ",
+    "show_progress": "進捗を表示"
+  },
+  "option": {
+    "english": "英語",
+    "portuguese": "ポルトガル語",
+	"japanese": "日本語 "
+  },
+  "language": {
+    "en": "英語",
+    "pt": "ポルトガル語",
+	"ja": "日本語"
+  },
+  "context": {
+    "zoom_level": "{{zoom}}%",
+    "progress_percent": "{{percent}}% 完了"
+  },
+  "alert": {
+    "load_error": "PDFの読み込みエラー",
+    "parse_error": "PDFの解析エラー",
+    "no_matches": "一致する項目は見つかりませんでした"
+  },
+  "search": {
+    "placeholder": "PDFを検索…",
+    "error_no_term": "検索語句を入力してください。"
+  },
+  "annotation": {
+    "create_button": "注釈を作成",
+    "delete_button": "注釈を削除",
+    "error_create": "注釈の作成に失敗しました。",
+    "error_delete": "注釈の削除に失敗しました。",
+    "error_fetch": "注釈の取得に失敗しました。"
+  }
+}
