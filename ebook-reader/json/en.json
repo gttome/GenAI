@@ -1,6 +1,6 @@
 {
   "title": {
-    "page": "PDF Reader • Search • Highlight • Themes"
+    "page": "Generative AI Prompt eBook Reader"
   },
   "theme": {
     "light": "Light",
@@ -27,11 +27,13 @@
   },
   "option": {
     "english": "English",
-    "portuguese": "Portuguese"
+    "portuguese": "Portuguese",
+	"japanese": "Japanese"
   },
   "language": {
     "en": "English",
-    "pt": "Portuguese"
+    "pt": "Portuguese",
+	"ja": "Japanese"
   },
   "context": {
     "zoom_level": "{{zoom}}%",

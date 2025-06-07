@@ -1,6 +1,6 @@
 {
   "title": {
-    "page": "Leitor de PDF • Pesquisa • Realçar • Temas"
+    "page": "Leitor de eBook com Prompts de IA Generativa"
   },
   "theme": {
     "light": "Claro",
@@ -27,11 +27,13 @@
   },
   "option": {
     "english": "Inglês",
-    "portuguese": "Português"
+    "portuguese": "Português",
+	"japanese": "Japonês"
   },
   "language": {
     "en": "Inglês",
-    "pt": "Português"
+    "pt": "Português",
+	"ja": "Japonês"
   },
   "context": {
     "zoom_level": "{{zoom}}%",
