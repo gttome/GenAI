@@ -1,77 +1,91 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PDF Reader • Search • Highlight • Themes</title>
+<html data-theme="light" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title data-i18n="title.page">PDF Reader • Search • Highlight • Themes</title>
 
-    <!-- PDF.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- ───────────── Toolbar (theme | nav | search+progress) ───────────── -->
-    <div id="controls-bar">
-      <!-- LEFT: Theme dropdown + Load PDF -->
-      <div class="controls-left">
-        <select id="theme-select" title="Select theme">
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-          <option value="sepia">Sepia</option>
-        </select>
+  <!-- i18next core -->
+  <script src="https://unpkg.com/i18next@21.9.2/dist/umd/i18next.min.js"></script>
+  <!-- local backend (no CORS) -->
+  <script src="js/i18nextHttpBackend.min.js"></script>
+  <script src="https://unpkg.com/i18next-browser-languagedetector@6.1.3/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
+  <script src="js/lang.js"></script>
 
-        <button id="load-pdf-button" title="Open local PDF">Load PDF</button>
-        <input id="file-picker" type="file" accept="application/pdf" style="display:none">
-      </div>
+  <!-- PDF.js -->
+  <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.1.81/build/pdf.min.js"></script>
+</head>
 
-      <!-- CENTER: Prev / Next / Page / Go / Zoom -->
-      <div class="controls-center">
-        <button id="prev-page">Prev</button>
-        <button id="next-page">Next</button>
+<body>
+  <!-- ─── Toolbar (left / center / right) ─── -->
+  <nav id="controls-bar">
+    <!-- LEFT -->
+    <div class="controls-left">
+      <select id="theme-select">
+        <option value="light" data-i18n="theme.light">Light</option>
+        <option value="dark"  data-i18n="theme.dark">Dark</option>
+        <option value="sepia" data-i18n="theme.sepia">Sepia</option>
+      </select>
 
-        <span>Page <span id="page-num">1</span> / <span id="page-count">1</span></span>
-        <input id="page-input" type="number" min="1" style="width:3rem">
-        <button id="goto-page-button">Go</button>
-
-        <button id="zoom-out">–</button>
-        <span id="zoom-level-display">100%</span>
-        <button id="zoom-in">+</button>
-      </div>
-
-      <!-- RIGHT: Search toggle + Progress -->
-      <div class="controls-right">
-        <button id="toggle-search" title="Toggle search bar">Search</button>
-
-        <label style="display:flex;align-items:center;gap:.25rem;">
-          <input id="toggle-progress" type="checkbox" checked> Show&nbsp;Progress
-        </label>
-
-        <div id="progress-indicator">
-          <div id="progress-bar-fill"></div>
-        </div>
-        <span id="progress-text">0%</span>
-      </div>
+      <label for="lang-select" data-i18n="label.language">Language</label>
+      <select id="lang-select">
+        <option value="en" data-i18n="option.english">English</option>
+        <option value="pt" data-i18n="option.portuguese">Português</option>
+      </select>
     </div>
 
-    <!-- Slide-out Search Bar (25 % width, right-aligned) -->
-    <div id="search-bar" class="hidden">
-      <input id="search-input" type="text" placeholder="Search PDF…">
-      <button id="search-prev">&lt;</button>
-      <button id="search-next">&gt;</button>
-      <span id="search-counter">0/0</span>
-      <button id="search-clear">Clear</button>
+    <!-- CENTER -->
+    <div class="controls-center">
+      <button id="prev-page" data-i18n="button.prev">Prev</button>
+      <button id="next-page" data-i18n="button.next">Next</button>
+
+      <label for="page-num-input" data-i18n="label.page">Page</label>
+      <input id="page-num-input" type="number" min="1" value="1" />
+      <span>/ <span id="total-pages">0</span></span>
+
+      <button id="go-to-page" data-i18n="button.go">Go</button>
+
+      <button id="zoom-in"  data-i18n="button.zoom_in">+</button>
+      <span id="zoom-level-display">100%</span>
+      <button id="zoom-out" data-i18n="button.zoom_out">−</button>
+
+      <label>
+        <input type="checkbox" id="show-progress" />
+        <span data-i18n="label.show_progress">Show Progress</span>
+      </label>
+      <progress id="progress-bar" value="0" max="100"></progress>
+      <span id="progress-text"></span>
     </div>
 
-    <!-- PDF Render Area -->
-    <main id="pdf-render-area"><div id="canvas-container"></div></main>
+    <!-- RIGHT -->
+    <div class="controls-right">
+      <button id="load-pdf-button" data-i18n="button.load_pdf">Load PDF</button>
+      <input id="file-picker" type="file" accept=".pdf" hidden />
 
-    <!-- App script: data-pdf-url points at the default PDF -->
-    <script
-      type="module"
-      src="js/main.js?v=13.1"
-      data-pdf-url="pdf/Generative AI Professional Prompt Engineering Guide - First Edition Release 9.0.pdf"
-    ></script>
-  </body>
+      <button id="toggle-search" data-i18n="button.search">Search</button>
+    </div>
+  </nav>
+
+  <!-- Search panel (unchanged) -->
+  <div id="search-bar" class="hidden">
+    <input id="search-input" type="text" placeholder="Search…" data-i18n-placeholder="search.placeholder" />
+    <button id="search-prev"  data-i18n="button.search_prev">◀</button>
+    <span   id="search-counter">0/0</span>
+    <button id="search-next"  data-i18n="button.search_next">▶</button>
+    <button id="search-clear" data-i18n="button.search_clear">Clear</button>
+  </div>
+
+  <!-- Main scroll area -->
+  <main id="pdf-render-area">
+    <div id="canvas-container"></div>
+  </main>
+
+  <!-- Core logic -->
+  <script type="module"
+          src="js/main.js"
+          data-pdf-url="pdf/Generative AI Professional Prompt Engineering Guide - First Edition Release 9.0.pdf">
+  </script>
+</body>
 </html>
