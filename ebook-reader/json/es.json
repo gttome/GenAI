@@ -8,16 +8,16 @@
     "sepia": "Sepia"
   },
   "button": {
-    "load_pdf": "Cargar PDF",
-    "prev": "Ant.",
-    "next": "Sig.",
+    "load_pdf": "Abrir PDF",
+    "prev": "Anterior",
+    "next": "Siguiente",
     "go": "Ir",
     "zoom_in": "Acercar",
     "zoom_out": "Alejar",
     "search": "Buscar",
     "search_prev": "Ant.",
     "search_next": "Sig.",
-    "search_clear": "Borrar"
+    "search_clear": "Limpiar"
   },
   "label": {
     "theme": "Tema",
@@ -30,31 +30,33 @@
     "portuguese": "Portugués",
     "japanese": "Japonés",
     "spanish": "Español",
-	"chinese":    "Chino"
+	"chinese": "Chino",
+	"hindi": "Híndi"
   },
   "language": {
     "en": "Inglés",
     "pt": "Portugués",
     "es": "Español",
-	"zh": "Chino"
+	"zh": "Chino",
+	"hi": "Híndi"
   },
   "context": {
     "zoom_level": "{{zoom}}%",
-    "progress_percent": "{{percent}}% Completado"
+    "progress_percent": "{{percent}}% Cargado"
   },
   "alert": {
-    "load_error": "Error al cargar el PDF",
+    "load_error": "No se pudo cargar el PDF, intenta de nuevo",
     "parse_error": "Error al analizar el PDF",
-    "no_matches": "No se encontraron coincidencias"
+    "no_matches": "No se encontraron resultados"
   },
   "search": {
     "placeholder": "Buscar en PDF…",
     "error_no_term": "Por favor, introduzca un término de búsqueda."
   },
   "annotation": {
-    "create_button": "Crear anotación",
+    "create_button": "Agregar anotación",
     "delete_button": "Eliminar anotación",
-    "error_create": "No se pudo crear la anotación.",
+    "error_create": "No se pudo agregar la anotación",
     "error_delete": "No se pudo eliminar la anotación.",
     "error_fetch": "No se pudieron obtener las anotaciones."
   }

@@ -8,55 +8,57 @@
     "sepia": "Sepia"
   },
   "button": {
-    "load_pdf": "Load PDF",
-    "prev": "Prev",
-    "next": "Next",
-    "go": "Go",
-    "zoom_in": "Zoom In",
-    "zoom_out": "Zoom Out",
-    "search": "Search",
+    "load_pdf":    "Load PDF",
+    "prev":        "Prev",
+    "next":        "Next",
+    "go":          "Go",
+    "zoom_in":     "Zoom In",
+    "zoom_out":    "Zoom Out",
+    "search":      "Search",
     "search_prev": "Prev",
     "search_next": "Next",
-    "search_clear": "Clear"
+    "search_clear":"Clear"
   },
   "label": {
-    "theme": "Theme",
-    "language": "Select Language",
-    "page": "Page",
+    "theme":         "Theme",
+    "language":      "Select Language",
+    "page":          "Page",
     "show_progress": "Show Progress"
   },
   "option": {
-    "english": "English",
+    "english":    "English",
     "portuguese": "Portuguese",
-    "japanese": "Japanese",
-    "spanish": "Spanish",
-	"chinese": "Chinese"
+    "japanese":   "Japanese",
+    "spanish":    "Spanish",
+    "chinese":    "Chinese",
+    "hindi":      "Hindi"
   },
   "language": {
     "en": "English",
     "pt": "Portuguese",
     "ja": "Japanese",
     "es": "Spanish",
-	"zh": "Chinese"
+    "zh": "Chinese",
+    "hi": "Hindi"
   },
   "context": {
-    "zoom_level": "{{zoom}}%",
+    "zoom_level":       "{{zoom}}%",
     "progress_percent": "{{percent}}% Complete"
   },
   "alert": {
-    "load_error": "Error loading PDF",
+    "load_error":  "Error loading PDF",
     "parse_error": "Error parsing PDF",
-    "no_matches": "No matches found"
+    "no_matches":  "No matches found"
   },
   "search": {
-    "placeholder": "Search PDF…",
+    "placeholder":   "Search PDF…",
     "error_no_term": "Please enter a search term."
   },
   "annotation": {
     "create_button": "Create Annotation",
     "delete_button": "Delete Annotation",
-    "error_create": "Failed to create annotation.",
-    "error_delete": "Failed to delete annotation.",
-    "error_fetch": "Failed to fetch annotations."
+    "error_create":  "Failed to create annotation.",
+    "error_delete":  "Failed to delete annotation.",
+    "error_fetch":   "Failed to fetch annotations."
   }
 }

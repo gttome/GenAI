@@ -1,0 +1,64 @@
+{
+  "title": {
+    "page": "जनरेटिव एआई प्रॉम्प्ट ईबुक रीडर"
+  },
+  "theme": {
+    "light": "लाइट",
+    "dark": "डार्क",
+    "sepia": "सेपिया"
+  },
+  "button": {
+    "load_pdf": "पीडीएफ़ लोड करें",
+    "prev": "पिछला",
+    "next": "अगला",
+    "go": "जाएँ",
+    "zoom_in": "ज़ूम इन",
+    "zoom_out": "ज़ूम आउट",
+    "search": "खोजें",
+    "search_prev": "पिछला",
+    "search_next": "अगला",
+    "search_clear": "साफ़ करें"
+  },
+  "label": {
+    "theme": "थीम",
+    "language": "भाषा चुनें",
+    "page": "पेज",
+    "show_progress": "प्रगति दिखाएँ"
+  },
+  "option": {
+    "english": "अंग्रेज़ी",
+    "portuguese": "पुर्तगाली",
+    "japanese": "जापानी",
+    "spanish": "स्पेनिश",
+    "chinese": "चीनी",
+    "hindi": "हिन्दी"
+  },
+  "language": {
+    "en": "अंग्रेज़ी",
+    "pt": "पुर्तगाली",
+    "ja": "जापानी",
+    "es": "स्पेनिश",
+    "zh": "चीनी",
+    "hi": "हिन्दी"
+  },
+  "context": {
+    "zoom_level": "{{zoom}}%",
+    "progress_percent": "{{percent}}% पूर्ण"
+  },
+  "alert": {
+    "load_error": "पीडीएफ़ लोड करने में त्रुटि",
+    "parse_error": "पीडीएफ़ पार्स करने में त्रुटि",
+    "no_matches": "कोई मिलान नहीं मिला"
+  },
+  "search": {
+    "placeholder": "पीडीएफ़ खोजें…",
+    "error_no_term": "कृपया खोजने के लिए शब्द दर्ज करें."
+  },
+  "annotation": {
+    "create_button": "एनोटेशन बनाएँ",
+    "delete_button": "एनोटेशन हटाएँ",
+    "error_create": "एनोटेशन बनाने में विफल.",
+    "error_delete": "एनोटेशन हटाने में विफल.",
+    "error_fetch": "एनोटेशन प्राप्त करने में विफल.।"
+  }
+}

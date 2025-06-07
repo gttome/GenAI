@@ -30,14 +30,16 @@
     "portuguese": "ポルトガル語",
 	"japanese": "日本語 ",
 	"spanish": "スペイン語 ",
-	"chinese":    "中国語"
+	"chinese":    "中国語",
+	"hindi":    "ヒンディー語"
   },
   "language": {
     "en": "英語",
     "pt": "ポルトガル語",
 	"ja": "日本語",
 	"es": "スペイン語 ",	
-	"zh": "中国語"
+	"zh": "中国語",
+	"hi": "ヒンディー語"
   },
   "context": {
     "zoom_level": "{{zoom}}%",

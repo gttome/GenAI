@@ -1,63 +1,64 @@
 {
   "title": {
-    "page": "Leitor de eBook com Prompts de IA Generativa"
+    "page": "Generative AI Prompt eBook Reader"
   },
   "theme": {
-    "light": "Claro",
-    "dark": "Escuro",
-    "sepia": "Sépia"
+    "light": "Light",
+    "dark": "Dark",
+    "sepia": "Sepia"
   },
   "button": {
-    "load_pdf": "Carregar PDF",
-    "prev": "Anterior",
-    "next": "Próxima",
-    "go": "Ir",
-    "zoom_in": "Aumentar Zoom",
-    "zoom_out": "Reduzir Zoom",
-    "search": "Pesquisar",
-    "search_prev": "Anterior",
-    "search_next": "Próximo",
-    "search_clear": "Limpar"
+    "load_pdf":    "Load PDF",
+    "prev":        "Prev",
+    "next":        "Next",
+    "go":          "Go",
+    "zoom_in":     "Zoom In",
+    "zoom_out":    "Zoom Out",
+    "search":      "Search",
+    "search_prev": "Prev",
+    "search_next": "Next",
+    "search_clear":"Clear"
   },
   "label": {
-    "theme": "Tema",
-    "language": "Selecionar idioma",
-    "page": "Página",
-    "show_progress": "Mostrar Progresso"
+    "theme":         "Theme",
+    "language":      "Select Language",
+    "page":          "Page",
+    "show_progress": "Show Progress"
   },
   "option": {
-    "english": "Inglês",
-    "portuguese": "Português",
-	"japanese": "Japonês",
-	"spanish": "Espanhol",
-	"chinese": "Chinês"
+    "english":    "English",
+    "portuguese": "Portuguese",
+    "japanese":   "Japanese",
+    "spanish":    "Spanish",
+    "chinese":    "Chinese",
+    "hindi":      "Hindi"
   },
   "language": {
-    "en": "Inglês",
-    "pt": "Português",
-	"ja": "Japonês",
-	"es": "Espanhol",
-	"zh": "Chinês"
-	
+    "en": "English",
+    "pt": "Portuguese",
+    "ja": "Japanese",
+    "es": "Spanish",
+    "zh": "Chinese",
+    "hi": "Hindi"
   },
   "context": {
-    "zoom_level": "{{zoom}}%",
-    "progress_percent": "{{percent}}% Concluído"
+    "zoom_level":       "{{zoom}}%",
+    "progress_percent": "{{percent}}% Complete"
   },
   "alert": {
-    "load_error": "Erro ao carregar o PDF",
-    "parse_error": "Erro ao processar o PDF",
-    "no_matches": "Nenhum resultado encontrado"
+    "load_error":  "Error loading PDF",
+    "parse_error": "Error parsing PDF",
+    "no_matches":  "No matches found"
   },
   "search": {
-    "placeholder": "Pesquisar PDF…",
-    "error_no_term": "Por favor, insira um termo de pesquisa."
+    "placeholder":   "Search PDF…",
+    "error_no_term": "Please enter a search term."
   },
   "annotation": {
-    "create_button": "Criar Anotação",
-    "delete_button": "Excluir Anotação",
-    "error_create": "Falha ao criar anotação.",
-    "error_delete": "Falha ao excluir anotação.",
-    "error_fetch": "Falha ao buscar anotações."
+    "create_button": "Create Annotation",
+    "delete_button": "Delete Annotation",
+    "error_create":  "Failed to create annotation.",
+    "error_delete":  "Failed to delete annotation.",
+    "error_fetch":   "Failed to fetch annotations."
   }
 }
