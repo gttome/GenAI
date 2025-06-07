@@ -1,0 +1,59 @@
+{
+  "title": {
+    "page": "Lector de eBooks de prompts de IA Generativa"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "sepia": "Sepia"
+  },
+  "button": {
+    "load_pdf": "Cargar PDF",
+    "prev": "Ant.",
+    "next": "Sig.",
+    "go": "Ir",
+    "zoom_in": "Acercar",
+    "zoom_out": "Alejar",
+    "search": "Buscar",
+    "search_prev": "Ant.",
+    "search_next": "Sig.",
+    "search_clear": "Borrar"
+  },
+  "label": {
+    "theme": "Tema",
+    "language": "Seleccionar idioma",
+    "page": "Página",
+    "show_progress": "Mostrar progreso"
+  },
+  "option": {
+    "english": "Inglés",
+    "portuguese": "Portugués",
+    "japanese": "Japonés",
+    "spanish": "Español"
+  },
+  "language": {
+    "en": "Inglés",
+    "pt": "Portugués",
+    "es": "Español"
+  },
+  "context": {
+    "zoom_level": "{{zoom}}%",
+    "progress_percent": "{{percent}}% Completado"
+  },
+  "alert": {
+    "load_error": "Error al cargar el PDF",
+    "parse_error": "Error al analizar el PDF",
+    "no_matches": "No se encontraron coincidencias"
+  },
+  "search": {
+    "placeholder": "Buscar en PDF…",
+    "error_no_term": "Por favor, introduzca un término de búsqueda."
+  },
+  "annotation": {
+    "create_button": "Crear anotación",
+    "delete_button": "Eliminar anotación",
+    "error_create": "No se pudo crear la anotación.",
+    "error_delete": "No se pudo eliminar la anotación.",
+    "error_fetch": "No se pudieron obtener las anotaciones."
+  }
+}
