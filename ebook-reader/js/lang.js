@@ -55,7 +55,7 @@ window.i18nextReady = i18next
   .use(i18nextBrowserLanguageDetector)
   .init({
     // Tell i18next which languages to load
-    supportedLngs: ['en','pt','ja','es'],
+    supportedLngs: ['en','pt','ja','es','zh'],
     load: 'languageOnly',           // strip region codes
     fallbackLng: 'en',
     lng: localStorage.getItem('preferredLanguage') || 'en',
@@ -90,6 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
     selector.value = 'pt';
   } else if (lang.startsWith('ja')) {
     selector.value = 'ja';
+	} else if (lang.startsWith('zh')) {
+      selector.value = 'zh';
   } else {
     selector.value = 'en';
   }
