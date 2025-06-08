@@ -26,13 +26,14 @@
     "show_progress": "Mostrar progresso"
   },
   "option": {
-    "english":   "Inglês",
-    "portuguese":"Português",
-    "japanese":  "Japonês",
-    "spanish":   "Espanhol",
-    "chinese":   "Chinês",
-    "hindi":     "Hindi",
-    "french":    "Francês"
+    "english": "Inglês",
+    "portuguese" :"Português",
+    "japanese": "Japonês",
+    "spanish": "Espanhol",
+    "chinese": "Chinês",
+    "hindi": "Hindi",
+    "french": "Francês",
+    "arabic": "Árabe"
   },
   "language": {
     "en": "Inglês",
@@ -41,7 +42,8 @@
     "es": "Espanhol",
     "zh": "Chinês",
     "hi": "Hindi",
-    "fr": "Francês"
+    "fr": "Francês",
+    "ar": "Árabe"
   },
   "context": {
     "zoom_level":       "{{zoom}}%",

@@ -32,7 +32,8 @@
     "spanish": "Spanish",
     "chinese": "Chinese",
     "hindi": "Hindi",
-    "french": "French"
+    "french": "French",
+    "arabic": "Arabic"
   },
   "language": {
     "en": "English",
@@ -41,7 +42,8 @@
     "es": "Spanish",
     "zh": "Chinese",
     "hi": "Hindi",
-    "fr": "French"
+    "fr": "French",
+    "ar": "Arabic"
 	
   },
   "context": {

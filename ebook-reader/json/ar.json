@@ -1,0 +1,68 @@
+{
+  "title": {
+    "page": "قارئ كتب إلكترونية لموجهات الذكاء الاصطناعي التوليدي"
+  },
+  "theme": {
+    "light": "فاتح",
+    "dark": "داكن",
+    "sepia": "بني داكن"
+  },
+  "button": {
+    "load_pdf": "فتح PDF",
+    "prev": "السابق",
+    "next": "التالي",
+    "go": "انتقل",
+    "zoom_in": "تكبير",
+    "zoom_out": "تصغير",
+    "search": "بحث",
+    "search_prev": "السابق",
+    "search_next": "التالي",
+    "search_clear": "إزالة البحث / امسح"
+  },
+  "label": {
+    "theme": "المظهر",
+    "language": "اختر اللغة",
+    "page": "الصفحة",
+    "show_progress": "عرض التقدم"
+  },
+  "option": {
+    "english": "الإنجليزية",
+    "portuguese": "البرتغالية",
+    "japanese": "اليابانية",
+    "spanish": "الإسبانية",
+    "chinese": "الصينية",
+    "hindi": "الهندية",
+    "french": "الفرنسية",
+    "arabic": "العربية"
+  },
+  "language": {
+    "en": "الإنجليزية",
+    "pt": "البرتغالية",
+    "ja": "اليابانية",
+    "es": "الإسبانية",
+    "zh": "الصينية",
+    "hi": "الهندية",
+    "fr": "الفرنسية",
+    "ar": "العربية"
+  },
+  "context": {
+    "zoom_level": "{{zoom}}%",
+    "progress_percent": "تم {{percent}}%"
+  },
+  "alert": {
+    "load_error": "خطأ في فتح ملف PDF، يرجى التحقق من الملف وحاول مجددًا",
+    "parse_error": "خطأ في تحليل ملف PDF",
+    "no_matches": "لا توجد نتائج مطابقة"
+  },
+  "search": {
+    "placeholder": "بحث في PDF…",
+    "error_no_term": "الرجاء إدخال مصطلح للبحث."
+  },
+  "annotation": {
+    "create_button": "إضافة تعليق",
+    "delete_button": "حذف التعليق",
+    "error_create": "تعذر إنشاء التعليق.",
+    "error_delete": "تعذر حذف التعليق.",
+    "error_fetch": "تعذر جلب التعليقات."
+  }
+}
