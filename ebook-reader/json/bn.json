@@ -1,0 +1,70 @@
+{
+  "title": {
+    "page": "এআই চালিত ইবুক রিডার"
+  },
+  "theme": {
+    "light": "হালকা",
+    "dark": "গাঢ়",
+    "sepia": "সেপিয়া"
+  },
+  "button": {
+    "load_pdf": "PDF খুলুন",
+    "prev": "আগে",
+    "next": "পরে",
+    "go": "যান",
+    "zoom_in": "বড় করুন",
+    "zoom_out": "ছোট করুন",
+    "search": "অনুসন্ধান করুন",
+    "search_prev": "পূর্ববর্তী",
+    "search_next": "পরবর্তী",
+    "search_clear": "মুছুন"
+  },
+  "label": {
+    "theme": "থিম",
+    "language": "ভাষা নির্বাচন করুন",
+    "page": "পৃষ্ঠা",
+    "show_progress": "প্রগতি দেখান"
+  },
+  "option": {
+    "english": "ইংরেজি",
+    "portuguese": "পর্তুগিজ",
+    "japanese": "জাপানি",
+    "spanish": "স্প্যানিশ",
+    "chinese": "চীনা",
+    "hindi": "হিন্দি",
+    "french": "ফরাসি",
+    "arabic": "আরবি",
+    "bengali": "বাংলা"
+  },
+  "language": {
+    "en": "ইংরেজি",
+    "pt": "পর্তুগিজ",
+    "ja": "জাপানি",
+    "es": "স্প্যানিশ",
+    "zh": "চীনা",
+    "hi": "হিন্দি",
+    "fr": "ফরাসি",
+    "ar": "আরবি",
+    "bn": "বাংলা"
+  },
+  "context": {
+    "zoom_level": "{{zoom}}%",
+    "progress_percent": "{{percent}}% সম্পন্ন হয়েছে"
+  },
+  "alert": {
+    "load_error": "PDF খুলতে সমস্যা হয়েছে, অনুগ্রহ করে ফাইলটি পরীক্ষা করুন এবং আবার চেষ্টা করুন",
+    "parse_error": "PDF পার্স করা যায়নি",
+    "no_matches": "কোনো ফলাফল পাওয়া যায়নি"
+  },
+  "search": {
+    "placeholder": "PDF-এ অনুসন্ধান করুন…",
+    "error_no_term": "অনুগ্রহ করে অনুসন্ধানের জন্য শব্দ লিখুন।"
+  },
+  "annotation": {
+    "create_button": "টীকা তৈরি করুন",
+    "delete_button": "টীকা মুছুন",
+    "error_create": "টীকা তৈরি করা যায়নি।",
+    "error_delete": "টীকা মুছা যায়নি।",
+    "error_fetch": "টীকা আনা যায়নি।"
+  }
+}

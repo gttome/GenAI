@@ -33,7 +33,8 @@
 	"chinese": "Chino",
 	"hindi": "Hindi",
     "french": "Francés",
-    "arabic": "Árabe"
+    "arabic": "Arabic",
+    "bengali": "Bengali"
   },
   "language": {
     "en": "Inglés",
@@ -43,7 +44,8 @@
 	"zh": "Chino",
 	"hi": "Hindi",
     "fr": "Francés",
-    "ar": "Árabe"
+    "ar": "Arabic",
+    "bn": "Bengali"
   },
   "context": {
     "zoom_level": "{{zoom}}%",
