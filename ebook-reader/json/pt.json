@@ -1,64 +1,67 @@
 {
   "title": {
-    "page": "Generative AI Prompt eBook Reader"
+    "page": "Leitor de eBook de Prompt de IA Generativa"
   },
   "theme": {
-    "light": "Light",
-    "dark": "Dark",
-    "sepia": "Sepia"
+    "light": "Claro",
+    "dark": "Escuro",
+    "sepia": "Sépia"
   },
   "button": {
-    "load_pdf":    "Load PDF",
-    "prev":        "Prev",
-    "next":        "Next",
-    "go":          "Go",
-    "zoom_in":     "Zoom In",
-    "zoom_out":    "Zoom Out",
-    "search":      "Search",
-    "search_prev": "Prev",
-    "search_next": "Next",
-    "search_clear":"Clear"
+    "load_pdf":    "Carregar PDF",
+    "prev":        "Anterior",
+    "next":        "Próximo",
+    "go":          "Ir",
+    "zoom_in":     "Aumentar Zoom",
+    "zoom_out":    "Reduzir Zoom",
+    "search":      "Pesquisar",
+    "search_prev": "Anterior",
+    "search_next": "Próximo",
+    "search_clear":"Limpar"
   },
   "label": {
-    "theme":         "Theme",
-    "language":      "Select Language",
-    "page":          "Page",
-    "show_progress": "Show Progress"
+    "theme":         "Tema",
+    "language":      "Selecionar idioma",
+    "page":          "Página",
+    "show_progress": "Mostrar progresso"
   },
   "option": {
-    "english":    "English",
-    "portuguese": "Portuguese",
-    "japanese":   "Japanese",
-    "spanish":    "Spanish",
-    "chinese":    "Chinese",
-    "hindi":      "Hindi"
+    "english":   "Inglês",
+    "portuguese":"Português",
+    "japanese":  "Japonês",
+    "spanish":   "Espanhol",
+    "chinese":   "Chinês",
+    "hindi":     "Hindi",
+    "french":    "Francês"
   },
   "language": {
-    "en": "English",
-    "pt": "Portuguese",
-    "ja": "Japanese",
-    "es": "Spanish",
-    "zh": "Chinese",
-    "hi": "Hindi"
+    "en": "Inglês",
+    "pt": "Português",
+    "ja": "Japonês",
+    "es": "Espanhol",
+    "zh": "Chinês",
+    "hi": "Hindi",
+    "fr": "Francês"
   },
   "context": {
     "zoom_level":       "{{zoom}}%",
-    "progress_percent": "{{percent}}% Complete"
+    "progress_percent": "{{percent}}% Concluído"
   },
   "alert": {
-    "load_error":  "Error loading PDF",
-    "parse_error": "Error parsing PDF",
-    "no_matches":  "No matches found"
+    "load_error":  "Erro ao carregar o PDF",
+    "parse_error": "Erro ao processar o PDF",
+    "no_matches":  "Nenhum resultado encontrado"
   },
   "search": {
-    "placeholder":   "Search PDF…",
-    "error_no_term": "Please enter a search term."
+    "placeholder":   "Pesquisar no PDF",
+    "error_no_term": "Por favor, insira um termo de pesquisa."
   },
   "annotation": {
-    "create_button": "Create Annotation",
-    "delete_button": "Delete Annotation",
-    "error_create":  "Failed to create annotation.",
-    "error_delete":  "Failed to delete annotation.",
-    "error_fetch":   "Failed to fetch annotations."
+    "create_button": "Criar anotação",
+    "delete_button": "Excluir anotação",
+    "error_create":  "Falha ao criar anotação.",
+    "error_delete":  "Falha ao excluir anotação.",
+    "error_fetch":   "Falha ao buscar anotações.",
+    "highlight":     "Destacar: clique e arraste para escolher uma cor"
   }
 }

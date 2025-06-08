@@ -31,14 +31,17 @@
     "japanese": "Japonés",
     "spanish": "Español",
 	"chinese": "Chino",
-	"hindi": "Híndi"
+	"hindi": "Hindi",
+    "french": "Francés"
   },
   "language": {
     "en": "Inglés",
     "pt": "Portugués",
-    "es": "Español",
+    "ja": "Japonés",
+	"es": "Español",
 	"zh": "Chino",
-	"hi": "Híndi"
+	"hi": "Hindi",
+    "fr": "Francés"
   },
   "context": {
     "zoom_level": "{{zoom}}%",

@@ -1,0 +1,71 @@
+{
+  "title": {
+    "page": "Lecteur d'eBooks de Prompts d'IA Générative"
+  },
+  "theme": {
+    "light": "Clair",
+    "dark": "Sombre",
+    "sepia": "Sépia"
+  },
+  "button": {
+    "load_pdf": "Charger le PDF",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "go": "Aller",
+    "zoom_in": "Agrandir",
+    "zoom_out": "Réduire",
+    "search": "Rechercher",
+    "search_prev": "Précédent",
+    "search_next": "Suivant",
+    "search_clear": "Effacer"
+  },
+  "label": {
+    "theme": "Thème",
+    "language": "Sélectionner la langue",
+    "page": "Page",
+    "show_progress": "Afficher la progression"
+  },
+  "option": {
+    "english": "Anglais",
+    "portuguese": "Portugais",
+    "japanese": "Japonais",
+    "spanish": "Espagnol",
+    "chinese": "Chinois",
+    "hindi": "Hindi",
+    "french": "Français"
+  },
+  "language": {
+    "en": "Anglais",
+    "pt": "Portugais",
+    "ja": "Japonais",
+    "es": "Espagnol",
+    "zh": "Chinois",
+    "hi": "Hindi",
+    "fr": "Français"
+  },
+  "context": {
+    "zoom_level": "{{zoom}}%",
+    "progress_percent": "{{percent}}% avancé"
+  },
+  "alert": {
+    "load_error": "Erreur de chargement du PDF. Veuillez vérifier le fichier et réessayer.",
+    "parse_error": "Erreur d'analyse du PDF. Veuillez vérifier le fichier et réessayer.",
+    "no_matches": "Aucun résultat"
+  },
+  "search": {
+    "placeholder": "Rechercher dans le PDF…",
+    "error_no_term": "Veuillez entrer un terme de recherche."
+  },
+  "annotation": {
+    "create_button": "Créer une annotation",
+    "delete_button": "Supprimer l'annotation",
+    "error_create": "Échec de la création de l'annotation.",
+    "error_delete": "Échec de la suppression de l'annotation.",
+    "error_fetch": "Échec de la récupération des annotations."
+  }
+}
+
+
+
+
+
