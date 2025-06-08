@@ -1,0 +1,74 @@
+{
+  "title": {
+    "page": "مصنوعی ذہانت کی ہدایات کے لیے برقی کتاب قاری"
+  },
+  "theme": {
+    "light": "ہلکا",
+    "dark": "گہرا",
+    "sepia": "سیپیا"
+  },
+  "button": {
+    "load_pdf": "PDF کھولیں",
+    "prev": "پچھلا",
+    "next": "اگلا",
+    "go": "جائیں",
+    "zoom_in": "بڑا کریں",
+    "zoom_out": "چھوٹا کریں",
+    "search": "تلاش کریں",
+    "search_prev": "پچھلا",
+    "search_next": "اگلا",
+    "search_clear": "تلاش صاف کریں"
+  },
+  "label": {
+    "theme": "تھیم",
+    "language": "زبان منتخب کریں",
+    "page": "صفحہ",
+    "show_progress": "ترقی دکھائیں"
+  },
+  "option": {
+    "english": "انگریزی",
+    "portuguese": "پرتگالی",
+    "japanese": "جاپانی",
+    "spanish": "ہسپانوی",
+    "chinese": "چینی",
+    "hindi": "ہندی",
+    "french": "فرانسیسی",
+    "arabic": "عربی",
+    "bengali": "بنگالی",
+    "russian": "روسی",
+    "urdu": "اردو"
+  },
+  "language": {
+    "en": "انگریزی",
+    "pt": "پرتگالی",
+    "ja": "جاپانی",
+    "es": "ہسپانوی",
+    "zh": "چینی",
+    "hi": "ہندی",
+    "fr": "فرانسیسی",
+    "ar": "عربی",
+    "bn": "بنگالی",
+    "ru": "روسی",
+    "ur": "اردو"
+  },
+  "context": {
+    "zoom_level": "{{zoom}}%",
+    "progress_percent": "{{percent}}% مکمل ہوا"
+  },
+  "alert": {
+    "load_error": "PDF کھولنے میں خرابی، براہ کرم فائل چیک کریں اور دوبارہ کوشش کریں",
+    "parse_error": "PDF پارس کرنے میں خرابی",
+    "no_matches": "کوئی مطابق نتائج نہیں ملے"
+  },
+  "search": {
+    "placeholder": "PDF میں تلاش کریں…",
+    "error_no_term": "براہ کرم تلاش کے لیے کوئی لفظ درج کریں۔"
+  },
+  "annotation": {
+    "create_button": "تشریح بنائیں",
+    "delete_button": "تشریح حذف کریں",
+    "error_create": "تشریح بنانے میں ناکامی ہوئی۔",
+    "error_delete": "تشریح حذف کرنے میں ناکامی ہوئی۔",
+    "error_fetch": "تشریحات حاصل کرنے میں ناکامی ہوئی۔"
+  }
+}

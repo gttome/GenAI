@@ -35,7 +35,8 @@
     "french": "Français",
     "arabic": "Arabe",
     "bengali": "Bengali",
-	"russian": "Russe"
+	"russian": "Russe",
+	"urdu": "Ourdou"
   },
   "language": {
     "en": "Anglais",
@@ -47,7 +48,8 @@
     "fr": "Français",
     "ar": "Arabe",
     "bn": "Bengali",
-	"ru": "Russe"
+	"ru": "Russe",
+	"ur": "Ourdou"
   },
   "context": {
     "zoom_level": "{{zoom}}%",
