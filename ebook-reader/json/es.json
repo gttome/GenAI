@@ -34,7 +34,8 @@
 	"hindi": "Hindi",
     "french": "Francés",
     "arabic": "Arabic",
-    "bengali": "Bengali"
+    "bengali": "Bengali",
+	"russian": "Ruso"
   },
   "language": {
     "en": "Inglés",
@@ -45,7 +46,8 @@
 	"hi": "Hindi",
     "fr": "Francés",
     "ar": "Arabic",
-    "bn": "Bengali"
+    "bn": "Bengali",
+	"ru": "Ruso"
   },
   "context": {
     "zoom_level": "{{zoom}}%",

@@ -34,7 +34,8 @@
 	"hindi": "印地语",
     "french": "法语",
     "arabic": "阿拉伯语",
-    "bengali": "孟加拉语"
+    "bengali": "孟加拉语",
+	"russian": "俄语"
   },
   "language": {
     "en": "英语",
@@ -45,7 +46,8 @@
 	"hi": "印地语",
     "fr": "法语",
     "ar": "阿拉伯语",
-    "bn": "孟加拉语"
+    "bn": "孟加拉语",
+	"ru": "俄语"
   },
   "context": {
     "zoom_level": "{{zoom}}%",
