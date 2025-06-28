@@ -47,7 +47,22 @@
       .hamburger { display: block; cursor: pointer; }
     }
     .hamburger { display: none; font-size: 1.5rem; cursor: pointer; }
-  </style>
+  
+    .lang-switch{
+      background:#ffffff;
+      color:#003f5c;
+      padding:.35rem .65rem;
+      font-weight:600;
+      border:2px solid #ffd700;
+      border-radius:4px;
+      text-decoration:none;
+      transition:background .25s ease;
+    }
+    .lang-switch:hover{
+      background:#ffd700;
+      color:#003f5c;
+    }
+</style>
   <style>
    body {
           font-family: 'Inter', sans-serif;
@@ -107,6 +122,8 @@
      </a>
     </div>
    </nav>
+   <a href="pt/index.html" class="lang-switch" title="Brazilian Portuguese" aria-label="Brazilian Portuguese">pt-BR</a>
+
    <a class="cta" href="https://leanpub.com/genaipromptingguide">
     Get the Guide
    </a>
