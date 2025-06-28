@@ -1,0 +1,1751 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Painel de Dicas de Prompting para IA Generativa
+  </title>
+<style>
+   /* Configurações Globais e Variáveis */
+        :root {
+            --primary-color: #005f73;
+            --secondary-color: #0a9396;
+            --accent-color: #003f5c;
+            --background-light: #f8f9fa;
+            --background-medium: #e9ecef;
+            --text-color: #343a40;
+            --text-light: #495057;
+            --text-muted: #6c757d;
+            --text-on-dark-button: #ffffff;
+            --border-color: #dee2e6;
+            --border-color-medium: #ced4da;
+            --card-background: #ffffff;
+            --danger-color: #dc3545;
+            --danger-hover-color: #a71d2a;
+            --info-color: #007bff;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+            --focus-outline-color: var(--info-color);
+            --card-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            --card-hover-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            --modal-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            --modal-overlay-color: rgba(0,0,0,0.5);
+            --border-radius-small: 4px;
+            --border-radius-medium: 6px;
+            --border-radius-large: 8px;
+            --card-width: 450px;
+            --gap-size: 25px;
+            --padding-large: 25px;
+            --padding-medium: 20px;
+            --padding-small: 15px;
+            --padding-xs: 8px;
+            --padding-button-vertical: 4px;
+            --padding-button-horizontal: 8px;
+            --font-family-sans: sans-serif;
+            --transition-speed-fast: 0.2s;
+            --transition-speed-medium: 0.3s;
+            --transition-speed-slow: 0.4s;
+        }
+
+        html {
+          box-sizing: border-box;
+        }
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+
+        body {
+            font-family: var(--font-family-sans);
+            background-color: var(--background-light);
+            margin: 0;
+            padding: var(--padding-medium);
+            color: var(--text-color);
+        }
+
+        /* Cabeçalho */
+        .site-header {
+            display: flex;
+            /* Alterado para coluna para empilhar título e link */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            margin: 0;
+            margin-bottom: 8px; /* Adicionado margem abaixo de h1 */
+        }
+
+        /* Estilo para o novo link */
+        .header-link {
+            display: block; /* Torná-lo um elemento de bloco */
+            text-align: center; /* Centralizar o texto */
+            margin-top: 5px; /* Espaço acima do link */
+            margin-bottom: 15px; /* Espaço abaixo do link antes do conteúdo */
+            color: var(--secondary-color); /* Usar variável existente */
+            text-decoration: none; /* Remover sublinhado */
+            font-size: 0.9em;
+        }
+        .header-link:hover {
+            text-decoration: underline; /* Sublinhado ao passar o mouse */
+            color: var(--primary-color); /* Cor mais escura ao passar o mouse */
+        }
+
+        #help-icon-btn {
+            position: absolute;
+            right: 10px;
+            /* Posição superior ajustada devido ao link adicionado */
+            top: 5px;
+            /* Transformação removida, pois o alinhamento vertical é menos crítico agora */
+            background: none;
+            border: 1px solid var(--border-color-medium);
+            border-radius: 50%;
+            font-size: 1.2em;
+            line-height: 1;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            padding: 0;
+            color: var(--text-muted);
+            transition: background-color var(--transition-speed-fast) ease, border-color var(--transition-speed-fast) ease;
+        }
+        #help-icon-btn:hover {
+            background-color: var(--background-medium);
+            border-color: var(--text-muted);
+        }
+
+        /* Painel e Cartões */
+        main.dashboard-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: var(--gap-size);
+            padding: var(--padding-medium);
+            transition: opacity var(--transition-speed-medium) ease-in-out;
+        }
+
+        .card {
+            background-color: var(--card-background);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid transparent;
+            border-radius: var(--border-radius-large);
+            box-shadow: var(--card-shadow);
+            padding: var(--padding-large);
+            max-width: var(--card-width);
+            width: 100%;
+            cursor: pointer;
+            transition: transform var(--transition-speed-fast) ease, box-shadow var(--transition-speed-fast) ease, border-left-color var(--transition-speed-medium) ease, opacity var(--transition-speed-slow) ease-in-out;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .card.card-has-notes {
+            border-left-color: var(--secondary-color);
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--card-hover-shadow);
+        }
+
+        main.dashboard-container.focus-mode-active .card:not(.card-is-focused) {
+            opacity: 0.15;
+            pointer-events: none;
+        }
+
+        .card.card-is-focused {
+            cursor: default;
+        }
+
+        .card-icon {
+            font-size: 2.8em;
+            margin-bottom: var(--padding-small);
+            color: var(--secondary-color);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: var(--accent-color);
+            font-size: 1.3em;
+        }
+
+        .card-description {
+            color: var(--text-light);
+            margin-bottom: var(--padding-small);
+            font-size: 0.95em;
+            min-height: 50px;
+        }
+
+        /* Detalhes do Cartão (Área Expansível) */
+        .card-details {
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            margin-top: 0;
+            padding: 0 var(--padding-small);
+            border-top: 1px solid transparent;
+            transition: max-height var(--transition-speed-slow) ease-in-out,
+                        opacity var(--transition-speed-slow) ease-in-out,
+                        padding-top var(--transition-speed-slow) ease-in-out,
+                        padding-bottom var(--transition-speed-slow) ease-in-out,
+                        margin-top var(--transition-speed-slow) ease-in-out,
+                        border-color var(--transition-speed-slow) ease-in-out;
+            font-size: 0.9em;
+            text-align: left;
+            width: 100%;
+            background-color: var(--background-light);
+            border-radius: 0 0 var(--border-radius-large) var(--border-radius-large);
+            cursor: default;
+            position: relative;
+        }
+
+        .card-details.show-details {
+            max-height: 3000px; /* Altura máxima aumentada para conteúdo potencialmente mais longo */
+            opacity: 1;
+            margin-top: var(--padding-medium);
+            padding-top: var(--padding-medium);
+            padding-bottom: var(--padding-small);
+            border-top-color: var(--border-color);
+            overflow-y: auto;
+        }
+
+        .card-details h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+
+        .card-details p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .card-details ul, .card-details ol {
+            padding-left: var(--gap-size);
+            margin-bottom: var(--padding-small);
+        }
+
+        .card-details li {
+            margin-bottom: var(--padding-xs);
+        }
+
+        /* Tabelas dentro dos Detalhes do Cartão */
+        .card-details table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: var(--padding-small);
+            font-size: 0.95em;
+            table-layout: fixed;
+        }
+
+        .card-details th, .card-details td {
+            border: 1px solid var(--border-color-medium);
+            padding: var(--padding-xs);
+            text-align: left;
+            vertical-align: top;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+
+        .card-details th {
+            background-color: var(--background-medium);
+            font-weight: bold;
+        }
+
+        .card-details tr:nth-child(even) {
+            background-color: var(--background-light);
+        }
+
+        /* Balanceador de Estrutura */
+        .structure-balancer {
+            border: 1px solid var(--border-color-medium);
+            border-radius: var(--border-radius-medium);
+            padding: var(--padding-small);
+            margin-bottom: var(--padding-medium);
+            background-color: var(--background-medium);
+        }
+
+        .balancer-control {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--padding-xs);
+            gap: 10px;
+        }
+
+        .balancer-control label {
+            flex-basis: 100px;
+            flex-shrink: 0;
+            font-size: 0.9em;
+        }
+
+        .balancer-control input[type="range"] {
+            flex-grow: 1;
+            width: auto;
+            min-width: 50px;
+            cursor: pointer;
+        }
+
+        .balancer-control .value-display {
+            font-weight: bold;
+            min-width: 40px; /* Garante espaço para 100% */
+            text-align: right;
+            /* Exibição de porcentagem agora está visível novamente */
+        }
+
+        /*
+        Regra removida:
+        .balancer-control .value-display {
+            display: none;
+        }
+        */
+
+        .balancer-bars {
+            display: flex;
+            height: 20px;
+            border-radius: var(--border-radius-small);
+            overflow: hidden;
+            background-color: var(--border-color);
+            margin-top: var(--padding-small);
+            margin-bottom: var(--padding-small);
+        }
+
+        .balancer-bars .bar {
+            height: 100%;
+            transition: width var(--transition-speed-medium) ease-in-out;
+            text-indent: -9999px; /* Ocultar texto dentro das barras */
+        }
+
+        #bar-context { background-color: var(--info-color); }
+        #bar-output { background-color: var(--success-color); }
+        #bar-task { background-color: var(--warning-color); }
+        #bar-constraints { background-color: var(--danger-color); }
+
+        #balancer-tip {
+            margin-top: 10px;
+            font-size: 0.85em;
+            font-style: italic;
+            color: var(--text-light);
+            min-height: 2.5em; /* Ajuste se necessário com base no novo comprimento da dica */
+            text-align: center;
+        }
+
+        /* Área de Anotações */
+        .notes-area {
+            margin-top: var(--padding-medium);
+            border-top: 1px dashed var(--border-color-medium);
+            padding-top: var(--padding-small);
+            position: relative;
+        }
+
+        .notes-area label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .notes-area textarea {
+            /* Largura ajustada para se adequar melhor ao preenchimento */
+            width: calc(100% - 10px); /* Considere o preenchimento do pai */
+            margin: 0 5px; /* Centralize um pouco */
+            min-height: 80px;
+            border: 1px solid var(--border-color-medium);
+            border-radius: var(--border-radius-small);
+            padding: var(--padding-xs);
+            font-family: var(--font-family-sans);
+            font-size: 0.95em;
+            resize: vertical;
+        }
+
+        .delete-note-btn {
+            position: absolute;
+            top: 10px;
+            right: 5px;
+            background: none;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            color: var(--danger-color);
+            padding: 5px;
+            line-height: 1;
+            z-index: 1;
+            transition: color var(--transition-speed-fast) ease;
+        }
+
+        .delete-note-btn:hover {
+            color: var(--danger-hover-color);
+        }
+
+        /* Botão Modo Foco */
+        .focus-mode-btn {
+            position: absolute;
+            top: var(--padding-small);
+            right: var(--padding-small);
+            background-color: var(--text-muted);
+            color: var(--text-on-dark-button);
+            border: none;
+            border-radius: var(--border-radius-small);
+            padding: var(--padding-button-vertical) var(--padding-button-horizontal);
+            font-size: 0.8em;
+            cursor: pointer;
+            z-index: 1;
+            transition: background-color var(--transition-speed-fast) ease;
+        }
+
+        .focus-mode-btn:hover {
+            background-color: var(--text-light);
+        }
+
+        .focus-mode-btn.focus-active {
+            background-color: var(--info-color);
+        }
+
+        /* Modal (<dialog>) */
+        dialog#help-modal {
+            padding: 0;
+            border: none;
+            border-radius: var(--border-radius-large);
+            box-shadow: var(--modal-shadow);
+            width: 80%;
+            max-width: 600px;
+            animation: fadeInModal var(--transition-speed-medium) ease-out;
+            overflow: visible; /* Permitir estouro do botão de fechar */
+        }
+
+        dialog#help-modal::backdrop {
+            background-color: var(--modal-overlay-color);
+            animation: fadeInBackdrop var(--transition-speed-medium) ease-out;
+        }
+
+        .modal-content {
+            background-color: var(--card-background);
+            padding: 30px;
+            position: relative;
+            border-radius: inherit;
+        }
+
+        .close-modal-btn {
+            color: var(--text-muted);
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            line-height: 1;
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            transition: color var(--transition-speed-fast) ease;
+        }
+
+        .close-modal-btn:hover,
+        .close-modal-btn:focus {
+            color: var(--text-color);
+            text-decoration: none;
+            outline: none;
+        }
+
+        .modal-content h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .modal-content ul {
+            padding-left: var(--padding-medium);
+            margin-top: var(--padding-small);
+        }
+
+        .modal-content li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        /* Animações */
+        @keyframes fadeInModal {
+            from {opacity: 0; transform: translateY(-20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+        @keyframes fadeInBackdrop {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        /* Estilos de Foco de Acessibilidade */
+        button:focus-visible,
+        input[type="range"]:focus-visible,
+        textarea:focus-visible,
+        .card:focus-visible,
+        a:focus-visible, /* Adicionado foco para link */
+        .close-modal-btn:focus-visible {
+          outline: 3px solid var(--focus-outline-color);
+          outline-offset: 2px;
+          box-shadow: 0 0 0 3px var(--focus-outline-color);
+        }
+        button, input[type="range"], textarea, .card, a, .close-modal-btn {
+            outline: none; /* Remover contorno padrão */
+        }
+  </style>
+<style>
+   body {
+          font-family: 'Inter', sans-serif;
+          font-weight: 400;
+          line-height: 1.6;
+        }
+        h1 {
+          font-size: 2rem;
+          font-weight: 700;
+          line-height: 1.3;
+        }
+        h2 {
+          font-size: 1.5rem;
+          font-weight: 600;
+          line-height: 1.4;
+        }
+        p {
+          font-size: 1rem;
+        }
+  </style>
+</head>
+<body>
+<div style="width: 100%; background-color: #003f5c; color: white; padding: 1rem; text-align: center;">
+<h1 style="margin: 0; font-size: 1.5rem; color: white;">
+    🧠 Folha de Dicas de Prompting
+   </h1>
+<p style="margin: 0.3rem 0 0;">
+<a href="https://leanpub.com/iagenerativa" style="color: white; text-decoration: underline;" target="_blank">
+     Obtenha o Guia Profissional de Engenharia de IA Generativa no Leanpub
+    </a>
+</p>
+</div>
+<header>
+<div class="hamburger" onclick="toggleMenu()" style="margin-top: 10px; margin-left: 10px; font-size: 1.8rem; cursor: pointer; position: relative;">
+    ☰
+   </div>
+<div id="menu" style="display: none; position: absolute; top: 150px; left: 10px; background-color: #003f5c; padding: 10px; border-radius: 5px;">
+<a href="index.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Início
+    </a>
+<a href="about.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Sobre o Guia
+    </a>
+<a href="audience.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Para Quem é
+    </a>
+<a href="templates.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Modelos
+    </a>
+<a href="advanced.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Técnicas Avançadas
+    </a>
+<a href="vibe.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Codificação Vibe
+    </a>
+<a href="podcasts.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Podcasts
+    </a>
+<a href="cheat sheet.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Folha de Dicas
+    </a>
+<a href="about-author.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Sobre o Autor
+    </a>
+<a href="resources.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Recursos
+    </a>
+<a href="privacy.html" style="display: block; color: white; text-decoration: none; padding: 5px 0;">
+     Política de Privacidade
+    </a>
+<a href="https://leanpub.com/iagenerativa" style="display: block; margin: 5px 0; color: white; text-decoration: none;" target="_blank">
+    Obtenha o Guia -->
+   </a>
+</div>
+</header>
+<header>
+</header>
+<main class="dashboard-container">
+<div class="card" data-section-id="prompt-structure">
+<div class="card-icon">
+     🔷
+    </div>
+<h2>
+     Estrutura do Prompt
+    </h2>
+<p class="card-description">
+     Os componentes essenciais para prompts eficazes e seu equilíbrio sugerido.
+    </p>
+<div class="card-details"><p>Apresenta os quatro componentes essenciais de um prompt de alta qualidade: Contexto, Formato de Saída, Tarefa e Restrições. Os usuários podem ajustar os controles deslizantes para visualizar como a ênfase em cada componente afeta o comportamento do prompt. As barras visuais e as dicas ajudam os aprendizes a entender como criar prompts mais precisos, estruturados e orientados a objetivos com base no resultado pretendido. É uma ferramenta prática para dominar a anatomia do prompt.</p>
+<button class="focus-mode-btn" title="Alternar modo de foco">
+      Foco
+     </button>
+<div class="structure-balancer">
+<h3>
+       Ajuste os Pesos dos Componentes:
+      </h3>
+<div class="balancer-control">
+<label for="slider-context">
+        Contexto:
+       </label>
+<input data-component="context" id="slider-context" max="100" min="0" step="1" type="range" value="0"/>
+<span class="value-display" id="value-context">
+        0%
+       </span>
+</div>
+<div class="balancer-control">
+<label for="slider-output">
+        Formato de Saída:
+       </label>
+<input data-component="output" id="slider-output" max="100" min="0" step="1" type="range" value="0"/>
+<span class="value-display" id="value-output">
+        0%
+       </span>
+</div>
+<div class="balancer-control">
+<label for="slider-task">
+        Tarefa:
+       </label>
+<input data-component="task" id="slider-task" max="100" min="0" step="1" type="range" value="0"/>
+<span class="value-display" id="value-task">
+        0%
+       </span>
+</div>
+<div class="balancer-control">
+<label for="slider-constraints">
+        Restrições:
+       </label>
+<input data-component="constraints" id="slider-constraints" max="100" min="0" step="1" type="range" value="0"/>
+<span class="value-display" id="value-constraints">
+        0%
+       </span>
+</div>
+<div class="balancer-bars">
+<div class="bar" id="bar-context" title="Contexto">
+</div>
+<div class="bar" id="bar-output" title="Formato de Saída">
+</div>
+<div class="bar" id="bar-task" title="Tarefa">
+</div>
+<div class="bar" id="bar-constraints" title="Restrições/Tom">
+</div>
+</div>
+<div id="balancer-tip">
+       Mova os controles deslizantes para ver dicas com base na ênfase.
+      </div>
+</div>
+<h3>
+      Detalhamento dos Componentes:
+     </h3>
+<table>
+<thead>
+<tr>
+<th scope="col">
+         Componente
+        </th>
+<th scope="col">
+         Descrição
+        </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+         Informação (Contexto)
+        </td>
+<td>
+         Informações de base (dados de domínio, objetivos, contexto) que o modelo precisa para precisão e relevância.
+        </td>
+</tr>
+<tr>
+<td>
+         Formato de Saída
+        </td>
+<td>
+         Dica estrutural (tabela, lista, resumo) que define como a resposta deve aparecer para legibilidade e eficiência do fluxo de trabalho.
+        </td>
+</tr>
+<tr>
+<td>
+         Tarefa (Objetivo)
+        </td>
+<td>
+         Instruções claras (resuma, analise, compare) usando verbos de ação, muitas vezes com restrições (contagem de palavras, tom).
+        </td>
+</tr>
+<tr>
+<td>
+         Restrições e Tom
+        </td>
+<td>
+         Instruções de segurança, tom preferido (formal, casual) ou alinhamento com o público; essencial para conformidade ou voz da marca.
+        </td>
+</tr>
+</tbody>
+</table>
+<p>
+<i>
+       “Adicionar consciência contextual e conhecimento específico do domínio aos prompts pode melhorar significativamente a relevância e a precisão das respostas geradas por IA.”
+      </i>
+</p>
+<p>
+<i>
+       “Especificar o formato garante que cada estágio do prompting recursivo se desenvolva logicamente, resultando em um produto coerente.”
+      </i>
+</p>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-prompt-structure" title="Excluir anotação para esta seção">
+       🗑️
+      </button>
+<label for="notes-prompt-structure">
+       Minhas Anotações:
+      </label>
+<textarea id="notes-prompt-structure"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="prompt-patterns">
+<div class="card-icon">
+     🧩
+    </div>
+<h2>
+     Padrões de Prompt Eficazes
+    </h2>
+<p class="card-description">
+     Métodos comprovados para estruturar prompts para diferentes tipos de tarefas e resultados.
+    </p>
+<div class="card-details"><p>Apresenta um conjunto selecionado de estruturas de prompt repetíveis, desde prompts baseados em papéis até cadeia de pensamento e testes adversariais. Cada padrão inclui uma breve descrição e exemplo, facilitando a compreensão de quando e como aplicá-los. É especialmente útil para aqueles que procuram aplicar técnicas testadas para aumentar a confiabilidade e a consistência em diferentes casos de uso.</p>
+<button class="focus-mode-btn" title="Alternar modo de foco">
+      Foco
+     </button>
+<h3>
+      Padrões Comuns:
+     </h3>
+<table>
+<thead>
+<tr>
+<th scope="col">
+         Padrão
+        </th>
+<th scope="col">
+         Descrição
+        </th>
+<th scope="col">
+         Exemplo
+        </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+         Prompting Baseado em Papel
+        </td>
+<td>
+         Atribui uma persona/especialidade para direcionar o tom and o raciocínio.
+        </td>
+<td>
+         “Você é um historiador de arte da Renascença...”
+        </td>
+</tr>
+<tr>
+<td>
+         Refinamento Iterativo
+        </td>
+<td>
+         Melhora as respostas por meio de acompanhamentos direcionados.
+        </td>
+<td>
+         “Escreva um artigo. Agora revise-o...”
+        </td>
+</tr>
+<tr>
+<td>
+         Cadeia de Pensamento
+        </td>
+<td>
+         Incentiva etapas estruturadas e lógicas para tarefas complexas.
+        </td>
+<td>
+         “Explique passo a passo como calcular...”
+        </td>
+</tr>
+<tr>
+<td>
+         Prompting Baseado em Restrições
+        </td>
+<td>
+         Aplica limites estritos de formato, estilo ou comprimento.
+        </td>
+<td>
+         “Explique a retropropagação neural em exatamente três frases...”
+        </td>
+</tr>
+<tr>
+<td>
+         Esclarecimento da Tarefa + Formato
+        </td>
+<td>
+         Separa Contexto, Tarefa, Formato para maior clareza.
+        </td>
+<td>
+         “Contexto: Você é um revisor de tecnologia. Tarefa: Compare o iPhone... Formato: Dois parágrafos...”
+        </td>
+</tr>
+<tr>
+<td>
+         Prompting de Poucos Exemplos (Few-Shot)
+        </td>
+<td>
+         Fornece exemplos de entrada-saída para o modelo seguir.
+        </td>
+<td>
+         “É assim que geralmente escrevemos e-mails para clientes...”
+        </td>
+</tr>
+<tr>
+<td>
+         Prompting de Zero Exemplo (Zero-Shot)
+        </td>
+<td>
+         Dá instruções claras sem exemplos.
+        </td>
+<td>
+         “Escreva um e-mail de agradecimento profissional...”
+        </td>
+</tr>
+<tr>
+<td>
+         Teste Adversarial
+        </td>
+<td>
+         Desafia o modelo com prompts capciosos para testar a robustez.
+        </td>
+<td>
+         “Paris é a capital da França ou...”
+        </td>
+</tr>
+<tr>
+<td>
+         Autoconsistência
+        </td>
+<td>
+         Solicita múltiplas soluções para encontrar a resposta mais confiável.
+        </td>
+<td>
+         “Resolva 2x + 3 = 11 usando pelo menos dois métodos.”
+        </td>
+</tr>
+</tbody>
+</table>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-prompt-patterns" title="Excluir anotação para esta seção">
+       🗑️
+      </button>
+<label for="notes-prompt-patterns">
+       Minhas Anotações:
+      </label>
+<textarea id="notes-prompt-patterns"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="vibe-coding">
+<div class="card-icon">
+     💡
+    </div>
+<h2>
+     Codificação Vibe
+    </h2>
+<p class="card-description">
+     Uma abordagem de linguagem natural para construir software simples sem escrever código tradicional.
+    </p>
+<div class="card-details">
+<button class="focus-mode-btn" title="Alternar modo de foco">
+      Foco
+     </button>
+<h3>
+      O que é:
+     </h3>
+<p>
+      Uma maneira para não-engenheiros criarem software leve e de uso único usando prompts. Ideal para MVPs, ferramentas pessoais e automação criativa.
+     </p>
+<h3>
+      Conceitos-chave:
+     </h3>
+<ul>
+<li>
+       Prompt-para-código: "Crie um rastreador de tarefas..."
+      </li>
+<li>
+       Depuração conversacional para refinar.
+      </li>
+<li>
+       Nenhum conhecimento de programação necessário.
+      </li>
+<li>
+       Enfatiza a experimentação.
+      </li>
+</ul>
+<h3>
+      Exemplos de Projetos:
+     </h3>
+<p>
+<a href="https://gttome.github.io/GenAI/" style="text-decoration: underline; color: #003f5c;" target="_blank">
+            🌐 Guia Profissional de Engenharia de Prompt de IA Generativa – Website
+          </a>
+</p>
+<p>
+<a href="https://gttome.github.io/GenAI/cheat%20sheet.html" style="text-decoration: underline;      color: #003f5c;" target="_blank">
+    📋 Folha de Dicas de Engenharia de Prompt de IA Generativa –
+  </a>
+</p>
+<p>📂 Quadro Kanban<br/>🔄 Conversor de Moedas GUI</p>
+<h3>
+      Melhor para:
+     </h3>
+<p>
+      Criativos, educadores, analistas; prototipagem, automação interna, ferramentas de ensino.
+     </p>
+<h3>
+      ⚠️ Cuidados:
+     </h3>
+<ul>
+<li>
+       O código de IA pode carecer de segurança, estrutura.
+      </li>
+<li>
+       Sempre teste antes do uso real.
+      </li>
+<li>
+       Não é para software em escala de produção.
+      </li>
+</ul>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-vibe-coding" title="Excluir anotação para esta seção">
+       🗑️
+      </button>
+<label for="notes-vibe-coding">
+       Minhas Anotações:
+      </label>
+<textarea id="notes-vibe-coding"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="ai-learning-platform">
+<div class="card-icon">
+     📦
+    </div>
+<h2>
+     Plataforma de Aprendizagem de IA
+    </h2>
+<p class="card-description">
+     Usando ferramentas de IA para transformar conteúdo estático em um sistema de aprendizagem interativo.
+    </p>
+<div class="card-details"><p>Destaca como criar uma plataforma educacional aumentada por IA usando ferramentas como NotebookLM, Illuminate e GPTs personalizados. Essas ferramentas permitem que os alunos explorem, interajam e personalizem sua jornada de aprendizagem. É ideal para quem projeta ambientes de aprendizagem autodirigidos ou colaborativos alimentados por IA.</p>
+<button class="focus-mode-btn" title="Alternar modo de foco">
+      Foco
+     </button>
+<h3>
+      Ferramentas Principais:
+     </h3>
+<ul>
+<li>
+<strong>
+        🧠 NotebookLM:
+       </strong>
+       Crie bases de conhecimento vinculadas à pesquisa, mapeie relacionamentos de ideias.
+       <i>
+        “Organize e explore ideias interconectadas para uma compreensão mais profunda.”
+       </i>
+</li>
+<li>
+<strong>
+        🎙️ Illuminate:
+       </strong>
+       Converta conteúdo estático em discussões dinâmicas de IA.
+       <i>
+        “Facilita o diálogo em tempo real, aprimorado por IA, que dá vida a ideias estáticas.”
+       </i>
+</li>
+<li>
+<strong>
+        🤖 GPTs Personalizados:
+       </strong>
+       Treine um tutor personalizado usando conteúdo específico.
+       <i>
+        “Obtenha acesso a um tutor personalizado capaz de responder a perguntas e oferecer esclarecimentos.”
+       </i>
+</li>
+</ul>
+<h3>
+      Melhores Casos de Uso:
+     </h3>
+<ul>
+<li>
+       Estudo autodirigido
+      </li>
+<li>
+       Exploração de pesquisa
+      </li>
+<li>
+       Aprendizagem colaborativa
+      </li>
+<li>
+       Perguntas e respostas com reconhecimento de contexto
+      </li>
+<li>
+       Treinamento aumentado por IA
+      </li>
+</ul>
+<p>
+<i>
+       “Essa sinergia transforma o Guia em uma plataforma viva e pulsante para aprendizado interativo e desenvolvimento profissional.”
+      </i>
+</p>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-ai-learning-platform" title="Excluir anotação para esta seção">
+       🗑️
+      </button>
+<label for="notes-ai-learning-platform">
+       Minhas Anotações:
+      </label>
+<textarea id="notes-ai-learning-platform"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="use-cases">
+<div class="card-icon">
+     💼
+    </div>
+<h2>
+     Casos de Uso
+    </h2>
+<p class="card-description">
+     Exemplos de aplicação de engenharia de prompt em diferentes domínios.
+    </p>
+<div class="card-details"><p>Oferece exemplos práticos de engenharia de prompt em negócios, educação e áreas técnicas. Mostra como os prompts são usados para redação de SEO, bots de treinamento, sumarização jurídica e muito mais. Uma ótima referência para quem busca entender as aplicações intersetoriais do prompting de IA.</p>
+<button class="focus-mode-btn" title="Alternar modo de foco">
+      Foco
+     </button>
+<h3>
+      Aplicações:
+     </h3>
+<table>
+<thead>
+<tr>
+<th scope="col">
+         Negócios
+        </th>
+<th scope="col">
+         Educação
+        </th>
+<th scope="col">
+         Técnico
+        </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+         📋 Treinamento de funcionários
+        </td>
+<td>
+         🧑‍🏫 Bots assistentes de ensino
+        </td>
+<td>
+         🧪 Sumarização de relatórios científicos
+        </td>
+</tr>
+<tr>
+<td>
+         ✍️ Geração de conteúdo para SEO
+        </td>
+<td>
+         📚 Trilhas de aprendizagem interativas
+        </td>
+<td>
+         ⚖️ Elaboração de documentos legais
+        </td>
+</tr>
+<tr>
+<td>
+         📝 Condensação de notas de reunião
+        </td>
+<td>
+         📖 Auxílios de estudo com exemplos
+        </td>
+<td>
+         📊 Scripting de prompts para análise de dados
+        </td>
+</tr>
+<tr>
+<td>
+         🛍️ Descrições de produtos/serviços
+        </td>
+<td>
+         🎓 Assistentes de tutoria baseados em GPT
+        </td>
+<td>
+         🔎 Aplicações de recuperação de conhecimento
+        </td>
+</tr>
+</tbody>
+</table>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-use-cases" title="Excluir anotação para esta seção">
+       🗑️
+      </button>
+<label for="notes-use-cases">
+       Minhas Anotações:
+      </label>
+<textarea id="notes-use-cases"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="output-formats">
+<div class="card-icon">
+     📤
+    </div>
+<h2>
+     Formatos de Saída
+    </h2>
+<p class="card-description">
+     Definindo como a IA deve estruturar e apresentar sua resposta.
+    </p>
+<div class="card-details">
+<button class="focus-mode-btn" title="Alternar modo de foco">
+      Foco
+     </button>
+<p>
+      Especifica a estrutura, estilo e organização da resposta. Formatos claros melhoram a usabilidade, a precisão e os fluxos de trabalho.
+     </p>
+<h3>
+      Formatos Comuns:
+     </h3>
+<ul>
+<li>
+<strong>
+        📊 Tabela:
+       </strong>
+       Comparações, dados estruturados. Ex: "Liste os 5 melhores produtos... em uma tabela."
+      </li>
+<li>
+<strong>
+        • Lista com marcadores:
+       </strong>
+       Pontos claros e escaneáveis. Ex: "Liste os benefícios de marketing como pontos."
+      </li>
+<li>
+<strong>
+        📝 Resumo Executivo:
+       </strong>
+       Visão geral concisa. Ex: "Resuma as conclusões do relatório..."
+      </li>
+<li>
+<strong>
+        🖼️ Texto pronto para slide:
+       </strong>
+       Para apresentações (títulos, pontos curtos).
+      </li>
+<li>
+<strong>
+        📈 Gráficos / Markdown:
+       </strong>
+       Visuais, documentação, wikis, tutoriais.
+      </li>
+<li>
+<strong>
+        🔧 JSON / YAML:
+       </strong>
+       Saídas estruturadas para software/APIs.
+      </li>
+<li>
+<strong>
+        📄 Documentos Estruturados:
+       </strong>
+       POPs, NDAs, rascunhos legais. Ex: "Elabore um NDA com cláusulas..."
+      </li>
+</ul>
+<p>
+<i>
+       “Definir o formato de saída garante que cada estágio do prompting recursivo se desenvolva logicamente, resultando em um produto final coerente.”
+      </i>
+</p>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-output-formats" title="Excluir anotação para esta seção">
+       🗑️
+      </button>
+<label for="notes-output-formats">
+       Minhas Anotações:
+      </label>
+<textarea id="notes-output-formats"></textarea>
+</div>
+</div>
+</div>
+<div class="card" data-section-id="prompting-techniques">
+<div class="card-icon">
+     🔧
+    </div>
+<h2>
+     Técnicas de Prompting
+    </h2>
+<p class="card-description">
+     Métodos fundamentais repetidamente enfatizados para uma engenharia de prompt eficaz.
+    </p>
+<div class="card-details"><p>Resume princípios fundamentais de prompting, como ser específico, atribuir papéis e usar lógica passo a passo. Inclui descrições concisas e exemplos para ajudar os usuários a refinar sua abordagem de prompting. Essas técnicas são essenciais para melhorar a qualidade, a confiabilidade e a adaptabilidade do conteúdo gerado por IA.</p>
+<button class="focus-mode-btn" title="Alternar modo de foco">
+      Foco
+     </button>
+<h3>
+      Técnicas-Chave:
+     </h3>
+<table>
+<thead>
+<tr>
+<th scope="col">
+         Técnica
+        </th>
+<th scope="col">
+         Descrição
+        </th>
+<th scope="col">
+         Exemplo de Prompt
+        </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+         Seja Específico
+        </td>
+<td>
+         Instruções claras (escopo, resultado, formato).
+        </td>
+<td>
+         “Liste 3 dicas de marketing acionáveis para o 4º trimestre.”
+        </td>
+</tr>
+<tr>
+<td>
+         Passo a Passo
+        </td>
+<td>
+         Incentiva a decomposição lógica para coerência.
+        </td>
+<td>
+         “Vamos pensar nisso passo a passo...”
+        </td>
+</tr>
+<tr>
+<td>
+         Atribua um Papel
+        </td>
+<td>
+         Enquadra a identidade da IA para mudança de estilo/tom.
+        </td>
+<td>
+         “Atuando como um executivo de RH, escreva...”
+        </td>
+</tr>
+<tr>
+<td>
+         Esclareça o Formato de Saída
+        </td>
+<td>
+         Especifica a estrutura (JSON, tabela, lista).
+        </td>
+<td>
+         “Saída como uma lista com marcadores e subtítulos...”
+        </td>
+</tr>
+<tr>
+<td>
+         Prompting Iterativo
+        </td>
+<td>
+         Prompts projetados para estágios de refinamento.
+        </td>
+<td>
+         “Aqui está um rascunho. Agora revise para ser mais...”
+        </td>
+</tr>
+<tr>
+<td>
+         Prompting Comparativo
+        </td>
+<td>
+         Gera avaliações lado a lado.
+        </td>
+<td>
+         “Compare os prós e contras do Slack vs. Teams...”
+        </td>
+</tr>
+<tr>
+<td>
+         Forneça Exemplos
+        </td>
+<td>
+         Usa prompts de poucos exemplos para orientação de estilo/tom.
+        </td>
+<td>
+         “É assim que respondemos aos tickets de suporte...”
+        </td>
+</tr>
+<tr>
+<td>
+         Acompanhamentos Estruturados
+        </td>
+<td>
+         Incentiva a IA a guiar as próximas ações/fazer perguntas.
+        </td>
+<td>
+         “Quais 3 perguntas eu deveria fazer para melhorar este prompt?”
+        </td>
+</tr>
+</tbody>
+</table>
+<p>
+<i>
+       “Refinar e iterar prompts não é opcional—é essencial para alcançar resultados confiáveis e de alta qualidade.”
+      </i>
+</p>
+<div class="notes-area">
+<button class="delete-note-btn" data-textarea-id="notes-prompting-techniques" title="Excluir anotação para esta seção">
+       🗑️
+      </button>
+<label for="notes-prompting-techniques">
+       Minhas Anotações:
+      </label>
+<textarea id="notes-prompting-techniques"></textarea>
+</div>
+</div>
+</div>
+</main>
+<dialog id="help-modal">
+<div class="modal-content">
+<span class="close-modal-btn" title="Fechar">
+     ×
+    </span>
+<h2>
+     Como Usar Este Painel
+    </h2>
+<p>
+     Este painel ajuda você a entender e usar técnicas eficazes de prompting para IA Generativa:
+    </p>
+<ul>
+<li>
+<strong>
+       Clique em um Cartão:
+      </strong>
+      Clique em qualquer lugar de um cartão (fora da área de anotações) para expandi-lo e ver os detalhes. Clique novamente para recolher.
+     </li>
+<li>
+<strong>
+       Modo Foco:
+      </strong>
+      Clique no botão "Foco" dentro de um cartão expandido para escurecer os outros cartões, ajudando você a se concentrar em um tópico. Clique em "Sair do Foco" ou fora do cartão focado para retornar à visualização normal.
+     </li>
+<li>
+<strong>
+       Anotações:
+      </strong>
+      Use a área de texto "Minhas Anotações" em cada cartão expandido para salvar seus pensamentos ou exemplos pessoais. As anotações são salvas automaticamente no seu navegador.
+     </li>
+<li>
+<strong>
+       Excluir Anotações:
+      </strong>
+      Clique no ícone da lixeira (🗑️) ao lado da área de anotações para limpar as anotações daquela seção específica.
+     </li>
+<li>
+<strong>
+       Balanceador de Prompt:
+      </strong>
+      No cartão "Estrutura Perfeita do Prompt", use os controles deslizantes (0-100%) para visualizar diferentes equilíbrios entre os componentes do prompt. Dicas aparecerão abaixo com base no componente com o valor mais alto, categorizadas em ênfase Baixa (1-33%), Média (34-66%) e Alta (67-100%). A redefinição de outros controles deslizantes ocorre automaticamente quando você aumenta significativamente um controle deslizante.
+     </li>
+<li>
+<strong>
+       Ajuda:
+      </strong>
+      Clique no ícone de ponto de interrogação (?) no cabeçalho a qualquer momento para reabrir esta janela de ajuda.
+     </li>
+</ul>
+</div>
+</dialog>
+<script>
+   function toggleMenu() {
+  var menu = document.getElementById('menu');
+  if (menu.style.display === 'flex') {
+    menu.style.display = 'none';
+  } else {
+    menu.style.display = 'flex';
+    menu.style.flexDirection = 'column';
+  }
+}
+  </script>
+<script>
+   // Espere o DOM ser totalmente carregado e analisado
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // --- Seletores ---
+            const dashboardContainer = document.querySelector('.dashboard-container');
+            const allNotesAreas = document.querySelectorAll('.notes-area textarea');
+            const allDetailsSections = document.querySelectorAll('.card-details');
+            const allCards = document.querySelectorAll('.card');
+            const helpIconBtn = document.getElementById('help-icon-btn');
+            const helpModal = document.getElementById('help-modal'); // Agora um elemento <dialog>
+            const closeModalBtn = helpModal ? helpModal.querySelector('.close-modal-btn') : null;
+            const structureBalancer = document.querySelector('.structure-balancer');
+
+            // Seletores específicos do balanceador (inicializados posteriormente)
+            let sliders = {};
+            let valueDisplays = {};
+            let bars = {};
+            let tipDisplay = null;
+            let isAdjusting = false; // Flag para prevenir atualizações recursivas
+
+            // Constantes do balanceador
+            const LOW_RESET_VALUE = 0;
+
+            // --- Inicialização do Balanceador ---
+            function initializeBalancer() {
+                if (!structureBalancer) {
+                    // console.warn("Elemento do balanceador de estrutura não encontrado. Pulando inicialização.");
+                    return; // Não prossiga se o balanceador não estiver na página
+                }
+                try {
+                    sliders = {
+                        context: document.getElementById('slider-context'),
+                        output: document.getElementById('slider-output'),
+                        task: document.getElementById('slider-task'),
+                        constraints: document.getElementById('slider-constraints')
+                    };
+                    valueDisplays = {
+                        context: document.getElementById('value-context'),
+                        output: document.getElementById('value-output'),
+                        task: document.getElementById('value-task'),
+                        constraints: document.getElementById('value-constraints')
+                    };
+                    bars = {
+                        context: document.getElementById('bar-context'),
+                        output: document.getElementById('bar-output'),
+                        task: document.getElementById('bar-task'),
+                        constraints: document.getElementById('bar-constraints')
+                    };
+                    tipDisplay = document.getElementById('balancer-tip');
+
+                    // Verificar se todos os elementos foram encontrados
+                    let allElementsFound = true;
+                    [sliders, valueDisplays, bars].forEach(obj => {
+                        for (const key in obj) {
+                            if (!obj[key]) {
+                                console.error(`Elemento do balanceador faltando: ${key}`);
+                                allElementsFound = false;
+                            }
+                        }
+                    });
+                    if (!tipDisplay) {
+                        console.error("Exibição da dica do balanceador faltando");
+                        allElementsFound = false;
+                    }
+
+                    if (!allElementsFound) {
+                        console.error("Não é possível inicializar o balanceador devido a elementos ausentes.");
+                        return; // Pare a inicialização se elementos críticos estiverem faltando
+                    }
+
+                    // Definir valores iniciais e anexar ouvintes
+                    for (const key in sliders) {
+                        if (sliders.hasOwnProperty(key)) {
+                            sliders[key].value = LOW_RESET_VALUE; // Comece em 0
+                            valueDisplays[key].textContent = `${LOW_RESET_VALUE}%`;
+                            bars[key].style.width = `${LOW_RESET_VALUE}%`;
+                            sliders[key].addEventListener('input', handleSliderInput);
+                            sliders[key].step = "1";
+                        }
+                    }
+                    tipDisplay.textContent = "Mova os controles deslizantes para ver dicas com base na ênfase."; // Dica padrão atualizada
+
+                } catch (error) {
+                    console.error("Erro ao inicializar o balanceador:", error);
+                }
+            }
+
+            // --- Lógica do Balanceador ---
+
+            // *** componentTips MODIFICADO COMEÇO (Intervalos de porcentagem removidos) ***
+            const componentTips = {
+                 context: {
+                    low: "Contexto Baixo: OK para consultas simples e gerais onde a ambiguidade é baixa. Por quê? Menos contexto necessário.",
+                    med: "Contexto Médio: Forneça informações essenciais, objetivos ou exemplos para relevância padrão. Por quê? Garante que a IA entenda o requisito principal.",
+                    high: "Contexto Alto: Crucial para tarefas complexas, com nuances ou específicas do domínio. Forneça informações detalhadas, dados, informações do usuário. Por quê? Maximiza a precisão e a relevância, dando à IA uma compreensão profunda."
+                },
+                output: {
+                    low: "Foco Baixo na Saída: A formatação padrão é aceitável. Bom para exploração ou quando a estrutura não é crítica. Por quê? Estrutura mínima necessária.",
+                    med: "Foco Médio na Saída: Solicite estruturas padrão como listas, tabelas ou resumos. Por quê? Melhora a legibilidade e a usabilidade para tarefas comuns.",
+                    high: "Foco Alto na Saída: Defina formatos estritos (JSON, YAML, modelos de documentos específicos) ou guias de estilo detalhados. Por quê? Necessário para integração de dados, automação ou apresentação precisa."
+                },
+                task: {
+                    low: "Foco Baixo na Tarefa: Instruções simples e diretas (por exemplo, 'escreva uma frase', 'liste ideias'). Por quê? A ação principal é direta.",
+                    med: "Foco Médio na Tarefa: Ações de complexidade padrão (por exemplo, 'resuma este texto', 'compare A e B', 'explique o conceito X'). Por quê? Requer instruções claras, mas comuns.",
+                    high: "Foco Alto na Tarefa: Instruções complexas, de várias etapas, criativas ou analíticas. Desmembre a tarefa claramente. Por quê? Orientação detalhada necessária para objetivos ou raciocínio intrincados."
+                },
+                constraints: {
+                    low: "Restrições Baixas: Poucas restrições necessárias; o comportamento padrão da IA é aceitável. Bom para geração de final aberto. Por quê? Permite máxima flexibilidade.",
+                    med: "Restrições Médias: Especifique o tom desejado (formal, casual), estilo, público ou limites básicos (comprimento, pontos-chave). Por quê? Guia a saída para as características desejadas.",
+                    high: "Restrições Altas: Essencial para segurança, voz da marca, exclusões específicas, regras complexas ou processos passo a passo. Por quê? Garante conformidade, precisão e controle sobre saídas sensíveis ou específicas."
+                }
+            };
+            // *** componentTips MODIFICADO FIM ***
+
+            // *** Função getTipLevel (Inalterada da versão anterior) ***
+            function getTipLevel(value) {
+                const val = parseInt(value, 10);
+                if (val >= 67) return 'high'; // 67-100%
+                if (val >= 34) return 'med';  // 34-66%
+                if (val >= 1) return 'low';   // 1-33%
+                return 'none'; // Se o valor for 0 ou menos
+            }
+
+            // *** Função handleSliderInput (Inalterada da versão anterior) ***
+            function handleSliderInput(event) {
+                if (isAdjusting || !structureBalancer) return;
+
+                const movedSlider = event.target;
+                if (!movedSlider) return;
+
+                const movedComponent = movedSlider.getAttribute('data-component');
+                if (!movedComponent || !sliders[movedComponent]) {
+                     console.warn("Entrada do controle deslizante de componente desconhecido:", movedComponent);
+                     return;
+                }
+
+                const movedValue = parseInt(movedSlider.value, 10);
+                let highestValue = 0;
+                let dominantComponent = null;
+
+                let needsReset = movedValue > 0;
+
+                if (needsReset) {
+                     isAdjusting = true;
+                     for (const key in sliders) {
+                         if (sliders.hasOwnProperty(key) && key !== movedComponent) {
+                              if (sliders[key]) sliders[key].value = LOW_RESET_VALUE;
+                              if (valueDisplays[key]) valueDisplays[key].textContent = `${LOW_RESET_VALUE}%`;
+                              if (bars[key]) bars[key].style.width = `${LOW_RESET_VALUE}%`;
+                         }
+                     }
+                    if (valueDisplays[movedComponent]) valueDisplays[movedComponent].textContent = `${movedValue}%`;
+                    if (bars[movedComponent]) bars[movedComponent].style.width = `${movedValue}%`;
+
+                    highestValue = movedValue;
+                    dominantComponent = movedComponent;
+                    isAdjusting = false;
+                } else {
+                    if (valueDisplays[movedComponent]) valueDisplays[movedComponent].textContent = `${movedValue}%`;
+                    if (bars[movedComponent]) bars[movedComponent].style.width = `${movedValue}%`;
+
+                    highestValue = 0;
+                    dominantComponent = null;
+                    for (const key in sliders) {
+                        if (sliders.hasOwnProperty(key) && sliders[key]) {
+                            const currentValue = parseInt(sliders[key].value, 10);
+                            if (currentValue > highestValue) {
+                                highestValue = currentValue;
+                                dominantComponent = key;
+                            }
+                        }
+                    }
+                }
+
+                if (tipDisplay) {
+                     let tip = "Mova os controles deslizantes para ver dicas com base na ênfase.";
+                     const level = getTipLevel(highestValue);
+
+                     if (dominantComponent && level !== 'none') {
+                        tip = componentTips[dominantComponent]?.[level] || tip;
+                     }
+                     tipDisplay.textContent = tip;
+                }
+            }
+
+
+            // --- Funções Utilitárias (Inalteradas) ---
+            function updateNoteIndicator(textarea) {
+                if (!textarea) return;
+                const card = textarea.closest('.card');
+                if (card) {
+                    if (textarea.value.trim() !== '') {
+                        card.classList.add('card-has-notes');
+                    } else {
+                        card.classList.remove('card-has-notes');
+                    }
+                }
+            }
+
+            function deactivateFocusMode() {
+                if (dashboardContainer) {
+                     dashboardContainer.classList.remove('focus-mode-active');
+                }
+                allCards.forEach(card => card.classList.remove('card-is-focused'));
+                document.querySelectorAll('.focus-mode-btn').forEach(btn => {
+                    btn.textContent = 'Foco';
+                    btn.classList.remove('focus-active');
+                });
+            }
+
+            // --- Configuração Inicial (Inalterada) ---
+
+            // Inicialização de Anotações (Carregar do localStorage)
+            allNotesAreas.forEach(textarea => {
+                try {
+                    const savedNote = localStorage.getItem(textarea.id);
+                    if (savedNote) {
+                        textarea.value = savedNote;
+                    }
+                    updateNoteIndicator(textarea);
+
+                    textarea.addEventListener('input', function() {
+                        try {
+                            localStorage.setItem(this.id, this.value);
+                            updateNoteIndicator(this);
+                        } catch (e) {
+                            console.error("Erro ao salvar anotação no localStorage:", e);
+                        }
+                    });
+
+                    textarea.addEventListener('click', event => event.stopPropagation());
+
+                } catch (error) {
+                    console.error("Erro ao configurar anotações para a área de texto:", textarea.id, error);
+                }
+            });
+
+            // Configuração do Modal de Ajuda (<dialog>)
+            if (helpIconBtn && helpModal && closeModalBtn) {
+                helpIconBtn.addEventListener('click', () => {
+                    if (helpModal.showModal) {
+                         helpModal.showModal();
+                    } else {
+                         console.error("dialog.showModal() não suportado ou elemento modal não encontrado.");
+                    }
+                });
+
+                closeModalBtn.addEventListener('click', () => {
+                    if (helpModal.close) helpModal.close();
+                });
+
+                helpModal.addEventListener('click', (event) => {
+                    if (event.target === helpModal) {
+                        if (helpModal.close) helpModal.close();
+                    }
+                });
+            } else {
+                 if (!helpIconBtn) console.warn("Botão de ícone de ajuda não encontrado.");
+                 if (!helpModal) console.warn("Elemento modal de ajuda não encontrado.");
+                 if (!closeModalBtn) console.warn("Botão de fechar modal não encontrado.");
+            }
+
+            // Chamada de Inicialização do Balanceador
+            initializeBalancer();
+
+            // --- Ouvinte de Evento Principal do Painel (Delegação de Eventos - Inalterada) ---
+            if (dashboardContainer) {
+                dashboardContainer.addEventListener('click', function(event) {
+                    try {
+                        const targetElement = event.target;
+                        const clickedCard = targetElement.closest('.card');
+
+                        // 1. Clique dentro do Balanceador de Estrutura: Não faça nada
+                        if (targetElement.closest('.structure-balancer')) { return; }
+
+                        // 2. Clique no Botão de Excluir Anotação
+                        if (targetElement.classList.contains('delete-note-btn')) {
+                            event.stopPropagation();
+                            const textareaId = targetElement.getAttribute('data-textarea-id');
+                            const textarea = document.getElementById(textareaId);
+                            if (textarea && window.confirm('Tem certeza de que deseja excluir esta anotação?')) {
+                                textarea.value = '';
+                                localStorage.removeItem(textareaId);
+                                updateNoteIndicator(textarea);
+                            }
+                            return;
+                        }
+
+                        // 3. Clique no Botão de Modo Foco
+                        if (targetElement.classList.contains('focus-mode-btn')) {
+                            event.stopPropagation();
+                            const cardToFocus = targetElement.closest('.card');
+                            if (!cardToFocus) return;
+                            const isCurrentlyFocused = cardToFocus.classList.contains('card-is-focused');
+                            if (isCurrentlyFocused) {
+                                deactivateFocusMode();
+                            } else {
+                                deactivateFocusMode();
+                                if (dashboardContainer) dashboardContainer.classList.add('focus-mode-active');
+                                allCards.forEach(c => c.classList.remove('card-is-focused'));
+                                cardToFocus.classList.add('card-is-focused');
+                                targetElement.textContent = 'Sair do Foco';
+                                targetElement.classList.add('focus-active');
+                            }
+                            return;
+                        }
+
+                        // Lógica de Expansão/Recolhimento de Cartão
+                        if (!clickedCard) {
+                            if(dashboardContainer && dashboardContainer.classList.contains('focus-mode-active')) {
+                                deactivateFocusMode();
+                            }
+                            return;
+                        }
+
+                        if (dashboardContainer && dashboardContainer.classList.contains('focus-mode-active') && !clickedCard.classList.contains('card-is-focused')) {
+                            deactivateFocusMode();
+                        }
+
+                        const details = clickedCard.querySelector('.card-details');
+                        if (!details) return;
+
+                        const isClickInsideDetails = details.contains(targetElement) && details.classList.contains('show-details');
+                        const isFocusActiveOnThis = clickedCard.classList.contains('card-is-focused');
+
+                        if (isClickInsideDetails || isFocusActiveOnThis) {
+                             if (targetElement.tagName === 'A' || targetElement.tagName === 'BUTTON') {
+                                // Permitir ação
+                             } else {
+                                  return; // Não alternar
+                             }
+                        }
+
+                        const isCurrentlyVisible = details.classList.contains('show-details');
+                        if (!isCurrentlyVisible) {
+                            deactivateFocusMode();
+                            allDetailsSections.forEach(detailSection => {
+                                detailSection.classList.remove('show-details');
+                            });
+                        }
+                        details.classList.toggle('show-details');
+
+                    } catch (error) {
+                        console.error("Erro no ouvinte de clique do painel:", error);
+                    }
+                });
+            } else {
+                console.error("Elemento contêiner do painel não encontrado! As interações principais não funcionarão.");
+            }
+        }); // Fim do DOMContentLoaded
+  </script>
+<footer style="background:#333; color:white; text-align:center; padding:1rem; font-size:0.9rem; margin-top:2rem;">
+   © 2025 George Tome / Agility AI LLC. Todos os direitos reservados. | Disponível no Leanpub
+  </footer>
+</body>
+</html>

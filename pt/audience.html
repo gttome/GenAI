@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Para Quem é - Guia Profissional de Engenharia de Prompt para IA Generativa
+  </title>
+  <style>
+   body { font-family: Arial, sans-serif; margin: 0; background: #fdfdfd; color: #333; }
+    header { background: #003f5c; color: white; padding: 1rem; position: relative; }
+    .hamburger { font-size: 1.8rem; cursor: pointer; position: absolute; top: 1.8rem; left: 1rem; color: black; }
+    .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 10px; background: #003f5c; padding: 10px; border-radius: 5px; z-index: 9999; }
+    .nav-links a { color: white; text-decoration: none; padding: 5px 0; display: block; }
+    .nav-links a:hover { text-decoration: underline; }
+    .container { padding: 2rem; max-width: 900px; margin: auto; }
+    footer { background: #333; color: white; text-align: center; padding: 1rem; font-size: 0.9rem; margin-top: 2rem; }
+    h1 { color: #003f5c; }
+    h2 { color: #005f73; margin-top: 2rem; }
+  
+.audience-image {
+  display: block;
+  float: right;
+  margin-top: 20px;
+  max-width: 300px;
+  height: auto;
+}
+
+</style>
+  <style>
+   body {
+          font-family: 'Inter', sans-serif;
+          font-weight: 400;
+          line-height: 1.6;
+        }
+        h1 {
+          font-size: 2rem;
+          font-weight: 700;
+          line-height: 1.3;
+        }
+        h2 {
+          font-size: 1.5rem;
+          font-weight: 600;
+          line-height: 1.4;
+        }
+        p {
+          font-size: 1rem;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <div class="hamburger" onclick="toggleMenu()">
+    ☰
+   </div>
+   <div class="nav-links" id="menu">
+    <a href="index.html">
+     Início
+    </a>
+    <a href="about.html">
+     Sobre o Guia
+    </a>
+    <a href="audience.html">
+     Para Quem é
+    </a>
+    <a href="templates.html">
+     Modelos
+    </a>
+    <a href="advanced.html">
+     Técnicas Avançadas
+    </a>
+    <a href="vibe.html">
+     Codificação Vibe
+    </a>
+    <a href="podcasts.html">
+     Podcasts
+    </a>
+    <a href="cheat sheet.html">
+     Folha de Dicas
+    </a>
+    <a href="about-author.html">
+     Sobre o Autor
+    </a>
+    <a href="resources.html">
+     Recursos
+    </a>
+    <a href="privacy.html">
+     Política de Privacidade
+    </a>
+<a href="https://leanpub.com/iagenerativa" target="_blank" style="display: block; margin: 5px 0; color: white; text-decoration: none;">
+    Obtenha o Guia -->
+   </a>
+
+   </div>
+
+  </header>
+
+<img src="audience.png" alt="Ilustração de diversos tipos de público usando engenharia de prompt de IA" class="audience-image">
+
+  <section class="container">
+   <h1>
+    Para Quem é
+   </h1>
+   <p>
+    Este guia foi escrito para um amplo público de profissionais que desejam aprimorar seu uso de IA Generativa. Se você quer ir além da tentativa e erro e construir prompts que funcionem de forma confiável, você está no lugar certo.
+   </p>
+   <h2>
+    🧑‍💻 Desenvolvedores e Engenheiros
+   </h2>
+   <p>
+    Use o guia para acelerar a geração de código, escrever documentação clara e construir ferramentas e agentes baseados em prompts. Aproveite exemplos e formatação JSON/YAML para integrar as saídas diretamente em aplicativos.
+   </p>
+   <h2>
+    📈 Líderes de Negócios e Estrategistas
+   </h2>
+   <p>
+    Entenda como aproveitar a IA para produtividade, análise de mercado e suporte à decisão. Use padrões estruturados para orientar as equipes em direção ao uso consistente e eficaz das ferramentas de IA.
+   </p>
+   <h2>
+    🧠 Pesquisadores e Analistas
+   </h2>
+   <p>
+    Aplique técnicas de prompting para explorar ideias, gerar comparações estruturadas ou resumir documentos complexos com precisão e transparência.
+   </p>
+   <h2>
+    🎓 Educadores e Instrutores
+   </h2>
+   <p>
+    Crie prompts de aprendizagem personalizados, crie agentes de tutoria e estruture a entrega de conhecimento usando padrões como prompting baseado em papéis, iterativo e de poucos exemplos (few-shot).
+   </p>
+   <h2>
+    🎨 Criativos e Criadores de Conteúdo
+   </h2>
+   <p>
+    Desbloqueie fluxos de trabalho de ideação, colabore com a IA para criar rascunhos, revisar roteiros ou formatar conteúdo com precisão e criatividade. Os prompts aqui apoiam a narração de histórias, a modelagem de tom e a geração interativa.
+   </p>
+   <h2>
+    🧩 Exploradores de IA e Entusiastas de Prompts
+   </h2>
+   <p>
+    Se você é obcecado por testar o que é possível e quer melhorar a confiabilidade de seus resultados, as técnicas e padrões neste guia o ajudarão a sistematizar seus experimentos.
+   </p>
+  </section>
+  <footer>
+   © 2025 George Tome / Agility AI LLC. Todos os direitos reservados. | Disponível no Leanpub
+  </footer>
+  <script>
+   function toggleMenu() {
+    var menu = document.getElementById('menu');
+    if (menu.style.display === 'flex') {
+      menu.style.display = 'none';
+    } else {
+      menu.style.display = 'flex';
+      menu.style.flexDirection = 'column';
+    }
+  }
+  </script>
+ </body>
+</html>
