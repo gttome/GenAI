@@ -180,7 +180,7 @@ html[data-theme="sepia"] {
 
 /* Page‐number input width */
 #page-num-input {
-  width: calc(50px + 1ch);
+  width: calc(50px + 2ch);
   text-align: center;
 }
 
