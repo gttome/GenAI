@@ -1,0 +1,451 @@
+/*
+ * Style sheet for the 4C Workshop website
+ * A modern, responsive design with clean typography and vibrant colors.
+ */
+
+/* CSS Variables for colors and sizing */
+:root {
+  --color-primary: #5445a3; /* deep indigo */
+  --color-secondary: #ffb74d; /* warm amber */
+  --color-accent: #4db6ac; /* teal accent */
+  --color-light: #f5f5f7; /* very light grey */
+  --color-dark: #2f3542; /* dark grey for text */
+  --border-radius: 8px;
+  --transition-speed: 0.3s;
+  --max-width: 960px;
+}
+
+/* Global resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Navigation */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #ffffffee;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+.brand {
+  font-size: 1.4rem;
+  color: var(--color-primary);
+  margin-right: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li a {
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--border-radius);
+  transition: background-color var(--transition-speed);
+}
+
+.nav-links li a:hover,
+.nav-links li a:focus {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/hero.png');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6);
+  z-index: -1;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #f0f0f0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--transition-speed);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: darken(var(--color-primary), 10%);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: darken(var(--color-secondary), 10%);
+}
+
+/* Section */
+.section {
+  padding: 3rem 0 4rem;
+}
+
+.section-intro {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Cards and Grid */
+.four-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Mapping Table */
+.mapping-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.mapping-table th,
+.mapping-table td {
+  border: 1px solid #e0e0e0;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+.mapping-table th {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.mapping-table tr:nth-child(even) td {
+  background-color: #f8f8f8;
+}
+
+/* Progress Bar */
+.progress-wrapper {
+  background-color: #e0e0e0;
+  border-radius: var(--border-radius);
+  height: 12px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  transition: width 0.5s ease;
+}
+
+/* Modules (accordion) */
+.modules {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+details.module-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: var(--border-radius);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+details.module-card summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+details.module-card[open] summary {
+  background-color: var(--color-light);
+  border-bottom: 1px solid #e0e0e0;
+}
+
+details.module-card .module-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+details.module-card img.module-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+details.module-card .module-content {
+  padding: 1rem 1rem 1.5rem 1rem;
+  background-color: #ffffff;
+}
+
+details.module-card .module-content h4 {
+  margin-top: 0;
+}
+
+details.module-card .module-content pre {
+  background-color: #f3f3f3;
+  padding: 0.75rem;
+  border-radius: var(--border-radius);
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+
+details.module-card .module-content textarea {
+  width: 100%;
+  min-height: 120px;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+.module-actions {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.module-actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color var(--transition-speed);
+}
+
+.btn-complete {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+}
+
+.btn-complete.completed {
+  background-color: var(--color-accent);
+}
+
+.btn-toggle-answer {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.btn-toggle-answer.toggled {
+  background-color: var(--color-accent);
+}
+
+.self-checklist {
+  margin-top: 0.75rem;
+}
+
+.self-checklist label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+/* Quiz */
+.quiz-form {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  max-width: 700px;
+}
+
+.quiz-question {
+  margin-bottom: 1rem;
+}
+
+.quiz-question p {
+  margin-bottom: 0.25rem;
+}
+
+.quiz-question input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+}
+
+.quiz-form button {
+  margin-top: 1rem;
+}
+
+.quiz-result {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: var(--border-radius);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.quiz-reflection {
+  margin-top: 1.5rem;
+}
+
+#reflection-input {
+  width: 100%;
+  min-height: 100px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  font-family: inherit;
+}
+
+#reflection-save {
+  margin-top: 0.5rem;
+}
+
+.success-message {
+  color: green;
+  margin-top: 0.5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.footer-content a {
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .nav-links {
+    display: none;
+  }
+}

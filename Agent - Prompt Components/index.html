@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4‑Component Prompt Framework Workshop</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <h1 class="brand">4C Workshop</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#preface">Preface</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#modules">Modules</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg"></div>
+      <div class="hero-content container">
+        <h2 class="hero-title">Master the 4‑Component Prompt Framework</h2>
+        <p class="hero-subtitle">
+          A self‑guided 60‑minute workshop for marketers to craft precise, high‑quality AI prompts.
+        </p>
+        <a href="#schedule" class="btn btn-primary">Start Learning</a>
+      </div>
+    </section>
+
+    <!-- Preface / Introduction -->
+    <section id="preface" class="section container">
+      <h2>Preface: Mastering the 4‑Component Framework</h2>
+      <p>
+        This workshop teaches you a simple but powerful structure for every prompt you
+        write. The 4‑Component Framework helps you define who you are talking to,
+        what you need, how the output should look and the guardrails that shape the
+        result. When you fill in each piece, ambiguity disappears and quality
+        increases.
+      </p>
+      <div class="four-grid">
+        <div class="card">
+          <h3>Context</h3>
+          <p>
+            Specify your role, audience, domain and any inputs you must respect.
+            A precise context steers vocabulary, priorities and tone.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Task</h3>
+          <p>
+            Clarify exactly what must be produced. Use strong verbs (prioritize,
+            synthesize, contrast, justify, quantify, score) and list measurable
+            success criteria so “good” has meaning.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Output Format</h3>
+          <p>
+            Define how the result should look: sections, tables, headings, bullet
+            counts or word/character limits. Clear formats make review faster and
+            enable rubrics.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Constraints &amp; Tone</h3>
+          <p>
+            Set guardrails and voice. Add tone (pragmatic, non‑hype), do/don’t
+            lists, compliance notes and caveats for numbers. Include a short
+            verification step or self‑check to reduce hallucinations.
+          </p>
+        </div>
+      </div>
+      <h3>Quick Mapping Guide</h3>
+      <table class="mapping-table">
+        <thead>
+          <tr>
+            <th>Need</th>
+            <th>Put it in</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Role, audience, inputs/sources</td>
+            <td>Context</td>
+          </tr>
+          <tr>
+            <td>Deliverables, actions, success criteria</td>
+            <td>Task</td>
+          </tr>
+          <tr>
+            <td>Sections, tables, bullets, limits</td>
+            <td>Output Format</td>
+          </tr>
+          <tr>
+            <td>Tone, do/don’t, risk, verification</td>
+            <td>Constraints &amp; Tone</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>When to Adapt</h3>
+      <ul>
+        <li>
+          <strong>Fast exploration:</strong> keep Context and Task tight;
+          simplify the Output Format to encourage creativity.
+        </li>
+        <li>
+          <strong>High‑stakes or brand‑sensitive work:</strong> expand
+          Constraints &amp; Tone, add verification and prefer few‑shot with
+          exemplars.
+        </li>
+        <li>
+          <strong>Ambiguous requests:</strong> insert a short clarification step
+          in the Task (e.g., “Ask me 3 questions if anything is unclear”).
+        </li>
+      </ul>
+      <h3>Frequent Pitfalls &amp; Quick Fixes</h3>
+      <ul>
+        <li>Vague verbs → replace with rank, score, justify, quantify.</li>
+        <li>No limits → add word counts, bullet counts or deadlines.</li>
+        <li>Hype claims → require caveats and placeholders for evidence.</li>
+        <li>One‑off outputs → add [placeholders] so prompts become reusable.</li>
+        <li>Tone drift → use few‑shot with exemplars.</li>
+      </ul>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="section container">
+      <h2>Schedule at a Glance</h2>
+      <p class="section-intro">
+        The full workshop is designed for one hour. Each segment builds on the
+        last, guiding you from orientation through practice and evaluation. Click
+        a segment to expand its lesson, complete the tasks and track your
+        progress.
+      </p>
+      <div class="progress-wrapper">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+      <div id="modules" class="modules">
+        <!-- Module cards are inserted here by script.js -->
+      </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="section container">
+      <h2>Quick Quiz &amp; Reflection</h2>
+      <p>
+        Test your understanding of the framework before you wrap up. Answer the
+        multiple‑choice and short‑answer questions below. When you submit, you’ll
+        see the correct answers and a score.
+      </p>
+      <form id="quiz-form" class="quiz-form">
+        <div class="quiz-question">
+          <p><strong>1.</strong> Which element most strongly encodes how quality will be judged?</p>
+          <label><input type="radio" name="q1" value="A" /> A) Context</label><br />
+          <label><input type="radio" name="q1" value="B" /> B) Task</label><br />
+          <label><input type="radio" name="q1" value="C" /> C) Output Format</label><br />
+          <label><input type="radio" name="q1" value="D" /> D) Constraints &amp; Tone</label>
+        </div>
+        <div class="quiz-question">
+          <p><strong>2.</strong> Name two situations where few‑shot outperforms zero‑shot.</p>
+          <input type="text" name="q2" placeholder="Your answer" />
+        </div>
+        <div class="quiz-question">
+          <p><strong>3.</strong> What is the best way to keep reasoning private but improve quality?</p>
+          <label><input type="radio" name="q3" value="A" /> A) Show chain‑of‑thought</label><br />
+          <label><input type="radio" name="q3" value="B" /> B) Outline internally; return final answer; brief self‑check</label><br />
+          <label><input type="radio" name="q3" value="C" /> C) Skip outlining</label><br />
+          <label><input type="radio" name="q3" value="D" /> D) Add more adjectives</label>
+        </div>
+        <div class="quiz-question">
+          <p><strong>4.</strong> Write one verification step that reduces over‑claiming in copy.</p>
+          <input type="text" name="q4" placeholder="Your answer" />
+        </div>
+        <div class="quiz-question">
+          <p><strong>5.</strong> To avoid vague outputs, the best remedy is to:</p>
+          <label><input type="radio" name="q5" value="A" /> A) Add brand adjectives</label><br />
+          <label><input type="radio" name="q5" value="B" /> B) Specify measurable outcomes and limits in the Task</label><br />
+          <label><input type="radio" name="q5" value="C" /> C) Move goals to Constraints</label><br />
+          <label><input type="radio" name="q5" value="D" /> D) Ask for longer copy</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Quiz</button>
+      </form>
+      <div id="quiz-result" class="quiz-result" hidden></div>
+      <div id="quiz-reflection" class="quiz-reflection" hidden>
+        <h3>Reflection</h3>
+        <p>
+          Commit to one concrete habit you will adopt this week to reinforce your
+          new prompting skills. For example, you might always add a verification
+          checklist or collect exemplars for each asset type.
+        </p>
+        <textarea id="reflection-input" placeholder="Write your habit here..."></textarea>
+        <button id="reflection-save" class="btn btn-secondary">Save Reflection</button>
+        <p id="reflection-message" class="success-message" hidden>Your reflection has been saved in your browser.</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© 2025 4C Workshop. All rights reserved.</p>
+        <p>
+          <a href="../cheatsheet.pdf" download>Download Cheat Sheet</a> |
+          <a href="../bestpractices.pdf" download>Download Best Practices &amp; Pitfalls</a> |
+		  <a href="../prework.pptx" download>Download Prework PowerPoint</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
