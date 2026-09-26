@@ -81,7 +81,25 @@ a{color:inherit;text-decoration:none}
 .editable:hover{box-shadow:0 0 0 2px rgba(244,201,87,.55);background:rgba(255,246,210,.12)}
 .editable:focus{box-shadow:0 0 0 2px #f4c957;background:rgba(255,249,225,.12)}
 .editable.changed{box-shadow:0 0 0 2px #f4c957;background:rgba(255,245,200,.15)}
-.notice{position:fixed;right:18px;bottom:18px;z-index:300;max-width:360px;padding:12px 14px;border-radius:10px;background:#fff;color:#16304e;border:1px solid #ccd7e3;box-shadow:0 12px 32px rgba(0,0,0,.2);display:none;font-size:13px}
+.notice{position:fixed;right:18px;bottom:18px;z-index:300;max-width:390px;padding:12px 14px;border-radius:10px;background:#fff;color:#16304e;border:1px solid #ccd7e3;box-shadow:0 12px 32px rgba(0,0,0,.2);display:none;font-size:13px}
+.annotatable{position:relative}
+.annotatable img{user-select:none;-webkit-user-drag:none}
+.annotation-layer{position:absolute;inset:0;pointer-events:none}
+body.annotation-mode .annotatable{cursor:crosshair;outline:3px dashed rgba(244,201,87,.75);outline-offset:4px}
+body.annotation-mode .annotation-layer{pointer-events:auto}
+.image-annotation{position:absolute;border:2px solid #ffcf54;background:rgba(255,214,92,.24);box-shadow:0 0 0 1px rgba(7,26,53,.35);border-radius:5px;min-width:22px;min-height:18px;cursor:pointer;overflow:visible}
+.image-annotation .annotation-text{position:absolute;left:0;top:100%;margin-top:3px;max-width:260px;min-width:120px;background:#fff7d9;color:#152943;border:1px solid #e3b83f;border-radius:6px;padding:5px 7px;font-size:11px;line-height:1.25;box-shadow:0 5px 16px rgba(0,0,0,.18);white-space:normal;z-index:20}
+.annotation-help{display:none;position:fixed;left:18px;bottom:18px;z-index:290;background:#fff7d9;border:1px solid #e0b43d;color:#18304c;padding:10px 12px;border-radius:8px;font-size:12px;max-width:390px;box-shadow:0 8px 24px rgba(0,0,0,.15)}
+body.annotation-mode .annotation-help{display:block}
+.next-step-panel{display:none;margin-top:14px;background:#f7f9fc;color:#18304c;border:1px solid #d8e2ec;border-left:5px solid #f4c957;border-radius:12px;padding:22px}
+.next-step-panel.open{display:block}
+.next-step-panel .eyebrow{color:#9a731d}
+.next-step-panel h3{font-family:Georgia,serif;font-size:30px;margin:7px 0 9px;color:#0d294a}
+.next-step-panel p{line-height:1.55;font-size:14px;color:#435871}
+.next-step-list{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.next-step-item{background:#fff;border:1px solid #dce4ec;border-radius:9px;padding:13px;font-size:12px;line-height:1.4}
+.editorbar button.active{background:#f4c957;border-color:#f4c957;color:#10243e}
+.image-change-count{font-size:12px;background:#4b2d68;padding:6px 9px;border-radius:999px}
 @media(max-width:900px){
   .nav{gap:14px;font-size:12px}.hero-grid,.path-card,.assessment-top{grid-template-columns:1fr}
   .hero-art img{max-width:400px}.questions{grid-template-columns:1fr}.levels{grid-template-columns:1fr}
@@ -92,7 +110,9 @@ a{color:inherit;text-decoration:none}
 <body>
 <div class="editorbar">
   <strong>AI Adoption Benchmark — Content Review</strong>
-  <span class="count" id="changeCount">0 changes</span>
+  <span class="count" id="changeCount">0 text changes</span>
+  <span class="image-change-count" id="imageChangeCount">0 image notes</span>
+  <button id="annotateBtn" onclick="toggleAnnotationMode()">Annotate images</button>
   <button onclick="saveDraft()">Save draft</button>
   <button onclick="resetAll()">Reset</button>
   <button class="submit" onclick="submitForApproval()">Submit for approval</button>
@@ -119,8 +139,9 @@ a{color:inherit;text-decoration:none}
         <span class="editable" data-key="point3" contenteditable="true">Action-oriented</span>
       </div>
     </div>
-    <div class="hero-art">
+    <div class="hero-art annotatable" data-image-key="hero_tiers">
       <img src="https://solv1.gtome.chatgpt.site/framework/01_AI_Adoption_Benchmark_Tiers.png" alt="AI Adoption Benchmark maturity tiers">
+      <div class="annotation-layer"></div>
     </div>
   </div>
 </section>
@@ -134,7 +155,10 @@ a{color:inherit;text-decoration:none}
       <div class="path-promise editable" data-key="path_promise" contenteditable="true">Your advantage comes from clear goals, domain judgment, smart workflows, reliable evaluation, and measurable impact.</div>
     </div>
     <div>
-      <div class="path-art"><img src="https://solv1.gtome.chatgpt.site/framework/06_AI_Knowledge_Worker_Adoption.png" alt="Knowledge worker AI adoption pathway"></div>
+      <div class="path-art annotatable" data-image-key="knowledge_worker">
+        <img src="https://solv1.gtome.chatgpt.site/framework/06_AI_Knowledge_Worker_Adoption.png" alt="Knowledge worker AI adoption pathway">
+        <div class="annotation-layer"></div>
+      </div>
       <div class="image-actions"><b>↗ View full screen</b><span class="editable" data-key="image_note" contenteditable="true">Open the pathway graphic for a larger, zoomable view.</span></div>
     </div>
   </div>
@@ -223,14 +247,25 @@ a{color:inherit;text-decoration:none}
     </div>
     <div class="assessment-submit">
       <div class="progress-wrap"><div class="progress-label editable" data-key="progress_label" contenteditable="true">All six dimensions rated</div><div class="progress"><span></span></div></div>
-      <button class="next-btn editable" data-key="next_button" contenteditable="true">Show my next step →</button>
+      <button class="next-btn" type="button" onclick="showNextStep()"><span class="editable" data-key="next_button" contenteditable="true" onclick="event.stopPropagation()">Show my next step →</span></button>
+    </div>
+    <div class="next-step-panel" id="nextStepPanel">
+      <div class="eyebrow editable" data-key="next_eyebrow" contenteditable="true">YOUR NEXT STEP</div>
+      <h3 class="editable" data-key="next_title" contenteditable="true">Move from effective AI use to repeatable AI-enabled work.</h3>
+      <p class="editable" data-key="next_body" contenteditable="true">Your strongest next move is to turn successful one-off AI use into a repeatable workflow with clear context, verification, and a measurable outcome.</p>
+      <div class="next-step-list">
+        <div class="next-step-item editable" data-key="next_1" contenteditable="true"><strong>Standardize one workflow.</strong><br>Choose a recurring task and document the steps, context, and expected output.</div>
+        <div class="next-step-item editable" data-key="next_2" contenteditable="true"><strong>Add a quality check.</strong><br>Define how important outputs will be verified before they are used.</div>
+        <div class="next-step-item editable" data-key="next_3" contenteditable="true"><strong>Measure the result.</strong><br>Track a practical signal such as quality, cycle time, throughput, or rework.</div>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="compare" id="framework">
-  <div class="compare-card">
+  <div class="compare-card annotatable" data-image-key="maturity_framework">
     <img src="https://solv1.gtome.chatgpt.site/framework/03_AI_Maturity_Across_Roles.png" alt="Same maturity framework, different expertise">
+    <div class="annotation-layer"></div>
   </div>
 </section>
 
@@ -241,10 +276,45 @@ a{color:inherit;text-decoration:none}
 </footer>
 
 <div class="notice" id="notice"></div>
+<div class="annotation-help">Image annotation mode: drag a box over text in an image, then type the replacement wording you want. Double-click an existing note to edit it. Right-click a note to delete it. Image notes are review-only and are never applied automatically to the image file.</div>
 
 <script>
-const els=[...document.querySelectorAll(".editable")];
-const baseline=Object.fromEntries(els.map(el=>[el.dataset.key,el.innerHTML]));
+let els=[];
+let baseline={};
+let imageAnnotations=[];
+let annotationMode=false;
+let dragState=null;
+
+async function init(){
+  // Apply text that has already been approved into the GitHub copy.
+  try{
+    const r=await fetch("approved-text.json?ts="+Date.now(),{cache:"no-store"});
+    if(r.ok){
+      const approved=await r.json();
+      Object.entries(approved).forEach(([key,value])=>{
+        const el=document.querySelector('.editable[data-key="'+CSS.escape(key)+'"]');
+        if(el && typeof value==="string") el.innerHTML=value;
+      });
+    }
+  }catch(e){}
+  els=[...document.querySelectorAll(".editable")];
+  baseline=Object.fromEntries(els.map(el=>[el.dataset.key,el.innerHTML]));
+
+  const saved=localStorage.getItem("solv1-editor-draft-v2");
+  if(saved){
+    try{
+      const d=JSON.parse(saved);
+      if(d.text){
+        els.forEach(el=>{if(d.text[el.dataset.key]!=null)el.innerHTML=d.text[el.dataset.key]});
+      }
+      if(Array.isArray(d.imageAnnotations)) imageAnnotations=d.imageAnnotations;
+      if(d.nextStepOpen) document.getElementById("nextStepPanel")?.classList.add("open");
+    }catch(e){}
+  }
+  installAnnotationHandlers();
+  renderAnnotations();
+  updateCount();
+}
 
 function updateCount(){
   let n=0;
@@ -253,28 +323,146 @@ function updateCount(){
     el.classList.toggle("changed",c);
     if(c)n++;
   });
-  document.getElementById("changeCount").textContent=n+" change"+(n===1?"":"s");
+  document.getElementById("changeCount").textContent=n+" text change"+(n===1?"":"s");
+  document.getElementById("imageChangeCount").textContent=imageAnnotations.length+" image note"+(imageAnnotations.length===1?"":"s");
 }
 function snapshot(){return Object.fromEntries(els.map(el=>[el.dataset.key,el.innerHTML]));}
 function saveDraft(){
-  localStorage.setItem("solv1-editor-draft",JSON.stringify(snapshot()));
+  localStorage.setItem("solv1-editor-draft-v2",JSON.stringify({
+    text:snapshot(),
+    imageAnnotations,
+    nextStepOpen:document.getElementById("nextStepPanel")?.classList.contains("open")||false
+  }));
   toast("Draft saved on this computer.");
 }
 function resetAll(){
   els.forEach(el=>el.innerHTML=baseline[el.dataset.key]);
-  localStorage.removeItem("solv1-editor-draft");
+  imageAnnotations=[];
+  renderAnnotations();
+  localStorage.removeItem("solv1-editor-draft-v2");
+  document.getElementById("nextStepPanel")?.classList.remove("open");
   updateCount();
-  toast("Edits reset.");
+  toast("Text edits and image notes reset.");
 }
 function pick(btn){
   [...btn.parentElement.children].forEach(b=>b.classList.remove("selected"));
   btn.classList.add("selected");
 }
+function showNextStep(){
+  const p=document.getElementById("nextStepPanel");
+  p.classList.toggle("open");
+  if(p.classList.contains("open")) p.scrollIntoView({behavior:"smooth",block:"center"});
+}
+function toggleAnnotationMode(){
+  annotationMode=!annotationMode;
+  document.body.classList.toggle("annotation-mode",annotationMode);
+  document.getElementById("annotateBtn").classList.toggle("active",annotationMode);
+  toast(annotationMode ? "Image annotation mode is on. Drag over image text to add a requested replacement." : "Image annotation mode is off.");
+}
+function installAnnotationHandlers(){
+  document.querySelectorAll(".annotatable").forEach(box=>{
+    const layer=box.querySelector(".annotation-layer");
+    layer.addEventListener("pointerdown",startAnnotationDrag);
+    layer.addEventListener("pointermove",moveAnnotationDrag);
+    layer.addEventListener("pointerup",endAnnotationDrag);
+    layer.addEventListener("pointercancel",cancelAnnotationDrag);
+  });
+}
+function startAnnotationDrag(e){
+  if(!annotationMode || e.target.classList.contains("image-annotation") || e.target.closest(".image-annotation")) return;
+  e.preventDefault();
+  const layer=e.currentTarget;
+  const rect=layer.getBoundingClientRect();
+  const x=(e.clientX-rect.left)/rect.width*100;
+  const y=(e.clientY-rect.top)/rect.height*100;
+  const temp=document.createElement("div");
+  temp.className="image-annotation";
+  temp.style.left=x+"%";temp.style.top=y+"%";temp.style.width="0%";temp.style.height="0%";
+  layer.appendChild(temp);
+  dragState={layer,rect,startX:x,startY:y,temp,pointerId:e.pointerId};
+  try{layer.setPointerCapture(e.pointerId)}catch(_){}
+}
+function moveAnnotationDrag(e){
+  if(!dragState || dragState.layer!==e.currentTarget) return;
+  const x=(e.clientX-dragState.rect.left)/dragState.rect.width*100;
+  const y=(e.clientY-dragState.rect.top)/dragState.rect.height*100;
+  const left=Math.max(0,Math.min(dragState.startX,x));
+  const top=Math.max(0,Math.min(dragState.startY,y));
+  const w=Math.min(100-left,Math.abs(x-dragState.startX));
+  const h=Math.min(100-top,Math.abs(y-dragState.startY));
+  Object.assign(dragState.temp.style,{left:left+"%",top:top+"%",width:w+"%",height:h+"%"});
+}
+function endAnnotationDrag(e){
+  if(!dragState || dragState.layer!==e.currentTarget) return;
+  const box=dragState.layer.parentElement;
+  const style=dragState.temp.style;
+  const w=parseFloat(style.width),h=parseFloat(style.height);
+  dragState.temp.remove();
+  if(w>=1 && h>=1){
+    const note=prompt("What text should replace or change in this highlighted image area?","");
+    if(note && note.trim()){
+      imageAnnotations.push({
+        id:"imgnote-"+Date.now()+"-"+Math.random().toString(36).slice(2,7),
+        imageKey:box.dataset.imageKey,
+        x:parseFloat(style.left),y:parseFloat(style.top),w,h,
+        note:note.trim()
+      });
+      renderAnnotations();updateCount();saveDraft();
+    }
+  }
+  dragState=null;
+}
+function cancelAnnotationDrag(){
+  if(dragState){dragState.temp?.remove();dragState=null;}
+}
+function renderAnnotations(){
+  document.querySelectorAll(".annotation-layer").forEach(l=>l.innerHTML="");
+  imageAnnotations.forEach(a=>{
+    const box=document.querySelector('.annotatable[data-image-key="'+CSS.escape(a.imageKey)+'"]');
+    const layer=box?.querySelector(".annotation-layer");
+    if(!layer)return;
+    const el=document.createElement("div");
+    el.className="image-annotation";
+    el.dataset.annotationId=a.id;
+    Object.assign(el.style,{left:a.x+"%",top:a.y+"%",width:a.w+"%",height:a.h+"%"});
+    const label=document.createElement("div");
+    label.className="annotation-text";label.textContent=a.note;el.appendChild(label);
+    el.addEventListener("dblclick",ev=>{
+      ev.stopPropagation();
+      const next=prompt("Edit requested image text:",a.note);
+      if(next && next.trim()){a.note=next.trim();renderAnnotations();updateCount();saveDraft();}
+    });
+    el.addEventListener("contextmenu",ev=>{
+      ev.preventDefault();ev.stopPropagation();
+      if(confirm("Delete this image note?")){
+        imageAnnotations=imageAnnotations.filter(x=>x.id!==a.id);
+        renderAnnotations();updateCount();saveDraft();
+      }
+    });
+    layer.appendChild(el);
+  });
+}
 function submitForApproval(){
   const now=snapshot();
-  const changes=Object.keys(now).filter(k=>now[k]!==baseline[k]).map(k=>({field:k,current:baseline[k],proposed:now[k]}));
-  if(!changes.length){toast("There are no text changes to submit.");return;}
+  const textChanges=Object.keys(now).filter(k=>now[k]!==baseline[k]).map(k=>({field:k,current:baseline[k],proposed:now[k]}));
+  if(!textChanges.length && !imageAnnotations.length){toast("There are no changes to submit.");return;}
   const id="SOLV1-"+new Date().toISOString().replace(/[-:TZ.]/g,"").slice(0,14);
+  const pkg={
+    id,
+    source:"https://gttome.github.io/GenAI/solv1-editor/",
+    submittedAt:new Date().toISOString(),
+    textChanges,
+    imageAnnotations
+  };
+  const textSection=textChanges.length
+    ? textChanges.map(c=>"#### "+c.field+"\n**Current:** "+strip(c.current)+"\n\n**Proposed:** "+strip(c.proposed)+"\n").join("\n")
+    : "_No HTML text changes._";
+  const imageSection=imageAnnotations.length
+    ? imageAnnotations.map((a,i)=>
+        (i+1)+". **"+a.imageKey+"** — "+a.note+
+        "\n   - Highlight: x "+a.x.toFixed(1)+"%, y "+a.y.toFixed(1)+"%, width "+a.w.toFixed(1)+"%, height "+a.h.toFixed(1)+"%"
+      ).join("\n")
+    : "_No image changes requested._";
   const body=[
     "@gttome",
     "",
@@ -283,26 +471,38 @@ function submitForApproval(){
     "**Submission:** "+id,
     "**Source:** Public SOLV1 content editor",
     "",
-    "### Changes",
-    ...changes.map(c=>"#### "+c.field+"\n**Current:** "+strip(c.current)+"\n\n**Proposed:** "+strip(c.proposed)+"\n"),
+    "## HTML text changes",
+    "These are the changes that may be applied automatically when approved.",
+    "",
+    textSection,
+    "",
+    "## Image change requests",
+    "These annotations are review-only. Approval MUST NOT alter image files. They remain pending for manual image revision.",
+    "",
+    imageSection,
+    "",
+    "## Approval behavior",
+    "Comment **/approve-text** on this issue to apply only the HTML text changes to the GitHub editor copy. Image annotations will remain unchanged and pending manual work.",
+    "",
+    "<!-- SOLV1_CHANGE_PACKAGE",
+    JSON.stringify(pkg),
+    "SOLV1_CHANGE_PACKAGE -->",
     "",
     "---",
     "Submitted from https://gttome.github.io/GenAI/solv1-editor/"
   ].join("\n");
-  localStorage.setItem("solv1-last-submission",JSON.stringify({id,changes,proposed:now,submittedAt:new Date().toISOString()}));
+  localStorage.setItem("solv1-last-submission",JSON.stringify(pkg));
   const url="https://github.com/gttome/GenAI/issues/new?title="+encodeURIComponent("SOLV1 content approval: "+id)+"&body="+encodeURIComponent(body);
   window.open(url,"_blank","noopener");
-  toast("Approval request prepared in GitHub. Click “Submit new issue” to send it.");
+  toast("Approval request prepared. In GitHub, click “Submit new issue” to send it.");
 }
 function strip(s){const d=document.createElement("div");d.innerHTML=s;return d.textContent.trim();}
 function toast(t){
   const n=document.getElementById("notice");n.textContent=t;n.style.display="block";
-  clearTimeout(window._toast);window._toast=setTimeout(()=>n.style.display="none",4500);
+  clearTimeout(window._toast);window._toast=setTimeout(()=>n.style.display="none",4800);
 }
 document.addEventListener("input",e=>{if(e.target.classList?.contains("editable"))updateCount()});
-const saved=localStorage.getItem("solv1-editor-draft");
-if(saved){try{const d=JSON.parse(saved);els.forEach(el=>{if(d[el.dataset.key]!=null)el.innerHTML=d[el.dataset.key]})}catch(e){}}
-updateCount();
+init();
 </script>
 </body>
 </html>
