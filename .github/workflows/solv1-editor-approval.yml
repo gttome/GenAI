@@ -1,0 +1,70 @@
+name: SOLV1 editor approval
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  apply-approved-text:
+    if: >
+      github.event.issue.pull_request == null &&
+      startsWith(github.event.issue.title, 'SOLV1 content approval:') &&
+      github.event.comment.body == '/approve-text' &&
+      github.actor == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Apply approved HTML text only
+        id: apply
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python - <<'PY'
+          import json, os, pathlib, re
+          body = os.environ["ISSUE_BODY"]
+          m = re.search(r"<!-- SOLV1_CHANGE_PACKAGE\s*(\{.*?\})\s*SOLV1_CHANGE_PACKAGE -->", body, re.S)
+          if not m:
+              raise SystemExit("No SOLV1 change package found in issue body.")
+          package = json.loads(m.group(1))
+          target = pathlib.Path("solv1-editor/approved-text.json")
+          approved = json.loads(target.read_text(encoding="utf-8")) if target.exists() else {}
+          for change in package.get("textChanges", []):
+              approved[change["field"]] = change["proposed"]
+          target.write_text(json.dumps(approved, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+          image_count = len(package.get("imageAnnotations", []))
+          text_count = len(package.get("textChanges", []))
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"text_count={text_count}\n")
+              f.write(f"image_count={image_count}\n")
+          PY
+
+      - name: Commit approved text
+        run: |
+          if git diff --quiet -- solv1-editor/approved-text.json; then
+            echo "No approved text changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add solv1-editor/approved-text.json
+          git commit -m "Apply approved SOLV1 text changes from issue #${{ github.event.issue.number }}"
+          git push origin main
+
+      - name: Comment approval result
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ steps.apply.outputs.image_count }}" = "0" ]; then
+            gh issue comment "${{ github.event.issue.number }}" --body "Approved HTML text changes were applied to \`solv1-editor/approved-text.json\`. No image changes were requested."
+            gh issue close "${{ github.event.issue.number }}"
+          else
+            gh issue comment "${{ github.event.issue.number }}" --body "Approved HTML text changes were applied to \`solv1-editor/approved-text.json\`. **${{ steps.apply.outputs.image_count }} image annotation request(s) remain pending for manual image revision.** The image files were not changed."
+          fi
