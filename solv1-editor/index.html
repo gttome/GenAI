@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Adoption Benchmark — Content Review</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root{
+  --navy:#061a35;--navy2:#0b2d56;--navy3:#132d4d;--ink:#11223d;
+  --gold:#f4c957;--paper:#f6f8fb;--line:#dce4ed;--muted:#607087;
+  --card:#102642;--card2:#132d4b;--blue:#1e63a8
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:#fff;color:var(--ink)}
+a{color:inherit;text-decoration:none}
+.editorbar{position:sticky;top:0;z-index:200;display:flex;align-items:center;gap:10px;padding:10px 18px;background:#020e20;color:#fff;box-shadow:0 2px 15px rgba(0,0,0,.28)}
+.editorbar strong{margin-right:auto}
+.editorbar .count{font-size:12px;background:#183758;padding:6px 9px;border-radius:999px}
+.editorbar button{border:1px solid #9aabc0;border-radius:8px;padding:8px 11px;background:#fff;color:#10243e;font-weight:800;cursor:pointer}
+.editorbar .submit{background:var(--gold);border-color:var(--gold)}
+.site-header{height:72px;display:flex;align-items:center;padding:0 max(7vw,28px);background:#f7f8fb;border-bottom:1px solid #dfe5ed}
+.brand{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:850;color:#10203a}
+.logo{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,#0c2d59,#1a5f9f);color:white;display:grid;place-items:center;font-weight:900;position:relative}
+.logo:after{content:"";position:absolute;bottom:-6px;width:3px;height:7px;background:var(--gold);border-radius:2px}
+.nav{margin-left:auto;display:flex;gap:36px;font-size:14px;font-weight:750;color:#33455d}
+.hero{background:linear-gradient(90deg,#071b34,#0b2c56 62%,#143968);padding:75px max(7vw,28px);color:#fff}
+.hero-grid{max-width:1320px;margin:auto;display:grid;grid-template-columns:1.1fr .8fr;align-items:center;gap:70px}
+.kicker{color:var(--gold);font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.hero h1{font-family:Georgia,serif;font-weight:500;letter-spacing:-.045em;line-height:.95;font-size:clamp(54px,6.2vw,95px);margin:24px 0 28px}
+.hero h1 em{color:#ffd265;font-style:italic}
+.hero .lede{font-size:21px;line-height:1.55;max-width:730px;color:#f2f5f9}
+.hero-points{display:flex;gap:28px;flex-wrap:wrap;margin-top:26px;font-size:13px;color:#e8eef6}
+.hero-points span:before{content:"✓";color:var(--gold);margin-right:7px;font-weight:900}
+.hero-art img{display:block;width:100%;max-width:500px;margin:auto;transform:rotate(1.5deg);filter:drop-shadow(0 18px 28px rgba(0,0,0,.28));border-radius:22px}
+.light-section{background:#f4f6f9;padding:65px max(7vw,28px)}
+.path-card{max-width:1090px;margin:auto;background:#fff;border:1px solid #e0e6ed;border-radius:18px;padding:38px;display:grid;grid-template-columns:.7fr 1.55fr;gap:45px;align-items:center;box-shadow:0 18px 44px rgba(17,38,65,.08)}
+.path-copy .eyebrow{color:#2867a5;font-size:11px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.path-copy h2{font-family:Georgia,serif;font-size:41px;line-height:1.02;font-weight:500;margin:10px 0 18px}
+.path-copy p{font-size:16px;line-height:1.58;color:#4b5c72}
+.path-promise{margin-top:24px;padding:17px 18px;border-left:4px solid #296eb5;background:#eef5ff;border-radius:7px;color:#315172;font-size:14px;line-height:1.45}
+.path-art{background:#f3f5f8;border:1px solid #dde4ec;border-radius:14px;padding:12px}
+.path-art img{width:100%;display:block;border-radius:8px}
+.image-actions{display:flex;align-items:center;gap:12px;margin-top:10px;font-size:11px;color:#6b788a}
+.image-actions b{background:#0e2c52;color:white;border-radius:7px;padding:7px 10px;font-size:11px}
+.assessment{background:#061a35;color:white;padding:62px max(7vw,28px) 72px}
+.assessment-inner{max-width:1090px;margin:auto}
+.assessment-top{display:grid;grid-template-columns:1fr 300px;gap:50px;align-items:end}
+.assessment .eyebrow{color:var(--gold);font-size:11px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.assessment h2{font-family:Georgia,serif;font-size:45px;line-height:1.02;font-weight:500;margin:11px 0 8px}
+.assessment .sub{color:#b8c7da;font-size:13px}
+.note{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.11);border-radius:12px;padding:15px 16px;color:#dbe4ef;font-size:12px;line-height:1.45}
+.note b{color:#f3cc68}
+.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:26px 0 12px}
+.level{background:#0f2744;border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:13px 14px}
+.level strong{display:block;color:#f4cd6e;font-size:12px;margin-bottom:6px}
+.level span{font-size:11px;color:#d6dfeb;line-height:1.35}
+.instructions{color:#91a4bb;font-size:10px;margin:8px 0 14px}
+.questions{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.q{background:#102743;border:1px solid rgba(255,255,255,.085);border-radius:12px;padding:17px}
+.q-head{display:flex;align-items:center;gap:10px}
+.icon{width:28px;height:28px;border-radius:8px;background:rgba(244,201,87,.12);color:var(--gold);display:grid;place-items:center;font-weight:800;font-size:12px}
+.q small{display:block;color:#7e93ad;font-size:8px;letter-spacing:.12em;text-transform:uppercase}
+.q h3{font-size:13px;margin:2px 0 0}
+.q>p{font-size:11px;color:#c7d3e1;line-height:1.4;min-height:32px;margin:13px 0 9px}
+.anchor{display:flex;justify-content:space-between;color:#788da7;font-size:8px}
+.score{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:7px}
+.score button{border:1px solid rgba(255,255,255,.08);background:#18304c;color:#9fb0c4;border-radius:7px;padding:8px 4px;font-size:9px;cursor:pointer}
+.score button strong{display:block;font-size:12px}
+.score button.selected{background:#ffd462;color:#10243c;border-color:#ffd462;box-shadow:0 2px 8px rgba(244,201,87,.25)}
+.assessment-submit{margin-top:13px;background:#102743;border:1px solid rgba(255,255,255,.085);border-radius:11px;padding:15px;display:flex;align-items:center;gap:18px}
+.progress-wrap{flex:1}.progress-label{font-size:9px;color:#a7b5c8;margin-bottom:7px}.progress{height:4px;background:#29405b;border-radius:99px;overflow:hidden}.progress span{display:block;height:100%;width:50%;background:#f3c857}
+.next-btn{border:0;background:#ffd462;color:#13243a;font-weight:800;border-radius:8px;padding:11px 16px;font-size:11px}
+.compare{background:#f4f6f9;padding:68px max(7vw,28px)}
+.compare-card{max-width:1090px;margin:auto;background:#fff;border:1px solid #dfe5ec;border-radius:18px;padding:26px;box-shadow:0 18px 42px rgba(17,38,65,.08)}
+.compare-card img{display:block;width:100%;border-radius:10px}
+.footer{height:72px;background:#061a35;color:#fff;display:flex;align-items:center;padding:0 max(7vw,28px);gap:20px;font-size:10px}
+.footer .brand{color:white;font-size:11px}.footer .tag{margin:auto;color:#93a5bb}.footer .top{border:1px solid #324962;border-radius:999px;padding:6px 10px}
+.editable{outline:none;border-radius:4px;transition:.14s}
+.editable:hover{box-shadow:0 0 0 2px rgba(244,201,87,.55);background:rgba(255,246,210,.12)}
+.editable:focus{box-shadow:0 0 0 2px #f4c957;background:rgba(255,249,225,.12)}
+.editable.changed{box-shadow:0 0 0 2px #f4c957;background:rgba(255,245,200,.15)}
+.notice{position:fixed;right:18px;bottom:18px;z-index:300;max-width:360px;padding:12px 14px;border-radius:10px;background:#fff;color:#16304e;border:1px solid #ccd7e3;box-shadow:0 12px 32px rgba(0,0,0,.2);display:none;font-size:13px}
+@media(max-width:900px){
+  .nav{gap:14px;font-size:12px}.hero-grid,.path-card,.assessment-top{grid-template-columns:1fr}
+  .hero-art img{max-width:400px}.questions{grid-template-columns:1fr}.levels{grid-template-columns:1fr}
+  .path-card{padding:24px}.editorbar{flex-wrap:wrap}.editorbar strong{width:100%;margin-right:0}
+}
+</style>
+</head>
+<body>
+<div class="editorbar">
+  <strong>AI Adoption Benchmark — Content Review</strong>
+  <span class="count" id="changeCount">0 changes</span>
+  <button onclick="saveDraft()">Save draft</button>
+  <button onclick="resetAll()">Reset</button>
+  <button class="submit" onclick="submitForApproval()">Submit for approval</button>
+</div>
+
+<header class="site-header">
+  <div class="brand"><div class="logo">A</div><span class="editable" data-key="brand" contenteditable="true">AI Adoption Benchmark</span></div>
+  <nav class="nav">
+    <a class="editable" data-key="nav_path" contenteditable="true" href="#path">Your path</a>
+    <a class="editable" data-key="nav_check" contenteditable="true" href="#check">Self-check</a>
+    <a class="editable" data-key="nav_framework" contenteditable="true" href="#framework">Framework</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-grid">
+    <div>
+      <div class="kicker editable" data-key="hero_kicker" contenteditable="true">✧ A ROLE-RELATIVE MEASURE OF AI CAPABILITY</div>
+      <h1 class="editable" data-key="hero_title" contenteditable="true">How far have you <em>actually</em> adopted AI?</h1>
+      <div class="lede editable" data-key="hero_lede" contenteditable="true">It’s not how often you use AI. It’s what you can reliably accomplish with it—in the context of your role.</div>
+      <div class="hero-points">
+        <span class="editable" data-key="point1" contenteditable="true">Role-specific</span>
+        <span class="editable" data-key="point2" contenteditable="true">Evidence-based</span>
+        <span class="editable" data-key="point3" contenteditable="true">Action-oriented</span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img src="https://solv1.gtome.chatgpt.site/framework/01_AI_Adoption_Benchmark_Tiers.png" alt="AI Adoption Benchmark maturity tiers">
+    </div>
+  </div>
+</section>
+
+<section class="light-section" id="path">
+  <div class="path-card">
+    <div class="path-copy">
+      <div class="eyebrow editable" data-key="path_eyebrow" contenteditable="true">YOUR PATHWAY</div>
+      <h2 class="editable" data-key="path_title" contenteditable="true">Knowledge<br>Worker</h2>
+      <p class="editable" data-key="path_body" contenteditable="true">Move from occasional assistance to reliable, redesigned work—without needing to become an AI engineer.</p>
+      <div class="path-promise editable" data-key="path_promise" contenteditable="true">Your advantage comes from clear goals, domain judgment, smart workflows, reliable evaluation, and measurable impact.</div>
+    </div>
+    <div>
+      <div class="path-art"><img src="https://solv1.gtome.chatgpt.site/framework/06_AI_Knowledge_Worker_Adoption.png" alt="Knowledge worker AI adoption pathway"></div>
+      <div class="image-actions"><b>↗ View full screen</b><span class="editable" data-key="image_note" contenteditable="true">Open the pathway graphic for a larger, zoomable view.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="assessment" id="check">
+  <div class="assessment-inner">
+    <div class="assessment-top">
+      <div>
+        <div class="eyebrow editable" data-key="check_eyebrow" contenteditable="true">◉ SIX-DIMENSION SELF-CHECK</div>
+        <h2 class="editable" data-key="check_title" contenteditable="true">Estimate where you are. See what to do next.</h2>
+        <div class="sub editable" data-key="check_sub" contenteditable="true">Rate demonstrated behavior—not aspiration. Your answers are weighted for the Knowledge Worker pathway.</div>
+      </div>
+      <div class="note"><b class="editable" data-key="note_title" contenteditable="true">Educational diagnostic</b><br><span class="editable" data-key="note_body" contenteditable="true">This is a practical reflection tool, not a validated psychometric assessment.</span></div>
+    </div>
+
+    <div class="levels">
+      <div class="level"><strong class="editable" data-key="lvl1_title" contenteditable="true">1 · Exploring</strong><span class="editable" data-key="lvl1_body" contenteditable="true">I’m learning and experimenting; my approach is mostly informal.</span></div>
+      <div class="level"><strong class="editable" data-key="lvl2_title" contenteditable="true">2 · Applying</strong><span class="editable" data-key="lvl2_body" contenteditable="true">I use AI intentionally, with repeatable practices and appropriate checks.</span></div>
+      <div class="level"><strong class="editable" data-key="lvl3_title" contenteditable="true">3 · Advancing</strong><span class="editable" data-key="lvl3_body" contenteditable="true">I systematically improve how I work with AI and measure the results.</span></div>
+    </div>
+    <div class="instructions editable" data-key="instructions" contenteditable="true">Choose 1, 2, or 3 for each question. Your weighted score is out of 3 and uses the same role-specific dimension weights.</div>
+
+    <div class="questions">
+      
+      <article class="q">
+        <div class="q-head"><div class="icon">1</div><div><small>DIMENSION 1</small><h3 class="editable" data-key="d1_title" contenteditable="true">Understanding & Selection</h3></div></div>
+        <p class="editable" data-key="d1_question" contenteditable="true">How deliberately do you match AI and human capabilities to the outcome?</p>
+        <div class="anchor"><span class="editable" data-key="d1_low" contenteditable="true">I use AI without much role selection.</span><span class="editable" data-key="d1_high" contenteditable="true">I deliberately design work based on strengths, limits, and risk.</span></div>
+        <div class="score">
+          <button type="button" onclick="pick(this)"><strong>1</strong>Exploring</button>
+          <button type="button" class="selected" onclick="pick(this)"><strong>2</strong>Applying</button>
+          <button type="button" onclick="pick(this)"><strong>3</strong>Advancing</button>
+        </div>
+      </article>
+      <article class="q">
+        <div class="q-head"><div class="icon">2</div><div><small>DIMENSION 2</small><h3 class="editable" data-key="d2_title" contenteditable="true">Direction & Context</h3></div></div>
+        <p class="editable" data-key="d2_question" contenteditable="true">How effectively do you provide goals, context, constraints, and operating instructions?</p>
+        <div class="anchor"><span class="editable" data-key="d2_low" contenteditable="true">I use AI without much role selection.</span><span class="editable" data-key="d2_high" contenteditable="true">I deliberately design work based on strengths, limits, and risk.</span></div>
+        <div class="score">
+          <button type="button" onclick="pick(this)"><strong>1</strong>Exploring</button>
+          <button type="button" class="selected" onclick="pick(this)"><strong>2</strong>Applying</button>
+          <button type="button" onclick="pick(this)"><strong>3</strong>Advancing</button>
+        </div>
+      </article>
+      <article class="q">
+        <div class="q-head"><div class="icon">3</div><div><small>DIMENSION 3</small><h3 class="editable" data-key="d3_title" contenteditable="true">Evaluation & Judgment</h3></div></div>
+        <p class="editable" data-key="d3_question" contenteditable="true">How systematically do you determine whether outputs are trustworthy and useful?</p>
+        <div class="anchor"><span class="editable" data-key="d3_low" contenteditable="true">I use AI without much role selection.</span><span class="editable" data-key="d3_high" contenteditable="true">I deliberately design work based on strengths, limits, and risk.</span></div>
+        <div class="score">
+          <button type="button" onclick="pick(this)"><strong>1</strong>Exploring</button>
+          <button type="button" class="selected" onclick="pick(this)"><strong>2</strong>Applying</button>
+          <button type="button" onclick="pick(this)"><strong>3</strong>Advancing</button>
+        </div>
+      </article>
+      <article class="q">
+        <div class="q-head"><div class="icon">4</div><div><small>DIMENSION 4</small><h3 class="editable" data-key="d4_title" contenteditable="true">Workflow & Agents</h3></div></div>
+        <p class="editable" data-key="d4_question" contenteditable="true">How far have you moved beyond isolated prompts into repeatable or agentic work?</p>
+        <div class="anchor"><span class="editable" data-key="d4_low" contenteditable="true">I use AI without much role selection.</span><span class="editable" data-key="d4_high" contenteditable="true">I deliberately design work based on strengths, limits, and risk.</span></div>
+        <div class="score">
+          <button type="button" onclick="pick(this)"><strong>1</strong>Exploring</button>
+          <button type="button" class="selected" onclick="pick(this)"><strong>2</strong>Applying</button>
+          <button type="button" onclick="pick(this)"><strong>3</strong>Advancing</button>
+        </div>
+      </article>
+      <article class="q">
+        <div class="q-head"><div class="icon">5</div><div><small>DIMENSION 5</small><h3 class="editable" data-key="d5_title" contenteditable="true">Value & Redesign</h3></div></div>
+        <p class="editable" data-key="d5_question" contenteditable="true">How materially has AI changed outcomes or the design of work?</p>
+        <div class="anchor"><span class="editable" data-key="d5_low" contenteditable="true">I use AI without much role selection.</span><span class="editable" data-key="d5_high" contenteditable="true">I deliberately design work based on strengths, limits, and risk.</span></div>
+        <div class="score">
+          <button type="button" onclick="pick(this)"><strong>1</strong>Exploring</button>
+          <button type="button" class="selected" onclick="pick(this)"><strong>2</strong>Applying</button>
+          <button type="button" onclick="pick(this)"><strong>3</strong>Advancing</button>
+        </div>
+      </article>
+      <article class="q">
+        <div class="q-head"><div class="icon">6</div><div><small>DIMENSION 6</small><h3 class="editable" data-key="d6_title" contenteditable="true">Governance & Responsibility</h3></div></div>
+        <p class="editable" data-key="d6_question" contenteditable="true">How intentionally do you manage privacy, security, risk, oversight, and accountability?</p>
+        <div class="anchor"><span class="editable" data-key="d6_low" contenteditable="true">I use AI without much role selection.</span><span class="editable" data-key="d6_high" contenteditable="true">I deliberately design work based on strengths, limits, and risk.</span></div>
+        <div class="score">
+          <button type="button" onclick="pick(this)"><strong>1</strong>Exploring</button>
+          <button type="button" class="selected" onclick="pick(this)"><strong>2</strong>Applying</button>
+          <button type="button" onclick="pick(this)"><strong>3</strong>Advancing</button>
+        </div>
+      </article>
+    </div>
+    <div class="assessment-submit">
+      <div class="progress-wrap"><div class="progress-label editable" data-key="progress_label" contenteditable="true">All six dimensions rated</div><div class="progress"><span></span></div></div>
+      <button class="next-btn editable" data-key="next_button" contenteditable="true">Show my next step →</button>
+    </div>
+  </div>
+</section>
+
+<section class="compare" id="framework">
+  <div class="compare-card">
+    <img src="https://solv1.gtome.chatgpt.site/framework/03_AI_Maturity_Across_Roles.png" alt="Same maturity framework, different expertise">
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="brand"><div class="logo">A</div><span class="editable" data-key="footer_brand" contenteditable="true">AI Adoption Benchmark</span></div>
+  <div class="tag editable" data-key="footer_tag" contenteditable="true">Measure how people actually work with AI—not how much AI terminology they know.</div>
+  <a class="top" href="#">Back to top</a>
+</footer>
+
+<div class="notice" id="notice"></div>
+
+<script>
+const els=[...document.querySelectorAll(".editable")];
+const baseline=Object.fromEntries(els.map(el=>[el.dataset.key,el.innerHTML]));
+
+function updateCount(){
+  let n=0;
+  els.forEach(el=>{
+    const c=el.innerHTML!==baseline[el.dataset.key];
+    el.classList.toggle("changed",c);
+    if(c)n++;
+  });
+  document.getElementById("changeCount").textContent=n+" change"+(n===1?"":"s");
+}
+function snapshot(){return Object.fromEntries(els.map(el=>[el.dataset.key,el.innerHTML]));}
+function saveDraft(){
+  localStorage.setItem("solv1-editor-draft",JSON.stringify(snapshot()));
+  toast("Draft saved on this computer.");
+}
+function resetAll(){
+  els.forEach(el=>el.innerHTML=baseline[el.dataset.key]);
+  localStorage.removeItem("solv1-editor-draft");
+  updateCount();
+  toast("Edits reset.");
+}
+function pick(btn){
+  [...btn.parentElement.children].forEach(b=>b.classList.remove("selected"));
+  btn.classList.add("selected");
+}
+function submitForApproval(){
+  const now=snapshot();
+  const changes=Object.keys(now).filter(k=>now[k]!==baseline[k]).map(k=>({field:k,current:baseline[k],proposed:now[k]}));
+  if(!changes.length){toast("There are no text changes to submit.");return;}
+  const id="SOLV1-"+new Date().toISOString().replace(/[-:TZ.]/g,"").slice(0,14);
+  const body=[
+    "@gttome",
+    "",
+    "A SOLV1 content change package is ready for approval.",
+    "",
+    "**Submission:** "+id,
+    "**Source:** Public SOLV1 content editor",
+    "",
+    "### Changes",
+    ...changes.map(c=>"#### "+c.field+"\n**Current:** "+strip(c.current)+"\n\n**Proposed:** "+strip(c.proposed)+"\n"),
+    "",
+    "---",
+    "Submitted from https://gttome.github.io/GenAI/solv1-editor/"
+  ].join("\n");
+  localStorage.setItem("solv1-last-submission",JSON.stringify({id,changes,proposed:now,submittedAt:new Date().toISOString()}));
+  const url="https://github.com/gttome/GenAI/issues/new?title="+encodeURIComponent("SOLV1 content approval: "+id)+"&body="+encodeURIComponent(body);
+  window.open(url,"_blank","noopener");
+  toast("Approval request prepared in GitHub. Click “Submit new issue” to send it.");
+}
+function strip(s){const d=document.createElement("div");d.innerHTML=s;return d.textContent.trim();}
+function toast(t){
+  const n=document.getElementById("notice");n.textContent=t;n.style.display="block";
+  clearTimeout(window._toast);window._toast=setTimeout(()=>n.style.display="none",4500);
+}
+document.addEventListener("input",e=>{if(e.target.classList?.contains("editable"))updateCount()});
+const saved=localStorage.getItem("solv1-editor-draft");
+if(saved){try{const d=JSON.parse(saved);els.forEach(el=>{if(d[el.dataset.key]!=null)el.innerHTML=d[el.dataset.key]})}catch(e){}}
+updateCount();
+</script>
+</body>
+</html>
