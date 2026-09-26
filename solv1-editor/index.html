@@ -85,12 +85,16 @@ a{color:inherit;text-decoration:none}
 .notice{position:fixed;right:18px;bottom:18px;z-index:300;max-width:390px;padding:12px 14px;border-radius:10px;background:#fff;color:#16304e;border:1px solid #ccd7e3;box-shadow:0 12px 32px rgba(0,0,0,.2);display:none;font-size:13px}
 .annotatable{position:relative}
 .annotatable img{user-select:none;-webkit-user-drag:none}
-.annotation-layer{position:absolute;inset:0;pointer-events:none;z-index:10;touch-action:none}
+.annotation-layer{position:absolute;inset:0;pointer-events:none;z-index:40;touch-action:none}
 body.annotation-mode .annotatable{cursor:crosshair;outline:4px dashed rgba(244,201,87,.9);outline-offset:5px}
 .annotatable>img{position:relative;z-index:1}
-body.annotation-mode .annotation-layer{pointer-events:auto}
-.image-annotation{position:absolute;border:2px solid #ffcf54;background:rgba(255,214,92,.24);box-shadow:0 0 0 1px rgba(7,26,53,.35);border-radius:5px;min-width:22px;min-height:18px;cursor:pointer;overflow:visible}
-.image-annotation .annotation-text{position:absolute;left:0;top:100%;margin-top:3px;max-width:260px;min-width:120px;background:#fff7d9;color:#152943;border:1px solid #e3b83f;border-radius:6px;padding:5px 7px;font-size:11px;line-height:1.25;box-shadow:0 5px 16px rgba(0,0,0,.18);white-space:normal;z-index:20}
+body.annotation-mode .annotation-layer{pointer-events:none}
+.image-annotation{position:absolute;z-index:50;pointer-events:auto;border:2px solid #ffcf54;background:rgba(255,214,92,.24);box-shadow:0 0 0 1px rgba(7,26,53,.35);border-radius:5px;min-width:22px;min-height:18px;cursor:pointer;overflow:visible}
+.image-annotation .annotation-text{position:absolute;left:0;top:100%;margin-top:3px;max-width:300px;min-width:170px;background:#fff7d9;color:#152943;border:1px solid #e3b83f;border-radius:6px;padding:7px;font-size:11px;line-height:1.25;box-shadow:0 5px 16px rgba(0,0,0,.18);white-space:normal;z-index:60}
+.annotation-note-copy{margin-bottom:7px}
+.annotation-controls{display:flex;gap:6px}
+.annotation-controls button{border:1px solid #c7a33f;border-radius:5px;background:#fff;color:#17304c;font-size:10px;font-weight:800;padding:4px 7px;cursor:pointer}
+.annotation-controls button.delete{border-color:#d7a5a0;color:#8a2e27;background:#fff6f5}
 .annotation-help{display:none;position:fixed;left:18px;bottom:18px;z-index:290;background:#fff7d9;border:1px solid #e0b43d;color:#18304c;padding:10px 12px;border-radius:8px;font-size:12px;max-width:390px;box-shadow:0 8px 24px rgba(0,0,0,.15)}
 body.annotation-mode .annotation-help{display:block}
 .next-step-panel{display:none;margin-top:14px;background:#f7f9fc;color:#18304c;border:1px solid #d8e2ec;border-left:5px solid #f4c957;border-radius:12px;padding:22px}
@@ -461,24 +465,57 @@ function renderAnnotations(){
     const box=document.querySelector('.annotatable[data-image-key="'+CSS.escape(a.imageKey)+'"]');
     const layer=box?.querySelector(".annotation-layer");
     if(!layer)return;
+
     const el=document.createElement("div");
     el.className="image-annotation";
     el.dataset.annotationId=a.id;
     Object.assign(el.style,{left:a.x+"%",top:a.y+"%",width:a.w+"%",height:a.h+"%"});
+
     const label=document.createElement("div");
-    label.className="annotation-text";label.textContent=a.note;el.appendChild(label);
-    el.addEventListener("dblclick",ev=>{
+    label.className="annotation-text";
+
+    const copy=document.createElement("div");
+    copy.className="annotation-note-copy";
+    copy.textContent=a.note;
+
+    const controls=document.createElement("div");
+    controls.className="annotation-controls";
+
+    const editBtn=document.createElement("button");
+    editBtn.type="button";
+    editBtn.textContent="Edit";
+    editBtn.addEventListener("click",ev=>{
+      ev.preventDefault();
       ev.stopPropagation();
-      const next=prompt("Edit requested image text:",a.note);
-      if(next && next.trim()){a.note=next.trim();renderAnnotations();updateCount();saveDraft();}
-    });
-    el.addEventListener("contextmenu",ev=>{
-      ev.preventDefault();ev.stopPropagation();
-      if(confirm("Delete this image note?")){
-        imageAnnotations=imageAnnotations.filter(x=>x.id!==a.id);
-        renderAnnotations();updateCount();saveDraft();
+      const next=prompt("Edit image change note:",a.note);
+      if(next!==null && next.trim()){
+        a.note=next.trim();
+        renderAnnotations();
+        updateCount();
+        saveDraft();
       }
     });
+
+    const deleteBtn=document.createElement("button");
+    deleteBtn.type="button";
+    deleteBtn.className="delete";
+    deleteBtn.textContent="Delete";
+    deleteBtn.addEventListener("click",ev=>{
+      ev.preventDefault();
+      ev.stopPropagation();
+      if(confirm("Delete this image annotation?")){
+        imageAnnotations=imageAnnotations.filter(x=>x.id!==a.id);
+        renderAnnotations();
+        updateCount();
+        saveDraft();
+      }
+    });
+
+    controls.appendChild(editBtn);
+    controls.appendChild(deleteBtn);
+    label.appendChild(copy);
+    label.appendChild(controls);
+    el.appendChild(label);
     layer.appendChild(el);
   });
 }
