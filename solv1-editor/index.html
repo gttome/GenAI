@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI Adoption Benchmark — Content Review</title>
 <meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="data:,">
 <style>
 :root{
   --navy:#061a35;--navy2:#0b2d56;--navy3:#132d4d;--ink:#11223d;
@@ -84,8 +85,9 @@ a{color:inherit;text-decoration:none}
 .notice{position:fixed;right:18px;bottom:18px;z-index:300;max-width:390px;padding:12px 14px;border-radius:10px;background:#fff;color:#16304e;border:1px solid #ccd7e3;box-shadow:0 12px 32px rgba(0,0,0,.2);display:none;font-size:13px}
 .annotatable{position:relative}
 .annotatable img{user-select:none;-webkit-user-drag:none}
-.annotation-layer{position:absolute;inset:0;pointer-events:none}
-body.annotation-mode .annotatable{cursor:crosshair;outline:3px dashed rgba(244,201,87,.75);outline-offset:4px}
+.annotation-layer{position:absolute;inset:0;pointer-events:none;z-index:10;touch-action:none}
+body.annotation-mode .annotatable{cursor:crosshair;outline:4px dashed rgba(244,201,87,.9);outline-offset:5px}
+.annotatable>img{position:relative;z-index:1}
 body.annotation-mode .annotation-layer{pointer-events:auto}
 .image-annotation{position:absolute;border:2px solid #ffcf54;background:rgba(255,214,92,.24);box-shadow:0 0 0 1px rgba(7,26,53,.35);border-radius:5px;min-width:22px;min-height:18px;cursor:pointer;overflow:visible}
 .image-annotation .annotation-text{position:absolute;left:0;top:100%;margin-top:3px;max-width:260px;min-width:120px;background:#fff7d9;color:#152943;border:1px solid #e3b83f;border-radius:6px;padding:5px 7px;font-size:11px;line-height:1.25;box-shadow:0 5px 16px rgba(0,0,0,.18);white-space:normal;z-index:20}
@@ -247,9 +249,9 @@ body.annotation-mode .annotation-help{display:block}
     </div>
     <div class="assessment-submit">
       <div class="progress-wrap"><div class="progress-label editable" data-key="progress_label" contenteditable="true">All six dimensions rated</div><div class="progress"><span></span></div></div>
-      <button class="next-btn" type="button" onclick="showNextStep()"><span class="editable" data-key="next_button" contenteditable="true" onclick="event.stopPropagation()">Show my next step →</span></button>
+      <button class="next-btn" type="button" onclick="showNextStep()"><span class="editable" data-key="next_button" contenteditable="true">Show my next step →</span></button>
     </div>
-    <div class="next-step-panel" id="nextStepPanel">
+    <div class="next-step-panel open" id="nextStepPanel">
       <div class="eyebrow editable" data-key="next_eyebrow" contenteditable="true">YOUR NEXT STEP</div>
       <h3 class="editable" data-key="next_title" contenteditable="true">Move from effective AI use to repeatable AI-enabled work.</h3>
       <p class="editable" data-key="next_body" contenteditable="true">Your strongest next move is to turn successful one-off AI use into a repeatable workflow with clear context, verification, and a measurable outcome.</p>
@@ -276,7 +278,7 @@ body.annotation-mode .annotation-help{display:block}
 </footer>
 
 <div class="notice" id="notice"></div>
-<div class="annotation-help">Image annotation mode: drag a box over text in an image, then type the replacement wording you want. Double-click an existing note to edit it. Right-click a note to delete it. Image notes are review-only and are never applied automatically to the image file.</div>
+<div class="annotation-help">Image annotation mode is ON. Drag directly across the image text you want changed. When you release, enter the replacement wording. Double-click a saved note to edit it; right-click to delete it. These notes never change the image file automatically.</div>
 
 <script>
 let els=[];
@@ -308,7 +310,7 @@ async function init(){
         els.forEach(el=>{if(d.text[el.dataset.key]!=null)el.innerHTML=d.text[el.dataset.key]});
       }
       if(Array.isArray(d.imageAnnotations)) imageAnnotations=d.imageAnnotations;
-      if(d.nextStepOpen) document.getElementById("nextStepPanel")?.classList.add("open");
+      document.getElementById("nextStepPanel")?.classList.add("open");
     }catch(e){}
   }
   installAnnotationHandlers();
@@ -362,59 +364,86 @@ function toggleAnnotationMode(){
 function installAnnotationHandlers(){
   document.querySelectorAll(".annotatable").forEach(box=>{
     const layer=box.querySelector(".annotation-layer");
-    layer.addEventListener("pointerdown",startAnnotationDrag);
-    layer.addEventListener("pointermove",moveAnnotationDrag);
-    layer.addEventListener("pointerup",endAnnotationDrag);
-    layer.addEventListener("pointercancel",cancelAnnotationDrag);
+    layer.addEventListener("mousedown",startAnnotationMouse);
+    layer.addEventListener("touchstart",startAnnotationTouch,{passive:false});
   });
+  document.addEventListener("mousemove",moveAnnotationMouse);
+  document.addEventListener("mouseup",endAnnotationMouse);
+  document.addEventListener("touchmove",moveAnnotationTouch,{passive:false});
+  document.addEventListener("touchend",endAnnotationTouch,{passive:false});
 }
-function startAnnotationDrag(e){
-  if(!annotationMode || e.target.classList.contains("image-annotation") || e.target.closest(".image-annotation")) return;
-  e.preventDefault();
-  const layer=e.currentTarget;
+function coords(clientX,clientY,rect){
+  return {
+    x:Math.max(0,Math.min(100,(clientX-rect.left)/rect.width*100)),
+    y:Math.max(0,Math.min(100,(clientY-rect.top)/rect.height*100))
+  };
+}
+function startDrag(layer,clientX,clientY){
+  if(!annotationMode)return;
   const rect=layer.getBoundingClientRect();
-  const x=(e.clientX-rect.left)/rect.width*100;
-  const y=(e.clientY-rect.top)/rect.height*100;
+  const p=coords(clientX,clientY,rect);
   const temp=document.createElement("div");
   temp.className="image-annotation";
-  temp.style.left=x+"%";temp.style.top=y+"%";temp.style.width="0%";temp.style.height="0%";
+  temp.style.left=p.x+"%";
+  temp.style.top=p.y+"%";
+  temp.style.width="1%";
+  temp.style.height="1%";
   layer.appendChild(temp);
-  dragState={layer,rect,startX:x,startY:y,temp,pointerId:e.pointerId};
-  try{layer.setPointerCapture(e.pointerId)}catch(_){}
+  dragState={layer,rect,startX:p.x,startY:p.y,temp};
 }
-function moveAnnotationDrag(e){
-  if(!dragState || dragState.layer!==e.currentTarget) return;
-  const x=(e.clientX-dragState.rect.left)/dragState.rect.width*100;
-  const y=(e.clientY-dragState.rect.top)/dragState.rect.height*100;
-  const left=Math.max(0,Math.min(dragState.startX,x));
-  const top=Math.max(0,Math.min(dragState.startY,y));
-  const w=Math.min(100-left,Math.abs(x-dragState.startX));
-  const h=Math.min(100-top,Math.abs(y-dragState.startY));
+function startAnnotationMouse(e){
+  if(!annotationMode || e.target.closest(".image-annotation"))return;
+  e.preventDefault();
+  startDrag(e.currentTarget,e.clientX,e.clientY);
+}
+function startAnnotationTouch(e){
+  if(!annotationMode || e.target.closest(".image-annotation"))return;
+  if(!e.touches.length)return;
+  e.preventDefault();
+  const t=e.touches[0];
+  startDrag(e.currentTarget,t.clientX,t.clientY);
+}
+function updateDrag(clientX,clientY){
+  if(!dragState)return;
+  const p=coords(clientX,clientY,dragState.rect);
+  const left=Math.min(dragState.startX,p.x);
+  const top=Math.min(dragState.startY,p.y);
+  const w=Math.max(1,Math.abs(p.x-dragState.startX));
+  const h=Math.max(1,Math.abs(p.y-dragState.startY));
   Object.assign(dragState.temp.style,{left:left+"%",top:top+"%",width:w+"%",height:h+"%"});
 }
-function endAnnotationDrag(e){
-  if(!dragState || dragState.layer!==e.currentTarget) return;
+function moveAnnotationMouse(e){updateDrag(e.clientX,e.clientY);}
+function moveAnnotationTouch(e){
+  if(!dragState || !e.touches.length)return;
+  e.preventDefault();
+  const t=e.touches[0];
+  updateDrag(t.clientX,t.clientY);
+}
+function finishDrag(){
+  if(!dragState)return;
   const box=dragState.layer.parentElement;
   const style=dragState.temp.style;
-  const w=parseFloat(style.width),h=parseFloat(style.height);
+  const annotation={
+    imageKey:box.dataset.imageKey,
+    x:parseFloat(style.left),y:parseFloat(style.top),
+    w:Math.max(3,parseFloat(style.width)),h:Math.max(3,parseFloat(style.height))
+  };
   dragState.temp.remove();
-  if(w>=1 && h>=1){
-    const note=prompt("What text should replace or change in this highlighted image area?","");
-    if(note && note.trim()){
-      imageAnnotations.push({
-        id:"imgnote-"+Date.now()+"-"+Math.random().toString(36).slice(2,7),
-        imageKey:box.dataset.imageKey,
-        x:parseFloat(style.left),y:parseFloat(style.top),w,h,
-        note:note.trim()
-      });
-      renderAnnotations();updateCount();saveDraft();
-    }
-  }
   dragState=null;
+  const note=prompt("What text should change in this highlighted image area?","");
+  if(note && note.trim()){
+    imageAnnotations.push({
+      id:"imgnote-"+Date.now()+"-"+Math.random().toString(36).slice(2,7),
+      ...annotation,
+      note:note.trim()
+    });
+    renderAnnotations();
+    updateCount();
+    saveDraft();
+  }
 }
-function cancelAnnotationDrag(){
-  if(dragState){dragState.temp?.remove();dragState=null;}
-}
+function endAnnotationMouse(){finishDrag();}
+function endAnnotationTouch(e){if(dragState){e.preventDefault();finishDrag();}}
 function renderAnnotations(){
   document.querySelectorAll(".annotation-layer").forEach(l=>l.innerHTML="");
   imageAnnotations.forEach(a=>{
