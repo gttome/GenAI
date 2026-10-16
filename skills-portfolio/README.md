@@ -12,13 +12,16 @@ A **static, offline-capable** HTML5 application built against the **October 15, 
 
 Open [index.html](index.html) in any recent browser. The application also works under static hosting, including GitHub Pages if that hosting is configured for this repository. No build, server, npm dependencies, API tokens, paid APIs or network calls are required.
 
-Node 20+ can run the catalog contract tests:
+Node 20+ can run **both** catalog validation and DOM-simulated interaction tests locally, **without installing packages or contacting any service**:
 
-    node --test skills-portfolio/tests/catalog.test.mjs
+    cd skills-portfolio
+    npm test
 
-If running from this directory:
+Or without npm:
 
-    node --test tests/catalog.test.mjs
+    node --test tests/*.test.mjs
+
+The DOM smoke tests verify application state, controls, filters, downloads and node selection. They do **not** replace real browser rendering/accessibility testing.
 
 ## Source discipline
 
