@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f2d49"><meta name="description" content="Offline interactive professional AI skills portfolio: solution studio, dependency exploration and source-evidence readiness for 101 proposed skills.">
+<title>Professional Skills Studio — 101 Proposed Skills</title>
+<link rel="stylesheet" href="styles.css"><script src="data.js" defer></script><script src="gallery-data.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to application</a>
+<header class="top"><div class="wrap">
+ <div class="mast"><span class="mark" aria-hidden="true">◇</span><strong>PROFESSIONAL SKILLS <span>STUDIO</span></strong><span class="catalog-id">SOURCE-VERIFIED CATALOG · v1.1 · OCT 2026</span></div>
+ <div class="hero"><div><p class="eyebrow">INTERACTIVE PHASE 1 APPLICATION</p><h1>From proposed skills<br>to <span>practical blueprints.</span></h1><p class="lead">Explore 101 candidate skills, connect related methods and design solutions—without activating anything or using a paid API.</p></div>
+ <div class="numbers"><div><b>101</b><small>Proposed skills</small></div><div><b>13</b><small>Domains</small></div><div><b>12</b><small>Top priorities</small></div><div><b>0</b><small>Activated</small></div></div></div>
+</div></header>
+<div class="status-strip"><div class="wrap"><span class="amber-dot"></span><strong>Proposal-only reference.</strong> This is a planning and learning application. S-11 has a documented proposal; none of the 101 skills are installed, running or independently verified here.</div></div>
+<nav class="wrap main-nav" aria-label="Application sections">
+ <button type="button" class="nav-button active" data-section="studio" aria-current="page"><span>01</span> Solution Studio</button>
+ <button type="button" class="nav-button" data-section="map"><span>02</span> Relationship Map</button>
+ <button type="button" class="nav-button" data-section="readiness"><span>03</span> Readiness & Evidence</button>
+ <button type="button" class="nav-button" data-section="catalog"><span>04</span> Skill Catalog</button>
+ <button type="button" class="nav-button" data-section="gallery"><span>05</span> Visual Infographics <span class="gallery-nav-count">20</span></button>
+</nav>
+<main id="main" class="wrap" tabindex="-1">
+<section id="studio" class="view">
+ <div class="intro"><div><p class="eyebrow accent">DESIGN · REVIEW · EXPORT</p><h2>Solution Studio</h2><p>Select a realistic professional goal, combine relevant candidate skills and export a blueprint that preserves the original acceptance criteria.</p></div><span class="stamp">Illustrative composition · No execution</span></div>
+ <div class="studio-layout"><aside class="panel settings">
+  <h3>01. Build your blueprint</h3>
+  <label for="recipe">Start with a reference workflow</label><select id="recipe"></select>
+  <button class="btn outline block" type="button" id="loadRecipe">Load workflow</button>
+  <label for="goal">Intended result</label><textarea id="goal" rows="4" maxlength="750"></textarea>
+  <label for="newSkill">Add a skill</label><select id="newSkill"></select><button type="button" class="btn outline block" id="addSkill">Add selected skill</button>
+  <div class="separator"></div><h3>02. Export your plan</h3><p class="hint">Exports are saved only on your device and do not start a skill, publish content or change GitHub.</p>
+  <button type="button" class="btn primary block" id="saveMd">Download Markdown blueprint</button><button type="button" class="btn outline block" id="saveJson">Download JSON blueprint</button>
+  <button type="button" class="btn muted block" id="resetPlan">Reset to template</button>
+ </aside>
+ <div class="panel workspace"><div class="pane-head"><div><h3>Proposed workflow</h3><p id="stepCount" class="hint" aria-live="polite">Loading plan…</p></div><span class="chip gold">NOT AN ACTIVE SKILL</span></div>
+  <div id="steps" class="steps"></div>
+  <div class="summary-two"><div class="info-block"><h4>Expected deliverable</h4><p id="resultText"></p></div><div class="info-block"><h4>Independent acceptance checks</h4><p id="checksText"></p></div></div>
+  <div class="caution"><strong>Permission boundary:</strong> These sequences are planning examples, not validated dependency chains. A separate authorized implementation and review would be required.</div>
+ </div></div>
+</section>
+<section id="map" class="view" hidden>
+ <div class="intro"><div><p class="eyebrow accent">EXPLORE · LINK · UNDERSTAND</p><h2>Skills Relationship Map</h2><p>Zoom around all 101 proposed skills and inspect eight reusable-method groups grounded in the catalog. The relationships are <em>candidates for reuse</em>, not verified technical prerequisites.</p></div><span class="stamp">101 interactive nodes</span></div>
+ <div class="map-controls panel"><div><label for="focus">Selected skill</label><select id="focus"></select></div><div><label for="scope">Domain</label><select id="scope"></select></div><div><label for="linkType">Link type</label><select id="linkType"><option value="shared">Shared methods (source-based)</option><option value="workflow">Illustrative workflow sequences</option></select></div><div><label for="zoom">Zoom <output id="zoomOut">100%</output></label><input type="range" id="zoom" min="70" max="170" step="10" value="100"></div></div>
+ <div class="map-layout"><div class="panel graph-wrap"><svg id="graph" role="img" aria-label="Selectable interactive network of 101 candidate skills" viewBox="0 0 1000 740"></svg><p class="graph-key"><i class="spot"></i> Catalog skill <i class="spot active"></i> Selected <i class="spot linked"></i> Candidate relationship</p></div>
+  <aside class="panel map-side"><p class="eyebrow accent">SKILL DETAIL</p><h3 id="focusedTitle"></h3><p id="focusedDomain" class="hint"></p><p id="focusedOutcome"></p><h4>Acceptance criterion</h4><p id="focusedGate"></p><h4>Related candidates</h4><div id="related"></div><div class="caution small">Connections drawn from proposed shared methods or editorial workflow examples. They are not proof that any skill is active or depends technically on another.</div></aside></div>
+</section>
+<section id="readiness" class="view" hidden>
+ <div class="intro"><div><p class="eyebrow accent">TRACE · ASSESS · GOVERN</p><h2>Readiness & Evidence Dashboard</h2><p>Inspect what is actually known from the source: proposals and an existing documented illustration workflow—not verified implementations.</p></div><span class="stamp">Fixed catalog snapshot</span></div>
+ <div class="evidence-metrics" id="statusMetrics"></div>
+ <div class="readiness-layout"><div class="panel data-panel"><div class="pane-head"><div><h3>Source-backed skill register</h3><p id="resultsNum" class="hint" aria-live="polite"></p></div><button type="button" class="btn outline" id="downloadCsv">Export filtered CSV</button></div>
+ <div class="filters"><div><label for="q">Search skills</label><input id="q" type="search" placeholder="Name, ID, outcome or criteria"></div><div><label for="filterDomain">Domain</label><select id="filterDomain"></select></div><div><label for="filterStatus">Catalog status</label><select id="filterStatus"><option value="all">All entries</option><option value="PROPOSED">Proposed</option><option value="DOCUMENTED_ONLY">Documented proposal</option><option value="TESTED">Tested</option><option value="IMPLEMENTED">Implemented</option><option value="VERIFIED">Verified</option></select></div></div>
+ <div class="scroll-table"><table><thead><tr><th>Skill</th><th>Title and domain</th><th>Status</th><th>Source evidence</th></tr></thead><tbody id="records"></tbody></table></div></div>
+ <aside class="side-stack"><div class="panel side-card"><h3>Skills by domain</h3><div id="bars"></div></div><div class="panel side-card"><h3>Evidence standard</h3><p><strong>100 proposed:</strong> listed in the source, not activated.</p><p><strong>1 documented only:</strong> S-11 has a separately written proposal, not an installed skill.</p><p><strong>0 verified implementations:</strong> the catalog contains no independent runtime evidence.</p><p class="hint">The dashboard never infers deployment status from unrelated project activity.</p></div></aside></div>
+</section>
+<section id="catalog" class="view" hidden>
+ <div class="intro"><div><p class="eyebrow accent">SEARCH · DISCOVER · LEARN</p><h2>Complete 101-Skill Catalog</h2><p>Explore every skill's original description and acceptance standard. Save promising skills to the Solution Studio.</p></div><span class="stamp">S-01 through S-101</span></div>
+ <div class="panel catalog-controls"><label for="catalogQuery">Search names or descriptions<input type="search" id="catalogQuery" placeholder="Try GitHub, evidence, learning, HTML5"></label><label for="catalogDomain">Domain<select id="catalogDomain"></select></label><label class="check"><input type="checkbox" id="topOnly">Top 12 priorities only</label></div>
+ <p id="catalogCount" class="hint" aria-live="polite"></p><div class="cards" id="cards"></div>
+</section>
+<section id="gallery" class="view" hidden>
+ <div class="intro"><div><p class="eyebrow accent">VIEW · ZOOM · DOWNLOAD</p><h2>Visual Infographics</h2><p>Twenty richly annotated, diagram-led infographics showing processes, evidence, acceptance checks and candidate skills. Seventeen are enhanced vector mechanisms; three retain your approved featured artwork. Open every image at native resolution, zoom and download its PNG individually. Editable annotated SVG files are included for the 17 enriched mechanisms.</p></div><span class="stamp">20 enhanced visuals · 13 domains + 7 executive</span></div>
+ <div class="gallery-toolbar panel" role="group" aria-label="Infographic gallery filters">
+  <div><label for="galleryFilter">Choose collection</label><select id="galleryFilter"><option value="all">All 20 visual diagrams</option><option value="Domain">13 domain diagrams</option><option value="Executive">7 executive diagrams</option></select></div>
+  <div><label for="gallerySearch">Find a graphic</label><input id="gallerySearch" type="search" placeholder="Search a domain, topic or skill number"></div>
+  <div class="gallery-tool-note"><strong id="galleryCount" aria-live="polite">20 graphics</strong><span>Tap any image to view full-size.</span></div>
+ </div>
+ <div id="galleryCards" class="gallery-grid"></div>
+ <p class="gallery-footer-note">Every visual is an explanatory, source-grounded model. The original mechanism art and full 101-skill descriptions are preserved; these conceptual examples do not claim real-world deployment. All 101 skills remain proposals. The application works offline and does not call APIs.</p>
+</section>
+<dialog id="imageViewer" class="image-viewer" aria-labelledby="viewerTitle">
+  <div class="viewer-shell">
+   <header class="viewer-head"><div class="viewer-head-text"><p id="viewerCounter" class="eyebrow accent">GRAPHIC 1 OF 20</p><h2 id="viewerTitle">Full-size infographic</h2><p id="viewerMeta" class="hint"></p></div><button type="button" id="viewerClose" class="viewer-close" aria-label="Close infographic">×</button></header>
+   <div class="viewer-tools" role="group" aria-label="Image viewing controls">
+    <button class="btn outline" type="button" id="viewerPrevious" aria-label="Previous infographic">← Previous</button>
+    <button class="btn outline" type="button" id="viewerNext" aria-label="Next infographic">Next →</button>
+    <span class="viewer-toolbar-gap"></span>
+    <button class="btn outline" type="button" id="viewerFit">Fit image</button>
+    <button class="btn outline" type="button" id="viewerActual">100% pixels</button>
+    <button class="btn outline" type="button" id="viewerMinus" aria-label="Zoom out">−</button>
+    <strong id="viewerZoom" class="zoom-status" aria-live="polite">Fit</strong>
+    <button class="btn outline" type="button" id="viewerPlus" aria-label="Zoom in">+</button>
+    <a class="btn primary viewer-link" id="viewerDownload" href="#" download>Download PNG</a>
+    <a class="btn outline viewer-link" id="viewerOriginal" href="#" target="_blank" rel="noopener noreferrer">Open original ↗</a>
+   </div>
+   <div id="viewerScroll" class="viewer-scroll" tabindex="0" aria-label="Full-resolution image; scroll to pan when zoomed"><img id="viewerImage" alt="" draggable="false"></div>
+   <footer class="viewer-bottom"><span>Use arrows for previous/next · + and − to zoom · Esc to close</span><span>Original visual PNG · No recompression</span></footer>
+  </div>
+</dialog></main><footer><div class="wrap foot"><span><strong>Professional Skills Studio</strong> · Offline Phase 1 · Source catalog v1.1 (Oct 15, 2026)</span><span>Zero network calls · Zero paid APIs · Proposal-only</span></div></footer>
+</body></html>

@@ -1,0 +1,2286 @@
+{
+  "source": {
+    "title": "Reusable Skills Opportunity Catalog",
+    "version": "1.1",
+    "date": "2026-10-15",
+    "filename": "Skills_Catalog_101.md"
+  },
+  "statusNote": "All 101 skills are proposed. S-11 is documented as a proposal only. None are activated by this application.",
+  "domains": [
+    {
+      "number": 1,
+      "title": "Daily AI Brief — Research & Editorial Production",
+      "count": 10,
+      "objective": "Reliable, current, evidence-grounded coverage under a strict editorial allocation and publisher contract.",
+      "sourceContext": "Daily AI Brief, New Daily AI Brief, Brief Compiler",
+      "skills": [
+        {
+          "id": "S-01",
+          "name": "AI News Research",
+          "outcome": "Find and qualify relevant AI developments against authoritative sources, freshness and relevance.",
+          "acceptance": "Each candidate has a dated, retrievable supporting source and a distinct news event.",
+          "status": "PROPOSED",
+          "domain": 1,
+          "domainTitle": "Daily AI Brief — Research & Editorial Production"
+        },
+        {
+          "id": "S-02",
+          "name": "Source Portfolio Manager",
+          "outcome": "Maintain source discovery, eligibility, classification, diversity, fallback, and retirement.",
+          "acceptance": "Source IDs, content type, coverage, update status, and drop reasons remain traceable.",
+          "status": "PROPOSED",
+          "domain": 1,
+          "domainTitle": "Daily AI Brief — Research & Editorial Production"
+        },
+        {
+          "id": "S-03",
+          "name": "Evidence Verification",
+          "outcome": "Separate confirmed facts, publisher claims, interpretations, limitations, and unknowns.",
+          "acceptance": "Material claims map to specific evidence, and contradictions or gaps are disclosed.",
+          "status": "PROPOSED",
+          "domain": 1,
+          "domainTitle": "Daily AI Brief — Research & Editorial Production"
+        },
+        {
+          "id": "S-04",
+          "name": "Editorial Story Selection",
+          "outcome": "Select the configured 2/2/2 article allocation without redundancy or category drift.",
+          "acceptance": "Exactly two technical, two knowledge-worker, and two nontechnical-agent stories are selected.",
+          "status": "PROPOSED",
+          "domain": 1,
+          "domainTitle": "Daily AI Brief — Research & Editorial Production"
+        },
+        {
+          "id": "S-05",
+          "name": "Agent Skills Coverage",
+          "outcome": "Find and validate a distinct Agent Skills story for the daily edition.",
+          "acceptance": "Exactly one qualifying Agent Skills item is present and evidence-supported.",
+          "status": "PROPOSED",
+          "domain": 1,
+          "domainTitle": "Daily AI Brief — Research & Editorial Production"
+        },
+        {
+          "id": "S-06",
+          "name": "Watchlist Research",
+          "outcome": "Discover, update, carry forward, and remove emerging topics with documented rationale.",
+          "acceptance": "New/updated/carried-forward state and add/drop decisions are reproducible.",
+          "status": "PROPOSED",
+          "domain": 1,
+          "domainTitle": "Daily AI Brief — Research & Editorial Production"
+        },
+        {
+          "id": "S-07",
+          "name": "Evidence-Based Watchlist Scoring",
+          "outcome": "Independently justify novelty, evidence, independence, momentum, relevance, and durability.",
+          "acceptance": "No synthetic default scores; every required criterion has supporting reasoning and passes contract validation.",
+          "status": "PROPOSED",
+          "domain": 1,
+          "domainTitle": "Daily AI Brief — Research & Editorial Production"
+        },
+        {
+          "id": "S-08",
+          "name": "Professional Brief Writer",
+          "outcome": "Write useful summaries, implications, dated citations, and reading-time estimates.",
+          "acceptance": "Summary and Why It Matters are distinct; factual assertions are traceable and readable.",
+          "status": "PROPOSED",
+          "domain": 1,
+          "domainTitle": "Daily AI Brief — Research & Editorial Production"
+        },
+        {
+          "id": "S-09",
+          "name": "Media Research and Selection",
+          "outcome": "Qualify two videos and one podcast with accurate metadata and relevance.",
+          "acceptance": "Media count, type, provenance, timing policy, and working destinations all pass.",
+          "status": "PROPOSED",
+          "domain": 1,
+          "domainTitle": "Daily AI Brief — Research & Editorial Production"
+        },
+        {
+          "id": "S-10",
+          "name": "Editorial Quality Certification",
+          "outcome": "Audit article integrity, schema, copy, language, freshness, and publication parity.",
+          "acceptance": "No duplicate sections, missing mandatory fields, invented attribution, or inconsistent article pages.",
+          "status": "PROPOSED",
+          "domain": 1,
+          "domainTitle": "Daily AI Brief — Research & Editorial Production"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Premium Illustration & Image Production",
+      "count": 8,
+      "objective": "Produce evidence-faithful, highly specific illustrations with actual visible-pixel acceptance, not prompt-only assurances.",
+      "sourceContext": "Advanced editorial mechanism illustrations, six-story external image production",
+      "skills": [
+        {
+          "id": "S-11",
+          "name": "Premium Mechanism Illustration",
+          "outcome": "Transform a sealed story into a production-grade causal mechanism illustration.",
+          "acceptance": "All story-specific geometry, evidence, allowed labels, exclusions, and final pixels pass.",
+          "status": "DOCUMENTED_ONLY",
+          "domain": 2,
+          "domainTitle": "Premium Illustration & Image Production"
+        },
+        {
+          "id": "S-12",
+          "name": "Story-to-Visual Specification",
+          "outcome": "Translate narrative claims into an explicit, testable visual and geometry contract.",
+          "acceptance": "Every mandatory requirement has a test; no unsupported operation is introduced.",
+          "status": "PROPOSED",
+          "domain": 2,
+          "domainTitle": "Premium Illustration & Image Production"
+        },
+        {
+          "id": "S-13",
+          "name": "Exact Text Allowlist",
+          "outcome": "Constrain all visible text to exact approved labels and reject pseudo-writing.",
+          "acceptance": "Required labels are legible, exact, and exclusive; no unapproved characters appear.",
+          "status": "PROPOSED",
+          "domain": 2,
+          "domainTitle": "Premium Illustration & Image Production"
+        },
+        {
+          "id": "S-14",
+          "name": "Causal Geometry Validator",
+          "outcome": "Inspect exposed transformations, contacts, boundaries, comparisons, and feedback.",
+          "acceptance": "Paths reach correct endpoints; comparisons, separation and causal direction are visually correct.",
+          "status": "PROPOSED",
+          "domain": 2,
+          "domainTitle": "Premium Illustration & Image Production"
+        },
+        {
+          "id": "S-15",
+          "name": "Visible Pixel Inspector",
+          "outcome": "Inspect the latest saved image at native and real use scale against the full contract.",
+          "acceptance": "Pixel inspection evidence documents all criteria; no pass from prompt claims or prior versions.",
+          "status": "PROPOSED",
+          "domain": 2,
+          "domainTitle": "Premium Illustration & Image Production"
+        },
+        {
+          "id": "S-16",
+          "name": "Image Correction and Retesting",
+          "outcome": "Correct specific failures and re-run the complete visual QA after each change.",
+          "acceptance": "Previously compliant properties stay intact; hard failures cannot be waived by appearance.",
+          "status": "PROPOSED",
+          "domain": 2,
+          "domainTitle": "Premium Illustration & Image Production"
+        },
+        {
+          "id": "S-17",
+          "name": "Six-Image Production Manager",
+          "outcome": "Coordinate six differentiated story-specific illustrations and their records.",
+          "acceptance": "Set-level variety and each individual sealed-story requirement pass.",
+          "status": "PROPOSED",
+          "domain": 2,
+          "domainTitle": "Premium Illustration & Image Production"
+        },
+        {
+          "id": "S-18",
+          "name": "Image Asset Verification",
+          "outcome": "Check format, dimensions, bindings, manifest, upload, and readback.",
+          "acceptance": "Correct 1200×630 RGB/RGBA PNGs and exact story-manifest associations are verified.",
+          "status": "PROPOSED",
+          "domain": 2,
+          "domainTitle": "Premium Illustration & Image Production"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "GitHub Production, Automation & Operations",
+      "count": 12,
+      "objective": "Make automated production repeatable, economical, observable, recoverable, and safe for protected branches.",
+      "sourceContext": "Brief Compiler, protected GitHub main, scheduled runs, Command Centers",
+      "skills": [
+        {
+          "id": "S-19",
+          "name": "Production Readiness Audit",
+          "outcome": "Verify inputs, schedules, contracts, enabled tasks, leases, branch protections, and output prerequisites.",
+          "acceptance": "A dated PASS/BLOCKED report lists each check and supporting evidence.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-20",
+          "name": "Dual-Run Coordination",
+          "outcome": "Orchestrate compiler-to-image handoff, readiness windows, and immutable job identity.",
+          "acceptance": "Image work targets the correct sealed edition without early, duplicate, or mismatched execution.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-21",
+          "name": "Run Supervisor",
+          "outcome": "Observe ordered task progress, leases, timing, task ownership, and health.",
+          "acceptance": "One authoritative active writer is recognized; stale or missing progress is flagged.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-22",
+          "name": "Watchdog Recovery",
+          "outcome": "Diagnose stalled states and apply the minimum authorized recovery action.",
+          "acceptance": "Intervention is evidence-based, bounded, logged, and never restarts healthy work.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-23",
+          "name": "Deterministic Resume",
+          "outcome": "Continue interrupted jobs from verified checkpoints without repeating completed work.",
+          "acceptance": "Completed artifacts are reused; idempotency and lease semantics prevent duplicate execution.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-24",
+          "name": "Protected-Main GitHub Manager",
+          "outcome": "Prepare and validate changes through approved PR and required status checks.",
+          "acceptance": "Branch protection, history and review/merge policy are respected.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-25",
+          "name": "CI and Regression Validator",
+          "outcome": "Run validation contracts and regression tests on publishing and editorial changes.",
+          "acceptance": "Critical invariants fail closed; test outputs identify exact breakages.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-26",
+          "name": "Kanban Status Generator",
+          "outcome": "Publish task-level status, durations, current risk, next action and totals.",
+          "acceptance": "Times and states reconcile to underlying records; no invented progress.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-27",
+          "name": "Incident Investigation",
+          "outcome": "Build a fault timeline, causal chain, impact assessment, and correction evidence.",
+          "acceptance": "Facts are separated from hypotheses and remain linked to logs or files.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-28",
+          "name": "Deployment and Publication Verification",
+          "outcome": "Confirm deployed public content, archive consistency, asset links, and fresh readback.",
+          "acceptance": "Actual live pages—not local build success alone—show all required content and media.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-29",
+          "name": "GitHub Rollback and Recovery",
+          "outcome": "Restore a verified baseline with history preservation and post-restore checks.",
+          "acceptance": "Exact target tree/version and independent deployment readback match the approved baseline.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        },
+        {
+          "id": "S-30",
+          "name": "Unified After-Action Reporting",
+          "outcome": "Consolidate compiler and image results, timings, defects, costs, and follow-up actions.",
+          "acceptance": "Durations are separated by run; unsupported usage data is labeled unavailable.",
+          "status": "PROPOSED",
+          "domain": 3,
+          "domainTitle": "GitHub Production, Automation & Operations"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Generative AI Professional Series & Book Authoring",
+      "count": 12,
+      "objective": "Maintain scholarly discipline and professional readability across research, manuscript creation, human gates, and updates.",
+      "sourceContext": "Professional Series (four books), Agentic AI for Knowledge Workers, manuscripts and learning companions",
+      "skills": [
+        {
+          "id": "S-31",
+          "name": "Professional Book Researcher",
+          "outcome": "Build source records, research questions, claim inventories, and dated literature reviews.",
+          "acceptance": "Every substantive proposition can be traced to suitable evidence or labeled author synthesis.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-32",
+          "name": "Book Architecture Designer",
+          "outcome": "Plan learning objectives, chapter hierarchy, conceptual scaffolding, and cross-references.",
+          "acceptance": "The sequence serves the reader and avoids unexplained dependencies or gaps.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-33",
+          "name": "Knowledge-Worker Technical Translator",
+          "outcome": "Translate AI engineering into accessible, accurate, nontechnical professional language.",
+          "acceptance": "Examples remain practical across knowledge-work roles without losing essential distinctions.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-34",
+          "name": "Professional Chapter Writer",
+          "outcome": "Produce coherent chapters with researched explanations, use cases, examples and transitions.",
+          "acceptance": "All sections satisfy the approved blueprint, sources, terminology and target level.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-35",
+          "name": "Prompt Engineering Method Builder",
+          "outcome": "Develop reusable prompting patterns, instructions, evaluation and role-based examples.",
+          "acceptance": "Methods state boundaries, prerequisites, typical failure modes, and verification.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-36",
+          "name": "Context Engineering Method Builder",
+          "outcome": "Explain grounding, retrieval, memory, context assembly, and lifecycle choices.",
+          "acceptance": "The proposed architecture has correct causal and conceptual distinctions.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-37",
+          "name": "Reliable AI Evaluation Designer",
+          "outcome": "Build evaluation protocols, human judgment controls, and improvement loops.",
+          "acceptance": "Evaluation criteria, evidence, tolerances, and escalation or stop rules are explicit.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-38",
+          "name": "Agentic Delegation Designer",
+          "outcome": "Design bounded agentic work, authority limits, tool use, recovery and human gates.",
+          "acceptance": "Capability never implies authority; outputs are auditable and interventions enforceable.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-39",
+          "name": "Exercise and Continuous Example Builder",
+          "outcome": "Create cumulative activities, reflective questions, templates, and running scenarios.",
+          "acceptance": "Activities directly reinforce chapter objectives and remain internally consistent.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-40",
+          "name": "Skeptical Manuscript Reviewer",
+          "outcome": "Conduct independent challenge reviews of argumentation, evidence, accuracy, and usability.",
+          "acceptance": "Material flaws and missing evidence are identified with actionable dispositions.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-41",
+          "name": "Human-Gated Book Production",
+          "outcome": "Organize design, editorial changes, production assets, approval packages, and final release gates.",
+          "acceptance": "No stage advances or publishes without its required, documented acceptance.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        },
+        {
+          "id": "S-42",
+          "name": "Series Continuity and Update Manager",
+          "outcome": "Maintain shared terminology, model evolution, internal links, revisions and reader orientation.",
+          "acceptance": "Differences across volumes are intentional, explained, and tracked.",
+          "status": "PROPOSED",
+          "domain": 4,
+          "domainTitle": "Generative AI Professional Series & Book Authoring"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Visular AI Terms & Learning Applications",
+      "count": 6,
+      "objective": "Take learners from quick understanding through comparison, application, retention, and guided professional growth.",
+      "sourceContext": "Visular AI Terms/Concepts, curated paths, learning formats, practice and assessment designs",
+      "skills": [
+        {
+          "id": "S-43",
+          "name": "AI Concept Researcher",
+          "outcome": "Research definitions, acronyms, alternatives, relationships, terminology drift and sources.",
+          "acceptance": "Definitions are accurate, dated and consistent with current product vocabulary.",
+          "status": "PROPOSED",
+          "domain": 5,
+          "domainTitle": "Visular AI Terms & Learning Applications"
+        },
+        {
+          "id": "S-44",
+          "name": "Multimedia Concept Builder",
+          "outcome": "Produce coordinated Quick View, Deep Dive, infographic, video, audio and text briefing packs.",
+          "acceptance": "Each format conveys the same verified core explanation without inconsistent claims.",
+          "status": "PROPOSED",
+          "domain": 5,
+          "domainTitle": "Visular AI Terms & Learning Applications"
+        },
+        {
+          "id": "S-45",
+          "name": "Concept Comparison Designer",
+          "outcome": "Create nuanced two- or three-concept comparisons and relationship explanations.",
+          "acceptance": "Differences are substantive, symmetric where appropriate, and not misleading.",
+          "status": "PROPOSED",
+          "domain": 5,
+          "domainTitle": "Visular AI Terms & Learning Applications"
+        },
+        {
+          "id": "S-46",
+          "name": "Personalized Learning Path Builder",
+          "outcome": "Assemble goal/role/time-based sequences using prerequisites and outcomes.",
+          "acceptance": "Path progression and checkpoints match user goals and content dependencies.",
+          "status": "PROPOSED",
+          "domain": 5,
+          "domainTitle": "Visular AI Terms & Learning Applications"
+        },
+        {
+          "id": "S-47",
+          "name": "Active Learning Assessment",
+          "outcome": "Create self-checks and realistic Apply It cases tied to concrete concepts.",
+          "acceptance": "Answers and feedback are grounded in stated learning objectives.",
+          "status": "PROPOSED",
+          "domain": 5,
+          "domainTitle": "Visular AI Terms & Learning Applications"
+        },
+        {
+          "id": "S-48",
+          "name": "Learning Content Maintenance",
+          "outcome": "Update glossary, relationship data, media links, freshness and change notes.",
+          "acceptance": "Stable IDs, backward compatibility and source currency are verified.",
+          "status": "PROPOSED",
+          "domain": 5,
+          "domainTitle": "Visular AI Terms & Learning Applications"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Individual & Enterprise AI Adoption Benchmark",
+      "count": 7,
+      "objective": "Provide evidence-based capability assessment, interpretable results, and useful maturity guidance without conflating separate models.",
+      "sourceContext": "SOLV1 and individual benchmark; separate enterprise maturity research",
+      "skills": [
+        {
+          "id": "S-49",
+          "name": "Individual AI Adoption Assessment",
+          "outcome": "Guide respondents through the approved individual maturity questionnaire.",
+          "acceptance": "Responses align with current questions, level definitions and privacy requirements.",
+          "status": "PROPOSED",
+          "domain": 6,
+          "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+        },
+        {
+          "id": "S-50",
+          "name": "Six-Dimension Capability Scorer",
+          "outcome": "Calculate and interpret the six individual capability dimensions.",
+          "acceptance": "Every dimension uses the current scoring contract; scores are reproducible.",
+          "status": "PROPOSED",
+          "domain": 6,
+          "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+        },
+        {
+          "id": "S-51",
+          "name": "Personalized Adoption Roadmap",
+          "outcome": "Recommend practical next moves based on profile, role and current capabilities.",
+          "acceptance": "Recommendations derive from evidenced deficits rather than generic advice.",
+          "status": "PROPOSED",
+          "domain": 6,
+          "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+        },
+        {
+          "id": "S-52",
+          "name": "AI Adoption Results Explainer",
+          "outcome": "Write clear results, strengths, gaps and Next Steps matched to the current framework.",
+          "acceptance": "Levels, legends and interpretation match the deployed scoring version.",
+          "status": "PROPOSED",
+          "domain": 6,
+          "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+        },
+        {
+          "id": "S-53",
+          "name": "Survey Research Analyzer",
+          "outcome": "Analyze free-text concerns, adoption needs, response themes and trends.",
+          "acceptance": "Reported trends disclose sample sizes, selection limits and uncertainty.",
+          "status": "PROPOSED",
+          "domain": 6,
+          "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+        },
+        {
+          "id": "S-54",
+          "name": "Enterprise AI Maturity Assessor",
+          "outcome": "Evaluate organizational systems, workflow changes, governance, evidence and results.",
+          "acceptance": "Enterprise readiness is not approximated by averaging employee capability.",
+          "status": "PROPOSED",
+          "domain": 6,
+          "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+        },
+        {
+          "id": "S-55",
+          "name": "Benchmark Consistency Validator",
+          "outcome": "Check rubric definitions, tiers, thresholds, terminology, and transitions across products.",
+          "acceptance": "Version mismatches are surfaced explicitly before user-facing output changes.",
+          "status": "PROPOSED",
+          "domain": 6,
+          "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "ChatGPT Sites & Application Development",
+      "count": 7,
+      "objective": "Ship approachable, maintainable, accessible, responsive sites through design and verified release controls.",
+      "sourceContext": "Professional Series site, Command Centers, benchmarks, project sites and web applications",
+      "skills": [
+        {
+          "id": "S-56",
+          "name": "Application Requirements Architect",
+          "outcome": "Specify users, workflows, state, data, exclusions, test cases and success outcomes.",
+          "acceptance": "Every material feature has an acceptance criterion and clearly bounded permissions.",
+          "status": "PROPOSED",
+          "domain": 7,
+          "domainTitle": "ChatGPT Sites & Application Development"
+        },
+        {
+          "id": "S-57",
+          "name": "ChatGPT Site Designer",
+          "outcome": "Design layout systems, content structure, navigation and responsive components.",
+          "acceptance": "Visual hierarchy and content remain usable across screen sizes.",
+          "status": "PROPOSED",
+          "domain": 7,
+          "domainTitle": "ChatGPT Sites & Application Development"
+        },
+        {
+          "id": "S-58",
+          "name": "Mobile UX and Accessibility Auditor",
+          "outcome": "Review contrast, legibility, hierarchy, semantics, touch targets and narrow-screen behavior.",
+          "acceptance": "Material accessibility and mobile issues are individually reproducible and prioritized.",
+          "status": "PROPOSED",
+          "domain": 7,
+          "domainTitle": "ChatGPT Sites & Application Development"
+        },
+        {
+          "id": "S-59",
+          "name": "Site Integrity Tester",
+          "outcome": "Validate URLs, assets, downloads, metadata, navigation and exposed product content.",
+          "acceptance": "All required links and pages function with correct versions and associations.",
+          "status": "PROPOSED",
+          "domain": 7,
+          "domainTitle": "ChatGPT Sites & Application Development"
+        },
+        {
+          "id": "S-60",
+          "name": "Application Regression Tester",
+          "outcome": "Compare approved functional/visual behavior before and after changes.",
+          "acceptance": "Accepted features remain intact; test records identify any regressions.",
+          "status": "PROPOSED",
+          "domain": 7,
+          "domainTitle": "ChatGPT Sites & Application Development"
+        },
+        {
+          "id": "S-61",
+          "name": "Site Release and Deployment Manager",
+          "outcome": "Plan releases, versions, rollbacks and production verification.",
+          "acceptance": "Live deployment, not local assertions, establishes completion.",
+          "status": "PROPOSED",
+          "domain": 7,
+          "domainTitle": "ChatGPT Sites & Application Development"
+        },
+        {
+          "id": "S-62",
+          "name": "Command Center Designer",
+          "outcome": "Develop reliable operational dashboards, status panels and authorized control surfaces.",
+          "acceptance": "Controls correspond to real state and authorization; no fabricated live data.",
+          "status": "PROPOSED",
+          "domain": 7,
+          "domainTitle": "ChatGPT Sites & Application Development"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Book Marketing & Multimedia Promotion",
+      "count": 6,
+      "objective": "Maintain brand-consistent professional publishing promotion with accurate claims and performance measurement.",
+      "sourceContext": "Professional Series, Leanpub, launch plans, promotional graphics, social media",
+      "skills": [
+        {
+          "id": "S-63",
+          "name": "Professional Book Infographic Designer",
+          "outcome": "Create polished, accurate individual-book and four-book promotional visuals.",
+          "acceptance": "Copy, visual hierarchy, book identity and claims are all correct at target dimensions.",
+          "status": "PROPOSED",
+          "domain": 8,
+          "domainTitle": "Book Marketing & Multimedia Promotion"
+        },
+        {
+          "id": "S-64",
+          "name": "Book Cover and Brand Preservation",
+          "outcome": "Preserve approved covers and consistent typography across revisions and formats.",
+          "acceptance": "No cover content, proportions, identity or legal attribution changes without permission.",
+          "status": "PROPOSED",
+          "domain": 8,
+          "domainTitle": "Book Marketing & Multimedia Promotion"
+        },
+        {
+          "id": "S-65",
+          "name": "Leanpub Product Copywriter",
+          "outcome": "Produce descriptions, teaser copy, metadata, and discoverability messaging.",
+          "acceptance": "Text matches actual book/bundle scope and platform constraints.",
+          "status": "PROPOSED",
+          "domain": 8,
+          "domainTitle": "Book Marketing & Multimedia Promotion"
+        },
+        {
+          "id": "S-66",
+          "name": "Publishing Campaign Planner",
+          "outcome": "Design timed release activity across selected channels and a specified budget.",
+          "acceptance": "Deliverables, timing, cost assumptions and ownership are explicit.",
+          "status": "PROPOSED",
+          "domain": 8,
+          "domainTitle": "Book Marketing & Multimedia Promotion"
+        },
+        {
+          "id": "S-67",
+          "name": "Multimedia Promotional Producer",
+          "outcome": "Create short-form scripts, storyboards, promo videos and companion captions.",
+          "acceptance": "Media agrees with the author-approved product claims and branding.",
+          "status": "PROPOSED",
+          "domain": 8,
+          "domainTitle": "Book Marketing & Multimedia Promotion"
+        },
+        {
+          "id": "S-68",
+          "name": "Author Marketing Analytics",
+          "outcome": "Develop transparent measurements and visual summaries for campaign activity.",
+          "acceptance": "Metrics have stated definitions, periods and source data; no guessed performance.",
+          "status": "PROPOSED",
+          "domain": 8,
+          "domainTitle": "Book Marketing & Multimedia Promotion"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "GEORGE Collector Universe",
+      "count": 5,
+      "objective": "Preserve canonical identity across premium collectible concepts, design variants, catalogs and a multi-series public site.",
+      "sourceContext": "GEORGE collector releases, series bibles, packaging, catalogs, site and archive",
+      "skills": [
+        {
+          "id": "S-69",
+          "name": "Collector Series Bible Manager",
+          "outcome": "Maintain release canon, product classes, accessories, numbering and narratives.",
+          "acceptance": "Every derivative artifact matches the approved series bible.",
+          "status": "PROPOSED",
+          "domain": 9,
+          "domainTitle": "GEORGE Collector Universe"
+        },
+        {
+          "id": "S-70",
+          "name": "Collectible Packaging Designer",
+          "outcome": "Design coherent edition-specific premium retail packaging and accessories.",
+          "acceptance": "Likeness, package details, series palette and release identification match contract.",
+          "status": "PROPOSED",
+          "domain": 9,
+          "domainTitle": "GEORGE Collector Universe"
+        },
+        {
+          "id": "S-71",
+          "name": "Collector Identity Quality Inspector",
+          "outcome": "Inspect actual art against likeness, text, numbering, class and product standards.",
+          "acceptance": "No conflicting labels or canonical identity drift remain.",
+          "status": "PROPOSED",
+          "domain": 9,
+          "domainTitle": "GEORGE Collector Universe"
+        },
+        {
+          "id": "S-72",
+          "name": "Collector Catalog Publisher",
+          "outcome": "Publish consistent print and optimized catalogs with complete product associations.",
+          "acceptance": "IDs, assets, descriptions, page links and print/export quality pass.",
+          "status": "PROPOSED",
+          "domain": 9,
+          "domainTitle": "GEORGE Collector Universe"
+        },
+        {
+          "id": "S-73",
+          "name": "Collector Site and Archive Auditor",
+          "outcome": "Audit product pages, archive, downloads, media and accessible navigation.",
+          "acceptance": "Live content and assets match the canonical release register.",
+          "status": "PROPOSED",
+          "domain": 9,
+          "domainTitle": "GEORGE Collector Universe"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Business Strategy & Evidence-Driven Consulting",
+      "count": 5,
+      "objective": "Make business recommendations defensible through high-quality evidence, accurate identity, and operational follow-through.",
+      "sourceContext": "Taylor Ridge strategic planning and reusable client research practices",
+      "skills": [
+        {
+          "id": "S-74",
+          "name": "Evidence-Based Business Assessment",
+          "outcome": "Analyze markets, customer proof, operations, reputation and information gaps.",
+          "acceptance": "Findings are dated, sourced and explicit about missing private records.",
+          "status": "PROPOSED",
+          "domain": 10,
+          "domainTitle": "Business Strategy & Evidence-Driven Consulting"
+        },
+        {
+          "id": "S-75",
+          "name": "Business Claim Verification",
+          "outcome": "Keep a maintained claim register with sources, confidence, ownership and review dates.",
+          "acceptance": "Unsupported claims remain labeled and are not published as established fact.",
+          "status": "PROPOSED",
+          "domain": 10,
+          "domainTitle": "Business Strategy & Evidence-Driven Consulting"
+        },
+        {
+          "id": "S-76",
+          "name": "AI Discoverability and Trust Auditor",
+          "outcome": "Review canonical business identity, public evidence, reviews, schema and citations.",
+          "acceptance": "Recommendations focus on verifiability, not manipulating unknown rankings.",
+          "status": "PROPOSED",
+          "domain": 10,
+          "domainTitle": "Business Strategy & Evidence-Driven Consulting"
+        },
+        {
+          "id": "S-77",
+          "name": "Competitive Strategy Designer",
+          "outcome": "Compare genuine differentiators and build evidence-backed market strategy.",
+          "acceptance": "Competitor statements distinguish observations from interpretations.",
+          "status": "PROPOSED",
+          "domain": 10,
+          "domainTitle": "Business Strategy & Evidence-Driven Consulting"
+        },
+        {
+          "id": "S-78",
+          "name": "Executive Strategic Plan Builder",
+          "outcome": "Turn research into decisions, actions, owners, milestones, risks and metrics.",
+          "acceptance": "Every initiative has an owner, a credible dependency and a verification method.",
+          "status": "PROPOSED",
+          "domain": 10,
+          "domainTitle": "Business Strategy & Evidence-Driven Consulting"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Cross-Project Professional Methods",
+      "count": 5,
+      "objective": "Turn successful project-specific know-how into small, governed, portable workflows that improve reliably over time.",
+      "sourceContext": "Reusable operating standards across all projects",
+      "skills": [
+        {
+          "id": "S-79",
+          "name": "Reusable Skill Architect",
+          "outcome": "Package accepted recurring procedures with instructions, tests, examples and change control.",
+          "acceptance": "Skill activates only for the correct trigger, fails safely, and passes controlled use cases.",
+          "status": "PROPOSED",
+          "domain": 11,
+          "domainTitle": "Cross-Project Professional Methods"
+        },
+        {
+          "id": "S-80",
+          "name": "Project Continuity and Handoff",
+          "outcome": "Record accepted decisions, artifact locations, completed steps, blockers, and permissions.",
+          "acceptance": "A new session can resume without redoing already accepted work.",
+          "status": "PROPOSED",
+          "domain": 11,
+          "domainTitle": "Cross-Project Professional Methods"
+        },
+        {
+          "id": "S-81",
+          "name": "Independent Quality and Acceptance Review",
+          "outcome": "Test factual, structural, visual and workflow outputs against their contracts.",
+          "acceptance": "PASS/BLOCKED dispositions are criterion-specific with supporting evidence.",
+          "status": "PROPOSED",
+          "domain": 11,
+          "domainTitle": "Cross-Project Professional Methods"
+        },
+        {
+          "id": "S-82",
+          "name": "Root-Cause and Continuous Improvement",
+          "outcome": "Convert incident findings into corrective actions, tests, and recurrent-risk controls.",
+          "acceptance": "Fixes are linked to observed faults and regression coverage.",
+          "status": "PROPOSED",
+          "domain": 11,
+          "domainTitle": "Cross-Project Professional Methods"
+        },
+        {
+          "id": "S-83",
+          "name": "AI Usage and Cost Optimizer",
+          "outcome": "Prioritize efficient tool choices while respecting quality and production cost policies.",
+          "acceptance": "No spending claims without evidence; zero-paid-API restrictions are enforced.",
+          "status": "PROPOSED",
+          "domain": 11,
+          "domainTitle": "Cross-Project Professional Methods"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "HTML5 Application Foundations",
+      "count": 7,
+      "objective": "Turn proven, static-first HTML5 learning application patterns into reusable components and quality-tested development methods without assuming the existing applications are all live or implementation-ready.",
+      "sourceContext": "27 book-embedded application launch points / 25 distinct embedded URLs across the four-book Professional Series; gttome/GenAI Prompt Structure Lab, Kanban, quiz datasets, and source atlas",
+      "skills": [
+        {
+          "id": "S-84",
+          "name": "HTML5 Application Starter",
+          "outcome": "Create a maintainable semantic HTML5/CSS/JavaScript application scaffold suitable for static hosting.",
+          "acceptance": "Loads without build infrastructure; layout, entry points, filenames, semantics, and project configuration pass checks.",
+          "status": "PROPOSED",
+          "domain": 12,
+          "domainTitle": "HTML5 Application Foundations"
+        },
+        {
+          "id": "S-85",
+          "name": "Responsive & Accessible UI Builder",
+          "outcome": "Build mobile-first interactions with clear typography, touch, focus, keyboard and accessible labels.",
+          "acceptance": "Mobile and desktop layouts, keyboard navigation, focus state, touch targets and representative accessibility checks pass.",
+          "status": "PROPOSED",
+          "domain": 12,
+          "domainTitle": "HTML5 Application Foundations"
+        },
+        {
+          "id": "S-86",
+          "name": "JSON-Driven Application Architecture",
+          "outcome": "Keep questions, concepts, templates, settings and app navigation in versioned content manifests.",
+          "acceptance": "Schemas validate; stable IDs, content references, missing-file errors and migration behavior are tested.",
+          "status": "PROPOSED",
+          "domain": 12,
+          "domainTitle": "HTML5 Application Foundations"
+        },
+        {
+          "id": "S-87",
+          "name": "JavaScript Interaction Engine",
+          "outcome": "Implement controlled browser interaction states, event routing, dynamic content and in-place updates.",
+          "acceptance": "State transitions are deterministic, event handling is verified, and empty/error states cannot silently corrupt results.",
+          "status": "PROPOSED",
+          "domain": 12,
+          "domainTitle": "HTML5 Application Foundations"
+        },
+        {
+          "id": "S-88",
+          "name": "Browser Storage & State Recovery",
+          "outcome": "Persist learner settings, notes, history and progress locally with recovery and reset.",
+          "acceptance": "Storage failures, migrations, invalid data, privacy boundaries and explicit reset behavior pass.",
+          "status": "PROPOSED",
+          "domain": 12,
+          "domainTitle": "HTML5 Application Foundations"
+        },
+        {
+          "id": "S-89",
+          "name": "Browser Export & Portability",
+          "outcome": "Provide supported copy, print, download, import/export and backup for user-created results.",
+          "acceptance": "Exports are readable, correctly encoded, complete and round-trip when that capability is offered.",
+          "status": "PROPOSED",
+          "domain": 12,
+          "domainTitle": "HTML5 Application Foundations"
+        },
+        {
+          "id": "S-90",
+          "name": "Application Navigation & Deep Linking",
+          "outcome": "Build navigable, stable paths between book references, chapter learning tasks, and application states.",
+          "acceptance": "Navigation, refresh/back behavior, deep links and book-to-application links are verified.",
+          "status": "PROPOSED",
+          "domain": 12,
+          "domainTitle": "HTML5 Application Foundations"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "HTML5 Interactive Learning Engines",
+      "count": 11,
+      "objective": "Turn proven, static-first HTML5 learning application patterns into reusable components and quality-tested development methods without assuming the existing applications are all live or implementation-ready.",
+      "sourceContext": "27 book-embedded application launch points / 25 distinct embedded URLs across the four-book Professional Series; gttome/GenAI Prompt Structure Lab, Kanban, quiz datasets, and source atlas",
+      "skills": [
+        {
+          "id": "S-91",
+          "name": "Interactive Prompt Builder",
+          "outcome": "Create structured prompt workbenches with editable components, previews and revision history.",
+          "acceptance": "Component updates reflect in the preview; edit/history transitions preserve the intended text and constraints.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        },
+        {
+          "id": "S-92",
+          "name": "HTML5 Kanban Board Engine",
+          "outcome": "Create lightweight draggable task boards with persistent card and column states.",
+          "acceptance": "Add/move/edit/delete operations, drag/drop alternatives, persistence, and ordering all pass.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        },
+        {
+          "id": "S-93",
+          "name": "Interactive Quiz & Exam Engine",
+          "outcome": "Build JSON-driven quiz/exam flows with question navigation, scoring, explanations and review.",
+          "acceptance": "Answer keys, rationale mapping, attempt state and score calculation are deterministic and validated.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        },
+        {
+          "id": "S-94",
+          "name": "Flashcard Learning Engine",
+          "outcome": "Support concept review through flashcard flip, grouping, repetition and progress actions.",
+          "acceptance": "Prompts/answers map exactly to versioned content and review states work on mobile and keyboard.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        },
+        {
+          "id": "S-95",
+          "name": "Interactive Learning Lab Builder",
+          "outcome": "Build scenario and exercise modules with clear objectives, stages, responses and feedback.",
+          "acceptance": "Activities map to instructional objectives and provide meaningful feedback without unsupported grading claims.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        },
+        {
+          "id": "S-96",
+          "name": "Rubric & Decision Simulator",
+          "outcome": "Create inspectable rules-based evaluators for decision criteria, readiness and scoring.",
+          "acceptance": "Every criterion and threshold is visible, versioned, explainable and covered by boundary tests.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        },
+        {
+          "id": "S-97",
+          "name": "Workflow Failure Simulator",
+          "outcome": "Model bounded failures, diagnosis, human gates and recovery in interactive teaching scenarios.",
+          "acceptance": "Scenario states, causes, responses, and guardrails are faithful to the relevant learning contract.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        },
+        {
+          "id": "S-98",
+          "name": "Regression Comparison Tool",
+          "outcome": "Present before/after cases, evaluate changes and document observed regressions.",
+          "acceptance": "Comparable baselines, test inputs, outcomes and evidence are retained without fabricated performance data.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        },
+        {
+          "id": "S-99",
+          "name": "Concept Search & Navigation Engine",
+          "outcome": "Build glossary, definition, question-concept and infographic navigation applications.",
+          "acceptance": "Search/filters, aliases, stable concept IDs and destination integrity pass test cases.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        },
+        {
+          "id": "S-100",
+          "name": "Multimedia Learning Player",
+          "outcome": "Integrate video, audio, transcripts, resources and learning navigation into accessible pages.",
+          "acceptance": "Media links, captions/transcripts where required, fallback states, performance and keyboard operation pass.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        },
+        {
+          "id": "S-101",
+          "name": "HTML5 Application Testing & Publishing",
+          "outcome": "Test and qualify static HTML5 learning applications and their live publishing destinations.",
+          "acceptance": "Functional, accessibility, device/layout, data-integrity and post-deployment URL/readback gates pass before release.",
+          "status": "PROPOSED",
+          "domain": 13,
+          "domainTitle": "HTML5 Interactive Learning Engines"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "S-01",
+      "name": "AI News Research",
+      "outcome": "Find and qualify relevant AI developments against authoritative sources, freshness and relevance.",
+      "acceptance": "Each candidate has a dated, retrievable supporting source and a distinct news event.",
+      "status": "PROPOSED",
+      "domain": 1,
+      "domainTitle": "Daily AI Brief — Research & Editorial Production"
+    },
+    {
+      "id": "S-02",
+      "name": "Source Portfolio Manager",
+      "outcome": "Maintain source discovery, eligibility, classification, diversity, fallback, and retirement.",
+      "acceptance": "Source IDs, content type, coverage, update status, and drop reasons remain traceable.",
+      "status": "PROPOSED",
+      "domain": 1,
+      "domainTitle": "Daily AI Brief — Research & Editorial Production"
+    },
+    {
+      "id": "S-03",
+      "name": "Evidence Verification",
+      "outcome": "Separate confirmed facts, publisher claims, interpretations, limitations, and unknowns.",
+      "acceptance": "Material claims map to specific evidence, and contradictions or gaps are disclosed.",
+      "status": "PROPOSED",
+      "domain": 1,
+      "domainTitle": "Daily AI Brief — Research & Editorial Production"
+    },
+    {
+      "id": "S-04",
+      "name": "Editorial Story Selection",
+      "outcome": "Select the configured 2/2/2 article allocation without redundancy or category drift.",
+      "acceptance": "Exactly two technical, two knowledge-worker, and two nontechnical-agent stories are selected.",
+      "status": "PROPOSED",
+      "domain": 1,
+      "domainTitle": "Daily AI Brief — Research & Editorial Production"
+    },
+    {
+      "id": "S-05",
+      "name": "Agent Skills Coverage",
+      "outcome": "Find and validate a distinct Agent Skills story for the daily edition.",
+      "acceptance": "Exactly one qualifying Agent Skills item is present and evidence-supported.",
+      "status": "PROPOSED",
+      "domain": 1,
+      "domainTitle": "Daily AI Brief — Research & Editorial Production"
+    },
+    {
+      "id": "S-06",
+      "name": "Watchlist Research",
+      "outcome": "Discover, update, carry forward, and remove emerging topics with documented rationale.",
+      "acceptance": "New/updated/carried-forward state and add/drop decisions are reproducible.",
+      "status": "PROPOSED",
+      "domain": 1,
+      "domainTitle": "Daily AI Brief — Research & Editorial Production"
+    },
+    {
+      "id": "S-07",
+      "name": "Evidence-Based Watchlist Scoring",
+      "outcome": "Independently justify novelty, evidence, independence, momentum, relevance, and durability.",
+      "acceptance": "No synthetic default scores; every required criterion has supporting reasoning and passes contract validation.",
+      "status": "PROPOSED",
+      "domain": 1,
+      "domainTitle": "Daily AI Brief — Research & Editorial Production"
+    },
+    {
+      "id": "S-08",
+      "name": "Professional Brief Writer",
+      "outcome": "Write useful summaries, implications, dated citations, and reading-time estimates.",
+      "acceptance": "Summary and Why It Matters are distinct; factual assertions are traceable and readable.",
+      "status": "PROPOSED",
+      "domain": 1,
+      "domainTitle": "Daily AI Brief — Research & Editorial Production"
+    },
+    {
+      "id": "S-09",
+      "name": "Media Research and Selection",
+      "outcome": "Qualify two videos and one podcast with accurate metadata and relevance.",
+      "acceptance": "Media count, type, provenance, timing policy, and working destinations all pass.",
+      "status": "PROPOSED",
+      "domain": 1,
+      "domainTitle": "Daily AI Brief — Research & Editorial Production"
+    },
+    {
+      "id": "S-10",
+      "name": "Editorial Quality Certification",
+      "outcome": "Audit article integrity, schema, copy, language, freshness, and publication parity.",
+      "acceptance": "No duplicate sections, missing mandatory fields, invented attribution, or inconsistent article pages.",
+      "status": "PROPOSED",
+      "domain": 1,
+      "domainTitle": "Daily AI Brief — Research & Editorial Production"
+    },
+    {
+      "id": "S-11",
+      "name": "Premium Mechanism Illustration",
+      "outcome": "Transform a sealed story into a production-grade causal mechanism illustration.",
+      "acceptance": "All story-specific geometry, evidence, allowed labels, exclusions, and final pixels pass.",
+      "status": "DOCUMENTED_ONLY",
+      "domain": 2,
+      "domainTitle": "Premium Illustration & Image Production"
+    },
+    {
+      "id": "S-12",
+      "name": "Story-to-Visual Specification",
+      "outcome": "Translate narrative claims into an explicit, testable visual and geometry contract.",
+      "acceptance": "Every mandatory requirement has a test; no unsupported operation is introduced.",
+      "status": "PROPOSED",
+      "domain": 2,
+      "domainTitle": "Premium Illustration & Image Production"
+    },
+    {
+      "id": "S-13",
+      "name": "Exact Text Allowlist",
+      "outcome": "Constrain all visible text to exact approved labels and reject pseudo-writing.",
+      "acceptance": "Required labels are legible, exact, and exclusive; no unapproved characters appear.",
+      "status": "PROPOSED",
+      "domain": 2,
+      "domainTitle": "Premium Illustration & Image Production"
+    },
+    {
+      "id": "S-14",
+      "name": "Causal Geometry Validator",
+      "outcome": "Inspect exposed transformations, contacts, boundaries, comparisons, and feedback.",
+      "acceptance": "Paths reach correct endpoints; comparisons, separation and causal direction are visually correct.",
+      "status": "PROPOSED",
+      "domain": 2,
+      "domainTitle": "Premium Illustration & Image Production"
+    },
+    {
+      "id": "S-15",
+      "name": "Visible Pixel Inspector",
+      "outcome": "Inspect the latest saved image at native and real use scale against the full contract.",
+      "acceptance": "Pixel inspection evidence documents all criteria; no pass from prompt claims or prior versions.",
+      "status": "PROPOSED",
+      "domain": 2,
+      "domainTitle": "Premium Illustration & Image Production"
+    },
+    {
+      "id": "S-16",
+      "name": "Image Correction and Retesting",
+      "outcome": "Correct specific failures and re-run the complete visual QA after each change.",
+      "acceptance": "Previously compliant properties stay intact; hard failures cannot be waived by appearance.",
+      "status": "PROPOSED",
+      "domain": 2,
+      "domainTitle": "Premium Illustration & Image Production"
+    },
+    {
+      "id": "S-17",
+      "name": "Six-Image Production Manager",
+      "outcome": "Coordinate six differentiated story-specific illustrations and their records.",
+      "acceptance": "Set-level variety and each individual sealed-story requirement pass.",
+      "status": "PROPOSED",
+      "domain": 2,
+      "domainTitle": "Premium Illustration & Image Production"
+    },
+    {
+      "id": "S-18",
+      "name": "Image Asset Verification",
+      "outcome": "Check format, dimensions, bindings, manifest, upload, and readback.",
+      "acceptance": "Correct 1200×630 RGB/RGBA PNGs and exact story-manifest associations are verified.",
+      "status": "PROPOSED",
+      "domain": 2,
+      "domainTitle": "Premium Illustration & Image Production"
+    },
+    {
+      "id": "S-19",
+      "name": "Production Readiness Audit",
+      "outcome": "Verify inputs, schedules, contracts, enabled tasks, leases, branch protections, and output prerequisites.",
+      "acceptance": "A dated PASS/BLOCKED report lists each check and supporting evidence.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-20",
+      "name": "Dual-Run Coordination",
+      "outcome": "Orchestrate compiler-to-image handoff, readiness windows, and immutable job identity.",
+      "acceptance": "Image work targets the correct sealed edition without early, duplicate, or mismatched execution.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-21",
+      "name": "Run Supervisor",
+      "outcome": "Observe ordered task progress, leases, timing, task ownership, and health.",
+      "acceptance": "One authoritative active writer is recognized; stale or missing progress is flagged.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-22",
+      "name": "Watchdog Recovery",
+      "outcome": "Diagnose stalled states and apply the minimum authorized recovery action.",
+      "acceptance": "Intervention is evidence-based, bounded, logged, and never restarts healthy work.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-23",
+      "name": "Deterministic Resume",
+      "outcome": "Continue interrupted jobs from verified checkpoints without repeating completed work.",
+      "acceptance": "Completed artifacts are reused; idempotency and lease semantics prevent duplicate execution.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-24",
+      "name": "Protected-Main GitHub Manager",
+      "outcome": "Prepare and validate changes through approved PR and required status checks.",
+      "acceptance": "Branch protection, history and review/merge policy are respected.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-25",
+      "name": "CI and Regression Validator",
+      "outcome": "Run validation contracts and regression tests on publishing and editorial changes.",
+      "acceptance": "Critical invariants fail closed; test outputs identify exact breakages.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-26",
+      "name": "Kanban Status Generator",
+      "outcome": "Publish task-level status, durations, current risk, next action and totals.",
+      "acceptance": "Times and states reconcile to underlying records; no invented progress.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-27",
+      "name": "Incident Investigation",
+      "outcome": "Build a fault timeline, causal chain, impact assessment, and correction evidence.",
+      "acceptance": "Facts are separated from hypotheses and remain linked to logs or files.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-28",
+      "name": "Deployment and Publication Verification",
+      "outcome": "Confirm deployed public content, archive consistency, asset links, and fresh readback.",
+      "acceptance": "Actual live pages—not local build success alone—show all required content and media.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-29",
+      "name": "GitHub Rollback and Recovery",
+      "outcome": "Restore a verified baseline with history preservation and post-restore checks.",
+      "acceptance": "Exact target tree/version and independent deployment readback match the approved baseline.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-30",
+      "name": "Unified After-Action Reporting",
+      "outcome": "Consolidate compiler and image results, timings, defects, costs, and follow-up actions.",
+      "acceptance": "Durations are separated by run; unsupported usage data is labeled unavailable.",
+      "status": "PROPOSED",
+      "domain": 3,
+      "domainTitle": "GitHub Production, Automation & Operations"
+    },
+    {
+      "id": "S-31",
+      "name": "Professional Book Researcher",
+      "outcome": "Build source records, research questions, claim inventories, and dated literature reviews.",
+      "acceptance": "Every substantive proposition can be traced to suitable evidence or labeled author synthesis.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-32",
+      "name": "Book Architecture Designer",
+      "outcome": "Plan learning objectives, chapter hierarchy, conceptual scaffolding, and cross-references.",
+      "acceptance": "The sequence serves the reader and avoids unexplained dependencies or gaps.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-33",
+      "name": "Knowledge-Worker Technical Translator",
+      "outcome": "Translate AI engineering into accessible, accurate, nontechnical professional language.",
+      "acceptance": "Examples remain practical across knowledge-work roles without losing essential distinctions.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-34",
+      "name": "Professional Chapter Writer",
+      "outcome": "Produce coherent chapters with researched explanations, use cases, examples and transitions.",
+      "acceptance": "All sections satisfy the approved blueprint, sources, terminology and target level.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-35",
+      "name": "Prompt Engineering Method Builder",
+      "outcome": "Develop reusable prompting patterns, instructions, evaluation and role-based examples.",
+      "acceptance": "Methods state boundaries, prerequisites, typical failure modes, and verification.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-36",
+      "name": "Context Engineering Method Builder",
+      "outcome": "Explain grounding, retrieval, memory, context assembly, and lifecycle choices.",
+      "acceptance": "The proposed architecture has correct causal and conceptual distinctions.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-37",
+      "name": "Reliable AI Evaluation Designer",
+      "outcome": "Build evaluation protocols, human judgment controls, and improvement loops.",
+      "acceptance": "Evaluation criteria, evidence, tolerances, and escalation or stop rules are explicit.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-38",
+      "name": "Agentic Delegation Designer",
+      "outcome": "Design bounded agentic work, authority limits, tool use, recovery and human gates.",
+      "acceptance": "Capability never implies authority; outputs are auditable and interventions enforceable.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-39",
+      "name": "Exercise and Continuous Example Builder",
+      "outcome": "Create cumulative activities, reflective questions, templates, and running scenarios.",
+      "acceptance": "Activities directly reinforce chapter objectives and remain internally consistent.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-40",
+      "name": "Skeptical Manuscript Reviewer",
+      "outcome": "Conduct independent challenge reviews of argumentation, evidence, accuracy, and usability.",
+      "acceptance": "Material flaws and missing evidence are identified with actionable dispositions.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-41",
+      "name": "Human-Gated Book Production",
+      "outcome": "Organize design, editorial changes, production assets, approval packages, and final release gates.",
+      "acceptance": "No stage advances or publishes without its required, documented acceptance.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-42",
+      "name": "Series Continuity and Update Manager",
+      "outcome": "Maintain shared terminology, model evolution, internal links, revisions and reader orientation.",
+      "acceptance": "Differences across volumes are intentional, explained, and tracked.",
+      "status": "PROPOSED",
+      "domain": 4,
+      "domainTitle": "Generative AI Professional Series & Book Authoring"
+    },
+    {
+      "id": "S-43",
+      "name": "AI Concept Researcher",
+      "outcome": "Research definitions, acronyms, alternatives, relationships, terminology drift and sources.",
+      "acceptance": "Definitions are accurate, dated and consistent with current product vocabulary.",
+      "status": "PROPOSED",
+      "domain": 5,
+      "domainTitle": "Visular AI Terms & Learning Applications"
+    },
+    {
+      "id": "S-44",
+      "name": "Multimedia Concept Builder",
+      "outcome": "Produce coordinated Quick View, Deep Dive, infographic, video, audio and text briefing packs.",
+      "acceptance": "Each format conveys the same verified core explanation without inconsistent claims.",
+      "status": "PROPOSED",
+      "domain": 5,
+      "domainTitle": "Visular AI Terms & Learning Applications"
+    },
+    {
+      "id": "S-45",
+      "name": "Concept Comparison Designer",
+      "outcome": "Create nuanced two- or three-concept comparisons and relationship explanations.",
+      "acceptance": "Differences are substantive, symmetric where appropriate, and not misleading.",
+      "status": "PROPOSED",
+      "domain": 5,
+      "domainTitle": "Visular AI Terms & Learning Applications"
+    },
+    {
+      "id": "S-46",
+      "name": "Personalized Learning Path Builder",
+      "outcome": "Assemble goal/role/time-based sequences using prerequisites and outcomes.",
+      "acceptance": "Path progression and checkpoints match user goals and content dependencies.",
+      "status": "PROPOSED",
+      "domain": 5,
+      "domainTitle": "Visular AI Terms & Learning Applications"
+    },
+    {
+      "id": "S-47",
+      "name": "Active Learning Assessment",
+      "outcome": "Create self-checks and realistic Apply It cases tied to concrete concepts.",
+      "acceptance": "Answers and feedback are grounded in stated learning objectives.",
+      "status": "PROPOSED",
+      "domain": 5,
+      "domainTitle": "Visular AI Terms & Learning Applications"
+    },
+    {
+      "id": "S-48",
+      "name": "Learning Content Maintenance",
+      "outcome": "Update glossary, relationship data, media links, freshness and change notes.",
+      "acceptance": "Stable IDs, backward compatibility and source currency are verified.",
+      "status": "PROPOSED",
+      "domain": 5,
+      "domainTitle": "Visular AI Terms & Learning Applications"
+    },
+    {
+      "id": "S-49",
+      "name": "Individual AI Adoption Assessment",
+      "outcome": "Guide respondents through the approved individual maturity questionnaire.",
+      "acceptance": "Responses align with current questions, level definitions and privacy requirements.",
+      "status": "PROPOSED",
+      "domain": 6,
+      "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+    },
+    {
+      "id": "S-50",
+      "name": "Six-Dimension Capability Scorer",
+      "outcome": "Calculate and interpret the six individual capability dimensions.",
+      "acceptance": "Every dimension uses the current scoring contract; scores are reproducible.",
+      "status": "PROPOSED",
+      "domain": 6,
+      "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+    },
+    {
+      "id": "S-51",
+      "name": "Personalized Adoption Roadmap",
+      "outcome": "Recommend practical next moves based on profile, role and current capabilities.",
+      "acceptance": "Recommendations derive from evidenced deficits rather than generic advice.",
+      "status": "PROPOSED",
+      "domain": 6,
+      "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+    },
+    {
+      "id": "S-52",
+      "name": "AI Adoption Results Explainer",
+      "outcome": "Write clear results, strengths, gaps and Next Steps matched to the current framework.",
+      "acceptance": "Levels, legends and interpretation match the deployed scoring version.",
+      "status": "PROPOSED",
+      "domain": 6,
+      "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+    },
+    {
+      "id": "S-53",
+      "name": "Survey Research Analyzer",
+      "outcome": "Analyze free-text concerns, adoption needs, response themes and trends.",
+      "acceptance": "Reported trends disclose sample sizes, selection limits and uncertainty.",
+      "status": "PROPOSED",
+      "domain": 6,
+      "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+    },
+    {
+      "id": "S-54",
+      "name": "Enterprise AI Maturity Assessor",
+      "outcome": "Evaluate organizational systems, workflow changes, governance, evidence and results.",
+      "acceptance": "Enterprise readiness is not approximated by averaging employee capability.",
+      "status": "PROPOSED",
+      "domain": 6,
+      "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+    },
+    {
+      "id": "S-55",
+      "name": "Benchmark Consistency Validator",
+      "outcome": "Check rubric definitions, tiers, thresholds, terminology, and transitions across products.",
+      "acceptance": "Version mismatches are surfaced explicitly before user-facing output changes.",
+      "status": "PROPOSED",
+      "domain": 6,
+      "domainTitle": "Individual & Enterprise AI Adoption Benchmark"
+    },
+    {
+      "id": "S-56",
+      "name": "Application Requirements Architect",
+      "outcome": "Specify users, workflows, state, data, exclusions, test cases and success outcomes.",
+      "acceptance": "Every material feature has an acceptance criterion and clearly bounded permissions.",
+      "status": "PROPOSED",
+      "domain": 7,
+      "domainTitle": "ChatGPT Sites & Application Development"
+    },
+    {
+      "id": "S-57",
+      "name": "ChatGPT Site Designer",
+      "outcome": "Design layout systems, content structure, navigation and responsive components.",
+      "acceptance": "Visual hierarchy and content remain usable across screen sizes.",
+      "status": "PROPOSED",
+      "domain": 7,
+      "domainTitle": "ChatGPT Sites & Application Development"
+    },
+    {
+      "id": "S-58",
+      "name": "Mobile UX and Accessibility Auditor",
+      "outcome": "Review contrast, legibility, hierarchy, semantics, touch targets and narrow-screen behavior.",
+      "acceptance": "Material accessibility and mobile issues are individually reproducible and prioritized.",
+      "status": "PROPOSED",
+      "domain": 7,
+      "domainTitle": "ChatGPT Sites & Application Development"
+    },
+    {
+      "id": "S-59",
+      "name": "Site Integrity Tester",
+      "outcome": "Validate URLs, assets, downloads, metadata, navigation and exposed product content.",
+      "acceptance": "All required links and pages function with correct versions and associations.",
+      "status": "PROPOSED",
+      "domain": 7,
+      "domainTitle": "ChatGPT Sites & Application Development"
+    },
+    {
+      "id": "S-60",
+      "name": "Application Regression Tester",
+      "outcome": "Compare approved functional/visual behavior before and after changes.",
+      "acceptance": "Accepted features remain intact; test records identify any regressions.",
+      "status": "PROPOSED",
+      "domain": 7,
+      "domainTitle": "ChatGPT Sites & Application Development"
+    },
+    {
+      "id": "S-61",
+      "name": "Site Release and Deployment Manager",
+      "outcome": "Plan releases, versions, rollbacks and production verification.",
+      "acceptance": "Live deployment, not local assertions, establishes completion.",
+      "status": "PROPOSED",
+      "domain": 7,
+      "domainTitle": "ChatGPT Sites & Application Development"
+    },
+    {
+      "id": "S-62",
+      "name": "Command Center Designer",
+      "outcome": "Develop reliable operational dashboards, status panels and authorized control surfaces.",
+      "acceptance": "Controls correspond to real state and authorization; no fabricated live data.",
+      "status": "PROPOSED",
+      "domain": 7,
+      "domainTitle": "ChatGPT Sites & Application Development"
+    },
+    {
+      "id": "S-63",
+      "name": "Professional Book Infographic Designer",
+      "outcome": "Create polished, accurate individual-book and four-book promotional visuals.",
+      "acceptance": "Copy, visual hierarchy, book identity and claims are all correct at target dimensions.",
+      "status": "PROPOSED",
+      "domain": 8,
+      "domainTitle": "Book Marketing & Multimedia Promotion"
+    },
+    {
+      "id": "S-64",
+      "name": "Book Cover and Brand Preservation",
+      "outcome": "Preserve approved covers and consistent typography across revisions and formats.",
+      "acceptance": "No cover content, proportions, identity or legal attribution changes without permission.",
+      "status": "PROPOSED",
+      "domain": 8,
+      "domainTitle": "Book Marketing & Multimedia Promotion"
+    },
+    {
+      "id": "S-65",
+      "name": "Leanpub Product Copywriter",
+      "outcome": "Produce descriptions, teaser copy, metadata, and discoverability messaging.",
+      "acceptance": "Text matches actual book/bundle scope and platform constraints.",
+      "status": "PROPOSED",
+      "domain": 8,
+      "domainTitle": "Book Marketing & Multimedia Promotion"
+    },
+    {
+      "id": "S-66",
+      "name": "Publishing Campaign Planner",
+      "outcome": "Design timed release activity across selected channels and a specified budget.",
+      "acceptance": "Deliverables, timing, cost assumptions and ownership are explicit.",
+      "status": "PROPOSED",
+      "domain": 8,
+      "domainTitle": "Book Marketing & Multimedia Promotion"
+    },
+    {
+      "id": "S-67",
+      "name": "Multimedia Promotional Producer",
+      "outcome": "Create short-form scripts, storyboards, promo videos and companion captions.",
+      "acceptance": "Media agrees with the author-approved product claims and branding.",
+      "status": "PROPOSED",
+      "domain": 8,
+      "domainTitle": "Book Marketing & Multimedia Promotion"
+    },
+    {
+      "id": "S-68",
+      "name": "Author Marketing Analytics",
+      "outcome": "Develop transparent measurements and visual summaries for campaign activity.",
+      "acceptance": "Metrics have stated definitions, periods and source data; no guessed performance.",
+      "status": "PROPOSED",
+      "domain": 8,
+      "domainTitle": "Book Marketing & Multimedia Promotion"
+    },
+    {
+      "id": "S-69",
+      "name": "Collector Series Bible Manager",
+      "outcome": "Maintain release canon, product classes, accessories, numbering and narratives.",
+      "acceptance": "Every derivative artifact matches the approved series bible.",
+      "status": "PROPOSED",
+      "domain": 9,
+      "domainTitle": "GEORGE Collector Universe"
+    },
+    {
+      "id": "S-70",
+      "name": "Collectible Packaging Designer",
+      "outcome": "Design coherent edition-specific premium retail packaging and accessories.",
+      "acceptance": "Likeness, package details, series palette and release identification match contract.",
+      "status": "PROPOSED",
+      "domain": 9,
+      "domainTitle": "GEORGE Collector Universe"
+    },
+    {
+      "id": "S-71",
+      "name": "Collector Identity Quality Inspector",
+      "outcome": "Inspect actual art against likeness, text, numbering, class and product standards.",
+      "acceptance": "No conflicting labels or canonical identity drift remain.",
+      "status": "PROPOSED",
+      "domain": 9,
+      "domainTitle": "GEORGE Collector Universe"
+    },
+    {
+      "id": "S-72",
+      "name": "Collector Catalog Publisher",
+      "outcome": "Publish consistent print and optimized catalogs with complete product associations.",
+      "acceptance": "IDs, assets, descriptions, page links and print/export quality pass.",
+      "status": "PROPOSED",
+      "domain": 9,
+      "domainTitle": "GEORGE Collector Universe"
+    },
+    {
+      "id": "S-73",
+      "name": "Collector Site and Archive Auditor",
+      "outcome": "Audit product pages, archive, downloads, media and accessible navigation.",
+      "acceptance": "Live content and assets match the canonical release register.",
+      "status": "PROPOSED",
+      "domain": 9,
+      "domainTitle": "GEORGE Collector Universe"
+    },
+    {
+      "id": "S-74",
+      "name": "Evidence-Based Business Assessment",
+      "outcome": "Analyze markets, customer proof, operations, reputation and information gaps.",
+      "acceptance": "Findings are dated, sourced and explicit about missing private records.",
+      "status": "PROPOSED",
+      "domain": 10,
+      "domainTitle": "Business Strategy & Evidence-Driven Consulting"
+    },
+    {
+      "id": "S-75",
+      "name": "Business Claim Verification",
+      "outcome": "Keep a maintained claim register with sources, confidence, ownership and review dates.",
+      "acceptance": "Unsupported claims remain labeled and are not published as established fact.",
+      "status": "PROPOSED",
+      "domain": 10,
+      "domainTitle": "Business Strategy & Evidence-Driven Consulting"
+    },
+    {
+      "id": "S-76",
+      "name": "AI Discoverability and Trust Auditor",
+      "outcome": "Review canonical business identity, public evidence, reviews, schema and citations.",
+      "acceptance": "Recommendations focus on verifiability, not manipulating unknown rankings.",
+      "status": "PROPOSED",
+      "domain": 10,
+      "domainTitle": "Business Strategy & Evidence-Driven Consulting"
+    },
+    {
+      "id": "S-77",
+      "name": "Competitive Strategy Designer",
+      "outcome": "Compare genuine differentiators and build evidence-backed market strategy.",
+      "acceptance": "Competitor statements distinguish observations from interpretations.",
+      "status": "PROPOSED",
+      "domain": 10,
+      "domainTitle": "Business Strategy & Evidence-Driven Consulting"
+    },
+    {
+      "id": "S-78",
+      "name": "Executive Strategic Plan Builder",
+      "outcome": "Turn research into decisions, actions, owners, milestones, risks and metrics.",
+      "acceptance": "Every initiative has an owner, a credible dependency and a verification method.",
+      "status": "PROPOSED",
+      "domain": 10,
+      "domainTitle": "Business Strategy & Evidence-Driven Consulting"
+    },
+    {
+      "id": "S-79",
+      "name": "Reusable Skill Architect",
+      "outcome": "Package accepted recurring procedures with instructions, tests, examples and change control.",
+      "acceptance": "Skill activates only for the correct trigger, fails safely, and passes controlled use cases.",
+      "status": "PROPOSED",
+      "domain": 11,
+      "domainTitle": "Cross-Project Professional Methods"
+    },
+    {
+      "id": "S-80",
+      "name": "Project Continuity and Handoff",
+      "outcome": "Record accepted decisions, artifact locations, completed steps, blockers, and permissions.",
+      "acceptance": "A new session can resume without redoing already accepted work.",
+      "status": "PROPOSED",
+      "domain": 11,
+      "domainTitle": "Cross-Project Professional Methods"
+    },
+    {
+      "id": "S-81",
+      "name": "Independent Quality and Acceptance Review",
+      "outcome": "Test factual, structural, visual and workflow outputs against their contracts.",
+      "acceptance": "PASS/BLOCKED dispositions are criterion-specific with supporting evidence.",
+      "status": "PROPOSED",
+      "domain": 11,
+      "domainTitle": "Cross-Project Professional Methods"
+    },
+    {
+      "id": "S-82",
+      "name": "Root-Cause and Continuous Improvement",
+      "outcome": "Convert incident findings into corrective actions, tests, and recurrent-risk controls.",
+      "acceptance": "Fixes are linked to observed faults and regression coverage.",
+      "status": "PROPOSED",
+      "domain": 11,
+      "domainTitle": "Cross-Project Professional Methods"
+    },
+    {
+      "id": "S-83",
+      "name": "AI Usage and Cost Optimizer",
+      "outcome": "Prioritize efficient tool choices while respecting quality and production cost policies.",
+      "acceptance": "No spending claims without evidence; zero-paid-API restrictions are enforced.",
+      "status": "PROPOSED",
+      "domain": 11,
+      "domainTitle": "Cross-Project Professional Methods"
+    },
+    {
+      "id": "S-84",
+      "name": "HTML5 Application Starter",
+      "outcome": "Create a maintainable semantic HTML5/CSS/JavaScript application scaffold suitable for static hosting.",
+      "acceptance": "Loads without build infrastructure; layout, entry points, filenames, semantics, and project configuration pass checks.",
+      "status": "PROPOSED",
+      "domain": 12,
+      "domainTitle": "HTML5 Application Foundations"
+    },
+    {
+      "id": "S-85",
+      "name": "Responsive & Accessible UI Builder",
+      "outcome": "Build mobile-first interactions with clear typography, touch, focus, keyboard and accessible labels.",
+      "acceptance": "Mobile and desktop layouts, keyboard navigation, focus state, touch targets and representative accessibility checks pass.",
+      "status": "PROPOSED",
+      "domain": 12,
+      "domainTitle": "HTML5 Application Foundations"
+    },
+    {
+      "id": "S-86",
+      "name": "JSON-Driven Application Architecture",
+      "outcome": "Keep questions, concepts, templates, settings and app navigation in versioned content manifests.",
+      "acceptance": "Schemas validate; stable IDs, content references, missing-file errors and migration behavior are tested.",
+      "status": "PROPOSED",
+      "domain": 12,
+      "domainTitle": "HTML5 Application Foundations"
+    },
+    {
+      "id": "S-87",
+      "name": "JavaScript Interaction Engine",
+      "outcome": "Implement controlled browser interaction states, event routing, dynamic content and in-place updates.",
+      "acceptance": "State transitions are deterministic, event handling is verified, and empty/error states cannot silently corrupt results.",
+      "status": "PROPOSED",
+      "domain": 12,
+      "domainTitle": "HTML5 Application Foundations"
+    },
+    {
+      "id": "S-88",
+      "name": "Browser Storage & State Recovery",
+      "outcome": "Persist learner settings, notes, history and progress locally with recovery and reset.",
+      "acceptance": "Storage failures, migrations, invalid data, privacy boundaries and explicit reset behavior pass.",
+      "status": "PROPOSED",
+      "domain": 12,
+      "domainTitle": "HTML5 Application Foundations"
+    },
+    {
+      "id": "S-89",
+      "name": "Browser Export & Portability",
+      "outcome": "Provide supported copy, print, download, import/export and backup for user-created results.",
+      "acceptance": "Exports are readable, correctly encoded, complete and round-trip when that capability is offered.",
+      "status": "PROPOSED",
+      "domain": 12,
+      "domainTitle": "HTML5 Application Foundations"
+    },
+    {
+      "id": "S-90",
+      "name": "Application Navigation & Deep Linking",
+      "outcome": "Build navigable, stable paths between book references, chapter learning tasks, and application states.",
+      "acceptance": "Navigation, refresh/back behavior, deep links and book-to-application links are verified.",
+      "status": "PROPOSED",
+      "domain": 12,
+      "domainTitle": "HTML5 Application Foundations"
+    },
+    {
+      "id": "S-91",
+      "name": "Interactive Prompt Builder",
+      "outcome": "Create structured prompt workbenches with editable components, previews and revision history.",
+      "acceptance": "Component updates reflect in the preview; edit/history transitions preserve the intended text and constraints.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    },
+    {
+      "id": "S-92",
+      "name": "HTML5 Kanban Board Engine",
+      "outcome": "Create lightweight draggable task boards with persistent card and column states.",
+      "acceptance": "Add/move/edit/delete operations, drag/drop alternatives, persistence, and ordering all pass.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    },
+    {
+      "id": "S-93",
+      "name": "Interactive Quiz & Exam Engine",
+      "outcome": "Build JSON-driven quiz/exam flows with question navigation, scoring, explanations and review.",
+      "acceptance": "Answer keys, rationale mapping, attempt state and score calculation are deterministic and validated.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    },
+    {
+      "id": "S-94",
+      "name": "Flashcard Learning Engine",
+      "outcome": "Support concept review through flashcard flip, grouping, repetition and progress actions.",
+      "acceptance": "Prompts/answers map exactly to versioned content and review states work on mobile and keyboard.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    },
+    {
+      "id": "S-95",
+      "name": "Interactive Learning Lab Builder",
+      "outcome": "Build scenario and exercise modules with clear objectives, stages, responses and feedback.",
+      "acceptance": "Activities map to instructional objectives and provide meaningful feedback without unsupported grading claims.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    },
+    {
+      "id": "S-96",
+      "name": "Rubric & Decision Simulator",
+      "outcome": "Create inspectable rules-based evaluators for decision criteria, readiness and scoring.",
+      "acceptance": "Every criterion and threshold is visible, versioned, explainable and covered by boundary tests.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    },
+    {
+      "id": "S-97",
+      "name": "Workflow Failure Simulator",
+      "outcome": "Model bounded failures, diagnosis, human gates and recovery in interactive teaching scenarios.",
+      "acceptance": "Scenario states, causes, responses, and guardrails are faithful to the relevant learning contract.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    },
+    {
+      "id": "S-98",
+      "name": "Regression Comparison Tool",
+      "outcome": "Present before/after cases, evaluate changes and document observed regressions.",
+      "acceptance": "Comparable baselines, test inputs, outcomes and evidence are retained without fabricated performance data.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    },
+    {
+      "id": "S-99",
+      "name": "Concept Search & Navigation Engine",
+      "outcome": "Build glossary, definition, question-concept and infographic navigation applications.",
+      "acceptance": "Search/filters, aliases, stable concept IDs and destination integrity pass test cases.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    },
+    {
+      "id": "S-100",
+      "name": "Multimedia Learning Player",
+      "outcome": "Integrate video, audio, transcripts, resources and learning navigation into accessible pages.",
+      "acceptance": "Media links, captions/transcripts where required, fallback states, performance and keyboard operation pass.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    },
+    {
+      "id": "S-101",
+      "name": "HTML5 Application Testing & Publishing",
+      "outcome": "Test and qualify static HTML5 learning applications and their live publishing destinations.",
+      "acceptance": "Functional, accessibility, device/layout, data-integrity and post-deployment URL/readback gates pass before release.",
+      "status": "PROPOSED",
+      "domain": 13,
+      "domainTitle": "HTML5 Interactive Learning Engines"
+    }
+  ],
+  "priorities": [
+    {
+      "rank": 1,
+      "id": "S-11",
+      "title": "Premium Mechanism Illustration",
+      "rationale": "Existing requirements-rich proposal is ready for packaging rather than rediscovery"
+    },
+    {
+      "rank": 2,
+      "id": "S-15",
+      "title": "Visible Pixel Inspector",
+      "rationale": "A strong independent review layer reduces rework and unverified acceptance"
+    },
+    {
+      "rank": 3,
+      "id": "S-07",
+      "title": "Evidence-Based Watchlist Scoring",
+      "rationale": "Prevents false confidence from unsupported numerical watchlist scores"
+    },
+    {
+      "rank": 4,
+      "id": "S-19",
+      "title": "Production Readiness Audit",
+      "rationale": "Detects failures before expensive or time-sensitive publishing runs"
+    },
+    {
+      "rank": 5,
+      "id": "S-23",
+      "title": "Deterministic Resume",
+      "rationale": "Preserves completed work and reduces duplicate execution and usage"
+    },
+    {
+      "rank": 6,
+      "id": "S-30",
+      "title": "Unified After-Action Reporting",
+      "rationale": "Turns two recurring runs into a single coherent improvement record"
+    },
+    {
+      "rank": 7,
+      "id": "S-31",
+      "title": "Professional Book Researcher",
+      "rationale": "Standardizes source and claim quality across successive publications"
+    },
+    {
+      "rank": 8,
+      "id": "S-40",
+      "title": "Skeptical Manuscript Reviewer",
+      "rationale": "Separates independent critique from drafting and author judgment"
+    },
+    {
+      "rank": 9,
+      "id": "S-42",
+      "title": "Series Continuity and Update Manager",
+      "rationale": "Prevents silent drift across multiple AI book volumes"
+    },
+    {
+      "rank": 10,
+      "id": "S-55",
+      "title": "Benchmark Consistency Validator",
+      "rationale": "Protects distinct individual and enterprise maturity contracts"
+    },
+    {
+      "rank": 11,
+      "id": "S-44",
+      "title": "Multimedia Concept Builder",
+      "rationale": "Repurposes one verified AI concept across instructional formats"
+    },
+    {
+      "rank": 12,
+      "id": "S-79",
+      "title": "Reusable Skill Architect",
+      "rationale": "Establishes a tested, maintainable standard for the eventual library"
+    }
+  ],
+  "shared": [
+    {
+      "id": "R-01",
+      "title": "Evidence / claim verification",
+      "skillIds": [
+        "S-03",
+        "S-07",
+        "S-31",
+        "S-43",
+        "S-74",
+        "S-75"
+      ],
+      "explanation": "Shared source and claim protocol, with domain-specific evidence rules.",
+      "relationshipKind": "proposed reusable method",
+      "provenance": "Consolidation and Reuse Plan",
+      "verifiedDependency": false
+    },
+    {
+      "id": "R-02",
+      "title": "Image specification and review",
+      "skillIds": [
+        "S-11",
+        "S-12",
+        "S-13",
+        "S-14",
+        "S-15",
+        "S-16",
+        "S-17",
+        "S-18",
+        "S-63",
+        "S-64",
+        "S-70",
+        "S-71"
+      ],
+      "explanation": "Shared pixel inspection with separate project and branding contracts.",
+      "relationshipKind": "proposed reusable method",
+      "provenance": "Consolidation and Reuse Plan",
+      "verifiedDependency": false
+    },
+    {
+      "id": "R-03",
+      "title": "Learning design",
+      "skillIds": [
+        "S-32",
+        "S-33",
+        "S-39",
+        "S-44",
+        "S-45",
+        "S-46",
+        "S-47",
+        "S-93",
+        "S-94",
+        "S-95",
+        "S-96"
+      ],
+      "explanation": "Reusable learning-objective and assessment patterns.",
+      "relationshipKind": "proposed reusable method",
+      "provenance": "Consolidation and Reuse Plan",
+      "verifiedDependency": false
+    },
+    {
+      "id": "R-04",
+      "title": "Framework version integrity",
+      "skillIds": [
+        "S-49",
+        "S-50",
+        "S-51",
+        "S-52",
+        "S-53",
+        "S-54",
+        "S-55"
+      ],
+      "explanation": "Versioned scoring definitions and compatibility tests; individual and enterprise models remain distinct.",
+      "relationshipKind": "proposed reusable method",
+      "provenance": "Consolidation and Reuse Plan",
+      "verifiedDependency": false
+    },
+    {
+      "id": "R-05",
+      "title": "Release QA",
+      "skillIds": [
+        "S-19",
+        "S-24",
+        "S-25",
+        "S-28",
+        "S-59",
+        "S-60",
+        "S-61",
+        "S-73",
+        "S-101"
+      ],
+      "explanation": "Shared checklists with deployment-specific verification.",
+      "relationshipKind": "proposed reusable method",
+      "provenance": "Consolidation and Reuse Plan",
+      "verifiedDependency": false
+    },
+    {
+      "id": "R-06",
+      "title": "Continuity and recovery",
+      "skillIds": [
+        "S-21",
+        "S-22",
+        "S-23",
+        "S-27",
+        "S-29",
+        "S-30",
+        "S-80",
+        "S-82"
+      ],
+      "explanation": "Common event-state records with distinct tool permissions.",
+      "relationshipKind": "proposed reusable method",
+      "provenance": "Consolidation and Reuse Plan",
+      "verifiedDependency": false
+    },
+    {
+      "id": "R-07",
+      "title": "HTML5 app infrastructure",
+      "skillIds": [
+        "S-84",
+        "S-85",
+        "S-86",
+        "S-87",
+        "S-88",
+        "S-89",
+        "S-90",
+        "S-101"
+      ],
+      "explanation": "Shared static-first shell, JSON manifest patterns, and acceptance tests.",
+      "relationshipKind": "proposed reusable method",
+      "provenance": "Consolidation and Reuse Plan",
+      "verifiedDependency": false
+    },
+    {
+      "id": "R-08",
+      "title": "Cross-project quality standard",
+      "skillIds": [
+        "S-10",
+        "S-15",
+        "S-40",
+        "S-55",
+        "S-60",
+        "S-71",
+        "S-81",
+        "S-101"
+      ],
+      "explanation": "Shared result labels and test conventions with separately tailored quality tests.",
+      "relationshipKind": "proposed reusable method",
+      "provenance": "Consolidation and Reuse Plan",
+      "verifiedDependency": false
+    }
+  ],
+  "workflows": [
+    {
+      "id": "W-01",
+      "title": "Publish an evidence-grounded Daily AI Brief",
+      "description": "Build a verifiable six-story edition and Watchlist.",
+      "skillIds": [
+        "S-01",
+        "S-03",
+        "S-04",
+        "S-07",
+        "S-08",
+        "S-10",
+        "S-19",
+        "S-28",
+        "S-30"
+      ],
+      "outcome": "Proposed validated six-story edition and Watchlist",
+      "acceptance": "2/2/2 allocation; exactly one Agent Skills item; Watchlist rubric with evidence; publication parity and verified readback.",
+      "verifiedDependency": false,
+      "illustrative": true
+    },
+    {
+      "id": "W-02",
+      "title": "Produce a premium mechanism illustration",
+      "description": "Create a story-specific editorial image with pixel-level validation.",
+      "skillIds": [
+        "S-11",
+        "S-12",
+        "S-13",
+        "S-14",
+        "S-15",
+        "S-16",
+        "S-17",
+        "S-18"
+      ],
+      "outcome": "Story-specific premium illustration, image record and verified manifest",
+      "acceptance": "Exact text allowlist, causal geometry, legibility, saved pixel inspection, corrections and upload/readback.",
+      "verifiedDependency": false,
+      "illustrative": true
+    },
+    {
+      "id": "W-03",
+      "title": "Turn book content into an HTML5 learning app",
+      "description": "Create a static-first interactive book companion.",
+      "skillIds": [
+        "S-31",
+        "S-32",
+        "S-44",
+        "S-84",
+        "S-85",
+        "S-86",
+        "S-93",
+        "S-95",
+        "S-101"
+      ],
+      "outcome": "Interactive learning application linked to a verified book activity",
+      "acceptance": "Source fidelity, versioned content, mobile accessibility, deterministic evaluation, live link checks.",
+      "verifiedDependency": false,
+      "illustrative": true
+    },
+    {
+      "id": "W-04",
+      "title": "Design an AI adoption assessment",
+      "description": "Create clear, reproducible individual results and roadmap.",
+      "skillIds": [
+        "S-49",
+        "S-50",
+        "S-51",
+        "S-52",
+        "S-53",
+        "S-55"
+      ],
+      "outcome": "Six-dimension individual assessment and personalized next steps",
+      "acceptance": "Three-level individual model; reproducible scoring; enterprise assessment is separate; no synthetic outcomes.",
+      "verifiedDependency": false,
+      "illustrative": true
+    },
+    {
+      "id": "W-05",
+      "title": "Create an evidence-driven consulting plan",
+      "description": "Move from verified claims to decisions and milestones.",
+      "skillIds": [
+        "S-74",
+        "S-75",
+        "S-76",
+        "S-77",
+        "S-78",
+        "S-81"
+      ],
+      "outcome": "Executive strategic plan with verified inputs and decision owners",
+      "acceptance": "Separate observed facts from inferences, document uncertainties, acceptance review.",
+      "verifiedDependency": false,
+      "illustrative": true
+    },
+    {
+      "id": "W-06",
+      "title": "Design and release a responsive site",
+      "description": "Specify, design, test and verify a site release.",
+      "skillIds": [
+        "S-56",
+        "S-57",
+        "S-58",
+        "S-59",
+        "S-60",
+        "S-61",
+        "S-62"
+      ],
+      "outcome": "Review-ready website release with documented checks",
+      "acceptance": "Responsive and keyboard-accessible UI, functioning links and assets, verified live deployment after separate authorization.",
+      "verifiedDependency": false,
+      "illustrative": true
+    }
+  ]
+}
