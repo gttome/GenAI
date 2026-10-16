@@ -145,7 +145,7 @@ function renderMap(){
  [160,240,318].forEach(function(r){
  let ring=svgEl("ellipse",{cx:cx,cy:cy,rx:r*1.29,ry:r,fill:"none",stroke:"#cfdee8","stroke-width":"1","stroke-dasharray":"3 9"});svg.appendChild(ring);
  });
- const edges=sourceConnections(mode),drawn=new Set();
+ const edges=sourceConnections(mode);groups.forEach(function(group){group.linked.forEach(function(id){edges.push({a:focusId,b:id,group:group.group});});});const drawn=new Set();
  edges.forEach(function(e){
  if(!visibleIds.has(e.a)||!visibleIds.has(e.b))return;
  let key=e.a+"-"+e.b;
