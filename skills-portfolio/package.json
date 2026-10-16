@@ -1,0 +1,10 @@
+{
+  "name": "skills-portfolio-phase1",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Static offline 101-skill proposal explorer; no runtime API calls or paid dependencies",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}
