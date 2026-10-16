@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#102b45">
+<meta name="description" content="Explore 101 proposed professional AI skills across 13 domains, compose solution blueprints, inspect related methods and evidence readiness.">
+<title>Skills Portfolio Studio | 101 Proposed Skills</title>
+<link rel="stylesheet" href="styles.css">
+<script src="data.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+ <div class="frame">
+  <div class="brandline"><span class="brandmark" aria-hidden="true">◇</span><span>REUSABLE SKILLS PORTFOLIO</span><span class="edition">CATALOG v1.1 · OCT 2026</span></div>
+  <div class="hero-grid">
+   <div><p class="eyebrow">AN INTERACTIVE PROFESSIONAL REFERENCE</p><h1>101 skills. <em>One connected portfolio.</em></h1><p class="lead">Explore how proposed AI capabilities could work together, identify shared methods, and design evidence-aware implementation blueprints.</p></div>
+   <div class="statbox"><div class="stats"><div><strong>101</strong><span>Candidate skills</span></div><div><strong>13</strong><span>Presentation domains</span></div><div><strong>12</strong><span>Priority candidates</span></div><div><strong>0</strong><span>Activated here</span></div></div><p>Source-controlled · Static-first · No paid API calls</p></div>
+  </div>
+ </div>
+</header>
+<div class="global-note" role="note"><div class="frame"><strong>Proposal-only application.</strong> Skill descriptions are catalog entries, not operational services. S-11 has a documented proposal; no skill is installed or verified by this Phase 1 website.</div></div>
+<nav class="nav-tabs frame" aria-label="Phase 1 tools">
+ <button class="tab active" type="button" data-tab="studio" aria-current="page"><span class="tab-number">01</span>Solution Studio</button>
+ <button class="tab" type="button" data-tab="map"><span class="tab-number">02</span>Skills Relationship Map</button>
+ <button class="tab" type="button" data-tab="readiness"><span class="tab-number">03</span>Readiness & Evidence</button>
+</nav>
+<main id="content" class="frame" tabindex="-1">
+ <section class="tool-pane" id="pane-studio" aria-labelledby="studio-title">
+  <div class="section-intro"><div><p class="eyebrow dark">COMPOSE · INSPECT · EXPORT</p><h2 id="studio-title">Interactive Solution Studio</h2><p>Create an illustrative skill sequence for a professional outcome; review each acceptance requirement before deciding what to implement separately.</p></div><span class="outline-tag">Design only · No execution</span></div>
+  <div class="split-layout">
+   <aside class="control-card">
+    <h3>Blueprint setup</h3>
+    <label for="recipeSelect">Starting workflow</label>
+    <select id="recipeSelect"></select>
+    <button id="loadRecipe" class="button secondary full" type="button">Load this template</button>
+    <label for="goalInput">Your intended result</label>
+    <textarea id="goalInput" rows="3" maxlength="600" placeholder="Describe what this proposed solution should accomplish"></textarea>
+    <label for="addSkillSelect">Add a catalog skill</label>
+    <select id="addSkillSelect"></select>
+    <button id="addSkillButton" class="button secondary full" type="button">Add selected skill</button>
+    <div class="control-divider"></div>
+    <button id="resetStudio" class="button ghost full" type="button">Restore this template</button>
+    <h4>Blueprint controls</h4>
+    <p class="small">Skill steps may be reordered for planning. The source catalog does not certify these steps as verified technical dependencies.</p>
+    <div class="export-row"><button id="exportMarkdown" class="button primary" type="button">Download .md</button><button id="exportJson" class="button secondary" type="button">Download JSON</button></div>
+   </aside>
+   <div class="work-area">
+     <div class="panel-heading"><div><h3>Proposed workflow</h3><p id="studioCount" class="muted" aria-live="polite"></p></div><span class="pill gold">ILLUSTRATIVE</span></div>
+     <div id="studioSteps" class="step-stack" aria-live="polite"></div>
+     <div class="two-cards">
+      <section class="info-card"><h4>Intended deliverable</h4><p id="deliverable"></p></section>
+      <section class="info-card"><h4>Acceptance boundaries</h4><p id="acceptanceNotes"></p></section>
+     </div>
+     <div class="compliance"><strong>Approval boundary:</strong> Exporting a blueprint does not authorize GitHub changes, publication, installation, scheduling or operation of any skill.</div>
+   </div>
+  </div>
+ </section>
+ <section class="tool-pane" id="pane-map" aria-labelledby="map-title" hidden>
+  <div class="section-intro"><div><p class="eyebrow dark">DISCOVER · COMPARE · TRACE</p><h2 id="map-title">Skills Relationship Map</h2><p>Explore the 101-skill network and focus on candidate shared methods or illustrative workflow connections. <strong>These links are not independently verified prerequisites.</strong></p></div><span class="outline-tag">Eight source-grounded reuse groups</span></div>
+  <div class="map-controls">
+   <div><label for="mapSkill">Focus skill</label><select id="mapSkill"></select></div>
+   <div><label for="mapDomain">Domain view</label><select id="mapDomain"></select></div>
+   <div><label for="mapKind">Connection type</label><select id="mapKind"><option value="shared">Shared-method groups</option><option value="workflow">Illustrative workflow sequences</option></select></div>
+   <div><label for="mapZoom">Zoom <output id="zoomValue">100%</output></label><input id="mapZoom" type="range" min="70" max="180" step="10" value="100"></div>
+  </div>
+  <div class="map-layout">
+   <div class="network-card"><svg id="network" viewBox="0 0 960 720" role="img" aria-label="Interactive skills network showing catalog skills as nodes and candidate relationships as connections"></svg><div class="network-caption"><span><i class="dot blue"></i> Skills in selected domain</span><span><i class="dot teal"></i> Current focus</span><span><i class="dot gold"></i> Linked candidates</span></div></div>
+   <aside class="map-detail"><p class="eyebrow dark">SELECTED SKILL</p><h3 id="focusTitle"></h3><p id="focusDomain" class="small muted"></p><p id="focusOutcome"></p><h4>Acceptance condition</h4><p id="focusAcceptance"></p><h4>Connections with context</h4><div id="mapConnections" class="connection-list"></div><p class="small caveat">The source provides proposed reuse groups. Workflow sequence edges are editorial examples—not tested or formally required dependencies. Select any node or skill to inspect it.</p></aside>
+  </div>
+ </section>
+ <section class="tool-pane" id="pane-readiness" aria-labelledby="readiness-title" hidden>
+  <div class="section-intro"><div><p class="eyebrow dark">PROVENANCE · STATUS · DECISION SUPPORT</p><h2 id="readiness-title">Skills Readiness & Evidence Dashboard</h2><p>Separate proposed capabilities from documented, tested, implemented and independently verified skills. The current catalog does not establish that any candidate has been activated.</p></div><span class="outline-tag">Source snapshot · October 15, 2026</span></div>
+  <div class="readiness-metrics" id="readinessMetrics"></div>
+  <div class="readiness-layout">
+    <div class="data-card">
+     <div class="panel-heading"><div><h3>Candidate evidence ledger</h3><p class="muted" id="readinessCount" aria-live="polite"></p></div><button id="downloadCsv" type="button" class="button secondary">Download CSV</button></div>
+     <div class="filters">
+      <div><label for="readinessQuery">Search by skill</label><input id="readinessQuery" type="search" placeholder="Name, ID, outcome or criteria"></div>
+      <div><label for="readinessDomain">Domain</label><select id="readinessDomain"></select></div>
+      <div><label for="readinessStatus">Evidence status</label><select id="readinessStatus"><option value="all">All catalog entries</option><option value="PROPOSED">Proposed only</option><option value="DOCUMENTED_ONLY">Documented proposal</option><option value="TESTED">Tested</option><option value="IMPLEMENTED">Implemented</option><option value="VERIFIED">Verified</option></select></div>
+     </div>
+     <div class="table-scroll"><table><thead><tr><th>Skill ID</th><th>Candidate skill</th><th>Catalog status</th><th>Evidence available</th></tr></thead><tbody id="readinessRows"></tbody></table></div>
+    </div>
+    <aside class="side-stack">
+     <section class="info-card"><h3>Domain distribution</h3><div id="domainBars"></div></section>
+     <section class="info-card"><h3>Evidence interpretation</h3><p><strong>PROPOSED:</strong> described in the source catalog, not implemented as a skill.</p><p><strong>DOCUMENTED ONLY:</strong> the catalog identifies a standalone proposal for S-11; no testing or activation claim.</p><p><strong>TESTED / IMPLEMENTED / VERIFIED:</strong> none established for these proposed skills by the catalog. No automatic inference from other project activity.</p><p class="small muted">This is a static, point-in-time source register, not a live GitHub status monitor.</p></section>
+    </aside>
+  </div>
+ </section>
+</main>
+<footer><div class="frame footer-flex"><span><strong>Professional Skills Portfolio</strong> · Phase 1 interactive reference · Source v1.1 (2026-10-15)</span><span>101 candidates · 13 presentation domains · 0 activated by this application</span></div></footer>
+</body>
+</html>
